@@ -1,0 +1,614 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Audiowide", sans-serif;
+    color: #0c120a;
+    background: linear-gradient(to left , #797a79, black);
+    }
+  
+  * {box-sizing: border-box;}
+  
+  .icon {
+    text-decoration: none;
+  }
+  
+  .title {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 900;
+    padding-left: 2%;
+    font-size: 55px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px #c15b5b;
+  }
+  
+  img {height: 50px;}
+  
+  nav ul{list-style-type: none;}
+  nav ul li{display: inline;}
+  
+  
+  nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    z-index: 1;
+    }
+  
+  nav ul li { width: 100%;}
+  
+  
+  .p5 {color: transparent;}
+  
+  
+  /*                   -----------    Buttons   --------------------*/
+  
+   .dropbtn {
+      width: 100%;
+      background-color: transparent;
+      font-size: 20px;
+      border: none;
+      font-family: "Fantasy", copperplate;
+      color: white;
+      }
+  
+     .dropdown {
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        z-index: 3;
+        }
+  
+     .dropdown-content {
+        background: white;
+        color: white;
+        text-align: left;
+        display: none;
+        font-family: "Fantasy", copperplate;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 3;
+        }
+  
+     .dropdown-content a {
+       text-align: left;
+       color: black;
+       width: 350px;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       z-index: 3;
+       }
+  
+     .dropbtn:hover {background-color: red;cursor: pointer;}
+  
+     .dropdown:hover .dropdown-content {display: block; }
+  
+  
+     /*
+                    CSS FOR SERVICES
+  */
+    .services {
+      padding-top: 45px;
+      width: 100%;
+      font-family: "Fantasy", copperplate;
+      height: 00px;
+      display: grid;
+      grid-template-columns: 10% 80% 10%;
+      grid-template-rows: 400px 150px;
+      margin-top: 2%;
+      margin-left: 1%;
+      z-index: 500;
+      }
+  
+    .services1 {
+      background:white;
+      color: black;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 70px 40px 40px 40px 40px 40px 40px;
+      font-size: 35px;
+      border-top: 2px solid Red;
+      border-bottom: 4px solid Red;
+      border-left: 2px solid Red;
+      border-right: 4px solid rgb(60, 0, 255);
+      box-shadow: 20px 8px 16px 0px black;
+      padding-left: 30px;
+      }
+  
+     .services2 {font-size: 25px;}
+  
+  
+  
+  /*----------------------------------------------------------------------
+                           CSS for Gallery
+  ----------------------------------------------------------------------*/
+     .Gallery_main-page {
+       padding-top: 50px;
+       display: grid;
+       grid-template-columns: 1% 48% 1% 48%;
+       grid-template-rows:  9% 1% 9% 1% 9% 1% 9% 1% 9% 1%  
+                            9% 1% 9% 1% 9% 1% 9% 1% 9% 1% 
+                            9% 1% 9% 1% 9% 1% 9% 1% 9% 1% ;
+       font-size: 20px;
+       font-weight: bold;
+       }
+  
+     .Gallery_Image {
+      width: 100%;
+      height: 100%;
+      box-shadow: 20px 8px 16px 0px black;
+      transition: 0.9s;
+      z-index: 500;
+      }
+  
+    .Gallery_Image :hover {
+      opacity: 0.8;
+      }
+  
+      .items_Gallery {
+        height: 100%;
+  
+        color: white;
+        box-shadow: 0px 8px 16px 0px black;;
+        opacity: .9;
+        padding-left: 10%;
+        }
+  
+  /*                                    Slide Show                            */
+      .grid-1 {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 10% 80% 5%;
+        z-index: 500;
+        }
+  
+  
+  /*----------------------------------------------------------------------
+                          Transitions Code
+  ----------------------------------------------------------------------*/
+
+/*                   Row 1                    */
+
+.container1 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate1;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate1 {
+
+    0%    {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/11_Pic.avif);}
+    10%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/10_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/9_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/8_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/7_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/6_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/5_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/4_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/3_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/2_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/1_Pic.jpg);}
+    }
+
+/*                   Row 2                    */
+
+.container2 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate2;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate2 {
+    00%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/11_Pic.webp);}
+    10%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/10_Pic.jfif);}
+    20%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/9_Pic.avif);}
+    30%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/8_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/7_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/6_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/5_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/4_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/3_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/2_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/1_Pic.jpg);}
+
+    }
+
+/*                   Row 3                    */
+
+.container3 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate3;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate3 {
+
+    0%   {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/10_Pic.webp);}
+    10%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/9_Pic.jpg);}
+    20%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/8_Pic.jpg);}
+    30%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/7_Pic.jpg);}
+    40%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/6_Pic.jpg);}
+    50%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/5_Pic.jpg);}
+    60%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/5_Pic.jpeg);}
+    70%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/4_Pic.jpg);}
+    80%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/3_Pic.webp);}
+    90%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/2_Pic.jfif);}
+    100% {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/1_Pic.jpg);}
+    }
+
+/*                   Row 4                    */
+
+.container4 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate4;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate4 {
+    0%    {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/1_Pic.webp);}
+    10%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/9_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/8_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/7_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/6_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/5_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/4_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/3_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/2_Pic.webp);}
+    90%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/2_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/1_Pic.jpg);}
+    }
+
+/*                   Row 5                    */
+
+.container5 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate5;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate5 {
+
+    0%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/11_PIc.webp);}
+    10%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/10_PIc.webp);}
+    20%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/9_PIc.webp);}
+    30%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/8_PIc.webp);}
+    40%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/8_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/6_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/5_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/4_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/3_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/10_PIc.webp);}
+    100%  {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/2_Pic.jpg);}
+    }
+
+/*                   Row 6                    */
+
+.container6 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate6;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate6 {
+
+    0%    {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/10_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/10_PIc.jpeg);}
+    20%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/9_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/8_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/8_Pic.jfif);}
+    50%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/7_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/6_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/6_pic.avif);}
+    80%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/3_Pic.webp);}
+    90%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/2_Pic.webp);}
+    100%  {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/1_Pic.webp);}
+
+
+    }
+
+/*                   Row 7                    */
+
+.container7 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate7;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate7 {
+
+
+    0%    {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/10_Pic.webp);}
+    10%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/9_Pic.webp);}
+    20%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/8_Pic.webp);}
+    30%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/8_Pic.jfif);}
+    40%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/7_Pic.webp);}
+    50%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/6_Pic.webp);}
+    60%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/6_Pic.jfif);}
+    70%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/4_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/3_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/2_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/1_Pic.jpg);}
+    }
+
+    /*                   Row 8                    */
+
+.container8 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate8;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate8 {
+
+    0%    {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/10_Pic.jfif);}
+    10%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/9_Pic.jfif);}
+    20%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/8_Pic.jfif);}
+    30%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/6_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/5_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/4_Pic.webp);}
+    60%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/4_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/3_Pic.webp);}
+    80%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/3_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/2_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/1_Pic.jpg);}
+    }
+
+        /*                   Row 9                    */
+
+.container9 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate9;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate9 {
+
+    0%     {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/11_Pic.jpg);}
+    10%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/10_Pic.jpg);}
+    20%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/9_Pic.jpg);}
+    30%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/8_Pic.jpg);}
+    40%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/8_Pic.jpeg);}
+    50%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/7_Pic.jpg);}
+    60%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/6_Pic.jpg);}
+    70%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/5_Pic.jpg);}
+    80%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/5_Pic.webp);}
+    90%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/2_Pic.jfif);}
+    100%   {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/1_Pic.jfif);}
+    }
+
+            /*                   Row 10                    */
+
+.container10 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate10;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate10 {
+
+    0%    {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/1_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/11_Pic.jfif);}
+    20%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/6_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/5_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/4_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/3_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/3_Pic.jfif);}
+    70%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/2_Pic.webp);}
+    80%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/2_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/2_Pic.jfif);}
+    100%  {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/1_Pic.jpg);}
+    }
+
+            /*                   Row 11                    */
+
+.container11 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate11;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate11 {
+    0%    {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/1_Pic.webp);}
+    10%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/9_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/8_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/7_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/5_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/2_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/3_Pic.webp);}
+    70%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/3_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/2_Pic.webp);}
+    90%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/2_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/1_Pic.jpg);}
+    }
+
+                /*                   Row 12                    */
+
+.container12 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate12;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate12 {
+
+    0%    {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/4_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/3_Pic.webp);}
+    20%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/3_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/2_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/2_Pic.webp);}
+    50%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/2_Pic.jfif);}
+    60%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.avif);}
+    70%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.webp);}
+    80%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.png);}
+    90%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.jfif);}
+    100%  {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.jpg);}
+    }
+/*                                     Media Queries                             */
+
+
+    @media only screen and (max-width: 1100px){
+        .wrapper{grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);}}
+        ::selection{ float: none; width: 100%; padding-right: 0px; }}
+
+    @media screen and (max-width: 600px) {
+        header h1{ background-image: none; text-align: center; z-index: 3; }
+        nav{ grid-row: 2 / 3; grid-column: 1 / 9; }}
+
+
+
+   .header {
+      color: white;
+      display: grid;
+      grid-template-columns: 70% 25% ;
+      height: 85px;
+      padding-left: 2%;
+      width:98%;
+      font-family: "Fantasy", copperplate;
+      font-size: 40px;
+      border-bottom: 2px solid maroon;
+      z-index: 3;
+      }
+
+    .p1 {font-size: 20px;}
+
+
+

@@ -1,0 +1,820 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Audiowide", sans-serif;
+    color: #0c120a;
+    background: linear-gradient(to left , #797a79, black);
+    }
+  
+  * {box-sizing: border-box;}
+  
+  .icon {
+    text-decoration: none;
+  }
+  
+  .title {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 900;
+    padding-left: 2%;
+    font-size: 55px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px #c15b5b;
+  }
+  
+  img {height: 50px;}
+  
+  nav ul{list-style-type: none;}
+  nav ul li{display: inline;}
+  
+  
+  nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    z-index: 1;
+    }
+  
+  nav ul li { width: 100%;}
+  
+  
+  
+  
+  
+  /*                   -----------    Buttons   --------------------*/
+  
+   .dropbtn {
+      width: 100%;
+      background-color: transparent;
+      font-size: 20px;
+      border: none;
+      font-family: "Fantasy", copperplate;
+      color: white;
+      }
+  
+     .dropdown {
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        z-index: 3;
+        }
+  
+     .dropdown-content {
+        background: white;
+        color: white;
+        text-align: left;
+        display: none;
+        font-family: "Fantasy", copperplate;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 3;
+        }
+  
+     .dropdown-content a {
+       text-align: left;
+       color: black;
+       width: 350px;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       z-index: 3;
+       }
+  
+     .dropbtn:hover {background-color: red;cursor: pointer;}
+  
+     .dropdown:hover .dropdown-content {display: block; }
+  
+  
+     /*
+                    CSS FOR SERVICES
+  */
+    .services {
+      padding-top: 45px;
+      width: 100%;
+      font-family: "Fantasy", copperplate;
+      height: 00px;
+      display: grid;
+      grid-template-columns: 10% 80% 10%;
+      grid-template-rows: 400px 150px;
+      margin-top: 2%;
+      margin-left: 1%;
+      z-index: 500;
+      }
+  
+    .services1 {
+      background:white;
+      color: black;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 70px 40px 40px 40px 40px 40px 40px;
+      font-size: 35px;
+      border-top: 2px solid Red;
+      border-bottom: 4px solid Red;
+      border-left: 2px solid Red;
+      border-right: 4px solid rgb(60, 0, 255);
+      box-shadow: 20px 8px 16px 0px black;
+      padding-left: 30px;
+      }
+  
+     .services2 {font-size: 25px;}
+  
+  
+  
+  /*----------------------------------------------------------------------
+                           CSS for Gallery
+  ----------------------------------------------------------------------*/
+     .Gallery_main-page {
+       padding-top: 50px;
+       display: grid;
+       grid-template-columns: 1% 48% 1% 48%;
+       grid-template-rows:  6% 1% 6% 1% 6% 1% 6% 1% 6% 1% 
+                            6% 1% 6% 1% 6% 1% 6% 1% 6% 1% 
+                            6% 1% 6% 1% 6% 1% 6% 1% 6% 1%    ;
+       font-size: 20px;
+       font-weight: bold;
+       }
+  
+     .Gallery_Image {
+      width: 100%;
+      height: 100%;
+      box-shadow: 20px 8px 16px 0px black;
+      transition: 0.9s;
+      z-index: 500;
+      }
+  
+    .Gallery_Image :hover {
+      opacity: 0.8;
+      }
+  
+      .items_Gallery {
+        height: 100%;
+  
+        color: white;
+        box-shadow: 0px 8px 16px 0px black;;
+        opacity: .9;
+        padding-left: 10%;
+        }
+  
+  /*                                    Slide Show                            */
+      .grid-1 {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 10% 80% 5%;
+        z-index: 500;
+        }
+  
+  
+  /*----------------------------------------------------------------------
+                          Transitions Code
+  ----------------------------------------------------------------------*/
+
+/*                   Row 1                    */
+
+.container1 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate1;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate1 {
+
+
+    00%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/1_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/2_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/10_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/9_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/7_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/6_Pic.webp);}
+    60%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/5_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/4_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/3_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/2_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/1_Pic.jpg);}
+    }
+
+/*                   Row 2                    */
+
+.container2 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate2;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate2 {
+
+    0%     {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/3_Pic.webp);}
+    10%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/3_Pic.jpg);}
+    20%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/3_Pic.jfif);}
+    30%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/2_Pic.webp);}
+    40%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/2_Pic.jpg);}
+    50%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/2_Pic.jfif);}
+    60%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.webp);}
+    70%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.jpg);}
+    90%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.jfif);}
+    100%   {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.avif);}
+    }
+
+/*                   Row 3                    */
+
+.container3 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate3;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate3 {
+
+    0%    {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/4_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/4_Pic.jfif);}
+    20%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/3_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/3_Pic.jfif);}
+    40%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/2_Pic.webp);}
+    50%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/2_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/2_Pic.jfif);}
+    70%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.webp);}
+    80%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.jpeg);}
+    100%  {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.jfif);}
+    }
+
+/*                   Row 4                    */
+
+.container4 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate4;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate4 {
+    0%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jfif);}
+    10%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/4_Pic.webp);}
+    20%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/3_Pic.webp);}
+    30%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/3_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/3_Pic.jfif);}
+    50%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.webp);}
+    60%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.jfif);}
+    80%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.webp);}
+    90%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jfif);}
+    }
+
+/*                   Row 5                    */
+
+.container5 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate5;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate5 {
+    0%    {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/7_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/6_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/5_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/4_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/3_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/2_Pic.webp);}
+    60%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/2_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/2_Pic.jfif);}
+    80%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.webp);}
+    90%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.jfif);}
+    }
+
+/*                   Row 6                    */
+
+.container6 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate6;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate6 {
+
+    0%    {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/11_Pic.jfif);}
+    10%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/10_Pic.jfif);}
+    20%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/9_Pic.jfif);}
+    30%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/8_Pic.jfif);}
+    40%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/7_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/6_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/5_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/4_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/3_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/2_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/1_Pic.jpg);}
+
+
+    }
+
+/*                   Row 7                    */
+
+.container7 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate7;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate7 {
+
+    0%    {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/5_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/4_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/3_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/2_Pic.webp);}
+    40%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/2_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/2_Pic.jfif);}
+    60%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.webp);}
+    70%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.png);}
+    80%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.jfif);}
+    100%  {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.avif);}
+    }
+
+    /*                   Row 8                    */
+
+.container8 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate8;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate8 {
+
+    0%    {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/11_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/10_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/9_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/8_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/7_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/6_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/5_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/4_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/3_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/2_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/1_Pic.jpg);}
+    }
+
+        /*                   Row 9                    */
+
+.container9 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate9;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate9 {
+
+    0%    {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/7_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/6_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/5_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/4_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/3_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.webp);}
+    60%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.jfif);}
+    80%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.webp);}
+    90%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.jfif);}
+    }
+
+            /*                   Row 10                    */
+
+.container10 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate10;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate10 {
+
+    0%    {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/4_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/4_Pic.jfif);}
+    20%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/3_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/3_Pic.jfif);}
+    40%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/2_Pic.webp);}
+    50%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/2_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/2_Pic.jfif);}
+    70%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.webp);}
+    80%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.png);}
+    90%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.jfif);}
+    }
+
+                /*                   Row 11                    */
+
+.container11 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate11;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate11 {
+
+    0%    {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang/9_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang/8_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang/7_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang/6_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang/4_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang/3_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang/2_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang/1_Pic.webp);}
+    80%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang/1_Pic.png);}
+    90%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang/1_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang/1_Pic.jpeg);}
+    }
+
+                /*                   Row 12                    */
+
+.container12 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate12;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate12 {
+
+    0%    {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang_Cobra/10_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang_Cobra/5_Pic.webp);}
+    20%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang_Cobra/5_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang_Cobra/4_Pic.webp);}
+    40%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang_Cobra/4_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang_Cobra/3_Pic.webp);}
+    60%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang_Cobra/3_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang_Cobra/2_Pic.webp);}
+    80%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang_Cobra/2_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang_Cobra/1_Pic.webp);}
+    100%  {background-image:url(../../../1-1-45_Pics_Cars70_1975_Ford_Mustang_Cobra/1_Pic.jpg);}
+    }
+
+                /*                   Row 13                    */
+
+.container13 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate13;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate13 {
+
+    0%    {background-image:url(../../../1-1-46_Pics_Cars70_1972_Ford_Pinto/7_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-46_Pics_Cars70_1972_Ford_Pinto/6_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-46_Pics_Cars70_1972_Ford_Pinto/5_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-46_Pics_Cars70_1972_Ford_Pinto/4_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-46_Pics_Cars70_1972_Ford_Pinto/3_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-46_Pics_Cars70_1972_Ford_Pinto/2_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-46_Pics_Cars70_1972_Ford_Pinto/2_Pic.jpeg);}
+    70%   {background-image:url(../../../1-1-46_Pics_Cars70_1972_Ford_Pinto/1_Pic.webp);}
+    80%   {background-image:url(../../../1-1-46_Pics_Cars70_1972_Ford_Pinto/1_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-46_Pics_Cars70_1972_Ford_Pinto/1_Pic.jpeg);}
+    100%  {background-image:url(../../../1-1-46_Pics_Cars70_1972_Ford_Pinto/8_Pic.jpg);}
+    }
+
+                /*                   Row 14                    */
+
+.container14 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate14;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate14 {
+
+    0%    {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/7_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/6_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/5_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/4_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/3_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/2_Pic.webp);}
+    50%   {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/2_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/1_Pic.webp);}
+    70%   {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/1_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/1_Pic.jpeg);}
+    90%   {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/1_Pic.jfif);}
+    100%  {background-image:url(../../../1-1-47_Pics_Cars70_1978_Honda_Civic/1_Pic.avif);}
+    }
+
+                /*                   Row 15                    */
+
+.container15 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate15;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate15 {
+
+    0%    {background-image:url(../../../1-1-48_Pics_Cars70_1972_Porsche_914/7_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-48_Pics_Cars70_1972_Porsche_914/6_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-48_Pics_Cars70_1972_Porsche_914/5_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-48_Pics_Cars70_1972_Porsche_914/4_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-48_Pics_Cars70_1972_Porsche_914/3_Pic.webp);}
+    50%   {background-image:url(../../../1-1-48_Pics_Cars70_1972_Porsche_914/3_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-48_Pics_Cars70_1972_Porsche_914/2_Pic.webp);}
+    70%   {background-image:url(../../../1-1-48_Pics_Cars70_1972_Porsche_914/2_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-48_Pics_Cars70_1972_Porsche_914/1_Pic.webp);}
+    90%   {background-image:url(../../../1-1-48_Pics_Cars70_1972_Porsche_914/1_Pic.jfif);}
+    100%  {background-image:url(../../../1-1-48_Pics_Cars70_1972_Porsche_914/1_Pic.jpg);}
+    }
+
+                /*                   Row 16                    */
+
+.container16 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate16;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate16 {
+
+    0%    {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/8_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/7_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/6_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/5_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/4_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/3_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/2_Pic.webp);}
+    70%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/2_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/1_Pic.webp);}
+    90%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/1_Pic.jfif);}
+    100%  {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/1_Pic.jpg);}
+    }
+
+                /*                   Row 17                    */
+
+.container17 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate17;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate17 {
+
+
+    0%    {background-image:url(../../../1-1-50_Pics_Cars70_1975_Triumph_TR7/2_Pic.webp);}
+    10%   {background-image:url(../../../1-1-50_Pics_Cars70_1975_Triumph_TR7/8_Pic.jfif);}
+    20%   {background-image:url(../../../1-1-50_Pics_Cars70_1975_Triumph_TR7/6_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-50_Pics_Cars70_1975_Triumph_TR7/5_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-50_Pics_Cars70_1975_Triumph_TR7/4_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-50_Pics_Cars70_1975_Triumph_TR7/3_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-50_Pics_Cars70_1975_Triumph_TR7/2_Pic.webp);}
+    70%   {background-image:url(../../../1-1-50_Pics_Cars70_1975_Triumph_TR7/2_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-50_Pics_Cars70_1975_Triumph_TR7/1_Pic.webp);}
+    90%   {background-image:url(../../../1-1-50_Pics_Cars70_1975_Triumph_TR7/1_Pic.jfif);}
+    100%  {background-image:url(../../../1-1-50_Pics_Cars70_1975_Triumph_TR7/1_Pic.jpg);}
+    }
+
+                    /*                   Row 18                    */
+
+.container18 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate18;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate18 {
+
+    0%    {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/9_Pic.jpg);}
+    10%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/8_Pic.jpg);}
+    20%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/7_Pic.jpg);}
+    30%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/6_Pic.jpg);}
+    40%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/10_Pic.jpg);}
+    50%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/4_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/3_Pic.jpg);}
+    70%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/2_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/1_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/1_Pic.webp);}
+    100%  {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/1_Pic.jpeg);}
+    }
+
+/*                                     Media Queries                             */
+
+
+    @media only screen and (max-width: 1100px){
+        .wrapper{grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);}}
+        ::selection{ float: none; width: 100%; padding-right: 0px; }}
+
+    @media screen and (max-width: 600px) {
+        header h1{ background-image: none; text-align: center; z-index: 3; }
+        nav{ grid-row: 2 / 3; grid-column: 1 / 9; }}
+
+
+
+   .header {
+      color: white;
+      display: grid;
+      grid-template-columns: 70% 25% ;
+      height: 85px;
+      padding-left: 2%;
+      width:98%;
+      font-family: "Fantasy", copperplate;
+      font-size: 40px;
+      border-bottom: 2px solid maroon;
+      z-index: 3;
+      }
+
+    .p1 {font-size: 20px;}
+
+
+
