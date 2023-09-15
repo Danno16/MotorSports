@@ -1,0 +1,215 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Audiowide", sans-serif;
+  color: #0c120a;
+  background-color: black;
+  }
+
+  
+.title {
+  font-family: "Audiowide", sans-serif;
+  color: white;     
+  font-weight: 900;
+  padding-left: 2%;
+  text-shadow: 2px 2px red;
+}      
+   
+
+img {height: 50px;}
+
+header {
+  background: linear-gradient(to left , #797a79, black);
+    grid-row: 1/2;
+    grid-column: 1/9;
+    }
+
+header a {
+  height: 20px;
+  font-size: 55px;
+  text-decoration: none;
+  z-index: 100;
+  }
+
+header h1 {
+  line-height: 140%;
+  padding: .5rem;
+  margin-bottom: 0px;
+  margin: 0px;
+  z-index: 100;
+  }
+
+
+
+.Banner {
+  display: grid;
+  grid-template-columns: 25% 15% 25% 15% 15%;
+  }
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  }
+
+
+#wrapper {
+  box-shadow: 0px 3px 3px rgba(66, 66, 66, 0.3);
+  display: grid;
+  grid-auto-rows: minmax(0px, auto);
+  z-index: 3;
+  grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+  }
+
+main {
+
+  padding-left: 5rem;
+  padding-right: 2rem;
+  grid-column: 2 / 8;
+  background-color: #ffffff;
+  z-index: 3;
+  }
+
+* {box-sizing: border-box;}
+
+  nav {
+  font-weight: bold;
+  font-size: 25px;
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  position: sticky;
+  top: 0;
+  background-color: #424242;
+  border-bottom: 3px solid #be1010;
+  z-index: 100;
+  }
+
+nav ul{list-style-type: none;}
+
+nav ul li{display: inline;}
+
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  z-index: 1;
+ }
+
+nav ul li {width: 100%;}
+
+nav a:hover {background-color: #ba1c21;}
+
+.dropbtn {
+  width: 100%;
+  background-color: #424242;
+  font-size: 15px;
+  border: none;
+  color: white;
+  opacity: .5;
+        }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  text-decoration: none;
+  z-index: 50;
+  }
+
+
+.dropdown-content {
+ background: white;
+ text-align: left;
+ display: none;
+ font-family: "Fantasy", copperplate;
+ position: absolute;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 50;
+ }
+
+.dropdown-content a {
+ text-align: left;
+ color: black;
+ width: 350px;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ z-index: 50;
+ }
+
+.dropbtn:hover {background-color: red;cursor: pointer;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.container {
+    height: 85vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+/*                 Transition Code             */
+
+.container {
+    height: 85vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate {
+  0%   {background-image:url(../../1-1-20_Pics_Bike_Santa_Cruz_5010/10_Pic.jfif);}
+  10%  {background-image:url(../../1-1-20_Pics_Bike_Santa_Cruz_5010/9_Pic.jpg);}
+  20%  {background-image:url(../../1-1-20_Pics_Bike_Santa_Cruz_5010/9_Pic.jfif);}
+  30%  {background-image:url(../../1-1-20_Pics_Bike_Santa_Cruz_5010/8_Pic.jpg);}
+  40%  {background-image:url(../../1-1-20_Pics_Bike_Santa_Cruz_5010/7_Pic.jpg);}
+  50%  {background-image:url(../../1-1-20_Pics_Bike_Santa_Cruz_5010/6_Pic.jpg);}
+  60%  {background-image:url(../../1-1-20_Pics_Bike_Santa_Cruz_5010/5_Pic.jpg);}
+  70%  {background-image:url(../../1-1-20_Pics_Bike_Santa_Cruz_5010/4_Pic.jpg);}
+  80%  {background-image:url(../../1-1-20_Pics_Bike_Santa_Cruz_5010/3_Pic.jpg);}
+  90%  {background-image:url(../../1-1-20_Pics_Bike_Santa_Cruz_5010/2_Pic.avif);}
+  100% {background-image:url(../../1-1-20_Pics_Bike_Santa_Cruz_5010/1_Pic.jpg);}
+    }
+
+    .body-title {
+       background:black;
+       position: absolute;
+       left: 10px;
+       top: 150px;
+       color: white;
+       border-width: 1px;
+       padding-left: 10px;
+       font-size: 20px;
+       opacity: .7;
+       z-index: 10;
+       border-radius: 10px;
+       box-shadow: 5px 8px 16px 0px black;
+       }

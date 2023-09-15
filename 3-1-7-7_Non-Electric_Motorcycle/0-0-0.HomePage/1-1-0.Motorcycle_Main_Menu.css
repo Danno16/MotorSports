@@ -1,0 +1,357 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Audiowide", sans-serif;
+  color: #0c120a;
+  background: linear-gradient(to left , #797a79, black);
+  }
+
+* {box-sizing: border-box;}
+
+.icon {
+  text-decoration: none;
+}
+
+.title {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 900;
+  padding-left: 2%;
+  font-size: 55px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px #c15b5b;
+}
+
+img {height: 50px;}
+
+nav ul{list-style-type: none;}
+nav ul li{display: inline;}
+
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  z-index: 1;
+  }
+
+nav ul li { width: 100%;}
+
+
+
+
+
+/*                   -----------    Buttons   --------------------*/
+
+ .dropbtn {
+    width: 100%;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    font-family: "Fantasy", copperplate;
+    color: white;
+    }
+
+   .dropdown {
+      position: relative;
+      display: inline-block;
+      font-size: 15px;
+      text-decoration: none;
+      z-index: 3;
+      }
+
+   .dropdown-content {
+      background: white;
+      color: white;
+      text-align: left;
+      display: none;
+      font-family: "Fantasy", copperplate;
+      position: absolute;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 3;
+      }
+
+   .dropdown-content a {
+     text-align: left;
+     color: black;
+     width: 350px;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     z-index: 3;
+     }
+
+   .dropbtn:hover {background-color: red;cursor: pointer;}
+
+   .dropdown:hover .dropdown-content {display: block; }
+
+
+   /*
+                  CSS FOR SERVICES
+*/
+  .services {
+    padding-top: 45px;
+    width: 100%;
+    font-family: "Fantasy", copperplate;
+    height: 00px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 400px 150px;
+    margin-top: 2%;
+    margin-left: 1%;
+    z-index: 500;
+    }
+
+  .services1 {
+    background:white;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px 40px 40px 40px 40px 40px 40px;
+    font-size: 35px;
+    border-top: 2px solid Red;
+    border-bottom: 4px solid Red;
+    border-left: 2px solid Red;
+    border-right: 4px solid rgb(60, 0, 255);
+    box-shadow: 20px 8px 16px 0px black;
+    padding-left: 30px;
+    }
+
+   .services2 {font-size: 25px;}
+
+
+
+/*----------------------------------------------------------------------
+                         CSS for Gallery
+----------------------------------------------------------------------*/
+   .Gallery_main-page {
+     padding-top: 50px;
+     display: grid;
+     grid-template-columns: 1% 48% 1% 48%;
+     grid-template-rows: 21% 1% 21% 1% 21% 1% 21% 1% 21% 1%   ;
+     font-size: 20px;
+     font-weight: bold;
+     }
+
+   .Gallery_Image {
+    width: 100%;
+    height: 100%;
+    box-shadow: 20px 8px 16px 0px black;
+    transition: 0.9s;
+    z-index: 500;
+    }
+
+  .Gallery_Image :hover {
+    opacity: 0.8;
+    }
+
+    .items_Gallery {
+      height: 100%;
+
+      color: white;
+      box-shadow: 0px 8px 16px 0px black;;
+      opacity: .9;
+      padding-left: 10%;
+      }
+
+/*                                    Slide Show                            */
+    .grid-1 {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 10% 80% 5%;
+      z-index: 500;
+      }
+
+
+/*----------------------------------------------------------------------
+                        Transitions Code
+----------------------------------------------------------------------*/
+
+/*                   Row 1                    */
+
+.container1 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate1;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate1 {
+  0%   {background-image:url(../../1-1-135_Pics_Motorcycle_Raider/1_Pic.jpeg);}
+  10%  {background-image:url(../../1-1-135_Pics_Motorcycle_Raider/10_Pic.jpeg);}
+  20%  {background-image:url(../../1-1-135_Pics_Motorcycle_Raider/9_Pic.jpeg);}
+  30%  {background-image:url(../../1-1-135_Pics_Motorcycle_Raider/8_Pic.jpeg);}
+  40%  {background-image:url(../../1-1-135_Pics_Motorcycle_Raider/7_Pic.jpeg);}
+  50%  {background-image:url(../../1-1-135_Pics_Motorcycle_Raider/6_Pic.jpeg);}
+  60%  {background-image:url(../../1-1-135_Pics_Motorcycle_Raider/5_Pic.jpeg);}
+  70%  {background-image:url(../../1-1-135_Pics_Motorcycle_Raider/4_Pic.jpeg);}
+  80%  {background-image:url(../../1-1-135_Pics_Motorcycle_Raider/3_Pic.jpeg);}
+  90%  {background-image:url(../../1-1-135_Pics_Motorcycle_Raider/2_Pic.jpeg);}
+  100% {background-image:url(../../1-1-135_Pics_Motorcycle_Raider/1_Pic.jpeg);}
+
+    }
+
+/*                   Row 2                    */
+
+.container2 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate2;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate2 {
+    0%   {background-image:url(../../1-1-136_Pics_Motorcycle_Suzuki_GSXR/10_Pic.jpeg);}
+    10%  {background-image:url(../../1-1-136_Pics_Motorcycle_Suzuki_GSXR/9_Pic.jpeg);}
+    20%  {background-image:url(../../1-1-136_Pics_Motorcycle_Suzuki_GSXR/8_Pic.jpeg);}
+    30%  {background-image:url(../../1-1-136_Pics_Motorcycle_Suzuki_GSXR/8_Pic.jpeg);}
+    40%  {background-image:url(../../1-1-136_Pics_Motorcycle_Suzuki_GSXR/7_Pic.jpeg);}
+    50%  {background-image:url(../../1-1-136_Pics_Motorcycle_Suzuki_GSXR/6_Pic.jpeg);}
+    60%  {background-image:url(../../1-1-136_Pics_Motorcycle_Suzuki_GSXR/5_Pic.jpeg);}
+    70%  {background-image:url(../../1-1-136_Pics_Motorcycle_Suzuki_GSXR/4_Pic.jpeg);}
+    80%  {background-image:url(../../1-1-136_Pics_Motorcycle_Suzuki_GSXR/3_Pic.jpeg);}
+    90%  {background-image:url(../../1-1-136_Pics_Motorcycle_Suzuki_GSXR/2_Pic.jpeg);}
+    100% {background-image:url(../../1-1-136_Pics_Motorcycle_Suzuki_GSXR/1_Pic.jpeg);}
+
+    }
+
+/*                   Row 3                    */
+
+.container3 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate3;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate3 {
+    0%   {background-image:url(../../1-1-137_Pics_Motorcycle_Kawaski_ZX7/1_Pic.webp);}
+    10%  {background-image:url(../../1-1-137_Pics_Motorcycle_Kawaski_ZX7/10_Pic.jpeg);}
+    20%  {background-image:url(../../1-1-137_Pics_Motorcycle_Kawaski_ZX7/9_Pic.webp);}
+    30%  {background-image:url(../../1-1-137_Pics_Motorcycle_Kawaski_ZX7/8_Pic.jpeg);}
+    40%  {background-image:url(../../1-1-137_Pics_Motorcycle_Kawaski_ZX7/7_Pic.webp);}
+    50%  {background-image:url(../../1-1-137_Pics_Motorcycle_Kawaski_ZX7/6_Pic.webp);}
+    60%  {background-image:url(../../1-1-137_Pics_Motorcycle_Kawaski_ZX7/5_Pic.webp);}
+    70%  {background-image:url(../../1-1-137_Pics_Motorcycle_Kawaski_ZX7/4_Pic.jpeg);}
+    80%  {background-image:url(../../1-1-137_Pics_Motorcycle_Kawaski_ZX7/3_Pic.webp);}
+    90%  {background-image:url(../../1-1-137_Pics_Motorcycle_Kawaski_ZX7/2_Pic.webp);}
+    100% {background-image:url(../../1-1-137_Pics_Motorcycle_Kawaski_ZX7/1_Pic.webp);}
+    }
+
+/*                   Row 4                    */
+
+.container4 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate4;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate4 {
+    0%   {background-image:url(../../1-1-138_Pics_Motorcycle_Yamaha_175/1_Pic.jpeg);}
+    10%  {background-image:url(../../1-1-138_Pics_Motorcycle_Yamaha_175/10_Pic.jpeg);}
+    20%  {background-image:url(../../1-1-138_Pics_Motorcycle_Yamaha_175/2_Pic.jpeg);}
+    30%  {background-image:url(../../1-1-138_Pics_Motorcycle_Yamaha_175/9_Pic.jpeg);}
+    40%  {background-image:url(../../1-1-138_Pics_Motorcycle_Yamaha_175/8_Pic.jpeg);}
+    50%  {background-image:url(../../1-1-138_Pics_Motorcycle_Yamaha_175/6_Pic.jpeg);}
+    60%  {background-image:url(../../1-1-138_Pics_Motorcycle_Yamaha_175/5_Pic.webp);}
+    70%  {background-image:url(../../1-1-138_Pics_Motorcycle_Yamaha_175/4_Pic.jpeg);}
+    80%  {background-image:url(../../1-1-138_Pics_Motorcycle_Yamaha_175/3_Pic.jpeg);}
+    90%  {background-image:url(../../1-1-138_Pics_Motorcycle_Yamaha_175/2_Pic.jpeg);}
+    100% {background-image:url(../../1-1-138_Pics_Motorcycle_Yamaha_175/1_Pic.jpeg);}
+    }
+
+/*                   Row 5                    */
+
+.container5 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate5;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate5 {
+    0%   {background-image:url(../../1-1-139_Pics_Motorcycle_Suzuki_185/1_Pic.jpeg);}
+    10%  {background-image:url(../../1-1-139_Pics_Motorcycle_Suzuki_185/10_Pic.jpeg);}
+    20%  {background-image:url(../../1-1-139_Pics_Motorcycle_Suzuki_185/9_Pic.jpeg);}
+    30%  {background-image:url(../../1-1-139_Pics_Motorcycle_Suzuki_185/8_Pic.jpeg);}
+    40%  {background-image:url(../../1-1-139_Pics_Motorcycle_Suzuki_185/7_Pic.png);}
+    50%  {background-image:url(../../1-1-139_Pics_Motorcycle_Suzuki_185/6_Pic.jpeg);}
+    60%  {background-image:url(../../1-1-139_Pics_Motorcycle_Suzuki_185/5_Pic.webp);}
+    70%  {background-image:url(../../1-1-139_Pics_Motorcycle_Suzuki_185/4_Pic.jpeg);}
+    80%  {background-image:url(../../1-1-139_Pics_Motorcycle_Suzuki_185/3_Pic.jpeg);}
+    90%  {background-image:url(../../1-1-139_Pics_Motorcycle_Suzuki_185/2_Pic.jpeg);}
+    100% {background-image:url(../../1-1-139_Pics_Motorcycle_Suzuki_185/1_Pic.jpeg);}
+  }
+
+/*                                     Media Queries                             */
+
+
+    @media only screen and (max-width: 1100px){
+        .wrapper{grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);}}
+        ::selection{ float: none; width: 100%; padding-right: 0px; }}
+
+    @media screen and (max-width: 600px) {
+        header h1{ background-image: none; text-align: center; z-index: 3; }
+        nav{ grid-row: 2 / 3; grid-column: 1 / 9; }}
+
+
+
+
+
+
