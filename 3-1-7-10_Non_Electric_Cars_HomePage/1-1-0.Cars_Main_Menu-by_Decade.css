@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Audiowide", sans-serif;
+    color: #0c120a;
+    background: linear-gradient(to left , #797a79, black);
+    }
+  
+  * {box-sizing: border-box;}
+  
+  .icon {
+    text-decoration: none;
+  }
+  
+  .title {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 900;
+    padding-left: 2%;
+    font-size: 55px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px #c15b5b;
+  }
+  
+  img {height: 50px;}
+  
+  nav ul{list-style-type: none;}
+  nav ul li{display: inline;}
+  
+  
+  nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    z-index: 1;
+    }
+  
+  nav ul li { width: 100%;}
+  
+  
+  
+  
+  
+  /*                   -----------    Buttons   --------------------*/
+  
+   .dropbtn {
+      width: 100%;
+      background-color: transparent;
+      font-size: 20px;
+      border: none;
+      font-family: "Fantasy", copperplate;
+      color: white;
+      }
+  
+     .dropdown {
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        z-index: 3;
+        }
+  
+     .dropdown-content {
+        background: white;
+        color: white;
+        text-align: left;
+        display: none;
+        font-family: "Fantasy", copperplate;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 3;
+        }
+  
+     .dropdown-content a {
+       text-align: left;
+       color: black;
+       width: 350px;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       z-index: 3;
+       }
+  
+     .dropbtn:hover {background-color: red;cursor: pointer;}
+  
+     .dropdown:hover .dropdown-content {display: block; }
+  
+  
+     /*
+                    CSS FOR SERVICES
+  */
+    .services {
+      padding-top: 45px;
+      width: 100%;
+      font-family: "Fantasy", copperplate;
+      height: 00px;
+      display: grid;
+      grid-template-columns: 10% 80% 10%;
+      grid-template-rows: 400px 150px;
+      margin-top: 2%;
+      margin-left: 1%;
+      z-index: 500;
+      }
+  
+    .services1 {
+      background:white;
+      color: black;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 70px 40px 40px 40px 40px 40px 40px;
+      font-size: 35px;
+      border-top: 2px solid Red;
+      border-bottom: 4px solid Red;
+      border-left: 2px solid Red;
+      border-right: 4px solid rgb(60, 0, 255);
+      box-shadow: 20px 8px 16px 0px black;
+      padding-left: 30px;
+      }
+  
+     .services2 {font-size: 25px;}
+  
+  
+  
+  /*----------------------------------------------------------------------
+                           CSS for Gallery
+  ----------------------------------------------------------------------*/
+     .Gallery_main-page {
+       padding-top: 50px;
+       display: grid;
+       grid-template-columns: 1% 48% 1% 48%;
+       grid-template-rows: 21% 1% 21% 1% 21% 1% 21% 1% 21% 1%   ;
+       font-size: 20px;
+       font-weight: bold;
+       }
+  
+     .Gallery_Image {
+      width: 100%;
+      height: 100%;
+      box-shadow: 20px 8px 16px 0px black;
+      transition: 0.9s;
+      z-index: 500;
+      }
+  
+    .Gallery_Image :hover {
+      opacity: 0.8;
+      }
+  
+      .items_Gallery {
+        height: 100%;
+  
+        color: white;
+        box-shadow: 0px 8px 16px 0px black;;
+        opacity: .9;
+        padding-left: 10%;
+        }
+  
+  /*                                    Slide Show                            */
+      .grid-1 {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 10% 80% 5%;
+        z-index: 500;
+        }
+  
+  
+  /*----------------------------------------------------------------------
+                          Transitions Code
+  ----------------------------------------------------------------------*/
+
+/*                   Row 1                    */
+
+.container1 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate1;
+    animation-direction: alternate-reverse;
+    animation-duration:5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate1 {
+
+    0%    {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/1_Pic.jpg);}
+    10%   {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/1_Pic.jpg);}
+    20%   {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.jpg);}
+    30%   {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/1_Pic.jpg);}
+    40%   {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/1_Pic.jpg);}
+    50%   {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/1_Pic.jfif);}
+
+    60%   {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/1_Pic.jpg);}
+    70%   {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/1_Pic.jpg);}
+    80%   {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/1_Pic.webp);}
+    90%   {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/2_Pic.jpg);}
+    100%  {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/1_Pic.jpg);}
+    }
+
+/*                   Row 2                    */
+
+.container2 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate2;
+    animation-direction: alternate-reverse;
+    animation-duration:5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate2 {
+
+    0%    {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.jpg);}
+    10%   {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.jpg);}
+    20%   {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/1_Pic.jpg);}
+    30%   {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.jpg);}
+    40%   {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/1_Pic.jpg);}
+    50%   {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.jpg);}
+    60%   {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jpg);}
+    70%   {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.jpeg);}
+    80%   {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.jpg);}
+    90%   {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/1_Pic.jpg);}
+    100%  {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/1_Pic.jpeg);}
+
+    }
+
+/*                   Row 3                    */
+
+.container3 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate3;
+    animation-direction: alternate-reverse;
+    animation-duration:5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate3 {
+
+    0%    {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/1_Pic.jpeg);}
+    10%   {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/1_Pic.jpg);}
+    20%   {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/1_Pic.jpg);}
+    30%   {background-image:url(../1-1-58_Pics_Cars80_1984_Nissan_Pulsar/1_Pic.jpg);}
+    40%   {background-image:url(../1-1-57_Pics_Cars80_1984_Nissan_300ZX/1_Pic.jpeg);}
+    50%   {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/1_Pic.jpeg);}
+    60%   {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/1_Pic.jpg);}
+    70%   {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/1_Pic.jpeg);}
+    80%   {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/1_Pic.jpg);}
+    90%   {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/1_Pic.jpg);}
+    100%   {background-image:url(../1-1-51_Pics_Cars80_1984_Pontiac_Fierro/1_Pic.jpg);}
+    }
+
+/*                   Row 4                    */
+
+.container4 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate4;
+    animation-direction: alternate-reverse;
+    animation-duration:5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate4 {
+
+    0%    {background-image:url(../1-1-76_Pics_Cars90_1994_Ford_Escort_RS_Cosworth/1_Pic.jpg);}
+    10%   {background-image:url(../1-1-75_Pics_Cars90_1994_Ruf_CTR2/1_Pic.jpg);}
+    20%   {background-image:url(../1-1-74_Pics_Cars90_1994_Lamborghini_Diablo/1_Pic.jpg);}
+    30%   {background-image:url(../1-1-73_Pics_Cars90_1994_Dodge_Viper_RT10/11_Pic.jpg);}
+    40%   {background-image:url(../1-1-72_Pics_Cars90_1994_Nissan_300ZX/1_Pic.jpeg);}
+    50%   {background-image:url(../1-1-71_Pics_Cars90_1994_Ford_Mustang/1_Pic.jpg);}
+    60%   {background-image:url(../1-1-70_Pics_Cars90_1994_Pontiac_Firebird/10_Pic.jpg);}
+    70%   {background-image:url(../1-1-69_Pics_Cars90_1994_Chevy_Camaro/1_Pic.jpg);}
+    80%   {background-image:url(../1-1-68_Pics_Cars90_1994_Chevy_Corvette/1_Pic.jpg);}
+    90%   {background-image:url(../1-1-67_Pics_Cars90_1994_Nissan_Skyline_GTR_R34/1_Pic.avif);}
+    100%  {background-image:url(../1-1-66_Pics_Cars90_1992_McLaren_F1/1_Pic.avif);}
+
+    }
+
+/*                   Row 5                    */
+
+.container5 {
+    height: 65vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate5;
+    animation-direction: alternate-reverse;
+    animation-duration:5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate5 {
+
+    0%    {background-image:url(../1-1-89_Pics_Cars2000_2008_Ford_Mustang/1_Pic.jpg);}
+    10%   {background-image:url(../1-1-88_Pics_Cars2000_2008_Chevy_Camaro/1_Pic.jpg);}
+    20%   {background-image:url(../1-1-87_Pics_Cars2000_2009_Chevy_Corvette_Concept/1_Pic.jpg);}
+    30%   {background-image:url(../1-1-86_Pics_Cars2000_2008_Chevy_Corvette/1_Pic.jpg);}
+    40%   {background-image:url(../1-1-85_Pics_Cars2000_2008_Plymouth_Chrysler_Prowler/1_Pic.jpg);}
+    50%   {background-image:url(../1-1-84_Pics_Cars2000_2009_Dodge_Viper/1_Pic.jpg);}
+    60%   {background-image:url(../1-1-83_Pics_Cars2000_2005_Jaguar_XK/10_Pic.jpg);}
+    70%   {background-image:url(../1-1-82_Pics_Cars2000_2004_Austin_Martin_V12/10_Pic.jpg);}
+    80%   {background-image:url(../1-1-81_Pics_Cars2000_2008_Ferreri_360/10_Pic.jpg);}
+    90%   {background-image:url(../1-1-80_Pics_Cars2000_2008_Bugatti_Gallardo/1_Pic.jpg);}
+    100%  {background-image:url(../1-1-79_Pics_Cars2000_2008_Bugatti_Veyron/1_Pic.jpg);}
+    }
+
+
+
+/*                                     Media Queries                             */
+
+
+    @media only screen and (max-width: 1100px){
+        .wrapper{grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);}}
+        ::selection{ float: none; width: 100%; padding-right: 0px; }}
+
+    @media screen and (max-width: 600px) {
+        header h1{ background-image: none; text-align: center; z-index: 3; }
+        nav{ grid-row: 2 / 3; grid-column: 1 / 9; }}
+
+
+
+    .header {
+        color: white;
+        display: grid;
+        grid-template-columns: 70% 25% ;
+        height: 85px;
+        padding-left: 2%;
+        width:98%;
+        font-family: "Fantasy", copperplate;
+        font-size: 40px;
+        border-bottom: 2px solid maroon;
+        z-index: 3;
+        text-decoration: none;
+        }
+
+    .p1 {font-size: 20px;}
+
+
+
