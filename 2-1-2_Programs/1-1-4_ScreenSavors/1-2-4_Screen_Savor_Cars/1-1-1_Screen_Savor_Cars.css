@@ -1,0 +1,255 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: cursive;
+    color: rgba(10, 54, 45, 0.943);
+    align-items: center;
+    background: #ddd9d9;
+}
+
+h1 {font-family: cursive;
+  font-weight:900;
+  align-items: center;
+}
+
+
+.icon {
+  margin: 20px;
+  height: 40px;
+  font-size: 50px;
+  text-decoration: none;
+  color: rgba(8, 8, 8, 0.943);
+}
+
+img {height: 50px;}
+  
+  
+  header {
+    background-image: linear-gradient(to bottom right, rgb(166, 167, 166) , rgb(5, 17, 4));
+
+       grid-row: 1/2;
+       grid-column: 1/9;
+       }
+
+   header a {
+     height: 100px;
+     font-size: 35px;
+     text-decoration: none;
+     z-index: 100;
+     }
+
+   header h1 {
+     line-height: 140%;
+     padding: .5rem;
+     margin-bottom: 0px;
+     margin: 0px;
+     z-index: 100;
+     }
+
+
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    }
+
+  nav {
+    font-weight: bold;
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    position: sticky;
+    top: 0;
+    background-color: #424242;
+    border-bottom: 2px solid #f5b342;
+    z-index: 100;
+    }
+
+  #wrapper {
+    box-shadow: 0px 3px 3px rgba(66, 66, 66, 0.3);
+    display: grid;
+    grid-auto-rows: minmax(0px, auto);
+    z-index: 3;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    }
+
+  main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    grid-column: 2 / 8;
+    background-color: #ffffff;
+    z-index: 3;
+    }
+
+  * {box-sizing: border-box;}
+
+  nav ul{list-style-type: none;}
+
+  nav ul li{display: inline;}
+
+
+ nav ul {
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   flex-flow: row nowrap;
+   list-style-type: none;
+   z-index: 1;
+   }
+
+ nav ul li {width: 100%;}
+
+ .logo {width: 10%;}
+
+ .dropbtn {
+    width: 100%;
+    background-color: #424242;
+    font-size: 16px;
+    border: none;
+    font-family: "Fantasy", copperplate;
+    color: white;
+    opacity: .5;
+          }
+
+ .dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    z-index: 10;
+    }
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 30s0;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration:300s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate {
+
+  0%     {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/5_Pic.jpg);}
+  1%     {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/5_Pic.jpg);}
+  2%     {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/5_Pic.jpg);}
+  3%     {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/6_Pic.jpg);}
+  4%     {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/5_Pic.jpg);}
+  5%     {background-image:url(../../../1-1-87_Pics_Cars2000_2009_Chevy_Corvette_Concept/6_Pic.jpg);}
+  6%     {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/5_Pic.jpg);}
+  7%     {background-image:url(../../../1-1-16_Pics_Truck_Chevy_Colorado/5_Pic.jpeg);}
+  8%     {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/5_Pic.jpg);}
+  9%     {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/5_Pic.jpg);}
+  10%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/5_Pic.webp);}
+
+  11%    {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/5_Pic.jpg);}
+  12%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/5_Pic.jpg);}
+  13%    {background-image:url(../../../1-1-122_Pics_E_Cars_Ford_Mustang/5_Pic.jpg);}
+  14%    {background-image:url(../../../1-1-86_Pics_Cars2000_2008_Chevy_Corvette/5_Pic.jpg);}
+  15%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.jfif);}
+  16%    {background-image:url(../../../1-1-15_Pics_Truck_Dodge_Ram/5_Pic.webp);}
+  17%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/5_Pic.webp);}
+  18%    {background-image:url(../../../1-1-7_Pics_OffRoad_Wrangler-4Door/5_Pic.jpeg);}
+  19%    {background-image:url(../../../1-1-10_Pics_OffRoad_Hummer_H3/5_Pic.jpeg);}
+  20%    {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/5_Pic.jpg);}
+
+  21%    {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/4_Pic.jpg);}
+  22%    {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/4_Pic.jpg);}
+  23%    {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/6_pic.avif);}
+  24%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/4_Pic.jpg);}
+  25%    {background-image:url(../../../1-1-87_Pics_Cars2000_2009_Chevy_Corvette_Concept/4_Pic.jpg);}
+  26%    {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/4_Pic.jpg);}
+  27%    {background-image:url(../../../1-1-16_Pics_Truck_Chevy_Colorado/4_Pic.jpeg);}
+  28%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/4_Pic.jpg);}
+  29%    {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/4_Pic.jpg);}
+  30%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/4_Pic.jpeg);}
+
+  31%    {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/4_Pic.jpg);}
+  32%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/4_Pic.jpg);}
+  33%    {background-image:url(../../../1-1-122_Pics_E_Cars_Ford_Mustang/4_Pic.jpg);}
+  34%    {background-image:url(../../../1-1-86_Pics_Cars2000_2008_Chevy_Corvette/4_Pic.jpg);}
+  35%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/4_Pic.webp);}
+  36%    {background-image:url(../../../1-1-15_Pics_Truck_Dodge_Ram/4_Pic.webp);}
+  37%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/4_Pic.jpeg);}
+  38%    {background-image:url(../../../1-1-7_Pics_OffRoad_Wrangler-4Door/4_Pic.jpeg);}
+  39%    {background-image:url(../../../1-1-10_Pics_OffRoad_Hummer_H3/4_Pic.jpeg);}
+  40%    {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/4_Pic.jpg);}
+
+  41%    {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/3_Pic.webp);}
+  42%    {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/3_Pic.jpg);}
+  43%    {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/3_Pic.webp);}
+  44%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/3_Pic.jpg);}
+  45%    {background-image:url(../../../1-1-87_Pics_Cars2000_2009_Chevy_Corvette_Concept/3_Pic.jfif);}
+  46%    {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/3_Pic.jpg);}
+  47%    {background-image:url(../../../1-1-16_Pics_Truck_Chevy_Colorado/3_Pic.jpeg);}
+  48%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/3_Pic.jpg);}
+  49%    {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/3_Pic.jpg);}
+  50%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/3_Pic.jpeg);}
+
+  51%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/3_Pic.jpg);}
+  52%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/3_Pic.jpg);}
+  53%    {background-image:url(../../../1-1-122_Pics_E_Cars_Ford_Mustang/3_Pic.jpg);}
+  54%    {background-image:url(../../../1-1-86_Pics_Cars2000_2008_Chevy_Corvette/3_Pic.jpg);}
+  55%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/3_Pic.jpg);}
+  56%    {background-image:url(../../../1-1-15_Pics_Truck_Dodge_Ram/3_Pic.jpeg);}
+  57%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/3_Pic.jpeg);}
+  58%    {background-image:url(../../../1-1-7_Pics_OffRoad_Wrangler-4Door/3_Pic.jpeg);}
+  59%    {background-image:url(../../../1-1-10_Pics_OffRoad_Hummer_H3/3_Pic.jpeg);}
+  60%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/3_Pic.jpg);}
+
+  61%    {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/2_Pic.jpg);}
+  62%    {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/2_Pic.jpeg);}
+  63%    {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/2_Pic.webp);}
+  64%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/2_Pic.jpg);}
+  65%    {background-image:url(../../../1-1-87_Pics_Cars2000_2009_Chevy_Corvette_Concept/2_Pic.jfif);}
+  66%    {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/2_Pic.jpg);}
+  67%    {background-image:url(../../../1-1-16_Pics_Truck_Chevy_Colorado/3_Pic.jpeg);}
+  68%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/2_Pic.jpg);}
+  69%    {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/2_Pic.jpg);}
+  70%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/2_Pic.jpeg);}
+
+  71%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/2_Pic.jpg);}
+  72%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/3_Pic.jpg);}
+  73%    {background-image:url(../../../1-1-122_Pics_E_Cars_Ford_Mustang/2_Pic.jpg);}
+  74%    {background-image:url(../../../1-1-86_Pics_Cars2000_2008_Chevy_Corvette/3_Pic.jpg);}
+  75%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.jpg);}
+  76%    {background-image:url(../../../1-1-15_Pics_Truck_Dodge_Ram/2_Pic.webp);}
+  77%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/1_Pic.webp);}
+  78%    {background-image:url(../../../1-1-7_Pics_OffRoad_Wrangler-4Door/2_Pic.jpeg);}
+  79%    {background-image:url(../../../1-1-10_Pics_OffRoad_Hummer_H3/2_Pic.jpeg);}
+  80%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/2_Pic.jpg);}
+
+  81%    {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/1_Pic.jpg);}
+  82%    {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/1_Pic.jpeg);}
+  83%    {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/1_Pic.webp);}
+  84%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/1_Pic.jpg);}
+  85%    {background-image:url(../../../1-1-87_Pics_Cars2000_2009_Chevy_Corvette_Concept/1_Pic.jpg);}
+  86%    {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.jpg);}
+  87%    {background-image:url(../../../1-1-16_Pics_Truck_Chevy_Colorado/1_Pic.jpeg);}
+  88%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/1_Pic.jpg);}
+  89%    {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/1_Pic.jpg);}
+  90%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/1_Pic.webp);}
+
+  91%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/1_Pic.jpg);}
+  92%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/2_Pic.jpg);}
+  93%    {background-image:url(../../../1-1-122_Pics_E_Cars_Ford_Mustang/1_Pic.jpg);}
+  94%    {background-image:url(../../../1-1-86_Pics_Cars2000_2008_Chevy_Corvette/1_Pic.jpg);}
+  95%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jpg);}
+  96%    {background-image:url(../../../1-1-15_Pics_Truck_Dodge_Ram/1_Pic.webp);}
+  97%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/1_Pic.webp);}
+  98%    {background-image:url(../../../1-1-7_Pics_OffRoad_Wrangler-4Door/1_Pic.jpeg);}
+  99%    {background-image:url(../../../1-1-10_Pics_OffRoad_Hummer_H3/1_Pic.jpeg);}
+  100%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/1_Pic.jpg);}
+
+    }

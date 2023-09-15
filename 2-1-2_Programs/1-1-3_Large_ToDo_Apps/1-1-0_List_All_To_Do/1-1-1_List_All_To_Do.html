@@ -1,0 +1,194 @@
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo Counts</title>
+    <link type="text/css" rel="stylesheet" href="../1-0-0  To_Do_List_CSS/1-1-1_List_All_To_Do.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+    
+<body>
+  <header>
+    <a class="icon" href="../../../Index.html"><img src="../../../0-1-1_Images/back1.webp"> </a>
+    <a class="t">Todo Counts</a>
+  </header>
+  <div id="wrapper">
+    <ul>
+    <li>
+      <div class="dropdown"> <button class="dropbtn"></button> <div class="dropdown-content"></div>
+    </li>
+  </div>    
+
+    <div class="table">
+      <div>
+        <p class="title1">General</p>
+        <div class="btn3" ><a class="btn1"  href="../1-1-1-General_Todo-List/1-1-1 List Today ToDo/1-1-1 List Today ToDo.html">  Today -  </a> <a a class="btn4"  id="todayTodo"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-1-1-General_Todo-List/1-1-2-Buy_List/1-1-2-Buy_List.html">  Buy List - </a> <a a class="btn4"  id="buyList"></a></div>
+        
+        <p class="title1">Program</p>
+        <div class="btn3" ><a class="btn1"  href="../1-2-1 Programming/1-1-1_WebPage/1-1-1_WebPage.html">  WebPage - </a> <a a class="btn4"  id="webPage"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-2-1 Programming/1-1-2_Python/1-1-2_Python.html">  Python - </a> <a a class="btn4"  id="pyton"></a></div>
+      </div> 
+
+      <div>
+        <p class="title1">House</p>
+        <div class="btn3" ><a class="btn1"  href="../1-3-1-House/1-1-1 Interior/1-1-1_houseInterior.html">  Interior - </a> <a a class="btn4"  id="houseInterior"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-3-1-House/1-1-2_Den/1-1-2_Den.html">Den - </a> <a a class="btn4"  id="outdoorKitchen"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-3-1-House/1-1-3 Gym/1-1-3 Gym.html">  Gym - </a> <a a class="btn4"  id="gym"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-3-1-House/1-1-4 largeGarage/1-1-4 largeGarage.html">  Large Garage - </a> <a a class="btn4"  id="largeGarage"></a></div>
+        <p 
+        
+        
+        class="title1">Outside</p>
+        <div class="btn3" ><a class="btn1"  href="../1-4-1_Outside/1-1-1 frontYardAdobe/1-1-1 frontYardAdobe.html">  Front Yard - </a> <a a class="btn4"  id="adobe"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-4-1_Outside/1-1-3 Backyard/1-1-6 Backyard.html"> Backyard - </a> <a a class="btn4"  id="backyard"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-4-1_Outside/1-1-4_Shed/1-1-8_Shed.html">  Shed - </a> <a a class="btn4"  id="Shed"></a></div>
+      </div> 
+      <div>
+        <p class="title1">Veichles</p>
+        <div class="btn3" ><a class="btn1"  href="../1-5-1_Veichles/1-1-1_Ebike/1-1-1_Ebike.html">  Ebike - </a> <a a class="btn4"  id="ebike"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-5-1_Veichles/1-1-2_SXS/1-1-2_SXS.html">  SxS - </a> <a a class="btn4"  id="sxs"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-5-1_Veichles/1-1-3_Ram/1-1-3_Ram.html">  Dodge Ram - </a> <a a class="btn4"  id="ram"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-5-1_Veichles/1-1-4_F150/1-1-4_F150.html">  Ford F-150 - </a> <a a class="btn4"  id="f150"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-5-1_Veichles/1-1-5_F250/1-1-5_F250.html">  Ford F-250 - </a> <a a class="btn4"  id="f250"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-5-1_Veichles/1-1-6_Hummer/1-1-6_Hummer.html">  Hummer - </a> <a a class="btn4"  id="hummer"></a></div>
+        <div class="btn3" ><a class="btn1"  href="../1-5-1_Veichles/1-1-7_Challenger/1-1-7_Challenger.html">Challenger - </a> <a a class="btn4"  id="challenger"></a></div>
+
+      </div> 
+      
+
+
+    </div>  
+    
+    <script>
+    todayTodo()
+    generalTodo()
+    buyList()
+    webPage()
+    pyton()
+    houseInterior()
+    gym()
+    largeGarage()
+    adobe()
+    frontYardRedMountain()
+    backyard()
+    outdoorKitchen()
+    Shed()
+    ebike()
+    sxs()
+    ram()
+    f150()
+    f250()
+    hummer()
+    challenger()
+    mustang()
+
+    function todayTodo() {
+      var x = JSON.parse(localStorage.todayTodo).length;
+      document.getElementById("todayTodo").innerHTML = x;
+    }
+
+    function generalTodo() {
+      var x = JSON.parse(localStorage.generalTodo).length;
+      document.getElementById("generalTodo").innerHTML = x;
+    }
+
+    function buyList() {
+      var x = JSON.parse(localStorage.buyList).length;
+      document.getElementById("buyList").innerHTML = x;
+    }
+
+    function webPage() {
+      var x = JSON.parse(localStorage.webPage).length;
+      document.getElementById("webPage").innerHTML = x;
+    }
+    function pyton() {
+      var x = JSON.parse(localStorage.pyton).length;
+      document.getElementById("pyton").innerHTML = x;
+    }
+
+    function houseInterior() {
+      var x = JSON.parse(localStorage.houseInterior).length;
+      document.getElementById("houseInterior").innerHTML = x;
+    }
+
+    function gym() {
+      var x = JSON.parse(localStorage.gym).length;
+      document.getElementById("gym").innerHTML = x;
+    }
+
+    function largeGarage() {
+      var x = JSON.parse(localStorage.largeGarage).length;
+      document.getElementById("largeGarage").innerHTML = x;
+    }
+
+    function adobe() {
+      var x = JSON.parse(localStorage.adobe).length;
+      document.getElementById("adobe").innerHTML = x;
+    }
+
+    function frontYardRedMountain() {
+      var x = JSON.parse(localStorage.frontYardRedMountain).length;
+      document.getElementById("frontYardRedMountain").innerHTML = x;
+    }
+
+    function backyard() {
+      var x = JSON.parse(localStorage.backyard).length;
+      document.getElementById("backyard").innerHTML = x;
+    }
+
+    function outdoorKitchen() {
+      var x = JSON.parse(localStorage.outdoorKitchen).length;
+      document.getElementById("outdoorKitchen").innerHTML = x;
+    }
+
+    function Shed() {
+      var x = JSON.parse(localStorage.Shed).length;
+      document.getElementById("Shed").innerHTML = x;
+    }
+    function ebike() {
+      var x = JSON.parse(localStorage.ebike).length;
+      document.getElementById("ebike").innerHTML = x;
+    }
+    function sxs() {
+      var x = JSON.parse(localStorage.sxs).length;
+      document.getElementById("sxs").innerHTML = x;
+    }
+    function ram() {
+      var x = JSON.parse(localStorage.ram).length;
+      document.getElementById("ram").innerHTML = x;
+    }
+    function f150() {
+      var x = JSON.parse(localStorage.f150).length;
+      document.getElementById("f150").innerHTML = x;
+    }
+    function f250() {
+      var x = JSON.parse(localStorage.f250).length;
+      document.getElementById("f250").innerHTML = x;
+    }
+    function challenger() {
+      var x = JSON.parse(localStorage.challenger).length;
+      document.getElementById("challenger").innerHTML = x;
+    }
+    function hummer() {
+      var x = JSON.parse(localStorage.hummer).length;
+      document.getElementById("hummer").innerHTML = x;
+    }
+    function mustang() {
+      var x = JSON.parse(localStorage.mustang).length;
+      document.getElementById("mustang").innerHTML = x;
+    }
+    
+    
+    
+    </script>
+
+</body>
+
+
+<script src="1-1-1_List_All_To_Do.js"></script>
+
+</html>

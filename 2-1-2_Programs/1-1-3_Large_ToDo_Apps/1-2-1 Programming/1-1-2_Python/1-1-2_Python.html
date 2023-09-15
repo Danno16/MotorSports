@@ -1,0 +1,57 @@
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python To Do List</title>
+    <link type="text/css" rel="stylesheet" href="../../1-0-0  To_Do_List_CSS/1-1-1_List_All_To_Do.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+    
+<body>
+  <header>
+    <header>
+      <a class="icon" href="../../1-1-0_List_All_To_Do/1-1-1_List_All_To_Do.html"><img src="../../../../0-1-1_Images/back1.webp"> </a>
+      <a class="t">Python To-Do :</a>
+    </header>
+    
+    <div id="wrapper">
+      <ul>
+      <li>
+        <div class="dropdown"> <button class="dropbtn"></button> <div class="dropdown-content"></div>
+      </li>
+    </div>    
+  
+  
+  <div class="todoList">
+
+  <input class="input1" type="text" placeholder = "Enter new to-do">
+  <p><input class="input2" type="text" placeholder="Enter Category" list="categoryList" ></p>
+  <datalist id="categoryList">
+    <option value="personal"></option>
+    <option value="work"></option>
+  </datalist>
+  <p><input type="date" id="dateInput"></p>
+  <p><input type="time" id="timeInput"></p>
+  <button class="addBtn" id="addBtn"  >Adds</button>
+  <ul></ul>
+  <table id="todoTable">
+    <tr>
+      <td class="checkbox"></td>
+      <td class="date"><select id="categoryFilter"></select></td>
+      <td class="time">Time</td>
+      <td class="todo">General..todo</td>
+
+      <td></td>
+    </tr>
+  </table>
+</div>
+
+</body>
+
+
+<script src="1-1-2_Python.js"></script>
+
+</html>

@@ -1,0 +1,860 @@
+    body {
+        margin: 0;
+        margin-top:0;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to left , #060119, rgb(167, 152, 152));}}
+
+    * {box-sizing: border-box;}
+
+    nav ul{list-style-type: none;}
+    nav ul li{display: inline;}
+
+
+    nav ul {
+      margin: 0px;
+      padding: 0px;
+      display: flex;
+      flex-flow: row nowrap;
+      list-style-type: none;
+      z-index: 1;
+      }
+
+    nav ul li { width: 100%;}
+
+    nav a:hover {color: white; background-color:;}
+
+    h1 {color:#6e79f0;}
+
+    img {height: 50px;}
+
+    .icon {
+        margin: 20px;
+        height: 40px;
+        text-decoration: none;
+        color: white;
+      }
+      
+
+/*                   -----------    Buttons   --------------------*/
+
+ .dropbtn {
+    width: 100%;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    font-family: "Fantasy", copperplate;
+    color: white;
+    }
+
+   .dropdown {
+      position: relative;
+      display: inline-block;
+      font-size: 15px;
+      text-decoration: none;
+      z-index: 3;
+      }
+
+   .dropdown-content {
+      background: white;
+      color: white;
+      text-align: left;
+      display: none;
+      font-family: "Fantasy", copperplate;
+      position: absolute;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 3;
+      }
+
+   .dropdown-content a {
+     text-align: left;
+     color: black;
+     width: 350px;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     z-index: 3;
+     }
+
+   .dropbtn:hover {background-color: red;cursor: pointer;}
+
+   .dropdown:hover .dropdown-content {display: block; }
+
+
+   /*
+                  CSS FOR SERVICES
+*/
+  .services {
+    padding-top: 45px;
+    width: 100%;
+    font-family: "Fantasy", copperplate;
+    height: 00px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 400px 150px;
+    margin-top: 2%;
+    margin-left: 1%;
+    z-index: 500;
+    }
+
+  .services1 {
+    background:white;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px 40px 40px 40px 40px 40px 40px;
+    font-size: 35px;
+    border-top: 2px solid Red;
+    border-bottom: 4px solid Red;
+    border-left: 2px solid Red;
+    border-right: 4px solid Red;
+    box-shadow: 20px 8px 16px 0px black;
+    padding-left: 30px;
+    }
+
+   .services2 {font-size: 25px;}
+
+   /*
+                  CSS FOR Completed Projects
+*/
+
+/*----------------------------------------------------------------------
+                         CSS for Gallery
+----------------------------------------------------------------------*/
+   .Gallery_main-page {
+     padding-top: 50px;
+     display: grid;
+     grid-template-columns: 1% 23% 1% 23% 1% 23% 1% 23%;
+     grid-template-rows:   33% 5% 33% 5% 33% 1% 23% 1% 23% 1%;
+     font-size: 20px;
+     font-weight: bold;
+     }
+
+   .Gallery_Image {
+    width: 100%;
+    height: 100%;
+    box-shadow: 20px 8px 16px 0px black;
+    transition: 0.9s;
+    z-index: 500;
+    }
+
+  .Gallery_Image :hover {
+    opacity: 0.8;
+    }
+
+    .items_Gallery {
+      height: 100%;
+
+      color: white;
+      box-shadow: 0px 8px 16px 0px black;;
+      opacity: .9;
+      padding-left: 10%;
+      }
+
+/*                                    Slide Show                            */
+    .grid-1 {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 10% 80% 5%;
+      z-index: 500;
+      }
+
+
+/*----------------------------------------------------------------------
+                         Military - Planes Transitions Code
+----------------------------------------------------------------------*/
+
+/*                   Row 1                    */
+
+.container1 {
+    height: 25vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 30s;
+    animation-name: animate1;
+    animation-direction: alternate-reverse;
+    animation-duration:300s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate1 {
+
+    0%   {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-72.jpeg);}
+    2%   {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-70.jpg);}
+    4%   {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-69.jpg);}
+    6%   {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-68.jpg);}
+    8%   {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-67.jpg);}
+    10%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-66.jpg);}
+    12%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-65.jpg);}
+    14%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-64.jpg);}
+    18%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-63.jpg);}
+    20%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-62.jpg);}
+
+    22%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-61.jpg);}
+    24%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-60.jpg);}
+    26%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-59.jpg);}
+    28%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-58.jpg);}
+    30%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-57.jpg);}
+    32%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-56.jpg);}
+    34%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-55.jpg);}
+    36%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-54.jpg);}
+    38%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-53.jpg);}
+    40%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-52.jpg);}
+
+    42%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-51.jpg);}
+    44%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-50.jpg);}
+    48%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-49.jpg);}
+    50%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-48.jpg);}
+    52%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-47.jpg);}
+    54%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-46.jpg);}
+    56%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-45.jpg);}
+    57%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-44.jpg);}
+    58%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-43.jpg);}
+    59%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-42.jpg);}
+
+
+    60%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-31.jpg);}
+    61%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-30.jpg);}
+    62%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-39.jpg);}
+    63%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-38.jpg);}
+    64%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-37.jpg);}
+    65%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-36.jpg);}
+    66%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-35.jpg);}
+    67%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-34.jpg);}
+    68%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-33.jpg);}
+    69%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-32.jpg);}
+
+    70%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-31.jpg);}
+    71%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-30.jpg);}
+    72%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-29.jpg);}
+    73%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-28.jpg);}
+    74%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-27.jpg);}
+    75%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-26.jpg);}
+    76%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-25.jpg);}
+    77%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-24.jpg);}
+    78%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-23.jpg);}
+    79%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-22.jpg);}
+
+
+    80%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-21.jpg);}
+    81%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-20.jpg);}
+    83%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-18.jpg);}
+    84%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-17.jpg);}
+    85%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-16.jpg);}
+    86%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-15.jpg);}
+    87%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-14.jpg);}
+    88%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-13.jpg);}
+    89%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-12.jpg);}
+
+    
+    90%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-11.jpg);}
+    91%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-10.jpg);}
+    92%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-9.webp);}
+    93%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-8.jpg);}
+    94%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-7.jpg);}
+    95%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-6.jpg);}
+    96%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-5.jpg);}
+    97%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-4.jpg);}
+    98%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-3.jpg);}
+    99%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-2.jpg);}
+    100% {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-1.jpg);}
+    }
+
+/*                   Row 2                    */
+
+.container2 {
+    height: 25vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 3s;
+    animation-name: animate2;
+    animation-direction: alternate-reverse;
+    animation-duration:300s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate2 {
+
+    0%     {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/5_Pic.jpg);}
+    1%     {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/5_Pic.jpg);}
+    2%     {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/5_Pic.jpg);}
+    3%     {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/6_Pic.jpg);}
+    4%     {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/5_Pic.jpg);}
+    5%     {background-image:url(../../../1-1-87_Pics_Cars2000_2009_Chevy_Corvette_Concept/6_Pic.jpg);}
+    6%     {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/5_Pic.jpg);}
+    7%     {background-image:url(../../../1-1-16_Pics_Truck_Chevy_Colorado/5_Pic.jpeg);}
+    8%     {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/5_Pic.jpg);}
+    9%     {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/5_Pic.jpg);}
+    10%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/5_Pic.webp);}
+
+    11%    {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/5_Pic.jpg);}
+    12%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/5_Pic.jpg);}
+    13%    {background-image:url(../../../1-1-122_Pics_E_Cars_Ford_Mustang/5_Pic.jpg);}
+    14%    {background-image:url(../../../1-1-86_Pics_Cars2000_2008_Chevy_Corvette/5_Pic.jpg);}
+    15%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.jfif);}
+    16%    {background-image:url(../../../1-1-15_Pics_Truck_Dodge_Ram/5_Pic.webp);}
+    17%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/5_Pic.webp);}
+    18%    {background-image:url(../../../1-1-7_Pics_OffRoad_Wrangler-4Door/5_Pic.jpeg);}
+    19%    {background-image:url(../../../1-1-10_Pics_OffRoad_Hummer_H3/5_Pic.jpeg);}
+    20%    {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/5_Pic.jpg);}
+
+    21%    {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/4_Pic.jpg);}
+    22%    {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/4_Pic.jpg);}
+    23%    {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/6_pic.avif);}
+    24%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/4_Pic.jpg);}
+    25%    {background-image:url(../../../1-1-87_Pics_Cars2000_2009_Chevy_Corvette_Concept/4_Pic.jpg);}
+    26%    {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/4_Pic.jpg);}
+    27%    {background-image:url(../../../1-1-16_Pics_Truck_Chevy_Colorado/4_Pic.jpeg);}
+    28%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/4_Pic.jpg);}
+    29%    {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/4_Pic.jpg);}
+    30%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/4_Pic.jpeg);}
+
+    31%    {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/4_Pic.jpg);}
+    32%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/4_Pic.jpg);}
+    33%    {background-image:url(../../../1-1-122_Pics_E_Cars_Ford_Mustang/4_Pic.jpg);}
+    34%    {background-image:url(../../../1-1-86_Pics_Cars2000_2008_Chevy_Corvette/4_Pic.jpg);}
+    35%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/4_Pic.webp);}
+    36%    {background-image:url(../../../1-1-15_Pics_Truck_Dodge_Ram/4_Pic.webp);}
+    37%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/4_Pic.jpeg);}
+    38%    {background-image:url(../../../1-1-7_Pics_OffRoad_Wrangler-4Door/4_Pic.jpeg);}
+    39%    {background-image:url(../../../1-1-10_Pics_OffRoad_Hummer_H3/4_Pic.jpeg);}
+    40%    {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/4_Pic.jpg);}
+
+    41%    {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/3_Pic.webp);}
+    42%    {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/3_Pic.jpg);}
+    43%    {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/3_Pic.webp);}
+    44%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/3_Pic.jpg);}
+    45%    {background-image:url(../../../1-1-87_Pics_Cars2000_2009_Chevy_Corvette_Concept/3_Pic.jfif);}
+    46%    {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/3_Pic.jpg);}
+    47%    {background-image:url(../../../1-1-16_Pics_Truck_Chevy_Colorado/3_Pic.jpeg);}
+    48%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/3_Pic.jpg);}
+    49%    {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/3_Pic.jpg);}
+    50%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/3_Pic.jpeg);}
+
+    51%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/3_Pic.jpg);}
+    52%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/3_Pic.jpg);}
+    53%    {background-image:url(../../../1-1-122_Pics_E_Cars_Ford_Mustang/3_Pic.jpg);}
+    54%    {background-image:url(../../../1-1-86_Pics_Cars2000_2008_Chevy_Corvette/3_Pic.jpg);}
+    55%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/3_Pic.jpg);}
+    56%    {background-image:url(../../../1-1-15_Pics_Truck_Dodge_Ram/3_Pic.jpeg);}
+    57%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/3_Pic.jpeg);}
+    58%    {background-image:url(../../../1-1-7_Pics_OffRoad_Wrangler-4Door/3_Pic.jpeg);}
+    59%    {background-image:url(../../../1-1-10_Pics_OffRoad_Hummer_H3/3_Pic.jpeg);}
+    60%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/3_Pic.jpg);}
+
+    61%    {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/2_Pic.jpg);}
+    62%    {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/2_Pic.jpeg);}
+    63%    {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/2_Pic.webp);}
+    64%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/2_Pic.jpg);}
+    65%    {background-image:url(../../../1-1-87_Pics_Cars2000_2009_Chevy_Corvette_Concept/2_Pic.jfif);}
+    66%    {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/2_Pic.jpg);}
+    67%    {background-image:url(../../../1-1-16_Pics_Truck_Chevy_Colorado/3_Pic.jpeg);}
+    68%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/2_Pic.jpg);}
+    69%    {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/2_Pic.jpg);}
+    70%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/2_Pic.jpeg);}
+
+    71%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/2_Pic.jpg);}
+    72%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/3_Pic.jpg);}
+    73%    {background-image:url(../../../1-1-122_Pics_E_Cars_Ford_Mustang/2_Pic.jpg);}
+    74%    {background-image:url(../../../1-1-86_Pics_Cars2000_2008_Chevy_Corvette/3_Pic.jpg);}
+    75%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.jpg);}
+    76%    {background-image:url(../../../1-1-15_Pics_Truck_Dodge_Ram/2_Pic.webp);}
+    77%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/1_Pic.webp);}
+    78%    {background-image:url(../../../1-1-7_Pics_OffRoad_Wrangler-4Door/2_Pic.jpeg);}
+    79%    {background-image:url(../../../1-1-10_Pics_OffRoad_Hummer_H3/2_Pic.jpeg);}
+    80%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/2_Pic.jpg);}
+
+    81%    {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/1_Pic.jpg);}
+    82%    {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/1_Pic.jpeg);}
+    83%    {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/1_Pic.webp);}
+    84%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/1_Pic.jpg);}
+    85%    {background-image:url(../../../1-1-87_Pics_Cars2000_2009_Chevy_Corvette_Concept/1_Pic.jpg);}
+    86%    {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.jpg);}
+    87%    {background-image:url(../../../1-1-16_Pics_Truck_Chevy_Colorado/1_Pic.jpeg);}
+    88%    {background-image:url(../../../1-1-132_Pics_E_Trucks_chevy_Hummer/1_Pic.jpg);}
+    89%    {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/1_Pic.jpg);}
+    90%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/1_Pic.webp);}
+
+    91%   {background-image:url(../../../1-1-42_Pics_Cars70_1970_Chevy_Corvette/1_Pic.jpg);}
+    92%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/2_Pic.jpg);}
+    93%    {background-image:url(../../../1-1-122_Pics_E_Cars_Ford_Mustang/1_Pic.jpg);}
+    94%    {background-image:url(../../../1-1-86_Pics_Cars2000_2008_Chevy_Corvette/1_Pic.jpg);}
+    95%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jpg);}
+    96%    {background-image:url(../../../1-1-15_Pics_Truck_Dodge_Ram/1_Pic.webp);}
+    97%    {background-image:url(../../../1-1-11_Pics_Truck_2022_F250/1_Pic.webp);}
+    98%    {background-image:url(../../../1-1-7_Pics_OffRoad_Wrangler-4Door/1_Pic.jpeg);}
+    99%    {background-image:url(../../../1-1-10_Pics_OffRoad_Hummer_H3/1_Pic.jpeg);}
+    100%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/1_Pic.jpg);}
+    }
+
+/*                   Row 3                    */
+
+.container3 {
+    height: 25vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 3s;
+    animation-name: animate3;
+    animation-direction: alternate-reverse;
+    animation-duration:300s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate3 {
+    0%   {background-image:url(../../../1-1-5_Pics_SXS_Kawasaki_KRX/2_Pic.webp);}
+    2%   {background-image:url(../../../1-1-5_Pics_SXS_Kawasaki_KRX/10_Pic.jpeg);}
+    4%   {background-image:url(../../../1-1-5_Pics_SXS_Kawasaki_KRX/9_Pic.jpeg);}
+    6%   {background-image:url(../../../1-1-5_Pics_SXS_Kawasaki_KRX/8_Pic.jpeg);}
+    8%   {background-image:url(../../../1-1-5_Pics_SXS_Kawasaki_KRX/7_Pic.jpeg);}
+    10%  {background-image:url(../../../1-1-5_Pics_SXS_Kawasaki_KRX/6_Pic.jpeg);}
+    12%  {background-image:url(../../../1-1-5_Pics_SXS_Kawasaki_KRX/5_Pic.jpeg);}
+    14%  {background-image:url(../../../1-1-5_Pics_SXS_Kawasaki_KRX/4_Pic.jpeg);}
+    16%  {background-image:url(../../../1-1-5_Pics_SXS_Kawasaki_KRX/3_Pic.jpeg);}
+    18%  {background-image:url(../../../1-1-5_Pics_SXS_Kawasaki_KRX/2_Pic.webp);}
+    20%  {background-image:url(../../../1-1-5_Pics_SXS_Kawasaki_KRX/1_Pic.jpeg);}
+
+    22%  {background-image:url(../../../1-1-4_Pics_SXS_Honda_Talon/2.pic.jpeg);}
+    24%  {background-image:url(../../../1-1-4_Pics_SXS_Honda_Talon/10.pic.jpeg);}
+    26%  {background-image:url(../../../1-1-4_Pics_SXS_Honda_Talon/9.pic.jpeg);}
+    28%  {background-image:url(../../../1-1-4_Pics_SXS_Honda_Talon/8.pic.jpeg);}
+    30%  {background-image:url(../../../1-1-4_Pics_SXS_Honda_Talon/7.pic.jpeg);}
+    32%  {background-image:url(../../../1-1-4_Pics_SXS_Honda_Talon/6.pic.jpeg);}
+    34%  {background-image:url(../../../1-1-4_Pics_SXS_Honda_Talon/5.pic.jpeg);}
+    36%  {background-image:url(../../../1-1-4_Pics_SXS_Honda_Talon/4.pic.jpeg);}
+    38%  {background-image:url(../../../1-1-4_Pics_SXS_Honda_Talon/3.pic.jpeg);}
+    40%  {background-image:url(../../../1-1-4_Pics_SXS_Honda_Talon/2.pic.jpeg);}
+
+    42%  {background-image:url(../../../1-1-2_Pics_SXS_CanAm_X3/2-1-10.CanAm.jpeg);}
+    44%  {background-image:url(../../../1-1-2_Pics_SXS_CanAm_X3/2-1-9.CanAm.webp);}
+    46%  {background-image:url(../../../1-1-2_Pics_SXS_CanAm_X3/2-1-8.CanAm.webp);}
+    48%  {background-image:url(../../../1-1-2_Pics_SXS_CanAm_X3/2-1-7.CanAm.webp);}
+    50%  {background-image:url(../../../1-1-2_Pics_SXS_CanAm_X3/2-1-6.CanAM.jpeg);}
+    52%  {background-image:url(../../../1-1-2_Pics_SXS_CanAm_X3/2-1-5.CanAM.jpeg);}
+    54%  {background-image:url(../../../1-1-2_Pics_SXS_CanAm_X3/2-1-4.CanAM.jpeg);}
+    56%  {background-image:url(../../../1-1-2_Pics_SXS_CanAm_X3/2-1-3.CanAM.jpeg);}
+    58%  {background-image:url(../../../1-1-2_Pics_SXS_CanAm_X3/2-1-2.CanAM.jpeg);}
+    60%  {background-image:url(../../../1-1-2_Pics_SXS_CanAm_X3/2-1-1.CanAM.jpeg);}
+
+
+    62%  {background-image:url(../../../1-1-1_Pics_SXS_WildCat/4-1-10.Wildcat.webp);}
+    64%  {background-image:url(../../../1-1-1_Pics_SXS_WildCat/4-1-9.Wildcat.jpeg);}
+    66%  {background-image:url(../../../1-1-1_Pics_SXS_WildCat/4-1-8.Wildcat.webp);}
+    68%  {background-image:url(../../../1-1-1_Pics_SXS_WildCat/4-1-7.Wildcat.jpeg);}
+    70%  {background-image:url(../../../1-1-1_Pics_SXS_WildCat/4-1-6.Wildcat.jpeg);}
+    72%  {background-image:url(../../../1-1-1_Pics_SXS_WildCat/4-1-5.Wildcat.jpeg);}
+    74%  {background-image:url(../../../1-1-1_Pics_SXS_WildCat/4-1-4.Wildcat.jpeg);}
+    76%  {background-image:url(../../../1-1-1_Pics_SXS_WildCat/4-1-3.Wildcat.jpeg);}
+    78%  {background-image:url(../../../1-1-1_Pics_SXS_WildCat/4-1-2.Wildcat.jpeg);}
+    80%  {background-image:url(../../../1-1-1_Pics_SXS_WildCat/4-1-1.Wildcat.jpeg);}
+
+    82%  {background-image:url(../../../1-1-3_Pics_SXS_RZR/1-1-10.RZR.webp);}
+    84%  {background-image:url(../../../1-1-3_Pics_SXS_RZR/1-1-9.RZR.jpeg);}
+    86%  {background-image:url(../../../1-1-3_Pics_SXS_RZR/1-1-8.RZR.jpeg);}
+    88%  {background-image:url(../../../1-1-3_Pics_SXS_RZR/1-1-7.RZR.jpeg);}
+    90%  {background-image:url(../../../1-1-3_Pics_SXS_RZR/1-1-6.RZR.webp);}
+    92%  {background-image:url(../../../1-1-3_Pics_SXS_RZR/1-1-5.RZR.webp);}
+    94%  {background-image:url(../../../1-1-3_Pics_SXS_RZR/1-1-4.RZR.jpeg);}
+    96%  {background-image:url(../../../1-1-3_Pics_SXS_RZR/1-1-3.RZR.jpeg);}
+    98%  {background-image:url(../../../1-1-3_Pics_SXS_RZR/1-1-2.RZR.jpeg);}
+    100% {background-image:url(../../../1-1-3_Pics_SXS_RZR/1-1-1.RZR.jpeg);}
+    }
+
+/*                   Row 4                    */
+
+.container4 {
+    height: 25vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 30s;
+    animation-name: animate4;
+    animation-direction: alternate-reverse;
+    animation-duration:300s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate4 {
+
+    0%   {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-0_F4u.jpg);} 
+    2%   {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-34_ME163.jpg);}  
+    4%   {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-33_ME163.jpg);}  
+    6%   {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-32_ME163.jpg);}  
+    8%   {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-31_ME163.jpg);}   
+    10%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-30_ME163.jpg);}   
+
+    12%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-29_ME262.jpg);}  
+    14%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-28_ME262.jpg);} 
+    16%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-27_ME262.jpg);} 
+    18%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-26_ME262.jpg);} 
+    20%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-25_ME262.jpg);} 
+
+    22%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-24_ME109.jpg);} 
+    24%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-23_ME109.jpg);} 
+    26%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-22_ME109.jpg);} 
+    28%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-21_ME109.jpg);}   
+    29%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-20_ME109.jpg);} 
+
+    30%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-19_Spitfire.jpg);}  
+    31%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-18_Spitfire.jpg);} 
+    32%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-17_Spitfire.jpg);} 
+    33%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-16_Spitfire.jpg);} 
+    34%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-15_Spitfire.jpg);} 
+
+    35%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-14_P40.jpg);} 
+    36%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-13_P40.jpg);} 
+    37%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-13_P40.jpg);} 
+    38%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-12_P40.jpg);} 
+    39%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-11_P40.jpg);} 
+
+    40%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-9_P51.jpg);}   
+    41%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-8_P51.jpg);} 
+    42%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-7_P51.jpg);}  
+    43%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-6_P51.jpg);}   
+    44%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-5_P51.jpg);} 
+
+    45%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-4_F4u.jpg);} 
+    46%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-3_F4u.jpg);}  
+    47%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-2_F4u.jpg);} 
+    48%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-1_F4u.jpg);}  
+    49%  {background-image:url(../../../0-1-7_Pic_WW2_Planes/2-3-0_F4u.jpg);} 
+
+    50%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-50_M-plane_f35.jpg);}
+    51%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-49_M-plane_f35.jpg);}
+    52%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-48_M-plane_f35.jpg);}  
+    53%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-47_M-plane_f35.jpg);}
+    54%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-46_M-plane_f35.jpg);} 
+
+    55%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-45_M-plane_f16.jpg);}  
+    56%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-44_M-plane_f16.jpg);}    
+    57%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-43_M-plane_f16.jpg);}     
+    58%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-42_M-plane_f16.jpg);}   
+    59%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-41_M-plane_f16.jpg);}  
+
+    60%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-39_M-plane_f14.jpg);} 
+    61%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-38_M-plane_f14.jpg);}   
+    62%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-38_M-plane_f14.jpg);}   
+    63%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-37_M-plane_f14.jpg);} 
+    64%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-36_M-plane_f14.jpg);} 
+
+    65%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-35_M-plane_f104.jpg);}   
+    66%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-34_M-plane_f104.jpg);}     
+    67%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-33_M-plane_f104.jpg);}       
+    68%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-32_M-plane_f104.jpg);}   
+    69%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-31_M-plane_f104.jpg);} 
+
+    70%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-30_M-plane_F18.jpg);}   
+    71%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-29_M-plane_F18.jpg);} 
+    72%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-28_M-plane_F18.jpg);} 
+    73%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-27_M-plane_F18.webp);} 
+    74%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-26_M-plane_F18.jpg);} 
+
+    75%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-25_M-plane_SU57.jpg);}   
+    76%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-24_M-plane_SU35.jpg);}    
+    77%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-23_M-plane_SU35.jpg);}   
+    78%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-22_M-plane_SU35.jpg);} 
+    79%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-21_M-plane_SU35.jpg);}  
+
+    80%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-20_M-plane_EuroFighter.jpg);}
+    81%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-19_M-plane_EuroFighter.jpg);}
+    82%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-18_M-plane_EuroFighter.jpg);}
+    83%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-17_M-plane_EuroFighter.jpg);}
+    84%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-16_M-plane_EuroFighter.jpg);}
+    
+    85%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-15_M-plane_SU57.jpg);}
+    86%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-14_M-plane_SU57.jpg);}  
+    87%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-13_M-plane_SU57.jpg);}  
+    88%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-12_M-plane_SU57.jpg);}  
+    89%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-11_M-plane_SU57.jpg);}
+
+    91%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-10_M-plane_F15.jpg);}
+    92%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-9_M-plane_F15.jpg);}
+    93%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-8_M-plane_F15.jpg);}
+    94%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-7_M-plane_F15.jpg);}
+    95%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-6_M-plane_F15.jpg);}
+
+    96%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-5_M-plane_F4E.jpg);}
+    97%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-4_M-plane_F4E.jpg);}
+    98%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-3_M-plane_F4E.jpg);}
+    99%  {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-2_M-plane_F4E.jpg);}
+    100% {background-image:url(../../../0-1-6_Pic_Modern_Planes/2-3-1_M-plane_F4E.jpg);}
+    }
+
+/*                   Row 5                    */
+
+.container5 {
+    height: 25vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 30s;
+    animation-name: animate5;
+    animation-direction: alternate-reverse;
+    animation-duration:300s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate5 {
+
+
+    0%   {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-34_M26.jpg);}
+    2%   {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-33_M26.jpg);}
+    4%   {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-32_M26.jpg);}
+    6%   {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-31_M26.jpg);}
+    8%   {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-30_M26.jpg);}
+
+    10%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-29_churchill.jpg);}
+    12%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-28_churchill.jpg);}
+    14%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-27_churchill.jpg);}
+    18%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-26_churchill.jpg);}
+    20%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-25_churchill.jpg);}
+
+    22%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-24_Renalt_FT.jpg);}
+    24%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-23_Renalt_FT.jpg);}
+    26%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-22_Renalt_FT.jpg);}
+    28%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-21_Renalt_FT.jpg);}
+    29%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-20_Renalt_FT.jpg);}
+
+    30%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-19_T34.jpg);}
+    31%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-18_T34.jpg);}
+    32%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-17_T34.jpg);}
+    33%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-16_T34.jpg);}
+    34%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-15_T34.jpg);}
+
+    35%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-14_Sherman.jpg);}
+    36%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-13_Sherman.jpg);}
+    37%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-12_Sherman.jpg);}
+    38%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-11_Sherman.jpg);}
+    39%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-10_Sherman.jpg);}
+
+    40%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-9_Tiger.jpg);}
+    41%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-8_Tiger.jpg);}
+    42%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-7_Tiger.jpg);}
+    43%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-6_Tiger.jpg);}
+    44%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-5_Tiger.jpg);}
+
+    45%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-4_Tiger2.jpg);}
+    46%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-3_Tiger2.jpg);}
+    47%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-2_Tiger2.jpg);}
+    48%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-1_Tiger2.jpg);}
+    49%  {background-image:url(../../../0-1-5_Pic_WW2_Tanks/2-1-0_Tiger2.jpg);}
+
+    50%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-49_KF51_Panther.jpg);}
+    51%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-48_KF51_Panther.jpg);}
+    52%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-47_KF51_Panther.jpg);}
+    53%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-46_KF51_Panther.jpg);}
+    54%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-45_KF51_Panther.jpg);}
+
+    55%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-44_Challenger_2.jpg);}
+    56%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-43_Challenger_2.jpg);}
+    57%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-42_Challenger_2.jpg);}
+    58%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-41_Challenger_2.jpg);}
+    59%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-40_Challenger_2.jpg);}
+
+    60%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-39_Merkava.jpg);}
+    61%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-38_Merkava.jpg);}
+    62%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-37_Merkava.jpg);}
+    63%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-36_Merkava.jpg);}
+    64%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-35_Merkava.jpg);}
+
+    65%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-34_Type90.jpg);}
+    66%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-33_Type90.jpg);}
+    67%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-32_Type90.jpg);}
+    68%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-31_Type90.jpg);}
+    69%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-30_Type90.jpg);}
+
+    70%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-29_T14.jpg);}
+    71%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-28_T14.jpg);}
+    72%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-27_T14.jpg);}
+    73%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-26_T14.jpg);}
+    74%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-25_T14.jpg);}
+
+    75%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-24_Lecleac.jpg);}
+    76%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-23_Lecleac.jpg);}
+    77%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-22_Lecleac.jpg);}
+    78%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-21_Lecleac.jpg);}
+    79%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-20_Lecleac.jpg);}
+
+    80%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-19_K2_Black_Panther.jpg);}
+    81%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-18_K2_Black_Panther.jpg);}
+    82%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-17_K2_Black_Panther.jpg);}
+    83%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-16_K2_Black_Panther.jpg);}
+    84%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-15_K2_Black_Panther.jpg);}
+
+    85%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-14_Leopard_2.jpg);}
+    86%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-13_Leopard_2.jpg);}
+    87%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-12_Leopard_2.jpg);}
+    88%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-11_Leopard_2.jpg);}
+    89%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-10_Leopard_2.jpg);}
+
+
+    90%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-9_T99.jpg);}
+    91%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-8_T99.jpg);}
+    92%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-7_T99.jpg);}
+    93%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-6_T99.jpg);}
+    94%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-5_T99.jpg);}
+
+    95%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-4_Abrams.jpg);}
+    96%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-3_Abrams.jpg);}
+    97%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-2_Abrams.jpg);}
+    98%  {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-1_Abrams.jpg);}
+    100% {background-image:url(../../../0-1-4_Pic_Modern_Tanks/2-1-0_Abrams.jpg);}
+    }
+
+
+/*                   Row 6                    */
+
+.container6 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate6;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate6 {
+    0%   {background-image:url(../1-2-6.Audi_Worthersee/1-1-1.Pics/10_Pic.jpeg);}
+    10%  {background-image:url(../1-2-6.Audi_Worthersee/1-1-1.Pics/9_Pic.jpeg);}
+    20%  {background-image:url(../1-2-6.Audi_Worthersee/1-1-1.Pics/8_Pic.jpeg);}
+    30%  {background-image:url(../1-2-6.Audi_Worthersee/1-1-1.Pics/7_Pic.jpeg);}
+    40%  {background-image:url(../1-2-6.Audi_Worthersee/1-1-1.Pics/6_Pic.jpeg);}
+    50%  {background-image:url(../1-2-6.Audi_Worthersee/1-1-1.Pics/5_Pic.jpeg);}
+    60%  {background-image:url(../1-2-6.Audi_Worthersee/1-1-1.Pics/4_Pic.jpeg);}
+    70%  {background-image:url(../1-2-6.Audi_Worthersee/1-1-1.Pics/3_Pic.jpeg);}
+    80%  {background-image:url(../1-2-6.Audi_Worthersee/1-1-1.Pics/2_Pic.jpeg);}
+    90%  {background-image:url(../1-2-6.Audi_Worthersee/1-1-1.Pics/1_Pic.jpeg);}
+    100% {background-image:url(../1-2-6.Audi_Worthersee/1-1-1.Pics/0_Logo.jpeg);}
+    }
+
+/*                   Row 7                    */
+
+.container7 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate7;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate7 {
+    0%   {background-image:url(../1-2-7.Yeti/1-1-1.Pics/10_Pic.webp);}
+    10%  {background-image:url(../1-2-7.Yeti/1-1-1.Pics/9_Pic.jpeg);}
+    20%  {background-image:url(../1-2-7.Yeti/1-1-1.Pics/8_Pic.jpeg);}
+    30%  {background-image:url(../1-2-7.Yeti/1-1-1.Pics/7_Pic.jpeg);}
+    40%  {background-image:url(../1-2-7.Yeti/1-1-1.Pics/6_Pic.jpeg);}
+    50%  {background-image:url(../1-2-7.Yeti/1-1-1.Pics/5_Pic.jpeg);}
+    60%  {background-image:url(../1-2-7.Yeti/1-1-1.Pics/4_Pic.webp);}
+    70%  {background-image:url(../1-2-7.Yeti/1-1-1.Pics/3_Pic.jpeg);}
+    80%  {background-image:url(../1-2-7.Yeti/1-1-1.Pics/2_Pic.webp);}
+    90%  {background-image:url(../1-2-7.Yeti/1-1-1.Pics/1_Pic.jpeg);}
+    100% {background-image:url(../1-2-7.Yeti/1-1-1.Pics/0_Logo.webp);}
+    }
+
+/*                   Row 8                    */
+
+.container8 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate8;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate8 {
+    0%   {background-image:url(../1-2-8.Revo_Hubless/1-1-1.Pics/10_Pic.png);}
+    10%  {background-image:url(../1-2-8.Revo_Hubless/1-1-1.Pics/9_Pic.jpeg);}
+    20%  {background-image:url(../1-2-8.Revo_Hubless/1-1-1.Pics/8_Pic.jpeg);}
+    30%  {background-image:url(../1-2-8.Revo_Hubless/1-1-1.Pics/7_Pic.jpeg);}
+    40%  {background-image:url(../1-2-8.Revo_Hubless/1-1-1.Pics/6_Pic.jpeg);}
+    50%  {background-image:url(../1-2-8.Revo_Hubless/1-1-1.Pics/5_Pic.png);}
+    60%  {background-image:url(../1-2-8.Revo_Hubless/1-1-1.Pics/4_Pic.jpeg);}
+    70%  {background-image:url(../1-2-8.Revo_Hubless/1-1-1.Pics/3_Pic.webp);}
+    80%  {background-image:url(../1-2-8.Revo_Hubless/1-1-1.Pics/2_Pic.webp);}
+    90%  {background-image:url(../1-2-8.Revo_Hubless/1-1-1.Pics/1_Pic.jpeg);}
+    100% {background-image:url(../1-2-8.Revo_Hubless/1-1-1.Pics/0_Logo.jpeg);}
+    }
+/*                                     Media Queries                             */
+
+
+    @media only screen and (max-width: 1100px){
+        .wrapper{grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);}}
+        ::selection{ float: none; width: 100%; padding-right: 0px; }}
+
+    @media screen and (max-width: 600px) {
+        header h1{ background-image: none; text-align: center; z-index: 3; }
+        nav{ grid-row: 2 / 3; grid-column: 1 / 9; }}
+
+
+
+   .header {
+      color: white;
+      display: grid;
+      grid-template-columns: 70% 25% ;
+      height: 85px;
+      padding-left: 2%;
+      width:98%;
+      font-family: "Fantasy", copperplate;
+      font-size: 40px;
+      border-bottom: 2px solid maroon;
+      z-index: 3;
+      }
+
+    .p1 {font-size: 20px;}
+
+
+

@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  margin-top: 0%;
+  background-image: url("../../0-1-1_Images/1-1-2_Todo_Pics/TodoList1.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: 100%; /* Resize the background image to cover the entire container */
+  height: 1250px;
+  background-position: center; /* Center the image */
+  background-color: #010722;
+}
+
+.container{
+  width: 100%;
+  height: 270px;
+  position: absolute;
+  top: 35%;
+  left: 34%;
+  border-radius: 10px;
+}
+
+.todoList{
+  
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 565px;
+
+}
+
+.deleteTask{
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  background: orangered;
+  color: #ffffff;
+  outline: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.pText{text-transform: capitalize;}
+
+.inputvalue{
+  display: flex;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+.inputVal{
+  width: 450px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 5px;
+  box-shadow: 5px 5px rgba(1, 0, 0, 0.5);
+  background-color: rgb(225, 221, 221);
+  opacity: .6;
+  font-size: 25px;
+  color: rgb(144, 15, 15);
+
+}
+.btn{
+  width: 100px;
+  background: #370309;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline-style: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px #03110c;;
+  
+}
+.clearTask{
+  position: absolute;
+ bottom: 0%;
+ left: 1%;
+ background: white;
+ color: #4b1414;
+ width: 28%;
+ height: 35px;
+ border-radius: 15px;
+ text-transform: capitalize;
+ font-weight: bold;
+ cursor: pointer;
+ outline-style: none;
+ font-size: 25px;
+}
+
+ /*                                ----   Header CSS   -----                   */
+ 
+  header {
+     background: transparent;
+      grid-row: 1/2;
+      grid-column: 1/9;
+      }
+ 
+  header h1 {
+     line-height: 120%;
+     padding: 1rem;
+     margin-bottom: 0px;
+     margin-top: 20px;
+     z-index: 100;
+     }
+   
+    img {height: 50px;}
+    
+  
+ 
+ /*                                ----   Wrapper Method   -----                   */
+ #wrapper {
+
+   display: grid;
+   grid-auto-rows: minmax(0px, auto);
+   z-index: 3;
+   grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+ }
+ 
+ main {
+   padding-left: 2rem;
+   padding-right: 2rem;
+   grid-row: 4 / 5;
+   grid-column: 2 / 8;
+   background-color: #ffffff;
+   z-index: 3;
+ }
+ 
+ 
+ * {box-sizing: border-box;}
+ 
+
+.localTime {
+    margin-left: 20%;
+    color: #810b0b;
+    font-size: 50px;
+    font-weight: 900px;
+    margin-top: 40%;
+}    
+
+#localTime{padding-left: 10px; font-size: 50px;color: rgb(48, 18, 18);}

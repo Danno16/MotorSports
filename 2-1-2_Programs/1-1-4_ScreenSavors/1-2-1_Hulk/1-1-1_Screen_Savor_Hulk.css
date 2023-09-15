@@ -1,0 +1,226 @@
+    body {
+        background: #262626;
+        }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: cursive;
+    color: rgba(64, 154, 81, 0.943);
+    align-items: center;
+}
+
+h1 {font-family: cursive;
+  font-weight:900;
+  align-items: center;
+}
+
+
+.icon {
+  margin: 20px;
+  height: 40px;
+  font-size: 50px;
+  text-decoration: none;
+  color: rgba(32, 85, 41, 0.943);
+}
+
+img {height: 50px;}
+  
+  
+  header {
+    background-image: linear-gradient(to bottom right, rgb(21, 64, 12), yellow);
+       grid-row: 1/2;
+       grid-column: 1/9;
+       }
+
+   header a {
+     height: 100px;
+     font-size: 35px;
+     text-decoration: none;
+     z-index: 100;
+     }
+
+   header h1 {
+     line-height: 140%;
+     padding: .5rem;
+     margin-bottom: 0px;
+     margin: 0px;
+     z-index: 100;
+     }
+
+
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    }
+
+  nav {
+    font-weight: bold;
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    position: sticky;
+    top: 0;
+    background-color: #424242;
+    border-bottom: 2px solid #f5b342;
+    z-index: 100;
+    }
+
+  #wrapper {
+    box-shadow: 0px 3px 3px rgba(66, 66, 66, 0.3);
+    display: grid;
+    grid-auto-rows: minmax(0px, auto);
+    z-index: 3;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    }
+
+  main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    grid-column: 2 / 8;
+    background-color: #ffffff;
+    z-index: 3;
+    }
+
+  * {box-sizing: border-box;}
+
+  nav ul{list-style-type: none;}
+
+  nav ul li{display: inline;}
+
+
+ nav ul {
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   flex-flow: row nowrap;
+   list-style-type: none;
+   z-index: 1;
+   }
+
+ nav ul li {width: 100%;}
+
+ .logo {width: 10%;}
+
+ .dropbtn {
+    width: 100%;
+    background-color: #424242;
+    font-size: 16px;
+    border: none;
+    font-family: "Fantasy", copperplate;
+    color: white;
+    opacity: .5;
+          }
+
+ .dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    z-index: 10;
+    }
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 300s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration:300s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate {
+
+  0%   {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-72.jpeg);}
+  2%   {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-70.jpg);}
+  4%   {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-69.jpg);}
+  6%   {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-68.jpg);}
+  8%   {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-67.jpg);}
+  10%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-66.jpg);}
+  12%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-65.jpg);}
+  14%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-64.jpg);}
+  18%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-63.jpg);}
+  20%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-62.jpg);}
+
+  22%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-61.jpg);}
+  24%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-60.jpg);}
+  26%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-59.jpg);}
+  28%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-58.jpg);}
+  30%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-57.jpg);}
+  32%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-56.jpg);}
+  34%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-55.jpg);}
+  36%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-54.jpg);}
+  38%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-53.jpg);}
+  40%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-52.jpg);}
+
+  42%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-51.jpg);}
+  44%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-50.jpg);}
+  48%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-49.jpg);}
+  50%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-48.jpg);}
+  52%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-47.jpg);}
+  54%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-46.jpg);}
+  56%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-45.jpg);}
+  57%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-44.jpg);}
+  58%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-43.jpg);}
+  59%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-42.jpg);}
+
+
+  60%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-31.jpg);}
+  61%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-30.jpg);}
+  62%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-39.jpg);}
+  63%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-38.jpg);}
+  64%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-37.jpg);}
+  65%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-36.jpg);}
+  66%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-35.jpg);}
+  67%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-34.jpg);}
+  68%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-33.jpg);}
+  69%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-32.jpg);}
+
+  70%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-31.jpg);}
+  71%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-30.jpg);}
+  72%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-29.jpg);}
+  73%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-28.jpg);}
+  74%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-27.jpg);}
+  75%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-26.jpg);}
+  76%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-25.jpg);}
+  77%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-24.jpg);}
+  78%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-23.jpg);}
+  79%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-22.jpg);}
+
+
+  80%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-21.jpg);}
+  81%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-20.jpg);}
+  83%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-18.jpg);}
+  84%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-17.jpg);}
+  85%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-16.jpg);}
+  86%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-15.jpg);}
+  87%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-14.jpg);}
+  88%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-13.jpg);}
+  89%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-12.jpg);}
+
+  
+  90%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-11.jpg);}
+  91%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-10.jpg);}
+  92%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-9.webp);}
+  93%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-8.jpg);}
+  94%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-7.jpg);}
+  95%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-6.jpg);}
+  96%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-5.jpg);}
+  97%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-4.jpg);}
+  98%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-3.jpg);}
+  99%  {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-2.jpg);}
+  100% {background-image:url(../../../0-1-2_Pic_Hulk/Hulk-1.jpg);}
+
+    }
