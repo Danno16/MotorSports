@@ -1,0 +1,506 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Audiowide", sans-serif;
+    color: #0c120a;
+    background: linear-gradient(to left , #797a79, black);
+    }
+  
+  * {box-sizing: border-box;}
+  
+  .icon {
+    text-decoration: none;
+  }
+  
+  .title {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 900;
+    padding-left: 2%;
+    font-size: 55px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px #c15b5b;
+  }
+  
+  img {height: 50px;}
+  
+  nav ul{list-style-type: none;}
+  nav ul li{display: inline;}
+  
+  
+  nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    z-index: 1;
+    }
+  
+  nav ul li { width: 100%;}
+  
+  
+  
+  
+  
+  /*                   -----------    Buttons   --------------------*/
+  
+   .dropbtn {
+      width: 100%;
+      background-color: transparent;
+      font-size: 20px;
+      border: none;
+      font-family: "Fantasy", copperplate;
+      color: white;
+      }
+  
+     .dropdown {
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        z-index: 3;
+        }
+  
+     .dropdown-content {
+        background: white;
+        color: white;
+        text-align: left;
+        display: none;
+        font-family: "Fantasy", copperplate;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 3;
+        }
+  
+     .dropdown-content a {
+       text-align: left;
+       color: black;
+       width: 350px;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       z-index: 3;
+       }
+  
+     .dropbtn:hover {background-color: red;cursor: pointer;}
+  
+     .dropdown:hover .dropdown-content {display: block; }
+  
+  
+     /*
+                    CSS FOR SERVICES
+  */
+    .services {
+      padding-top: 45px;
+      width: 100%;
+      font-family: "Fantasy", copperplate;
+      height: 00px;
+      display: grid;
+      grid-template-columns: 10% 80% 10%;
+      grid-template-rows: 400px 150px;
+      margin-top: 2%;
+      margin-left: 1%;
+      z-index: 500;
+      }
+  
+    .services1 {
+      background:white;
+      color: black;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 70px 40px 40px 40px 40px 40px 40px;
+      font-size: 35px;
+      border-top: 2px solid Red;
+      border-bottom: 4px solid Red;
+      border-left: 2px solid Red;
+      border-right: 4px solid rgb(60, 0, 255);
+      box-shadow: 20px 8px 16px 0px black;
+      padding-left: 30px;
+      }
+  
+     .services2 {font-size: 25px;}
+  
+  
+  
+  /*----------------------------------------------------------------------
+                           CSS for Gallery
+  ----------------------------------------------------------------------*/
+     .Gallery_main-page {
+       padding-top: 50px;
+       display: grid;
+       grid-template-columns: 1% 48% 1% 48%;
+       grid-template-rows:  17% 1% 17% 1% 17% 1% 17% 1% 17% 1% 
+                            17% 1% 12% 1% 12% 1% 12% 1% 12% 1% 
+                            12% 1% 12% 1% 12% 1% 12% 1% 12% 1%;
+       font-size: 20px;
+       font-weight: bold;
+       }
+  
+     .Gallery_Image {
+      width: 100%;
+      height: 100%;
+      box-shadow: 20px 8px 16px 0px black;
+      transition: 0.9s;
+      z-index: 500;
+      }
+  
+    .Gallery_Image :hover {
+      opacity: 0.8;
+      }
+  
+      .items_Gallery {
+        height: 100%;
+  
+        color: white;
+        box-shadow: 0px 8px 16px 0px black;;
+        opacity: .9;
+        padding-left: 10%;
+        }
+  
+  /*                                    Slide Show                            */
+      .grid-1 {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 10% 80% 5%;
+        z-index: 500;
+        }
+  
+  
+  /*----------------------------------------------------------------------
+                          Transitions Code
+  ----------------------------------------------------------------------*/
+  
+  /*                   Row 1                    */
+.container1 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate1;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate1 {
+
+    0%    {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/10_Pic.webp);}
+    10%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/9_Pic.jfif);}
+    20%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/8_Pic.png);}
+    30%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/7_Pic.webp);}
+    40%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/6_Pic.webp);}
+    50%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/5_Pic.jpg);}
+    60%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/4_Pic.jfif);}
+    70%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/4_Pic.jpg);}
+    80%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/3_Pic.jpg);}
+    90%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/2_Pic.jpg);}
+    100%  {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/1_Pic.jpg);}
+    }
+
+/*                   Row 2                    */
+
+.container2 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate2;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate2 {
+
+    0%    {background-image:url(../../1-1-129_Pics_E_Trucks_Ford_Maverick/10_Pic.webp);}
+    10%   {background-image:url(../../1-1-129_Pics_E_Trucks_Ford_Maverick/9_Pic.webp);}
+    20%   {background-image:url(../../1-1-129_Pics_E_Trucks_Ford_Maverick/9_Pic.jfif);}
+    30%   {background-image:url(../../1-1-129_Pics_E_Trucks_Ford_Maverick/8_Pic.webp);}
+    40%   {background-image:url(../../1-1-129_Pics_E_Trucks_Ford_Maverick/8_Pic.jfif);}
+    50%   {background-image:url(../../1-1-129_Pics_E_Trucks_Ford_Maverick/6_Pic.jpg);}
+    60%   {background-image:url(../../1-1-129_Pics_E_Trucks_Ford_Maverick/5_Pic.jpg);}
+    70%   {background-image:url(../../1-1-129_Pics_E_Trucks_Ford_Maverick/4_Pic.jpg);}
+    80%   {background-image:url(../../1-1-129_Pics_E_Trucks_Ford_Maverick/3_Pic.jpg);}
+    90%   {background-image:url(../../1-1-129_Pics_E_Trucks_Ford_Maverick/2_Pic.jpg);}
+    100%  {background-image:url(../../1-1-129_Pics_E_Trucks_Ford_Maverick/1_Pic.jpg);}
+    }
+
+/*                   Row 3                    */
+
+.container3 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate3;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate3 {
+    0%    {background-image:url(../../1-1-130_Pics_E_Trucks_Ford_Lightning/10_Pic.jpg);}
+    10%   {background-image:url(../../1-1-130_Pics_E_Trucks_Ford_Lightning/9_Pic.jpg);}
+    20%   {background-image:url(../../1-1-130_Pics_E_Trucks_Ford_Lightning/8_Pic.jpg);}
+    30%   {background-image:url(../../1-1-130_Pics_E_Trucks_Ford_Lightning/7_Pic.jpg);}
+    40%   {background-image:url(../../1-1-130_Pics_E_Trucks_Ford_Lightning/7_Pic.jpeg);}
+    50%   {background-image:url(../../1-1-130_Pics_E_Trucks_Ford_Lightning/6_Pic.jpg);}
+    60%   {background-image:url(../../1-1-130_Pics_E_Trucks_Ford_Lightning/5_Pic.jpg);}
+    70%   {background-image:url(../../1-1-130_Pics_E_Trucks_Ford_Lightning/4_Pic.webp);}
+    80%   {background-image:url(../../1-1-130_Pics_E_Trucks_Ford_Lightning/3_Pic.webp);}
+    90%   {background-image:url(../../1-1-130_Pics_E_Trucks_Ford_Lightning/2_Pic.webp);}
+    100%  {background-image:url(../../1-1-130_Pics_E_Trucks_Ford_Lightning/1_Pic.webp);}
+    }
+
+/*                   Row 4                    */
+
+.container4 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate4;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate4 {
+    0%    {background-image:url(../../1-1-131_Pics_E_Trucks_chevy_Silverado/8_Pic.jfif);}
+    10%   {background-image:url(../../1-1-131_Pics_E_Trucks_chevy_Silverado/1_Pic.webp);}
+    20%   {background-image:url(../../1-1-131_Pics_E_Trucks_chevy_Silverado/7_Pic.jfif);}
+    30%   {background-image:url(../../1-1-131_Pics_E_Trucks_chevy_Silverado/6_Pic.jpg);}
+    40%   {background-image:url(../../1-1-131_Pics_E_Trucks_chevy_Silverado/5_Pic.webp);}
+    50%   {background-image:url(../../1-1-131_Pics_E_Trucks_chevy_Silverado/11_Pic.jpg);}
+    60%   {background-image:url(../../1-1-131_Pics_E_Trucks_chevy_Silverado/4_Pic.webp);}
+    70%   {background-image:url(../../1-1-131_Pics_E_Trucks_chevy_Silverado/7_Pic.jpg);}
+    80%   {background-image:url(../../1-1-131_Pics_E_Trucks_chevy_Silverado/3_Pic.webp);}
+    90%   {background-image:url(../../1-1-131_Pics_E_Trucks_chevy_Silverado/2_Pic.webp);}
+    100%  {background-image:url(../../1-1-131_Pics_E_Trucks_chevy_Silverado/1_Pic.webp);}
+    }
+
+/*                   Row 5                    */
+
+.container5 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate5;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate5 {
+
+    0%    {background-image:url(../../1-1-132_Pics_E_Trucks_chevy_Hummer/11_Pic.webp);}
+    10%   {background-image:url(../../1-1-132_Pics_E_Trucks_chevy_Hummer/10_Pic.webp);}
+    20%   {background-image:url(../../1-1-132_Pics_E_Trucks_chevy_Hummer/9_Pic.webp);}
+    30%   {background-image:url(../../1-1-132_Pics_E_Trucks_chevy_Hummer/8_Pic.webp);}
+    40%   {background-image:url(../../1-1-132_Pics_E_Trucks_chevy_Hummer/7_Pic.webp);}
+    50%   {background-image:url(../../1-1-132_Pics_E_Trucks_chevy_Hummer/6_Pic.webp);}
+    60%   {background-image:url(../../1-1-132_Pics_E_Trucks_chevy_Hummer/5_Pic.jpg);}
+    70%   {background-image:url(../../1-1-132_Pics_E_Trucks_chevy_Hummer/4_Pic.jpg);}
+    80%   {background-image:url(../../1-1-132_Pics_E_Trucks_chevy_Hummer/3_Pic.jpg);}
+    90%   {background-image:url(../../1-1-132_Pics_E_Trucks_chevy_Hummer/2_Pic.jpg);}
+    100%  {background-image:url(../../1-1-132_Pics_E_Trucks_chevy_Hummer/1_Pic.jpg);}
+
+    }
+
+
+/*                   Row 6                    */
+
+.container6 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate6;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate6 {
+    0%    {background-image:url(../../1-1-133_Pics_E_Trucks_VanderHall_Brawley/11_Pic.jpg);}
+    10%   {background-image:url(../../1-1-133_Pics_E_Trucks_VanderHall_Brawley/12_Pic.jfif);}
+    20%   {background-image:url(../../1-1-133_Pics_E_Trucks_VanderHall_Brawley/9_Pic.jpg);}
+    30%   {background-image:url(../../1-1-133_Pics_E_Trucks_VanderHall_Brawley/8_Pic.jpg);}
+    40%   {background-image:url(../../1-1-133_Pics_E_Trucks_VanderHall_Brawley/7_Pic.jpg);}
+    50%   {background-image:url(../../1-1-133_Pics_E_Trucks_VanderHall_Brawley/6_Pic.jpg);}
+    60%   {background-image:url(../../1-1-133_Pics_E_Trucks_VanderHall_Brawley/5_Pic.jpg);}
+    70%   {background-image:url(../../1-1-133_Pics_E_Trucks_VanderHall_Brawley/4_Pic.jpg);}
+    80%   {background-image:url(../../1-1-133_Pics_E_Trucks_VanderHall_Brawley/3_Pic.webp);}
+    90%   {background-image:url(../../1-1-133_Pics_E_Trucks_VanderHall_Brawley/2_Pic.webp);}
+    100%  {background-image:url(../../1-1-133_Pics_E_Trucks_VanderHall_Brawley/1_Pic.webp);}
+    }
+
+/*                   Row 7                    */
+
+.container7 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate7;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate7 {
+    0%   {background-image:url(../../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/3_Pic.jpg);}
+    10%  {background-image:url(../../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/1_Pic.jfif);}
+    20%  {background-image:url(../../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/11_Pic.webp);}
+    30%  {background-image:url(../../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/11_Pic.jpg);}
+    40%  {background-image:url(../../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/10_Pic.jpg);}
+    50%  {background-image:url(../../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/9_Pic.jpg);}
+    60%  {background-image:url(../../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/8_Pic.jpg);}
+    70%  {background-image:url(../../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/6_Pic.jpg);}
+    80%  {background-image:url(../../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/7_Pic.jpg);}
+    90%  {background-image:url(../../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/3_Pic.jpg);}
+    100% {background-image:url(../../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/1_Pic.jfif);}
+
+    }
+
+/*                   Row 8                    */
+
+.container8 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate8;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate8 {
+    0%     {background-image:url(../1-1-8.MG_4/1-1-1.Pics/7_Pic.jpg);}
+    10%   {background-image:url(../1-1-8.MG_4/1-1-1.Pics/7_pic.png);}
+    20%   {background-image:url(../1-1-8.MG_4/1-1-1.Pics/11_Pic.jpg);}
+    30%   {background-image:url(../1-1-8.MG_4/1-1-1.Pics/10_Pic.jpg);}
+    40%   {background-image:url(../1-1-8.MG_4/1-1-1.Pics/9_Pic.jpg);}
+    50%   {background-image:url(../1-1-8.MG_4/1-1-1.Pics/8_Pic.jpg);}
+    60%   {background-image:url(../1-1-8.MG_4/1-1-1.Pics/7_Pic.jpg);}
+    70%   {background-image:url(../1-1-8.MG_4/1-1-1.Pics/4_Pic.jfif);}
+    80%   {background-image:url(../1-1-8.MG_4/1-1-1.Pics/3_Pic.jfif);}
+    90%   {background-image:url(../1-1-8.MG_4/1-1-1.Pics/2_Pic.jfif);}
+    100% {background-image:url(../1-1-8.MG_4/1-1-1.Pics/1_Pic.jfif);}
+}
+/*                   Row 9                   */
+
+.container9 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate9;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate9 {
+    0%     {background-image:url(../1-1-9.Polestar_2/1-1-1.Pics/7_Pic.webp);}
+    10%   {background-image:url(../1-1-9.Polestar_2/1-1-1.Pics/6_Pic.webp);}
+    20%   {background-image:url(../1-1-9.Polestar_2/1-1-1.Pics/5_Pic.webp);}
+    30%   {background-image:url(../1-1-9.Polestar_2/1-1-1.Pics/11_Pic.jfif);}
+    40%   {background-image:url(../1-1-9.Polestar_2/1-1-1.Pics/10_Pic.jfif);}
+    50%   {background-image:url(../1-1-9.Polestar_2/1-1-1.Pics/9_Pic.jfif);}
+    60%   {background-image:url(../1-1-9.Polestar_2/1-1-1.Pics/8_Pic.jfif);}
+    70%   {background-image:url(../1-1-9.Polestar_2/1-1-1.Pics/4_Pic.jpg);}
+    80%   {background-image:url(../1-1-9.Polestar_2/1-1-1.Pics/3_Pic.jpg);}
+    90%   {background-image:url(../1-1-9.Polestar_2/1-1-1.Pics/2_Pic.jpg);}
+    100% {background-image:url(../1-1-9.Polestar_2/1-1-1.Pics/1_Pic.jpg);}
+    }
+/*                                     Media Queries                             */
+
+
+    @media only screen and (max-width: 1100px){
+        .wrapper{grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);}}
+        ::selection{ float: none; width: 100%; padding-right: 0px; }}
+
+    @media screen and (max-width: 600px) {
+        header h1{ background-image: none; text-align: center; z-index: 3; }
+        nav{ grid-row: 2 / 3; grid-column: 1 / 9; }}
+
+
+
+   .header {
+      color: white;
+      display: grid;
+      grid-template-columns: 70% 25% ;
+      height: 85px;
+      padding-left: 2%;
+      width:98%;
+      font-family: "Fantasy", copperplate;
+      font-size: 40px;
+      border-bottom: 2px solid maroon;
+      z-index: 3;
+      }
+
+    .p1 {font-size: 20px;}
+
+
+
