@@ -1,0 +1,488 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Audiowide", sans-serif;
+    color: #0c120a;
+    background: linear-gradient(to left , #797a79, black);
+    }
+  
+  * {box-sizing: border-box;}
+  
+  .icon {
+    text-decoration: none;
+  }
+  
+  .title {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 900;
+    padding-left: 2%;
+    font-size: 55px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px #c15b5b;
+  }
+  
+  img {height: 50px;}
+  
+  nav ul{list-style-type: none;}
+  nav ul li{display: inline;}
+  
+  
+  nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    z-index: 1;
+    }
+  
+  nav ul li { width: 100%;}
+  
+  
+  
+  
+  
+  /*                   -----------    Buttons   --------------------*/
+  
+   .dropbtn {
+      width: 100%;
+      background-color: transparent;
+      font-size: 20px;
+      border: none;
+      font-family: "Fantasy", copperplate;
+      color: white;
+      }
+  
+     .dropdown {
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        z-index: 3;
+        }
+  
+     .dropdown-content {
+        background: white;
+        color: white;
+        text-align: left;
+        display: none;
+        font-family: "Fantasy", copperplate;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 3;
+        }
+  
+     .dropdown-content a {
+       text-align: left;
+       color: black;
+       width: 350px;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       z-index: 3;
+       }
+  
+     .dropbtn:hover {background-color: red;cursor: pointer;}
+  
+     .dropdown:hover .dropdown-content {display: block; }
+  
+  
+     /*
+                    CSS FOR SERVICES
+  */
+    .services {
+      padding-top: 45px;
+      width: 100%;
+      font-family: "Fantasy", copperplate;
+      height: 00px;
+      display: grid;
+      grid-template-columns: 10% 80% 10%;
+      grid-template-rows: 400px 150px;
+      margin-top: 2%;
+      margin-left: 1%;
+      z-index: 500;
+      }
+  
+    .services1 {
+      background:white;
+      color: black;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 70px 40px 40px 40px 40px 40px 40px;
+      font-size: 35px;
+      border-top: 2px solid Red;
+      border-bottom: 4px solid Red;
+      border-left: 2px solid Red;
+      border-right: 4px solid rgb(60, 0, 255);
+      box-shadow: 20px 8px 16px 0px black;
+      padding-left: 30px;
+      }
+  
+     .services2 {font-size: 25px;}
+  
+  
+  
+  /*----------------------------------------------------------------------
+                           CSS for Gallery
+  ----------------------------------------------------------------------*/
+     .Gallery_main-page {
+       padding-top: 50px;
+       display: grid;
+       grid-template-columns: 1% 48% 1% 48%;
+       grid-template-rows:  12% 1% 12% 1% 12% 1% 12% 1% 12% 1%  
+                            12% 1% 12% 1% 12% 1% 12% 1% 12% 1% 
+                            12% 1% 12% 1% 12% 1% 12% 1% 12% 1%  ;
+       font-size: 20px;
+       font-weight: bold;
+       }
+  
+     .Gallery_Image {
+      width: 100%;
+      height: 100%;
+      box-shadow: 20px 8px 16px 0px black;
+      transition: 0.9s;
+      z-index: 500;
+      }
+  
+    .Gallery_Image :hover {
+      opacity: 0.8;
+      }
+  
+      .items_Gallery {
+        height: 100%;
+  
+        color: white;
+        box-shadow: 0px 8px 16px 0px black;;
+        opacity: .9;
+        padding-left: 10%;
+        }
+  
+  /*                                    Slide Show                            */
+      .grid-1 {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 10% 80% 5%;
+        z-index: 500;
+        }
+  
+  
+  /*----------------------------------------------------------------------
+                          Transitions Code
+  ----------------------------------------------------------------------*/
+  
+  /*                   Row 1                    */
+
+.container1 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate1;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate1 {
+    0%   {background-image:url(../../1-1-103_Pics_E_Motorcycle_Zero_FX/11_Pic.webp);}
+    10%   {background-image:url(../../1-1-103_Pics_E_Motorcycle_Zero_FX/10_Pic.webp);}
+    20%   {background-image:url(../../1-1-103_Pics_E_Motorcycle_Zero_FX/9_Pic.webp);}
+    30%   {background-image:url(../../1-1-103_Pics_E_Motorcycle_Zero_FX/8_Pic.jpg);}
+    40%   {background-image:url(../../1-1-103_Pics_E_Motorcycle_Zero_FX/7_Pic.jpg);}
+    50%   {background-image:url(../../1-1-103_Pics_E_Motorcycle_Zero_FX/6_Pic.jpg);}
+    60%   {background-image:url(../../1-1-103_Pics_E_Motorcycle_Zero_FX/5_Pic.jpg);}
+    70%   {background-image:url(../../1-1-103_Pics_E_Motorcycle_Zero_FX/4_Pic.jpg);}
+    80%   {background-image:url(../../1-1-103_Pics_E_Motorcycle_Zero_FX/3_Pic.jpg);}
+    90%   {background-image:url(../../1-1-103_Pics_E_Motorcycle_Zero_FX/2_Pic.jpg);}
+    100%  {background-image:url(../../1-1-103_Pics_E_Motorcycle_Zero_FX/1_Pic.jpg);}
+    }
+
+/*                   Row 2                    */
+
+.container2 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate2;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate2 {
+
+    0%    {background-image:url(../../1-1-105_Pics_E_Motorcycle_Zero_SR/10_Pic.jpg);}
+    10%   {background-image:url(../../1-1-105_Pics_E_Motorcycle_Zero_SR/9_Pic.jpg);}
+    20%   {background-image:url(../../1-1-105_Pics_E_Motorcycle_Zero_SR/8_Pic.jfif);}
+    30%   {background-image:url(../../1-1-105_Pics_E_Motorcycle_Zero_SR/8_Pic.jpg);}
+    40%   {background-image:url(../../1-1-105_Pics_E_Motorcycle_Zero_SR/7_Pic.jpg);}
+    50%   {background-image:url(../../1-1-105_Pics_E_Motorcycle_Zero_SR/6_Pic.webp);}
+    60%   {background-image:url(../../1-1-105_Pics_E_Motorcycle_Zero_SR/5_Pic.jfif);}
+    70%   {background-image:url(../../1-1-105_Pics_E_Motorcycle_Zero_SR/4_Pic.jfif);}
+    80%   {background-image:url(../../1-1-105_Pics_E_Motorcycle_Zero_SR/3_Pic.webp);}
+    90%   {background-image:url(../../1-1-105_Pics_E_Motorcycle_Zero_SR/2_Pic.avif);}
+    100%  {background-image:url(../../1-1-105_Pics_E_Motorcycle_Zero_SR/1_Pic.png);}
+    }
+
+/*                   Row 3                    */
+
+.container3 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate3;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate3 {
+    0%    {background-image:url(../../1-1-106_Pics_E_Motorcycle_Zero_S/1_Pic.jfif);}
+    10%   {background-image:url(../../1-1-106_Pics_E_Motorcycle_Zero_S/6_Pic.jpg);}
+    20%   {background-image:url(../../1-1-106_Pics_E_Motorcycle_Zero_S/13_Pic.jfif);}
+    30%   {background-image:url(../../1-1-106_Pics_E_Motorcycle_Zero_S/12_Pic.jpg);}
+    40%   {background-image:url(../../1-1-106_Pics_E_Motorcycle_Zero_S/9_Pic.jpg);}
+    50%   {background-image:url(../../1-1-106_Pics_E_Motorcycle_Zero_S/6_Pic.jpg);}
+    60%   {background-image:url(../../1-1-106_Pics_E_Motorcycle_Zero_S/7_Pic.webp);}
+    70%   {background-image:url(../../1-1-106_Pics_E_Motorcycle_Zero_S/5_Pic.jfif);}
+    80%   {background-image:url(../../1-1-106_Pics_E_Motorcycle_Zero_S/3_Pic.jfif);}
+    90%   {background-image:url(../../1-1-106_Pics_E_Motorcycle_Zero_S/2_Pic.jfif);}
+    100%  {background-image:url(../../1-1-106_Pics_E_Motorcycle_Zero_S/1_Pic.jfif);}
+    }
+
+/*                   Row 4                    */
+
+.container4 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate4;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate4 {
+    0%    {background-image:url(../../1-1-108_Pics_E_Motorcycle_Zero_DS/11_PIc.jfif);}
+    10%   {background-image:url(../../1-1-108_Pics_E_Motorcycle_Zero_DS/10_Pic.jpg);}
+    20%   {background-image:url(../../1-1-108_Pics_E_Motorcycle_Zero_DS/9_Pic.jpg);}
+    30%   {background-image:url(../../1-1-108_Pics_E_Motorcycle_Zero_DS/8_PIc.jfif);}
+    40%   {background-image:url(../../1-1-108_Pics_E_Motorcycle_Zero_DS/7_PIc.jfif);}
+    50%   {background-image:url(../../1-1-108_Pics_E_Motorcycle_Zero_DS/6_PIc.jfif);}
+    60%   {background-image:url(../../1-1-108_Pics_E_Motorcycle_Zero_DS/5_PIc.jfif);}
+    70%   {background-image:url(../../1-1-108_Pics_E_Motorcycle_Zero_DS/4_Pic.jpg);}
+    80%   {background-image:url(../../1-1-108_Pics_E_Motorcycle_Zero_DS/3_Pic.jpg);}
+    90%   {background-image:url(../../1-1-108_Pics_E_Motorcycle_Zero_DS/2_Pic.jpeg);}
+    100%  {background-image:url(../../1-1-108_Pics_E_Motorcycle_Zero_DS/1_Pic.jpg);}
+    }
+
+/*                   Row 5                    */
+
+.container5 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate5;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate5 {
+
+    0%    {background-image:url(../../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/11_Pic.png);}
+    10%   {background-image:url(../../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/10_Pic.png);}
+    20%   {background-image:url(../../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/9_Pic.jpg);}
+    30%   {background-image:url(../../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/8_Pic.jfif);}
+    40%   {background-image:url(../../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/7_Pic.jfif);}
+    50%   {background-image:url(../../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/6_Pic.jpg);}
+    60%   {background-image:url(../../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/5_Pic.webp);}
+    70%   {background-image:url(../../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/4_Pic.webp);}
+    80%   {background-image:url(../../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/3_Pic.png);}
+    90%   {background-image:url(../../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/2_Pic.png);}
+    100%  {background-image:url(../../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/1_Pic.png);}
+    }
+
+
+/*                   Row 6                    */
+
+.container6 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate6;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate6 {
+    0%    {background-image:url(../../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/8_Pic.jpg);}
+    10%   {background-image:url(../../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/5_Pic.webp);}
+    20%   {background-image:url(../../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/4_Pic.webp);}
+    30%   {background-image:url(../../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/2_Pic.avif);}
+    40%   {background-image:url(../../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/1_Pic.avif);}
+    50%   {background-image:url(../../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/11_Pic.jpg);}
+    60%   {background-image:url(../../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/10_Pic.jpg);}
+    70%   {background-image:url(../../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/9_Pic.jpg);}
+    80%   {background-image:url(../../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/8_Pic.jpg);}
+    90%   {background-image:url(../../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/7_Pic.jpg);}
+    100%  {background-image:url(../../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/6_Pic.jpg);}
+    }
+
+/*                   Row 7                    */
+
+.container7 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate7;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate7 {
+    0%    {background-image:url(../../1-1-111_Pics_E_Motorcycle_FreeRide_E_xc/11_Pic.jpeg);}
+    10%   {background-image:url(../../1-1-111_Pics_E_Motorcycle_FreeRide_E_xc/10_pic.jpg);}
+    20%   {background-image:url(../../1-1-111_Pics_E_Motorcycle_FreeRide_E_xc/9_pic.jpg);}
+    30%   {background-image:url(../../1-1-111_Pics_E_Motorcycle_FreeRide_E_xc/8_pic.jpg);}
+    40%   {background-image:url(../../1-1-111_Pics_E_Motorcycle_FreeRide_E_xc/7_pic.jpg);}
+    50%   {background-image:url(../../1-1-111_Pics_E_Motorcycle_FreeRide_E_xc/6_pic.jpg);}
+    60%   {background-image:url(../../1-1-111_Pics_E_Motorcycle_FreeRide_E_xc/5_pic.jpg);}
+    70%   {background-image:url(../../1-1-111_Pics_E_Motorcycle_FreeRide_E_xc/4_pic.jpg);}
+    80%   {background-image:url(../../1-1-111_Pics_E_Motorcycle_FreeRide_E_xc/3_pic.jpg);}
+    90%   {background-image:url(../../1-1-111_Pics_E_Motorcycle_FreeRide_E_xc/2_Pic.jpg);}
+    100%  {background-image:url(../../1-1-111_Pics_E_Motorcycle_FreeRide_E_xc/1_pic.jpg);}
+}
+/*                   Row 8                    */
+
+.container8 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate8;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate8 {
+    0%    {background-image:url(../../1-1-112_Pics_E_Motorcycle_Onyx_RCR/6_Pic.webp);}
+    10%   {background-image:url(../../1-1-112_Pics_E_Motorcycle_Onyx_RCR/5_Pic.avif);}
+    20%   {background-image:url(../../1-1-112_Pics_E_Motorcycle_Onyx_RCR/4_Pic.webp);}
+    30%   {background-image:url(../../1-1-112_Pics_E_Motorcycle_Onyx_RCR/3_Pic.webp);}
+    40%   {background-image:url(../../1-1-112_Pics_E_Motorcycle_Onyx_RCR/2_Pic.jfif);}
+    50%   {background-image:url(../../1-1-112_Pics_E_Motorcycle_Onyx_RCR/1_Pic.avif);}
+    60%   {background-image:url(../../1-1-112_Pics_E_Motorcycle_Onyx_RCR/11_Pic.jpg);}
+    70%   {background-image:url(../../1-1-112_Pics_E_Motorcycle_Onyx_RCR/10_Pic.jpg);}
+    80%   {background-image:url(../../1-1-112_Pics_E_Motorcycle_Onyx_RCR/9_Pic.jpg);}
+    90%   {background-image:url(../../1-1-112_Pics_E_Motorcycle_Onyx_RCR/8_Pic.jpg);}
+    100%  {background-image:url(../../1-1-112_Pics_E_Motorcycle_Onyx_RCR/7_Pic.jpg);}
+}
+/*                   Row 9                   */
+
+.container9 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate9;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate9 {
+    0%    {background-image:url(../../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/8_Pic.webp);}
+    10%   {background-image:url(../../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/11_Pic.webp);}
+    20%   {background-image:url(../../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/10_Pic.webp);}
+    30%   {background-image:url(../../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/8_Pic.jpg);}
+    40%   {background-image:url(../../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/7_Pic.jpg);}
+    50%   {background-image:url(../../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/6_Pic.jpg);}
+    60%   {background-image:url(../../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/5_Pic.jpg);}
+    70%   {background-image:url(../../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/4_Pic.jpg);}
+    80%   {background-image:url(../../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/3_Pic.jpg);}
+    90%   {background-image:url(../../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/2_Pic.jpg);}
+    100%  {background-image:url(../../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/1_Pic.jpg);}
+    }
+
+
+
+
+  
+    /*                                     Media Queries                             */
+
+
+    @media only screen and (max-width: 1100px){
+        .wrapper{grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);}}
+        ::selection{ float: none; width: 100%; padding-right: 0px; }
+
+    @media screen and (max-width: 600px) {
+        header h1{ background-image: none; text-align: center; z-index: 3; }
+        nav{ grid-row: 2 / 3; grid-column: 1 / 9; }}

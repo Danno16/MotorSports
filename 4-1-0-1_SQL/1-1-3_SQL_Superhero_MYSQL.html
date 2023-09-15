@@ -1,0 +1,1833 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SQL SuperHero -  MySQL Code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="0-1-2_SQL_Superhero.css">
+
+</head>
+
+  <header>
+    <div id="wrapper">
+      <a class="icon" href="1-1-1_SQL_Superhero_ERG.html"><img src="../../../0-1-1_Images/Red_Back_Button.png"> </a>
+      <a class="title"> SQL SuperHero -  MySQL Code </a>
+      <a class="titleDescription">SQL Example </a>
+    </div>
+   </header>
+   <div>a</div>
+
+   <head>
+    <div id="navigation_bar">
+        <a class="btn" href="1-1-1_SQL_Superhero_ERG.html"> SQL Superhero - ERG</a>
+        <a class="btn" href="1-1-2_SQL_Superhero_Data_Layout.html"> SQL Superhero - Data Layout </a>
+        <a class="btn" href="1-1-3_SQL_Superhero_MYSQL.html"> SQL Superhero - MySQL Coding </a><p></p>
+    </div> 
+  </head>    
+   
+  <body>
+    <div class ="boxes">  
+      <div class="box1">
+        <h3> SQL Coding - Create  Tables  </p>              <!--                         Box 1                 -->        
+      <div class="sql1">    
+       <p><span class="sqlblue">CREATE TABLE</span> a_1_1_main_menu ( </p>   
+       <div class="sqlCodeLayout">
+        <a></a><a>id_name</a>  <a class="sqlblue">INT PRIMARY KEY AUTO_INCREMENT,</a>  
+        <a></a><a>name</a>  <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">40<span class="sqlBlack">)</span></span>,</a>  
+        <a></a><a>comic</a>  <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">1<span class="sqlBlack">)</span></span>,</a>  
+        <a></a><a>sex</a>  <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">1<span class="sqlBlack">)</span></span>,</a>  
+        <a></a><a>hero_villian</a>  <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">1<span class="sqlBlack">)</span></span>,</a>  
+        <a></a><a>intellgence</a>  <a class="sqlblue">int,</a>  
+        <a></a><a>strength</a>  <a class="sqlblue">int,</a>  
+        <a></a><a>pupularity</a>  <a class="sqlblue">int,</a>  
+        <a></a><a>);</a><a></a>  
+        </div>
+
+
+        <p><span class="sqlblue">CREATE TABLE</span> a_1_2_comic_script ( </p>   
+        <div class="sqlCodeLayout">
+         <a></a><a>comic_ind 	</a>   <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">1<span class="sqlBlack">)</span></span> PRIMARY KEY,</a>  
+         <a></a><a>comic_name	</a>  <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">40<span class="sqlBlack">)</span></span>,</a>  
+         <a></a><a>);</a><a></a>  
+        </div>
+
+        <p><span class="sqlblue">CREATE TABLE</span> a_1_3_comic_owner ( </p>   
+        <div class="sqlCodeLayout">
+         <a></a><a>id_comic_owner </a><a class="sqlblue">INT PRIMARY KEY auto_increment , </a>  
+         <a></a><a>comic_ind 		  </a> <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">1<span class="sqlBlack">)</span></span>,</a>  
+         <a></a><a>Who_Owns_comic </a><a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">40<span class="sqlBlack">)</span></span>,</a>  
+         <a></a><a>date_bought		</a><a class="sqlblue">DATE </a>  
+         <a></a><a>);</a><a></a>  
+        </div>
+
+        <p><span class="sqlblue">CREATE TABLE</span> a_1_4_sex_discription ( </p>   
+        <div class="sqlCodeLayout">
+         <a></a><a>sex_ind 	</a>   <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">1<span class="sqlBlack">)</span></span> PRIMARY KEY,</a>  
+         <a></a><a>sex_disc	</a>  <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">10<span class="sqlBlack">)</span></span>,</a>  
+         <a></a><a>);</a><a></a>  
+        </div>
+
+        <p><span class="sqlblue">CREATE TABLE</span> a_1_5_hero_villian( </p>   
+        <div class="sqlCodeLayout">
+         <a></a><a>hero_ind 	</a>   <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">1<span class="sqlBlack">)</span></span> PRIMARY KEY,</a>  
+         <a></a><a>hero_disc	</a>  <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">10<span class="sqlBlack">)</span></span>,</a>  
+         <a></a><a>);</a><a></a>  
+        </div>
+
+        <p><span class="sqlblue">CREATE TABLE</span> a_1_6_intel( </p>   
+        <div class="sqlCodeLayout">
+         <a></a><a>intel_lvl	 </a><a class="sqlblue">INT PRIMARY KEY, </a>  
+         <a></a><a>intel_disc	</a>  <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">30<span class="sqlBlack">)</span></span>,</a>  
+         <a></a><a>);</a><a></a>  
+        </div>
+        
+        <p><span class="sqlblue">CREATE TABLE</span> a_1_7_strength( </p>   
+        <div class="sqlCodeLayout">
+         <a></a><a>strength_lvl </a><a class="sqlblue">INT PRIMARY KEY, </a>  
+         <a></a><a>strength_disc	</a>  <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">30<span class="sqlBlack">)</span></span>,</a>  
+         <a></a><a>);</a><a></a>  
+        </div>
+
+        <p><span class="sqlblue">CREATE TABLE</span> a_1_8_popularity( </p>   
+        <div class="sqlCodeLayout">
+         <a></a><a>popular_lvl </a><a class="sqlblue">INT PRIMARY KEY, </a>  
+         <a></a><a>popular_disc	</a>  <a class="sqlblue">VARCHAR <span class="sqlBlack">(</span></span><span class="sqlOrange">30<span class="sqlBlack">)</span></span>,</a>  
+         <a></a><a>);</a><a></a>  
+        </div>
+      </div> 
+  
+        <h3> SQL Coding - Add Data to Tables  </p>              <!--                         Box 1                 -->        
+      <div class="sql1">    
+       <p><span class="sqlblue">CREATE TABLE</span> a_1_1_main_menu ( </p>   
+       <div class="sqlCodeLayout_Main">
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'SuperMan'</a>
+
+        <a>, <span class="sqlOrange">'d'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'h'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'1'</span></a>
+        <a>, <span class="sqlOrange">'1'</span></a>
+        <a> );</span></a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'WonderWoman'</a>
+        <a>, <span class="sqlOrange">'d'</a>
+        <a>, <span class="sqlOrange">'f'</a>
+        <a>, <span class="sqlOrange">'h'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'2'</span></a>
+        <a>, <span class="sqlOrange">'1'</span></a>
+        <a> );</span></a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'BatMan'</a>
+        <a>, <span class="sqlOrange">'d'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'h'</span></a>
+        <a>, <span class="sqlOrange">'2'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'2'</span></a>
+        <a> );</span></a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'Hulk'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'h'</span></a>
+        <a>, <span class="sqlOrange">'5'</span></a>
+        <a>, <span class="sqlOrange">'1'</span></a>
+        <a>, <span class="sqlOrange">'4'</span></a>
+        <a> );</span></a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'Joker'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'v'</span></a>
+        <a>, <span class="sqlOrange">'1'</span></a>
+        <a>, <span class="sqlOrange">'4'</span></a>
+        <a>, <span class="sqlOrange">'1'</span></a>
+        <a> );</span></a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'Wolverine'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'h'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'2'</span></a>
+        <a>, <span class="sqlOrange">'4'</span></a>
+        <a> );</span></a>
+
+        
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'Darth Vader'</a>
+        <a>, <span class="sqlOrange">'s'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'v'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'2'</span></a>
+        <a>, <span class="sqlOrange">'1'</span></a>
+        <a> );</span></a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'General Grevis'</a>
+        <a>, <span class="sqlOrange">'s'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'v'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'2'</span></a>
+        <a>, <span class="sqlOrange">'5'</span></a>
+        <a> );</span></a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'Storm Trooper'</a>
+        <a>, <span class="sqlOrange">'s'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'v'</span></a>
+        <a>, <span class="sqlOrange">'4'</span></a>
+        <a>, <span class="sqlOrange">'4'</span></a>
+        <a>, <span class="sqlOrange">'4'</span></a>
+        <a> );</span></a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'AntMan'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'h'</span></a>
+        <a>, <span class="sqlOrange">'4'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'5'</span></a>
+        <a> );</span></a>
+
+        
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'Aquaman'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'h'</span></a>
+        <a>, <span class="sqlOrange">'4'</span></a>
+        <a>, <span class="sqlOrange">'2'</span></a>
+        <a>, <span class="sqlOrange">'2'</span></a>
+        <a> );</span></a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'Astrick'</a>
+        <a>, <span class="sqlOrange">'d'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'v'</span></a>
+        <a>, <span class="sqlOrange">'2'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'5'</span></a>
+        <a> );</span></a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'The Atom'</a>
+        <a>, <span class="sqlOrange">'d'</a>
+        <a>, <span class="sqlOrange">'m'</a>
+        <a>, <span class="sqlOrange">'v'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'5'</span></a>
+        <a> );</span></a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_1_main_menu <span class="sqlblue"> VALUES (NULL,</span></a>
+        <a class="sqlOrange">'BatWoman'</a>
+        <a>, <span class="sqlOrange">'d'</a>
+        <a>, <span class="sqlOrange">'f'</a>
+        <a>, <span class="sqlOrange">'h'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'3'</span></a>
+        <a>, <span class="sqlOrange">'4'</span></a>
+        <a> );</span></a>
+      </div> 
+    </div>
+  </div>
+
+
+  <div></div> <div></div><div></div>   
+   <div>------------------------------------------------------------------------------------------------------------------------------------   </div>    
+  <div></div> <div></div><div>1</div> 
+
+    <div class="sqlCodeLayout_ComicScript ">
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_2_comic_script <span class="sqlblue"> VALUES,</span></a>
+        <a> (</a>
+        <a class="sqlOrange">'d'</a><a>,</a>
+        <a class="sqlOrange">'DC Comics'</a><a>);</a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_2_comic_script <span class="sqlblue"> VALUES,</span></a>
+
+        <a> (</a>
+        <a class="sqlOrange">'m'</a><a>,</a>
+        <a class="sqlOrange">'Marvel'</a><a>);</a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_2_comic_script <span class="sqlblue"> VALUES,</span></a>
+        <a> (</a>
+        <a class="sqlOrange">'d'</a><a>,</a>
+        <a class="sqlOrange">'Star Wars'</a><a>);</a>
+    </div> 
+    <div></div><div></div><div></div>    
+    <div>---------------------------------------------------------------------------------------------------------------------------------------   </div>    
+    <div></div><div></div><div>1</div> 
+    
+    <div class="sqlCodeLayout_ComicOwner ">
+      <a><span class="sqlblue1">INSERT INTO </span>INSERT INTO a_1_3_comic_owner <span class="sqlblue"> VALUES</span></a>
+      <a class="sqlBlue"> (NULL,</a>
+      <a class="sqlOrange">'d'</a><a>,</a>
+      <a class="sqlOrange">'Warner Brothers''</a><a>,</a>
+      <a class="sqlOrange">'2012-05-08''</a><a>);</a>
+    </div> 
+    <div></div>
+
+    <div class="sqlCodeLayout_ComicOwner ">
+      <a><span class="sqlblue1">INSERT INTO </span>INSERT INTO a_1_3_comic_owner <span class="sqlblue"> VALUES</span></a>
+      <a class="sqlBlue"> (NULL,</a>
+      <a class="sqlOrange">'d'</a><a>,</a>
+      <a class="sqlOrange">'DC Entertainment'</a><a>,</a>
+      <a class="sqlOrange">'2000-02-15'</a><a>);</a>
+    </div> 
+    <div></div>
+
+    <div class="sqlCodeLayout_ComicOwner ">
+      <a><span class="sqlblue1">INSERT INTO </span>INSERT INTO a_1_3_comic_owner <span class="sqlblue"> VALUES</span></a>
+      <a class="sqlBlue"> (NULL,</a>
+      <a class="sqlOrange">'d'</a><a>,</a>
+      <a class="sqlOrange">'AT&T'</a><a>,</a>
+      <a class="sqlOrange">'2010-03-08'</a><a>);</a>
+    </div> 
+    <div></div>
+
+    <div class="sqlCodeLayout_ComicOwner ">
+      <a><span class="sqlblue1">INSERT INTO </span>INSERT INTO a_1_3_comic_owner <span class="sqlblue"> VALUES</span></a>
+      <a class="sqlBlue"> (NULL,</a>
+      <a class="sqlOrange">'m'</a><a>,</a>
+      <a class="sqlOrange">'Disney'</a><a>,</a>
+      <a class="sqlOrange">'2013-12-21''</a><a>);</a>
+    </div> 
+    <div></div>
+
+    <div class="sqlCodeLayout_ComicOwner ">
+      <a><span class="sqlblue1">INSERT INTO </span>INSERT INTO a_1_3_comic_owner <span class="sqlblue"> VALUES</span></a>
+      <a class="sqlBlue"> (NULL,</a>
+      <a class="sqlOrange">'s'</a><a>,</a>
+      <a class="sqlOrange">'Disney'</a><a>,</a>
+      <a class="sqlOrange">'2015-07-17''</a><a>);</a>
+    </div> 
+    <div></div>
+    
+    <div>1</div><div>1</div>    
+    <div>1---------------------------------------------------------------------------------------------------------------------------------------   </div>    
+    <div>1</div>      <div>1</div>  
+    <div>1</div>  
+ 
+    <div class="sqlCodeLayout_ComicScript ">
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_4_sex_discription <span class="sqlblue"> VALUES,</span></a>
+        <a> (</a>
+        <a class="sqlOrange">'m'</a><a>,</a>
+        <a class="sqlOrange">'Male'</a><a>);</a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_4_sex_discription <span class="sqlblue"> VALUES,</span></a>
+        <a> (</a>
+        <a class="sqlOrange">'f'</a><a>,</a>
+        <a class="sqlOrange">'Female'</a><a>);</a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_4_sex_discription <span class="sqlblue"> VALUES,</span></a>
+        <a> (</a>
+        <a class="sqlOrange">'o'</a><a>,</a>
+        <a class="sqlOrange">'Other'</a><a>);</a>
+
+     </div> 
+     <div>1</div><div>1</div><div></div>  
+     <div>1---------------------------------------------------------------------------------------------------------------------------------------   </div>    
+     <div>1</div>      <div>1</div>  
+     <div>1</div>  
+  
+     <div class="sqlCodeLayout_ComicScript ">
+      <a><span class="sqlblue1">INSERT INTO </span>a_1_5_hero_villian <span class="sqlblue"> VALUES,</span></a>
+      <a> (</a>
+      <a class="sqlOrange">'h'</a><a>,</a>
+      <a class="sqlOrange">'Hero'</a><a>);</a>
+
+      <a><span class="sqlblue1">INSERT INTO </span>a_1_5_hero_villian <span class="sqlblue"> VALUES,</span></a>
+
+      <a> (</a>
+      <a class="sqlOrange">'v'</a><a>,</a>
+      <a class="sqlOrange">'Villian'</a><a>);</a>
+
+  </div> 
+      <div>1</div><div>1</div><div></div>  
+      <div>1---------------------------------------------------------------------------------------------------------------------------------------   </div>    
+      <div>1</div>      <div>1</div>  
+      <div>1</div>  
+   
+      <div class="sqlCodeLayout_ComicScript ">
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_6_intel <span class="sqlblue"> VALUES,</span></a>
+        <a> (</a>
+        <a class="sqlOrange">'1'</a><a>,</a>
+        <a class="sqlOrange">'Genius'</a><a>);</a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_6_intel <span class="sqlblue"> VALUES,</span></a>
+        <a> (</a>
+        <a class="sqlOrange">'2'</a><a>,</a>
+        <a class="sqlOrange">'Above Average'</a><a>);</a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_6_intel <span class="sqlblue"> VALUES,</span></a>
+        <a> (</a>
+        <a class="sqlOrange">'3'</a><a>,</a>
+        <a class="sqlOrange">'Average''</a><a>);</a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_6_intel<span class="sqlblue"> VALUES,</span></a>
+        <a> (</a>
+        <a class="sqlOrange">'4'</a><a>,</a>
+        <a class="sqlOrange">'Below Average'</a><a>);</a>
+
+        <a><span class="sqlblue1">INSERT INTO </span>a_1_6_intel <span class="sqlblue"> VALUES,</span></a>
+        <a> (</a>
+        <a class="sqlOrange">'5'</a><a>,</a>
+        <a class="sqlOrange">'Way Below Average'</a><a>);</a>
+    </div>    
+
+       <div>1</div><div>1</div><div></div>  
+       <div>1---------------------------------------------------------------------------------------------------------------------------------------   </div>    
+       <div>1</div>      <div>1</div>  
+       <div>1</div>  
+    
+        <div class="sqlCodeLayout_ComicScript ">
+            <a><span class="sqlblue1">INSERT INTO </span>a_1_7_strength <span class="sqlblue"> VALUES,</span></a>
+            <a> (</a>
+            <a class="sqlOrange">'1'</a><a>,</a>
+            <a class="sqlOrange">'Absolute Strongest'</a><a>);</a>
+    
+            <a><span class="sqlblue1">INSERT INTO </span>a_1_7_strength <span class="sqlblue"> VALUES,</span></a>
+            <a> (</a>
+            <a class="sqlOrange">'2'</a><a>,</a>
+            <a class="sqlOrange">'Strong'</a><a>);</a>
+  
+            <a><span class="sqlblue1">INSERT INTO </span>a_1_7_strength<span class="sqlblue"> VALUES,</span></a>
+            <a> (</a>
+            <a class="sqlOrange">'3'</a><a>,</a>
+            <a class="sqlOrange">'Average'</a><a>);</a>
+
+            <a><span class="sqlblue1">INSERT INTO </span>a_1_7_strength <span class="sqlblue"> VALUES,</span></a>
+            <a> (</a>
+            <a class="sqlOrange">'4'</a><a>,</a>
+            <a class="sqlOrange">'Below Average'</a><a>);</a>
+  
+            <a><span class="sqlblue1">INSERT INTO </span>a_1_7_strength<span class="sqlblue"> VALUES,</span></a>
+            <a> (</a>
+            <a class="sqlOrange">'5'</a><a>,</a>
+            <a class="sqlOrange">'Weak'</a><a>);</a>
+          </div>    
+
+      <div>1</div><div>1</div><div></div>  
+      <div>1---------------------------------------------------------------------------------------------------------------------------------------   </div>    
+      <div>1</div>      <div>1</div>  
+      <div>1</div>  
+    
+        <div class="sqlCodeLayout_ComicScript ">
+            <a><span class="sqlblue1">INSERT INTO </span>a_1_7_strength <span class="sqlblue"> VALUES,</span></a>
+            <a> (</a>
+            <a class="sqlOrange">'1'</a><a>,</a>
+            <a class="sqlOrange">'Very Popular'</a><a>);</a>
+    
+            <a><span class="sqlblue1">INSERT INTO </span>a_1_7_strength <span class="sqlblue"> VALUES,</span></a>
+            <a> (</a>
+            <a class="sqlOrange">'2'</a><a>,</a>
+            <a class="sqlOrange">'Above Avg Popular'</a><a>);</a>
+  
+            <a><span class="sqlblue1">INSERT INTO </span>a_1_7_strength<span class="sqlblue"> VALUES,</span></a>
+            <a> (</a>
+            <a class="sqlOrange">'3'</a><a>,</a>
+            <a class="sqlOrange">'Popular'</a><a>);</a>
+
+            <a><span class="sqlblue1">INSERT INTO </span>a_1_7_strength <span class="sqlblue"> VALUES,</span></a>
+            <a> (</a>
+            <a class="sqlOrange">'4'</a><a>,</a>
+            <a class="sqlOrange">'Not Popular'</a><a>);</a>
+  
+            <a><span class="sqlblue1">INSERT INTO </span>a_1_7_strength<span class="sqlblue"> VALUES,</span></a>
+            <a> (</a>
+            <a class="sqlOrange">'5'</a><a>,</a>
+            <a class="sqlOrange">'Very Unpopular'</a><a>);</a>
+          </div>    
+          <div></div>
+
+
+          <h3> SQL Coding - Adding Foreign Keys </p>              <!--                         Box 1                 -->        
+          <div class="sql1">    
+            <p><span class="sqlblue">CREATE TABLE</span> a_1_1_main_menu ( </p>   
+            <div class="sqlCodeLayout">
+              <a></a><a class="sqlBlue">ALTER TABLE </a>  <a class="sqlBlack">a_1_1_main_menu</a>  
+              <a></a><a class="sqlBlue">ADD FOREIGN KEYS</a>  <a class="sqlBlack">(comic) </a>  
+              <a></a><a class="sqlBlue">REFERENCES 	</a>  <a class="sqlBlack">a_1_2_comic_script(comic_ind)</a>  
+              <a></a><a class="sqlBlue">ON DELETE SET NULL;</a>  <a></a>  
+              </div>
+              <div>.</div>
+
+              <div class="sqlCodeLayout">
+              <a></a><a class="sqlBlue">ALTER TABLE </a>  <a class="sqlBlack">a_1_1_main_menu</a>  
+              <a></a><a class="sqlBlue">ADD FOREIGN KEYS</a>  <a class="sqlBlack">(sex) </a>  
+              <a></a><a class="sqlBlue">REFERENCES 	</a>  <a class="sqlBlack">a_1_4_sex_discription(sex_ind))</a>  
+              <a></a><a class="sqlBlue">ON DELETE SET NULL;</a>  <a></a>  
+              </div>
+              <div>.</div>
+
+              <div class="sqlCodeLayout">
+              <a></a><a class="sqlBlue">ALTER TABLE </a>  <a class="sqlBlack">a_1_1_main_menu</a>  
+              <a></a><a class="sqlBlue">ADD FOREIGN KEYS</a>  <a class="sqlBlack">(hero_villian) </a>  
+              <a></a><a class="sqlBlue">REFERENCES 	</a>  <a class="sqlBlack">a_1_5_hero_villian(hero_ind)</a>  
+              <a></a><a class="sqlBlue">ON DELETE SET NULL;</a>  <a></a>  
+              </div>
+              <div>.</div>
+
+              <div class="sqlCodeLayout">
+              <a></a><a class="sqlBlue">ALTER TABLE </a>  <a class="sqlBlack">a_1_1_main_menu</a>  
+              <a></a><a class="sqlBlue">ADD FOREIGN KEYS</a>  <a class="sqlBlack">(intellgence) </a>  
+              <a></a><a class="sqlBlue">REFERENCES 	</a>  <a class="sqlBlack">a_1_6_intel(intel_lvl)</a>  
+              <a></a><a class="sqlBlue">ON DELETE SET NULL;</a>  <a></a>  
+              </div>
+              <div>.</div>
+
+              <div class="sqlCodeLayout">
+              <a></a><a class="sqlBlue">ALTER TABLE </a>  <a class="sqlBlack">a_1_1_main_menu</a>  
+              <a></a><a class="sqlBlue">ADD FOREIGN KEYS</a>  <a class="sqlBlack">(strength) </a>  
+              <a></a><a class="sqlBlue">REFERENCES 	</a>  <a class="sqlBlack">a_1_7_strength(strength_lvl)</a>  
+              <a></a><a class="sqlBlue">ON DELETE SET NULL;</a>  <a></a>  
+              </div>
+              <div>.</div>
+
+              <div class="sqlCodeLayout">
+              <a></a><a class="sqlBlue">ALTER TABLE </a>  <a class="sqlBlack">a_1_1_main_menu</a>  
+              <a></a><a class="sqlBlue">ADD FOREIGN KEYS</a>  <a class="sqlBlack">(popularity) </a>  
+              <a></a><a class="sqlBlue">REFERENCES 	</a>  <a class="sqlBlack">a_1_8_popularity(popular_lvl)</a>  
+              <a></a><a class="sqlBlue">ON DELETE SET NULL;</a>  <a></a>  
+              </div>
+              <div>.</div>
+
+              
+              <h3 class="sqlHeader"> SQL Coding - Check Foreign Keys  </h3>  
+              <p class="sqlblue">select constraint_name, table_name, column_name,
+              <span class="sqlBlack">
+                 REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME</span></p>    
+              <p class="sqlblue">FROM <span class="sqlBlack">information_schema.key_column_usage</span></p>
+              <p class="sqlblue">WHERE <span class="sqlBlack">information_schema.key_column_usage</span></p>
+              <p>referenced_table_schema = <span class="sqlOrange">'superhero'</span>;</p> 
+
+              <h3 class="sqlHeader"> SQL Coding - Queries  </h3> 
+
+              <p class="sqlQueryHeader">  1> Find all FeMales </p>
+              <div class="sqlCodeLayout">
+                <a></a><a class="sqlblue">SELECT</a> <a> name</a>
+                <a></a><a class="sqlblue">FROM</a> <a>a_1_1_main_menu</a>
+                <a></a><a class="sqlblue">WHERE</a> sex ='f';</a> 
+                <a></a><a class="sqlblue">ORDER BY</a>  a_1_1_main_menu.id_main;</a> 
+              </div>
+
+              <p class="sqlQueryHeader">   Output</p>
+              <div class="output ">
+                <a></a>
+                <a>ID_Math</a>
+                <a>Name</a>
+                <a>Sex</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">1</a>
+                <a class="a3">WonderWoman</a>
+                <a class="a3">f</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">14</a>
+                <a class="a4">BatWoman</a>
+                <a class="a4">f</a>
+              </div> 
+
+              <p> ************************************************************************************</p>
+
+              <p class="sqlQueryHeader">  2> Find all Males</p>
+              <div class="sqlCodeLayout">
+                <a></a><a class="sqlblue">SELECT</a> <a> name</a>
+                <a></a><a class="sqlblue">FROM</a> <a>a_1_1_main_menu</a>
+                <a></a><a class="sqlblue">WHERE</a> sex ='m';</a> 
+                <a></a><a class="sqlblue">ORDER BY</a>  a_1_1_main_menu.id_main;</a> 
+              </div>
+              <p class="sqlQueryHeader">   Output</p>
+              <div class="output ">
+                <a></a>
+                <a>ID_Math</a>
+                <a>Name</a>
+                <a>Sex</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">1</a>
+                <a class="a3">Superman</a>
+                <a class="a3">m</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">3</a>
+                <a class="a4">Batman</a>
+                <a class="a4">m</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">4</a>
+                <a class="a3">Hulk</a>
+                <a class="a3">m</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">5</a>
+                <a class="a4">Joker</a>
+                <a class="a4">m</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">6</a>
+                <a class="a3">Wolverine</a>
+                <a class="a3">m</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">7</a>
+                <a class="a4">Darth Vader</a>
+                <a class="a4">m</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">8</a>
+                <a class="a3">General Grevis</a>
+                <a class="a3">m</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">9</a>
+                <a class="a4">Storm Trooper</a>
+                <a class="a4">m</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">10</a>
+                <a class="a3">AntMan</a>
+                <a class="a3">m</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">10</a>
+                <a class="a4">Aquaman</a>
+                <a class="a4">m</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">12</a>
+                <a class="a3">Astrick</a>
+                <a class="a3">m</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">13</a>
+                <a class="a4">The Atom</a>
+                <a class="a4">m</a>
+              </div> 
+
+              <p> ************************************************************************************</p>
+              
+              <p class="sqlQueryHeader">3> Find All Males and bring in the comic name	</p>
+              <div class="sqlQueries">
+                <a></a><a class="sqlblue">SELECT</a> <a>id_main, name, comic_name </a>
+                <a></a><a class="sqlblue">FROM</a> <a>a_1_1_main_menu</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_2_comic_script    	<span class="sqlBlue">	ON </span>  a_1_1_main_menu.comic = a_1_2_comic_script.comic_ind </a>
+                <a></a><a class="sqlblue">WHERE</a> sex ='m';</a> 
+                <a></a><a class="sqlblue">ORDER BY</a>  a_1_1_main_menu.id_main;</a> 
+              </div>
+
+              <p class="sqlQueryHeader">   Output</p>
+              <div class="output ">
+                <a></a>
+                <a>ID_Math</a>
+                <a>Name</a>
+                <a>comic_name</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a3">1</a>
+                <a class="a3">Superman</a>
+                <a class="a3">DC Comics</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">3</a>
+                <a class="a3">Batman</a>
+                <a class="a3">DC Comics</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">4</a>
+                <a class="a3">Hulk</a>
+                <a class="a3">Marvel</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">5</a>
+                <a class="a4">Joker</a>
+                <a class="a4">Marvel</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">6</a>
+                <a class="a3">Wolverine</a>
+                <a class="a3">Marvel</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">7</a>
+                <a class="a4">Darth Vader</a>
+                <a class="a4">Star Wars</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">8</a>
+                <a class="a3">General Grevis</a>
+                <a class="a3">Star Wars</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">9</a>
+                <a class="a4">Storm Trooper</a>
+                <a class="a4">Star Wars</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">10</a>
+                <a class="a3">AntMan</a>
+                <a class="a3">Marvel</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">10</a>
+                <a class="a4">Aquaman</a>
+                <a class="a4">DC Comics</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a3">12</a>
+                <a class="a3">Astrick</a>
+                <a class="a3">DC Comics</a>
+                <a></a><a></a><a></a><a></a><a></a><a></a>
+                
+                <a class="a4">13</a>
+                <a class="a4">The Atom</a>
+                <a class="a4">Marvel</a>
+              </div> 
+
+              <p> ************************************************************************************</p>
+
+              <p class="sqlQueryHeader"> 4> Find All Males and bring in the comic name, sex discrption	</p>
+              <div class="sqlQueries">
+                <a></a><a class="sqlblue">SELECT</a> <a>id_main, name, comic_name, sex_disc</a>
+                <a></a><a class="sqlblue">FROM</a> <a>a_1_1_main_menu</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_2_comic_script    	<span class="sqlBlue">	ON </span>  a_1_1_main_menu.comic = a_1_2_comic_script.comic_ind </a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_4_sex_discription 	<span class="sqlBlue">	ON </span> a_1_1_main_menu.sex = a_1_4_sex_discription.sex_ind</a>
+                <a></a><a class="sqlblue">WHERE</a> sex ='m';</a> 
+                <a></a><a class="sqlblue">ORDER BY</a>  a_1_1_main_menu.id_main;</a> 
+              </div>
+
+              <p class="sqlQueryHeader">   Output</p>
+              <div class="output ">
+                <a></a>
+                <a>ID_Math</a>
+                <a>Name</a>
+                <a>comic_name</a>
+                <a>sex_disc</a>
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a3">1</a>
+                <a class="a3">Superman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a3">3</a>
+                <a class="a3">Batman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a3">4</a>
+                <a class="a3">Hulk</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a4">5</a>
+                <a class="a4">Joker</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a3">6</a>
+                <a class="a3">Wolverine</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a4">7</a>
+                <a class="a4">Darth Vader</a>
+                <a class="a4">Star Wars</a>
+                <a class="a4">Male</a>
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a3">8</a>
+                <a class="a3">General Grevis</a>
+                <a class="a3">Star Wars</a>
+                <a class="a3">Male</a>
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a4">9</a>
+                <a class="a4">Storm Trooper</a>
+                <a class="a4">Star Wars</a>
+                <a class="a4">Male</a>
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a3">10</a>
+                <a class="a3">AntMan</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a4">10</a>
+                <a class="a4">Aquaman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a3">12</a>
+                <a class="a3">Astrick</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a></a><a></a><a></a><a></a><a></a>
+
+                <a class="a4">13</a>
+                <a class="a4">The Atom</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+
+              </div> 
+
+              <p> ************************************************************************************</p>
+              <p class="sqlQueryHeader">  5>  Find All Males and bring in the comic name, sex discrption, hero	</p>
+              <div class="sqlQueries">
+                <a></a><a class="sqlblue">SELECT</a> <a>id_main, name, comic_name, sex_disc, hero_disc </a>
+                <a></a><a class="sqlblue">FROM</a> <a>a_1_1_main_menu</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_2_comic_script    	<span class="sqlBlue">	ON </span>  a_1_1_main_menu.comic = a_1_2_comic_script.comic_ind </a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_4_sex_discription 	<span class="sqlBlue">	ON </span> a_1_1_main_menu.sex = a_1_4_sex_discription.sex_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_5_hero_villian    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.hero_villian 	= a_1_5_hero_villian.hero_ind</a>
+                <a></a><a class="sqlblue">WHERE</a> sex ='m';</a> 
+                <a></a><a class="sqlblue">ORDER BY</a>  a_1_1_main_menu.id_main;</a> 
+              </div>
+              <p class="sqlQueryHeader">   Output</p>
+              <div class="output ">
+                <a></a>
+                <a>ID_Math</a>
+                <a>Name</a>
+                <a>comic_name</a>
+                <a>sex_disc</a>
+                <a>Hero_disc</a>
+                <a></a><a></a><a></a><a></a>
+
+                <a class="a3">1</a>
+                <a class="a3">Superman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a></a><a></a><a></a><a></a>
+                
+                <a class="a3">3</a>
+                <a class="a3">Batman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a></a><a></a><a></a><a></a>
+                
+                <a class="a3">4</a>
+                <a class="a3">Hulk</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a></a><a></a><a></a><a></a>
+                
+                <a class="a4">5</a>
+                <a class="a4">Joker</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a></a><a></a><a></a><a></a>
+                
+                <a class="a3">6</a>
+                <a class="a3">Wolverine</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a></a><a></a><a></a><a></a>
+                
+                <a class="a4">7</a>
+                <a class="a4">Darth Vader</a>
+                <a class="a4">Star Wars</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a></a><a></a><a></a><a></a>
+                
+                <a class="a3">8</a>
+                <a class="a3">General Grevis</a>
+                <a class="a3">Star Wars</a>
+                <a class="a3">Male</a>
+                <a class="a3">Villian</a>
+                <a></a><a></a><a></a><a></a>
+                
+                <a class="a4">9</a>
+                <a class="a4">Storm Trooper</a>
+                <a class="a4">Star Wars</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a></a><a></a><a></a><a></a>
+                
+                <a class="a3">10</a>
+                <a class="a3">AntMan</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a></a><a></a><a></a><a></a>
+                
+                <a class="a4">10</a>
+                <a class="a4">Aquaman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a></a><a></a><a></a><a></a>
+                
+                <a class="a3">12</a>
+                <a class="a3">Astrick</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Villian</a>
+                <a></a><a></a><a></a><a></a>
+                
+                <a class="a4">13</a>
+                <a class="a4">The Atom</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+              </div> 
+
+              <p> ************************************************************************************</p>
+              <p class="sqlQueryHeader">6>  Find All Males and bring in the comic name, sex discrption, hero, INTEL	</p>
+              <div class="sqlQueries">
+                <a></a><a class="sqlblue">SELECT</a> <a>id_main, name, comic_name, sex_disc, hero_disc, intel_disc </a>
+                <a></a><a class="sqlblue">FROM</a> <a>a_1_1_main_menu</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_2_comic_script    	<span class="sqlBlue">	ON </span>  a_1_1_main_menu.comic = a_1_2_comic_script.comic_ind </a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_4_sex_discription 	<span class="sqlBlue">	ON </span> a_1_1_main_menu.sex = a_1_4_sex_discription.sex_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_5_hero_villian    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.hero_villian 	= a_1_5_hero_villian.hero_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_6_intel     	<span class="sqlBlue">	ON </span> a_1_1_main_menu.intellgence 		= a_1_6_intel.intel_lvl</a>
+                <a></a><a class="sqlblue">WHERE</a> sex ='m';</a> 
+                <a></a><a class="sqlblue">ORDER BY</a>  a_1_1_main_menu.id_main;</a> 
+              </div>
+
+              <p class="sqlQueryHeader">   Output</p>
+              <div class="output">
+                <a></a>
+                <a>ID_Math</a>
+                <a>Name</a>
+                <a>comic_name</a>
+                <a>sex_disc</a>
+                <a>Hero_disc</a>
+                <a>intel_disc</a>
+                <a></a><a></a><a></a>
+
+                <a class="a3">1</a>
+                <a class="a3">Superman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a></a><a></a><a></a>
+                
+                <a class="a3">3</a>
+                <a class="a3">Batman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Above Average</a>
+                <a></a><a></a><a></a>
+                
+                <a class="a3">4</a>
+                <a class="a3">Hulk</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Way Below Average</a>
+                <a></a><a></a><a></a>
+                
+                <a class="a4">5</a>
+                <a class="a4">Joker</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a class="a4">Genius</a>
+                <a></a><a></a><a></a>
+                
+                <a class="a3">6</a>
+                <a class="a3">Wolverine</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a></a><a></a><a></a>
+                
+                <a class="a4">7</a>
+                <a class="a4">Darth Vader</a>
+                <a class="a4">Star Wars</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a class="a4">Average</a>
+                <a></a><a></a><a></a>
+                
+                <a class="a3">8</a>
+                <a class="a3">General Grevis</a>
+                <a class="a3">Star Wars</a>
+                <a class="a3">Male</a>
+                <a class="a3">Villian</a>
+                <a class="a3">Average</a>
+                <a></a><a></a><a></a>
+                
+                <a class="a4">9</a>
+                <a class="a4">Storm Trooper</a>
+                <a class="a4">Star Wars</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a class="a4">Below Average</a>
+                <a></a><a></a><a></a>
+                
+                <a class="a3">10</a>
+                <a class="a3">AntMan</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Below Average</a>
+                <a></a><a></a><a></a>
+                
+                <a class="a4">10</a>
+                <a class="a4">Aquaman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Below Average</a>
+                <a></a><a></a><a></a>
+                
+                <a class="a3">12</a>
+                <a class="a3">Astrick</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Villian</a>
+                <a class="a3">Above Average</a>
+                <a></a><a></a><a></a>
+                
+                <a class="a4">13</a>
+                <a class="a4">The Atom</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+              </div> 
+
+              <p> ************************************************************************************</p>
+              <p class="sqlQueryHeader">7> Find All Males and bring in the comic name, sex discrption, hero, strength, INTEL, strength and popularity			</p>
+              <div class="sqlQueries">
+                <a></a><a class="sqlblue">SELECT</a> <a> id_main, name, comic_name, sex_disc, hero_disc, intel_disc, strength_disc, popular_disc</a>
+                <a></a><a class="sqlblue">FROM</a> <a>a_1_1_main_menu</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_2_comic_script    	<span class="sqlBlue">	ON </span>  a_1_1_main_menu.comic = a_1_2_comic_script.comic_ind </a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_4_sex_discription 	<span class="sqlBlue">	ON </span> a_1_1_main_menu.sex = a_1_4_sex_discription.sex_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_5_hero_villian    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.hero_villian 	= a_1_5_hero_villian.hero_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_6_intel     	<span class="sqlBlue">	ON </span> a_1_1_main_menu.intellgence 		= a_1_6_intel.intel_lvl</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_7_strength      	<span class="sqlBlue">	ON </span> a_1_1_main_menu.strength			= a_1_7_strength.strength_lvl</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_8_popularity    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.popularity		= a_1_8_popularity.popular_lvl</a>
+                <a></a><a class="sqlblue">WHERE</a> sex ='m';</a> 
+                <a></a><a class="sqlblue">ORDER BY</a>  a_1_1_main_menu.id_main;</span>;</a> 
+              </div>
+
+              <p class="sqlQueryHeader">   Output</p>
+              <div class="output">
+                <a></a>
+                <a>ID_Math</a>
+                <a>Name</a>
+                <a>comic_name</a>
+                <a>sex_disc</a>
+                <a>Hero_disc</a>
+                <a>intel_disc</a>
+                <a>strength_disc</a>
+                <a>popular_disc</a>
+                <a></a>
+                <a class="a3">1</a>
+                <a class="a3">Superman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Absolute Strongest</a>
+                <a class="a3">Very Popular</a>
+         
+                <a></a>
+                <a class="a3">3</a>
+                <a class="a3">Batman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Above Average</a>
+                <a class="a3">Average</a>
+                <a class="a3">Above Avg Popular</a>
+
+                <a></a>
+                <a class="a3">4</a>
+                <a class="a3">Hulk</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Way Below Average</a>
+                <a class="a3">Absolute Strongest</a>
+                <a class="a3">Not Popular</a>
+
+
+                <a></a>
+                <a class="a4">5</a>
+                <a class="a4">Joker</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a class="a4">Genius</a>
+                <a class="a4">Below Average</a>
+                <a class="a4">Very Popular</a>
+
+                <a></a>
+                <a class="a3">6</a>
+                <a class="a3">Wolverine</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">Not Popular</a>
+
+
+                <a></a>
+                <a class="a4">7</a>
+                <a class="a4">Darth Vader</a>
+                <a class="a4">Star Wars</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">Very Popular</a>
+
+                <a></a>
+                <a class="a3">8</a>
+                <a class="a3">General Grevis</a>
+                <a class="a3">Star Wars</a>
+                <a class="a3">Male</a>
+                <a class="a3">Villian</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">Very UnPopular</a>
+                <a></a>
+
+                <a class="a4">9</a>
+                <a class="a4">Storm Trooper</a>
+                <a class="a4">Star Wars</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a class="a4">Below Average</a>
+                <a class="a4">Below Average</a>
+                <a class="a4">Not Popular</a>
+
+                <a></a>
+                <a class="a3">10</a>
+                <a class="a3">AntMan</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Below Average</a>
+                <a class="a3"> Average</a>
+                <a class="a3">Very UnPopular</a>
+                
+                <a></a>
+                <a class="a4">11</a>
+                <a class="a4">Aquaman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Below Average</a>
+                <a class="a4">Strong </a>
+                <a class="a4">Above Avg Popular</a>
+
+                <a></a>
+                <a class="a3">12</a>
+                <a class="a3">Astrick</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Villian</a>
+                <a class="a3">Above Average</a>
+                <a class="a3"> Average</a>
+                <a class="a3">Very UnPopular</a>
+
+                <a></a>
+                <a class="a4">13</a>
+                <a class="a4">The Atom</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4"> Average</a>
+                <a class="a4">Very UnPopular</a>
+              </div> 
+              <p> ************************************************************************************</p>
+              <p class="sqlQueryHeader">  8> Bring in all names ending in man			 </p>
+              <div class="sqlQueries">
+                <a></a><a class="sqlblue">SELECT</a> <a> sex, name, comic_name </a>
+                <a></a><a class="sqlblue">FROM</a> <a>a_1_1_main_menu</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_2_comic_script    	<span class="sqlBlue">	ON </span>  a_1_1_main_menu.comic = a_1_2_comic_script.comic_ind </a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_4_sex_discription 	<span class="sqlBlue">	ON </span> a_1_1_main_menu.sex = a_1_4_sex_discription.sex_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_5_hero_villian    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.hero_villian 	= a_1_5_hero_villian.hero_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_6_intel     	<span class="sqlBlue">	ON </span> a_1_1_main_menu.intellgence 		= a_1_6_intel.intel_lvl</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_7_strength      	<span class="sqlBlue">	ON </span> a_1_1_main_menu.strength			= a_1_7_strength.strength_lvl</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_8_popularity    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.popularity		= a_1_8_popularity.popular_lvl</a>
+                <a></a><a class="sqlblue">WHERE</a> name like '%man';</a> 
+                <a></a><a class="sqlblue">ORDER BY</a>  a_1_1_main_menu.id_main;</span>;</a> 
+              </div>
+
+              <p class="sqlQueryHeader">   Output</p>
+              <div class="output">
+                <a></a>
+                <a>ID_Math</a>
+                <a>Name</a>
+                <a>comic_name</a>
+                <a>sex_disc</a>
+                <a>Hero_disc</a>
+                <a>intel_disc</a>
+                <a>strength_disc</a>
+                <a>popular_disc</a>
+                <a></a>
+                <a class="a3">1</a>
+                <a class="a3">Superman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Absolute Strongest</a>
+                <a class="a3">Very Popular</a>
+
+                <a></a>
+                <a class="a4">2</a>
+                <a class="a4">Wonder Woman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">FeMale</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">Very Popular</a>      
+         
+                <a></a>
+                <a class="a3">3</a>
+                <a class="a3">Batman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Above Average</a>
+                <a class="a3">Average</a>
+                <a class="a3">Above Avg Popular</a>
+
+                <a></a>
+                <a class="a4">10</a>
+                <a class="a4">AntMan</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Below Average</a>
+                <a class="a4"> Average</a>
+                <a class="a4">Very UnPopular</a>
+                
+
+                <a></a>
+                <a class="a3">14</a>
+                <a class="a3">BatWoman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">FeMale</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">Not Popular</a>      
+         
+              </div> 
+
+              <p> ************************************************************************************</p>
+              <p class="sqlQueryHeader">  9> Bring in all names ending in man	and is Female, and bring in Who Owns the comic books	 ---</p>
+              <div class="sqlQueries">
+                <a></a><a class="sqlblue">SELECT</a> <a> sex, name, comic_name </a>
+                <a></a><a class="sqlblue">FROM</a> <a>a_1_1_main_menu</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_2_comic_script    	<span class="sqlBlue">	ON </span>  a_1_1_main_menu.comic = a_1_2_comic_script.comic_ind </a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_4_sex_discription 	<span class="sqlBlue">	ON </span> a_1_1_main_menu.sex = a_1_4_sex_discription.sex_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_5_hero_villian    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.hero_villian 	= a_1_5_hero_villian.hero_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_6_intel     	<span class="sqlBlue">	ON </span> a_1_1_main_menu.intellgence 		= a_1_6_intel.intel_lvl</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_7_strength      	<span class="sqlBlue">	ON </span> a_1_1_main_menu.strength			= a_1_7_strength.strength_lvl</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_8_popularity    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.popularity		= a_1_8_popularity.popular_lvl</a>
+                <a></a><a class="sqlblue">WHERE</a>name like '%man' and sex ='f';</a> 
+                <a></a><a class="sqlblue">ORDER BY</a>  a_1_1_main_menu.id_main;</span>;</a> 
+              </div>
+
+
+              <p class="sqlQueryHeader">   Output</p>
+              <div class="output">
+                <a></a>
+                <a>ID_Math</a>
+                <a>Name</a>
+                <a>comic_name</a>
+                <a>sex_disc</a>
+                <a>Hero_disc</a>
+                <a>intel_disc</a>
+                <a>strength_disc</a>
+                <a>Who_Owns_Comic</a>
+                <a></a>
+                <a class="a4">2</a>
+                <a class="a4">Wonder Woman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">FeMale</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">Warner Brothers</a>      
+
+                <a></a>
+                <a class="a3">2</a>
+                <a class="a3">Wonder Woman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">FeMale</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">DC Entertainment</a>      
+         
+                <a></a>
+                <a class="a4">2</a>
+                <a class="a4">Wonder Woman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">FeMale</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">AT&T</a>      
+
+                <a></a>
+                <a class="a3">14</a>
+                <a class="a3">BatWoman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">FeMale</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">Not Popular</a>   
+
+                <a></a>
+                <a class="a4">14</a>
+                <a class="a4">BatWoman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">FeMale</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">Not Popular</a>      
+
+                <a></a>
+                <a class="a3">14</a>
+                <a class="a3">BatWoman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">FeMale</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">Not Popular</a>      
+         
+              </div> 
+              <p> ************************************************************************************</p>
+              <p class="sqlQueryHeader">  10> Has 'man' in the name and DC universe	 ---</p>
+              <div class="sqlQueries">
+                <a></a><a class="sqlblue">SELECT</a> <a> sex, name, comic_name </a>
+                <a></a><a class="sqlblue">FROM</a> <a>a_1_1_main_menu</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_2_comic_script    	<span class="sqlBlue">	ON </span>  a_1_1_main_menu.comic = a_1_2_comic_script.comic_ind </a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_4_sex_discription 	<span class="sqlBlue">	ON </span> a_1_1_main_menu.sex = a_1_4_sex_discription.sex_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_5_hero_villian    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.hero_villian 	= a_1_5_hero_villian.hero_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_6_intel     	<span class="sqlBlue">	ON </span> a_1_1_main_menu.intellgence 		= a_1_6_intel.intel_lvl</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_7_strength      	<span class="sqlBlue">	ON </span> a_1_1_main_menu.strength			= a_1_7_strength.strength_lvl</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_8_popularity    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.popularity		= a_1_8_popularity.popular_lvl</a>
+                <a></a><a class="sqlblue">WHERE</a>name like '%man'  and comic='d';</a> 
+                <a></a><a class="sqlblue">ORDER BY</a>  a_1_1_main_menu.id_main;</span>;</a> 
+              </div>
+
+              <p class="sqlQueryHeader">   Output</p>
+              <div class="output">
+                <a></a>
+                <a>ID_Math</a>
+                <a>Name</a>
+                <a>comic_name</a>
+                <a>sex_disc</a>
+                <a>Hero_disc</a>
+                <a>intel_disc</a>
+                <a>strength_disc</a>
+                <a>Who_Owns_Comic</a>
+                <a></a>
+                <a class="a3">1</a>
+                <a class="a3">Superman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Absolute Strongest</a>
+                <a class="a3">Warner Brothers</a>      
+
+                <a></a>
+                <a class="a4">1</a>
+                <a class="a4">Superman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Absolute Strongest</a>
+                <a class="a4">DC Entertainment</a>      
+
+                <a></a>
+                <a class="a3">1</a>
+                <a class="a3">Superman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Absolute Strongest</a>
+                <a class="a3">AT&T</a>  
+
+
+                <a></a>
+                <a class="a4">2</a>
+                <a class="a4">Wonder Woman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">FeMale</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">Warner Brothers</a>      
+
+                <a></a>
+                <a class="a3">2</a>
+                <a class="a3">Wonder Woman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">FeMale</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">DC Entertainment</a>      
+         
+                <a></a>
+                <a class="a4">2</a>
+                <a class="a4">Wonder Woman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">FeMale</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">AT&T</a>  
+
+                <a></a>
+                <a class="a3">3</a>
+                <a class="a3">Batman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Above Average</a>
+                <a class="a3">Average</a>
+                <a class="a3">Warner Brothers</a>  
+
+                <a></a>
+                <a class="a4">3</a>
+                <a class="a4">Batman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Above Average</a>
+                <a class="a4">Average</a>
+                <a class="a4">DC Entertainment</a>   
+
+                <a></a>
+                <a class="a3">3</a>
+                <a class="a3">Batman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Above Average</a>
+                <a class="a3">Average</a>
+                <a class="a3">AT&T</a>  
+
+                <a></a>
+                <a class="a4">11</a>
+                <a class="a4">Aquaman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Below Average</a>
+                <a class="a4">Strong </a>
+                <a class="a4">Warner Brothers</a>    
+
+                <a></a>
+                <a class="a3">11</a>
+                <a class="a3">Aquaman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Below Average</a>
+                <a class="a3">Strong </a>
+                <a class="a3">DC Entertainment</a>    
+
+                
+                <a></a>
+                <a class="a4">11</a>
+                <a class="a4">Aquaman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Below Average</a>
+                <a class="a4">Strong </a>
+                <a class="a4">AT&T</a>  
+                                
+ 
+                <a></a>
+                <a class="a3">14</a>
+                <a class="a3">BatWoman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">FeMale</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">Warner Brothers</a>    
+ 
+                <a></a>
+                <a class="a4">14</a>
+                <a class="a4">BatWoman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">FeMale</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">AT&T</a>  
+
+                <a></a>
+                <a class="a3">14</a>
+                <a class="a3">BatWoman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">FeMale</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">AT&T</a>     
+
+  
+
+              </div>    
+
+              <p> ************************************************************************************</p>
+              <p class="sqlQueryHeader">  11> Show all records</p>
+              <div class="sqlQueries">
+                <a></a><a class="sqlblue">SELECT</a> <a> sex, name, comic_name </a>
+                <a></a><a class="sqlblue">FROM</a> <a>a_1_1_main_menu</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_2_comic_script    	<span class="sqlBlue">	ON </span>  a_1_1_main_menu.comic = a_1_2_comic_script.comic_ind </a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_4_sex_discription 	<span class="sqlBlue">	ON </span> a_1_1_main_menu.sex = a_1_4_sex_discription.sex_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_5_hero_villian    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.hero_villian 	= a_1_5_hero_villian.hero_ind</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_6_intel     	<span class="sqlBlue">	ON </span> a_1_1_main_menu.intellgence 		= a_1_6_intel.intel_lvl</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_7_strength      	<span class="sqlBlue">	ON </span> a_1_1_main_menu.strength			= a_1_7_strength.strength_lvl</a>
+                <a></a><a class="sqlblue">Join</a> <a>a_1_8_popularity    	<span class="sqlBlue">	ON </span> a_1_1_main_menu.popularity		= a_1_8_popularity.popular_lvl</a>
+                <a></a><a class="sqlblue">ORDER BY</a>  a_1_1_main_menu.id_main;</a> 
+              </div>
+              <p class="sqlQueryHeader">   Output</p>
+              <div class="output">
+                <a></a>
+                <a>ID_Math</a>
+                <a>Name</a>
+                <a>comic_name</a>
+                <a>sex_disc</a>
+                <a>Hero_disc</a>
+                <a>intel_disc</a>
+                <a>strength_disc</a>
+                <a>Who_Owns_Comic</a>
+                <a></a>
+                <a class="a3">1</a>
+                <a class="a3">Superman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Absolute Strongest</a>
+                <a class="a3">Warner Brothers</a>      
+
+                <a></a>
+                <a class="a4">1</a>
+                <a class="a4">Superman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Absolute Strongest</a>
+                <a class="a4">DC Entertainment</a>      
+
+                <a></a>
+                <a class="a3">1</a>
+                <a class="a3">Superman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Absolute Strongest</a>
+                <a class="a3">AT&T</a>  
+                
+                <a></a>
+                <a class="a4">2</a>
+                <a class="a4">Wonder Woman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">FeMale</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">AT&T</a>   
+
+                <a></a>
+                <a class="a3">2</a>
+                <a class="a3">Wonder Woman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">FeMale</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">DC Entertainment</a>   
+         
+                <a></a>
+                <a class="a4">2</a>
+                <a class="a4">Wonder Woman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">FeMale</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">AT&T</a>    
+          
+                <a></a>
+                <a class="a3">3</a>
+                <a class="a3">Batman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Above Average</a>
+                <a class="a3">Average</a>
+                <a class="a3">Warner Brothers</a>  
+
+                <a></a>
+                <a class="a4">3</a>
+                <a class="a4">Batman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Above Average</a>
+                <a class="a4">Average</a>
+                <a class="a4">DC Entertainment</a>   
+
+                <a></a>
+                <a class="a3">3</a>
+                <a class="a3">Batman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Above Average</a>
+                <a class="a3">Average</a>
+                <a class="a3">AT&T</a>  
+
+                <a></a>
+                <a class="a4">4</a>
+                <a class="a4">Hulk</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Way Below Average</a>
+                <a class="a4">Absolute Strongest</a>
+                <a class="a4">Disney</a>
+
+                <a></a>
+                <a class="a3">5</a>
+                <a class="a3">Joker</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a class="a3">Villian</a>
+                <a class="a3">Genius</a>
+                <a class="a3">Below Average</a>
+                <a class="a3">Disney</a>
+
+
+                <a></a>
+                <a class="a4">6</a>
+                <a class="a4">Wolverine</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">Disney</a>
+
+                <a></a>
+                <a class="a3">7</a>
+                <a class="a3">Darth Vader</a>
+                <a class="a3">Star Wars</a>
+                <a class="a3">Male</a>
+                <a class="a3">Villian</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">Disney</a>
+
+
+                <a></a>
+                <a class="a4">8</a>
+                <a class="a4">General Grevis</a>
+                <a class="a4">Star Wars</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">Disney</a>
+
+                <a></a>
+
+                <a class="a3">9</a>
+                <a class="a3">Storm Trooper</a>
+                <a class="a3">Star Wars</a>
+                <a class="a3">Male</a>
+                <a class="a3">Villian</a>
+                <a class="a3">Below Average</a>
+                <a class="a3">Below Average</a>
+                <a class="a3">Disney</a>
+
+
+                <a></a>
+                <a class="a4">10</a>
+                <a class="a4">AntMan</a>
+                <a class="a4">Marvel</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Below Average</a>
+                <a class="a4"> Average</a>
+                <a class="a4">Disney</a>
+
+                <a></a>
+                <a class="a3">11</a>
+                <a class="a3">Aquaman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Below Average</a>
+                <a class="a3">Strong </a>
+                <a class="a3">Warner Brothers</a>    
+
+                <a></a>
+                <a class="a4">11</a>
+                <a class="a4">Aquaman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Below Average</a>
+                <a class="a4">Strong </a>
+                <a class="a4">DC Entertainment</a>     
+
+                <a></a>
+                <a class="a3">11</a>
+                <a class="a3">Aquaman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Below Average</a>
+                <a class="a3">Strong </a>
+                <a class="a3">AT&T</a>  
+
+                <a></a>
+                <a class="a4">12</a>
+                <a class="a4">Astrick</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a class="a4">Above Average</a>
+                <a class="a4"> Average</a>
+                <a class="a4">Warner Brothers</a>    
+                
+                <a></a>
+                <a class="a3">12</a>
+                <a class="a3">Astrick</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">Male</a>
+                <a class="a3">Villian</a>
+                <a class="a3">Above Average</a>
+                <a class="a3"> Average</a>
+                <a class="a3">DC Entertainment</a>   
+
+                
+                <a></a>
+                <a class="a4">12</a>
+                <a class="a4">Astrick</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">Male</a>
+                <a class="a4">Villian</a>
+                <a class="a4">Above Average</a>
+                <a class="a4"> Average</a>
+                <a class="a4">AT&T</a> 
+
+
+
+                <a></a>
+                <a class="a3">13</a>
+                <a class="a3">The Atom</a>
+                <a class="a3">Marvel</a>
+                <a class="a3">Male</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3"> Average</a>
+                <a class="a3">Disney</a>
+
+                <a></a>
+                <a class="a4">14</a>
+                <a class="a4">BatWoman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">FeMale</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">Warner Brothers</a>     
+
+                <a></a>
+                <a class="a3">14</a>
+                <a class="a3">BatWoman</a>
+                <a class="a3">DC Comics</a>
+                <a class="a3">FeMale</a>
+                <a class="a3">Hero</a>
+                <a class="a3">Average</a>
+                <a class="a3">Strong</a>
+                <a class="a3">DC Entertainment</a>        
+
+                <a></a>
+                <a class="a4">14</a>
+                <a class="a4">BatWoman</a>
+                <a class="a4">DC Comics</a>
+                <a class="a4">FeMale</a>
+                <a class="a4">Hero</a>
+                <a class="a4">Average</a>
+                <a class="a4">Strong</a>
+                <a class="a4">AT&T</a>  
+ 
+              </div> 
+
+
+
+
+            </div> 
+        
+  
+    </div>  
+  </div>
+
+</body>
+</html>
