@@ -1,0 +1,505 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Audiowide", sans-serif;
+    color: #0c120a;
+    background: linear-gradient(to left , #797a79, black);
+    }
+  
+  * {box-sizing: border-box;}
+  
+  .icon {
+    text-decoration: none;
+  }
+  
+  .title {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 900;
+    padding-left: 2%;
+    font-size: 55px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px #c15b5b;
+  }
+  
+  img {height: 50px;}
+  
+  nav ul{list-style-type: none;}
+  nav ul li{display: inline;}
+  
+  
+  nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    z-index: 1;
+    }
+  
+  nav ul li { width: 100%;}
+  
+  
+  
+  
+  
+  /*                   -----------    Buttons   --------------------*/
+  
+   .dropbtn {
+      width: 100%;
+      background-color: transparent;
+      font-size: 20px;
+      border: none;
+      font-family: "Fantasy", copperplate;
+      color: white;
+      }
+  
+     .dropdown {
+        position: relative;
+        display: inline-block;
+        font-size: 15px;
+        text-decoration: none;
+        z-index: 3;
+        }
+  
+     .dropdown-content {
+        background: white;
+        color: white;
+        text-align: left;
+        display: none;
+        font-family: "Fantasy", copperplate;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 3;
+        }
+  
+     .dropdown-content a {
+       text-align: left;
+       color: black;
+       width: 350px;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       z-index: 3;
+       }
+  
+     .dropbtn:hover {background-color: red;cursor: pointer;}
+  
+     .dropdown:hover .dropdown-content {display: block; }
+  
+  
+     /*
+                    CSS FOR SERVICES
+  */
+    .services {
+      padding-top: 45px;
+      width: 100%;
+      font-family: "Fantasy", copperplate;
+      height: 00px;
+      display: grid;
+      grid-template-columns: 10% 80% 10%;
+      grid-template-rows: 400px 150px;
+      margin-top: 2%;
+      margin-left: 1%;
+      z-index: 500;
+      }
+  
+    .services1 {
+      background:white;
+      color: black;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 70px 40px 40px 40px 40px 40px 40px;
+      font-size: 35px;
+      border-top: 2px solid Red;
+      border-bottom: 4px solid Red;
+      border-left: 2px solid Red;
+      border-right: 4px solid rgb(60, 0, 255);
+      box-shadow: 20px 8px 16px 0px black;
+      padding-left: 30px;
+      }
+  
+     .services2 {font-size: 25px;}
+  
+  
+  
+  /*----------------------------------------------------------------------
+                           CSS for Gallery
+  ----------------------------------------------------------------------*/
+     .Gallery_main-page {
+       padding-top: 50px;
+       display: grid;
+       grid-template-columns: 1% 48% 1% 48%;
+       grid-template-rows:  12% 1% 12% 1% 12% 1% 12% 1% 12% 1% 
+                            12% 1% 12% 1% 12% 1% 12% 1% 12% 1% 
+                            12% 1% 12% 1% 12% 1% 12% 1% 12% 1%;
+       font-size: 20px;
+       font-weight: bold;
+       }
+  
+     .Gallery_Image {
+      width: 100%;
+      height: 100%;
+      box-shadow: 20px 8px 16px 0px black;
+      transition: 0.9s;
+      z-index: 500;
+      }
+  
+    .Gallery_Image :hover {
+      opacity: 0.8;
+      }
+  
+      .items_Gallery {
+        height: 100%;
+  
+        color: white;
+        box-shadow: 0px 8px 16px 0px black;;
+        opacity: .9;
+        padding-left: 10%;
+        }
+  
+  /*                                    Slide Show                            */
+      .grid-1 {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 10% 80% 5%;
+        z-index: 500;
+        }
+  
+  
+  /*----------------------------------------------------------------------
+                          Transitions Code
+  ----------------------------------------------------------------------*/
+  
+  /*                   Row 1                    */
+
+.container1 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate1;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate1 {
+
+    0%    {background-image:url(../../1-1-117_Pics_E_Cars_Testla_Model_X/5_Pic.webp);}
+    10%   {background-image:url(../../1-1-118_Pics_E_Cars_Testla_2008_Roadster/2_pic.jpeg);}
+    20%   {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/2_Pic.jpg);}   
+    30%   {background-image:url(../../1-1-119_Pics_E_Cars_Testla_New_Roadster/6_Pic.jpeg);}
+    40%   {background-image:url(../../1-1-114_Pics_E_Cars_Testla_Model_3/2_Pic.webp);}
+    50%   {background-image:url(../../1-1-115_Pics_E_Cars_Testla_Model_S/2_Pic.jpeg);}
+    60%   {background-image:url(../../1-1-116_Pics_E_Cars_Testla_Model_Y/1_Pic.jpeg);}
+    70%   {background-image:url(../../1-1-117_Pics_E_Cars_Testla_Model_X/3_Pic.jpeg);}
+    80%   {background-image:url(../../1-1-118_Pics_E_Cars_Testla_2008_Roadster/1_pic.webp);}
+    90%   {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/1_Pic.jpg);}   
+    100%  {background-image:url(../../1-1-119_Pics_E_Cars_Testla_New_Roadster/5_Pic.jpeg);}
+    }
+
+/*                   Row 2                    */
+
+.container2 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate2;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate2 {
+    0%    {background-image:url(../../1-1-121_Pics_E_Cars_Chevy_Bolt/11_Pic.webp);}
+    10%   {background-image:url(../../1-1-121_Pics_E_Cars_Chevy_Bolt/10_Pic.webp);}
+    20%   {background-image:url(../../1-1-121_Pics_E_Cars_Chevy_Bolt/9_Pic.webp);}
+    30%   {background-image:url(../../1-1-121_Pics_E_Cars_Chevy_Bolt/8_Pic.webp);}
+    40%   {background-image:url(../../1-1-121_Pics_E_Cars_Chevy_Bolt/7_Pic.JPG);}
+    50%   {background-image:url(../../1-1-121_Pics_E_Cars_Chevy_Bolt/6_Pic.jpg);}
+    60%   {background-image:url(../../1-1-121_Pics_E_Cars_Chevy_Bolt/5_Pic.jpg);}
+    70%   {background-image:url(../../1-1-121_Pics_E_Cars_Chevy_Bolt/4_Pic.jpg);}
+    80%   {background-image:url(../../1-1-121_Pics_E_Cars_Chevy_Bolt/3_Pic.jpg);}
+    90%   {background-image:url(../../1-1-121_Pics_E_Cars_Chevy_Bolt/2_Pic.jpg);}
+    100%  {background-image:url(../../1-1-121_Pics_E_Cars_Chevy_Bolt/1_Pic.jpg);}
+    }
+
+/*                   Row 3                    */
+
+.container3 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate3;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate3 {
+    0%    {background-image:url(../../1-1-122_Pics_E_Cars_Ford_Mustang/1_Pic.jpg);}
+    10%   {background-image:url(../../1-1-122_Pics_E_Cars_Ford_Mustang/10_Pic.webp);}
+    20%   {background-image:url(../../1-1-122_Pics_E_Cars_Ford_Mustang/11_Pic.webp);}
+    30%   {background-image:url(../../1-1-122_Pics_E_Cars_Ford_Mustang/10_Pic.png);}
+    40%   {background-image:url(../../1-1-122_Pics_E_Cars_Ford_Mustang/9_Pic.webp);}
+    50%   {background-image:url(../../1-1-122_Pics_E_Cars_Ford_Mustang/6_Pic.jpg);}
+    60%   {background-image:url(../../1-1-122_Pics_E_Cars_Ford_Mustang/5_Pic.jpg);}
+    70%   {background-image:url(../../1-1-122_Pics_E_Cars_Ford_Mustang/4_Pic.jpg);}
+    80%   {background-image:url(../../1-1-122_Pics_E_Cars_Ford_Mustang/3_Pic.jpg);}
+    90%   {background-image:url(../../1-1-122_Pics_E_Cars_Ford_Mustang/2_Pic.jpg);}
+    100%  {background-image:url(../../1-1-122_Pics_E_Cars_Ford_Mustang/1_Pic.jpg);}
+    }
+
+/*                   Row 4                    */
+
+.container4 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate4;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate4 {
+
+    0%    {background-image:url(../../1-1-123_Pics_E_Cars_Porsche_Taycan/1_Pic.jpg);}
+    10%   {background-image:url(../../1-1-123_Pics_E_Cars_Porsche_Taycan/11_Pic.jfif);}
+    20%   {background-image:url(../../1-1-123_Pics_E_Cars_Porsche_Taycan/10_Pic.jfif);}
+    30%   {background-image:url(../../1-1-123_Pics_E_Cars_Porsche_Taycan/9_Pic.webp);}
+    40%   {background-image:url(../../1-1-123_Pics_E_Cars_Porsche_Taycan/8_Pic.jpeg);}
+    50%   {background-image:url(../../1-1-123_Pics_E_Cars_Porsche_Taycan/7_Pic.jpeg);}
+    60%   {background-image:url(../../1-1-123_Pics_E_Cars_Porsche_Taycan/6_Pic.jpg);}
+    70%   {background-image:url(../../1-1-123_Pics_E_Cars_Porsche_Taycan/5_Pic.jpg);}
+    80%   {background-image:url(../../1-1-123_Pics_E_Cars_Porsche_Taycan/3_Pic.jpg);}
+    90%   {background-image:url(../../1-1-123_Pics_E_Cars_Porsche_Taycan/2_Pic.jpg);}
+    100%  {background-image:url(../../1-1-123_Pics_E_Cars_Porsche_Taycan/1_Pic.jpg);}
+    }
+
+/*                   Row 5                    */
+
+.container5 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate5;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate5 {
+
+    0%    {background-image:url(../../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/10_Pic.webp);}
+    10%   {background-image:url(../../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/9_Pic.webp);}
+    20%   {background-image:url(../../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/8_Pic.webp);}
+    30%   {background-image:url(../../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/8_Pic.jpg);}
+    40%   {background-image:url(../../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/7_Pic.webp);}
+    50%   {background-image:url(../../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/7_Pic.jpg);}
+    60%   {background-image:url(../../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/6_Pic.jpg);}
+    70%   {background-image:url(../../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/5_Pic.jpg);}
+    80%   {background-image:url(../../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/2_Pic.jfif);}
+    90%   {background-image:url(../../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/1_Pic.jfif);}
+    100%  {background-image:url(../../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/4_Pic.jpg);}
+    }
+
+
+/*                   Row 6                    */
+
+.container6 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate6;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate6 {
+    0%    {background-image:url(../../1-1-125_Pics_E_Cars_Kia_EV6/11_Pic.webp);}
+    10%   {background-image:url(../../1-1-125_Pics_E_Cars_Kia_EV6/10_Pic.webp);}
+    20%   {background-image:url(../../1-1-125_Pics_E_Cars_Kia_EV6/9_Pic.webp);}
+    30%   {background-image:url(../../1-1-125_Pics_E_Cars_Kia_EV6/8_Pic.webp);}
+    40%   {background-image:url(../../1-1-125_Pics_E_Cars_Kia_EV6/7_Pic.webp);}
+    50%   {background-image:url(../../1-1-125_Pics_E_Cars_Kia_EV6/6_Pic.webp);}
+    60%   {background-image:url(../../1-1-125_Pics_E_Cars_Kia_EV6/5_Pic.jpg);}
+    70%   {background-image:url(../../1-1-125_Pics_E_Cars_Kia_EV6/4_Pic.jpg);}
+    80%   {background-image:url(../../1-1-125_Pics_E_Cars_Kia_EV6/3_Pic.jpg);}
+    90%   {background-image:url(../../1-1-125_Pics_E_Cars_Kia_EV6/2_Pic.jpg);}
+    100%  {background-image:url(../../1-1-125_Pics_E_Cars_Kia_EV6/1_Pic.jpg);}
+    }
+
+/*                   Row 7                    */
+
+.container7 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate7;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate7 {
+    0%    {background-image:url(../../1-1-126_Pics_E_Cars_BMW_i4/9_Pic.jpg);}
+    10%   {background-image:url(../../1-1-126_Pics_E_Cars_BMW_i4/8_Pic.jpg);}
+    20%   {background-image:url(../../1-1-126_Pics_E_Cars_BMW_i4/8_Pic.jpeg);}
+    30%   {background-image:url(../../1-1-126_Pics_E_Cars_BMW_i4/7_Pic.jpg);}
+    40%   {background-image:url(../../1-1-126_Pics_E_Cars_BMW_i4/6_Pic.jpg);}
+    50%   {background-image:url(../../1-1-126_Pics_E_Cars_BMW_i4/5_Pic.jpg);}
+    60%   {background-image:url(../../1-1-126_Pics_E_Cars_BMW_i4/4_Pic.jpg);}
+    70%   {background-image:url(../../1-1-126_Pics_E_Cars_BMW_i4/3_Pic.webp);}
+    80%   {background-image:url(../../1-1-126_Pics_E_Cars_BMW_i4/3_Pic.jfif);}
+    90%   {background-image:url(../../1-1-126_Pics_E_Cars_BMW_i4/2_Pic.webp);}
+    100%  {background-image:url(../../1-1-126_Pics_E_Cars_BMW_i4/1_Pic.webp);}
+    }
+
+/*                   Row 8                    */
+
+.container8 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate8;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate8 {
+    0%    {background-image:url(../../1-1-127_Pics_E_Cars_MG_4/9_Pic.jpg);}
+    10%   {background-image:url(../../1-1-127_Pics_E_Cars_MG_4/8_Pic.webp);}
+    20%   {background-image:url(../../1-1-127_Pics_E_Cars_MG_4/8_Pic.jpg);}
+    30%   {background-image:url(../../1-1-127_Pics_E_Cars_MG_4/7_Pic.jpg);}
+    40%   {background-image:url(../../1-1-127_Pics_E_Cars_MG_4/78_Pic.webp);}
+    50%   {background-image:url(../../1-1-127_Pics_E_Cars_MG_4/7_pic.png);}
+    60%   {background-image:url(../../1-1-127_Pics_E_Cars_MG_4/7_Pic.jpg);}
+    70%   {background-image:url(../../1-1-127_Pics_E_Cars_MG_4/4_Pic.jfif);}
+    80%   {background-image:url(../../1-1-127_Pics_E_Cars_MG_4/3_Pic.jfif);}
+    90%   {background-image:url(../../1-1-127_Pics_E_Cars_MG_4/2_Pic.jfif);}
+    100%  {background-image:url(../../1-1-127_Pics_E_Cars_MG_4/1_Pic.jfif);}
+}
+/*                   Row 9                   */
+
+.container9 {
+    height: 55vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate9;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate9 {
+    0%    {background-image:url(../../1-1-128_Pics_E_Cars_Polestar_2/11_Pic.jfif);}
+    10%   {background-image:url(../../1-1-128_Pics_E_Cars_Polestar_2/10_Pic.jfif);}
+    20%   {background-image:url(../../1-1-128_Pics_E_Cars_Polestar_2/9_Pic.jfif);}
+    30%   {background-image:url(../../1-1-128_Pics_E_Cars_Polestar_2/8_Pic.jfif);}
+    40%   {background-image:url(../../1-1-128_Pics_E_Cars_Polestar_2/7_Pic.webp);}
+    50%   {background-image:url(../../1-1-128_Pics_E_Cars_Polestar_2/6_Pic.webp);}
+    60%   {background-image:url(../../1-1-128_Pics_E_Cars_Polestar_2/5_Pic.webp);}
+    70%   {background-image:url(../../1-1-128_Pics_E_Cars_Polestar_2/4_Pic.jpg);}
+    80%   {background-image:url(../../1-1-128_Pics_E_Cars_Polestar_2/3_Pic.jpg);}
+    90%   {background-image:url(../../1-1-128_Pics_E_Cars_Polestar_2/2_Pic.jpg);}
+    100%  {background-image:url(../../1-1-128_Pics_E_Cars_Polestar_2/1_Pic.jpg);}
+
+/*                                     Media Queries                             */
+
+
+    @media only screen and (max-width: 1100px){
+        .wrapper{grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);}}
+        ::selection{ float: none; width: 100%; padding-right: 0px; }}
+
+    @media screen and (max-width: 600px) {
+        header h1{ background-image: none; text-align: center; z-index: 3; }
+        nav{ grid-row: 2 / 3; grid-column: 1 / 9; }}
+
+
+
+   .header {
+      color: white;
+      display: grid;
+      grid-template-columns: 70% 25% ;
+      height: 85px;
+      padding-left: 2%;
+      width:98%;
+      font-family: "Fantasy", copperplate;
+      font-size: 40px;
+      border-bottom: 2px solid maroon;
+      z-index: 3;
+      }
+
+    .p1 {font-size: 20px;}
+
+
+
