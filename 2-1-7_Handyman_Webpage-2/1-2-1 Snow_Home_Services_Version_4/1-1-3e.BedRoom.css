@@ -1,0 +1,279 @@
+    body {
+        background: white;
+        }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%
+    font-family: "Audiowide", sans-serif;
+    color: ##515152;
+    }
+
+   h1 {font-family: "Audiowide",
+    sans-serif; ;
+
+    }
+
+   header {
+      background : white;
+       grid-row: 1/2;
+       grid-column: 1/9;
+       }
+
+   header a {
+     height: 100px;
+     font-size: 55px;
+     text-decoration: none;
+     z-index: 100;
+     }
+
+   header h1 {
+     line-height: 140%;
+     padding: .5rem;
+     margin-bottom: 0px;
+     margin: 0px;
+     z-index: 100;
+     }
+
+
+
+.Banner {
+    display: grid;
+    grid-template-columns: 25% 15% 25% 15% 15%;
+    }
+
+.LogoSize1 {width: 100%;margin-top: 5%;}
+.LogoSize2 {width: 100%; margin-top: -20%;}
+.LogoSize3 {width: 100%; margin-top: -8%;}
+.LogoSize4 {width: 100%;margin-top: -20%;}
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    }
+
+  nav {
+    font-weight: bold;
+    font-size: 55px;
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    position: sticky;
+    top: 0;
+    background-color: #424242;
+    border-bottom: 2px solid #f5b342;
+    z-index: 100;
+    }
+
+  #wrapper {
+    box-shadow: 0px 3px 3px rgba(66, 66, 66, 0.3);
+    display: grid;
+    grid-auto-rows: minmax(0px, auto);
+    z-index: 3;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    }
+
+  main {
+
+    padding-left: 5rem;
+    padding-right: 2rem;
+    grid-column: 2 / 8;
+    background-color: #ffffff;
+    z-index: 3;
+    }
+
+  * {box-sizing: border-box;}
+
+    nav {
+    font-weight: bold;
+    font-size: 55px;
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    position: sticky;
+    top: 0;
+    background-color: #424242;
+    border-bottom: 2px solid #f5b342;
+    z-index: 100;
+    }
+
+  nav ul{list-style-type: none;}
+
+  nav ul li{display: inline;}
+
+
+ nav ul {
+
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   flex-flow: row nowrap;
+   list-style-type: none;
+   z-index: 1;
+   }
+
+ nav ul li {width: 100%;}
+
+nav a:hover {background-color: #ba1c21;}
+
+ .dropbtn {
+    width: 100%;
+    background-color: #424242;
+    font-size: 15px;
+    border: none;
+    color: white;
+    opacity: .5;
+          }
+
+ .dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    z-index: 50;
+    }
+
+
+ .dropdown-content {
+   background: white;
+   text-align: left;
+   display: none;
+   font-family: "Fantasy", copperplate;
+   position: absolute;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 50;
+   }
+
+ .dropdown-content a {
+   text-align: left;
+   color: black;
+   width: 350px;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   z-index: 50;
+   }
+
+ .dropbtn:hover {background-color: red;cursor: pointer;}
+
+ .dropdown:hover .dropdown-content {display: block;  }
+
+
+.container {
+    height: 85vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate {
+    0%   {background-image:url(../../1-1-405_Bedrooms_Pics/Bed11.webp);}
+    10%  {background-image:url(../../1-1-405_Bedrooms_Pics/Bed10.webp);}
+    20%  {background-image:url(../../1-1-405_Bedrooms_Pics/Bed9.webp);}
+    30%  {background-image:url(../../1-1-405_Bedrooms_Pics/Bed8.jpeg);}
+    40%  {background-image:url(../../1-1-405_Bedrooms_Pics/Bed7.jpeg);}
+    50%  {background-image:url(../../1-1-405_Bedrooms_Pics/Bed6.jpeg);}
+
+    60%  {background-image:url(../../1-1-405_Bedrooms_Pics/Bed5.webp);}
+    70%  {background-image:url(../../1-1-405_Bedrooms_Pics/Bed4.jpeg);}
+    80%  {background-image:url(../../1-1-405_Bedrooms_Pics/Bed3.webp);}
+    90%  {background-image:url(../../1-1-405_Bedrooms_Pics/Bed2.webp);}
+    100% {background-image:url(../../1-1-405_Bedrooms_Pics/Bed1.webp);}
+
+
+    }
+
+    .body-title {
+       background:black;
+       position: absolute;
+       left: 10px;
+       top: 150px;
+       color: white;
+       border-width: 1px;
+       padding-left: 10px;
+       font-size: 20px;
+       opacity: .7;
+       z-index: 10;
+       border-radius: 10px;
+       box-shadow: 5px 8px 16px 0px black;
+       }
+
+    .body-title1 {
+       background:black;
+       position: absolute;
+       left: 10%;
+       width: 15%;
+       top: 250px;
+       height: 50%;
+       color: white;
+       border-width: 1px;
+       padding-left: 10px;
+       font-size: 20px;
+       opacity: .9;
+       z-index: 10;
+       border-radius: 10px;
+       box-shadow: 5px 8px 16px 0px black;
+       }
+
+    .body-title2 {
+       background:black;
+       position: absolute;
+       left: 30%;
+       width: 15%;
+       top: 250px;
+       height: 50%;
+       color: white;
+       border-width: 1px;
+       padding-left: 10px;
+       font-size: 20px;
+       opacity: .9;
+       z-index: 10;
+       border-radius: 10px;
+       box-shadow: 5px 8px 16px 0px black;
+       }
+
+    .body-title3 {
+       background:black;
+       position: absolute;
+       left: 50%;
+       width: 15%;
+       top: 250px;
+       height: 50%;
+       color: white;
+       border-width: 1px;
+       padding-left: 10px;
+       font-size: 20px;
+       opacity: .9;
+       z-index: 10;
+       border-radius: 10px;
+       box-shadow: 5px 8px 16px 0px black;
+       }
+
+    .body-title4 {
+       background:black;
+       position: absolute;
+       left: 70%;
+       width: 15%;
+       top: 250px;
+       height: 50%;
+       color: white;
+       border-width: 1px;
+       padding-left: 10px;
+       font-size: 20px;
+       opacity: .9;
+       z-index: 10;
+       border-radius: 10px;
+       box-shadow: 5px 8px 16px 0px black;
+       }
