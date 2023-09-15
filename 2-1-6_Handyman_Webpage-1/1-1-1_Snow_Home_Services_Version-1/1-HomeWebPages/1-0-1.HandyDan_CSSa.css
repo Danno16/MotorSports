@@ -1,0 +1,302 @@
+    body {
+      background-image: url("../3.Background/pic1e.png");
+      }
+
+    .headerBox {
+      width:100%;
+      background: maroon;
+      border-bottom: 5px solid black
+      }
+
+    .picSize {
+        height: 20%;
+        width: 100%;
+        }
+
+
+    .buttonHeader {
+      width:14%;
+      font-size: 20px;
+      font-family: Comic Sans MS;
+      box-shadow: 0px 8px 16px 0px black;
+      border-radius: 50px;
+      opacity: .7;
+      }
+
+    .buttonSelected {
+      background: #7a8275;
+      width :14%;
+      font-size: 20px;
+      font-family: Comic Sans MS;
+      box-shadow: 0px 8px 16px 0px black;
+      border-radius: 50px;
+      }
+
+   .autoscroll {
+     color: white;
+     text-align: center;
+     font-size: 30px;
+     margin-top: -150px;
+     font-weight: 900;
+     }
+
+/*----------------------------------------------------------------------
+                         CSS for Services
+----------------------------------------------------------------------*/
+
+    .items_Services {
+      background: #f2f1ed;
+      color: black;
+      border-style: solid;
+      border-width: 5px;
+      border-color:maroon;
+      border-radius: 80px;
+      box-shadow: 0px 8px 16px 0px black;;
+      opacity: .9;
+      padding-left: 10%;
+      }
+
+   .main-page_Services {
+     padding-top:50px;
+     display: grid;
+     grid-template-columns: 1% 23% 2% 23% 2% 23% 2% 23%;
+     color: green;
+     font-size: 20px;
+     font-weight: bold;
+     }
+
+/*----------------------------------------------------------------------
+                         CSS for Gallery
+----------------------------------------------------------------------*/
+   .Gallery_main-page {
+     padding-top:50px;
+     display: grid;
+     grid-template-columns: 1% 48% 1% 48%;
+     grid-template-rows: 22% 2% 22% 2% 22% 2% 22% 2% 22%;
+     color: green;
+     font-size: 20px;
+     font-weight: bold;
+     }
+
+   .Gallery_Image {
+    width: 100%;
+    height: 100%;
+    box-shadow: 20px 8px 16px 0px black;
+    transition: 0.8s;
+    }
+
+  .Gallery_Image :hover {
+    opacity: 0.8;
+    }
+
+/*----------------------------------------------------------------------
+                         CSS for About Us
+----------------------------------------------------------------------*/
+   .Abut_Us_main-page {
+     padding-top: 2%;
+     padding-bottom: 4%;
+     box-shadow: 0px 8px 16px 0px black;
+     border-radius: 50px;
+     }
+
+   .items_About_Us {
+      margin-left: 10%;
+      padding: .5%;
+      width: 70%;
+      background: #f2f1ed;
+      color: black;
+      font-size: 3.5vh;
+      border-radius: 80px;
+      box-shadow: 0px 8px 16px 5px black;;
+      opacity: .9;
+      padding-left: 10%;
+      }
+
+/*----------------------------------------------------------------------
+                         CSS for Contact Us
+----------------------------------------------------------------------*/
+
+
+    .emailBox {
+        display: grid;
+        grid-template-columns: 30% 60%;
+        font-size: 45px;
+
+        }
+
+    .emailBoxName {font-size:30px; width: 40%;}
+    .emailPhNumber {font-size:30px; width: 20%;}
+    .emailBoxAddr {font-size:30px; width: 50%;}
+    .emailBoxZip {font-size:30px; width: 10%;}
+    .emailBoxProject {font-size:30px;width: 62%;}
+
+    .submitEmail {background: #de652c;
+        font-size:30px;
+        width: 630px;
+        color: white;
+        border-radius: 50px;
+        box-shadow: 5px 8px 16px 0px black;
+        }
+
+/*----------------------------------------------------------------------
+                         CSS for Kitchen
+----------------------------------------------------------------------*/
+    #radio1Kit:checked ~ .first{margin-left: 0;}
+    #radio2Kit:checked ~ .first{margin-left: -4.2%;}
+    #radio3Kit:checked ~ .first{margin-left: -8.7%;}
+    #radio4Kit:checked ~ .first{margin-left: -14.5%;}
+    #radio5Kit:checked ~ .first{margin-left: -19.7%;}
+    #radio6Kit:checked ~ .first{margin-left: -25.5%;}
+    #radio7Kit:checked ~ .first{margin-left: -32.6%;}
+    #radio8Kit:checked ~ .first{margin-left: -39.9%;}
+    #radio9Kit:checked ~ .first{margin-left: -48%;}
+    #radio10Kit:checked ~ .first{margin-left: -59%;}
+
+/*----------------------------------------------------------------------
+                         CSS for Bathroom
+----------------------------------------------------------------------*/
+    #radio1Bath:checked ~ .first{margin-left: 0;}
+    #radio2Bath:checked ~ .first{margin-left: -4.0%;}
+    #radio3Bath:checked ~ .first{margin-left: -8.7%;}
+    #radio4Bath:checked ~ .first{margin-left: -13.5%;}
+    #radio5Bath:checked ~ .first{margin-left: -18.7%;}
+    #radio6Bath:checked ~ .first{margin-left: -24.5%;}
+    #radio7Bath:checked ~ .first{margin-left: -30.6%;}
+    #radio8Bath:checked ~ .first{margin-left: -37.9%;}
+    #radio9Bath:checked ~ .first{margin-left: -46%;}
+    #radio10Bath:checked ~ .first{margin-left: -54%;}
+
+/*----------------------------------------------------------------------
+                         CSS for Basement
+----------------------------------------------------------------------*/
+    #radio1Basement:checked ~ .first{margin-left: 0;}
+    #radio2Basement:checked ~ .first{margin-left: -4.0%;}
+    #radio3Basement:checked ~ .first{margin-left: -8.7%;}
+    #radio4Basement:checked ~ .first{margin-left: -13.5%;}
+    #radio5Basement:checked ~ .first{margin-left: -18.7%;}
+    #radio6Basement:checked ~ .first{margin-left: -24.5%;}
+
+/*----------------------------------------------------------------------
+                         CSS for Family Room
+----------------------------------------------------------------------*/
+    #radio1f:checked ~ .first{margin-left: 0;}
+    #radio2f:checked ~ .first{margin-left: -4.2%;}
+    #radio3f:checked ~ .first{margin-left: -8.7%;}
+    #radio4f:checked ~ .first{margin-left: -13.7%;}
+    #radio5f:checked ~ .first{margin-left: -19.1%;}
+    #radio6f:checked ~ .first{margin-left: -25.2%;}
+    #radio7f:checked ~ .first{margin-left: -31.6%;}
+    #radio8f:checked ~ .first{margin-left: -38.9%;}
+    #radio9f:checked ~ .first{margin-left: -49%;}
+
+/*----------------------------------------------------------------------
+                         CSS for BedRoom
+----------------------------------------------------------------------*/
+    #radio1BedRoom:checked ~ .first{margin-left: 0;}
+    #radio2BedRoom:checked ~ .first{margin-left: -4.2%;}
+    #radio3BedRoom:checked ~ .first{margin-left: -8.7%;}
+    #radio4BedRoom:checked ~ .first{margin-left: -13.7%;}
+    #radio5BedRoom:checked ~ .first{margin-left: -19.1%;}
+    #radio6BedRoom:checked ~ .first{margin-left: -25.2%;}
+    #radio7BedRoom:checked ~ .first{margin-left: -31.6%;}
+    #radio8BedRoom:checked ~ .first{margin-left: -40.0%;}
+    #radio9BedRoom:checked ~ .first{margin-left: -49%;}
+
+/*----------------------------------------------------------------------
+                         CSS for Grids
+----------------------------------------------------------------------*/
+    .grid-1 {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 10% 80% 5%;
+
+      }
+
+
+/*----------------------------------------------------------------------
+                         CSS for Slider
+----------------------------------------------------------------------*/
+
+
+
+
+    .slider {
+      width: 100%;           /*  Controls the width of the box */
+      height: 70vh;
+      border-radius: 0px;    /*  no visual difference */
+      overflow: hidden;
+      box-shadow: 20px 8px 56px 0px black;
+      }
+
+    .slides {
+      width: 2720%;            /* Distance between pics */
+      height: 70%;
+      display: flex;          /* Images Horzional not vertical */
+      box-shadow: 20px 8px 56px 0px black;
+      }
+
+    .slides input {display: none;} /* hides the button on the left   */
+    .slide {width: 20%; transition: 2s;} /* Distance between pics */
+    .slide img {width: 100%; height: 70vh; } Width/height of images
+
+    .header {
+      background: rgb(125, 89, 89);
+      font-size: 10%;
+      }
+
+/*----------------------------------------------------------------------
+                  css for manual slide navigation
+----------------------------------------------------------------------*/
+
+    .navigation-manual {            /*     Controls the positions of buttons           */
+      position: absolute;
+      width: 80%;               /*      Controls the L/R position of buttons        */
+      margin-top: 7%;         /*      Controls the T/B position of buttons        */
+      display: flex;              /*      Makes the buttons Round                     */
+      justify-content: center;    /*      Makes the buttons Round  */
+      }
+
+    .manual-btn {
+      border: 2px solid black;
+      background: white;
+      padding: 5px;              /*      Controls the size of the buttons*/
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 1s;             /*      Time to fill background color of button */
+      }
+
+    .manual-btn:not(:last-child) {
+      margin-right: 5%;           /*   Controls the distance of buttons */
+      }
+
+    .manual-btn:hover {
+      background-color: red;  /* Background color of button */
+      }
+
+    #radio1:checked ~ .first{margin-left: 0;}
+    #radio2:checked ~ .first{margin-left: -4.5%;}
+    #radio3:checked ~ .first{margin-left: -9.0%;}
+    #radio4:checked ~ .first{margin-left: -14.5%;}
+    #radio5:checked ~ .first{margin-left: -20%;}
+    #radio6:checked ~ .first{margin-left: -26%;}
+    #radio7:checked ~ .first{margin-left: -32%;}
+    #radio8:checked ~ .first{margin-left: -41.5%;}
+    #radio9:checked ~ .first{margin-left: -50%;}
+    #radio10:checked ~ .first{margin-left: -60%;}
+
+
+/*----------------------------------------------------------------------
+               CSS for Automatic slide navigation
+----------------------------------------------------------------------*/
+
+   .navigation-auto {
+     position: absolute;
+     display: flex;
+     width: 10%;
+     justify-content: center;
+     }
+
+
+
+
+

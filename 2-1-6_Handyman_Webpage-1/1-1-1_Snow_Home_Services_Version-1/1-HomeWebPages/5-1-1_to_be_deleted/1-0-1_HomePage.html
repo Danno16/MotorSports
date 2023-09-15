@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HandyDan Home Pageasdfa</title>
+
+    <style>
+    .headerBox {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100%;
+        background: maroon;
+        border-bottom: 5px solid black
+        }
+
+    .box4 {
+        color: white;
+        font-size: 20px;
+        }
+
+    #grad1 {
+        background-image: url("../3.Background/pic1e.png");
+        }
+
+    .box3.#grad1 {
+        width:500px;
+        height:900px;
+        }
+
+    .backgroundPic {
+        height:950px;
+        width:3000px;
+        }
+
+    .picSize {
+        height: 130px;
+        width: 3000px;
+        }
+
+    .headerFont {
+        display: table-cell;
+        height: 100px;
+        padding: 10px;
+        vertical-align: middle;
+        font-size: 90px;
+        }
+
+    .centerBox {
+        display: grid;
+        grid-template-rows: 100px 600px 100px;
+        }
+
+/*----------------------------------------------------------------------
+                         CSS for Slider
+----------------------------------------------------------------------*/
+
+        .main-page {
+            margin: 0;
+            padding-top: 0px;
+            padding-left: 0px;
+            height: 800px;          /* Controls the buttons and images to top of page */
+            width: 1900px;
+            display: flex;          /* Images Horizon not vertical for button vs images */
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .slider {
+            width: 1300px;           /*  Controls the width of the box */
+            height: 800px;
+            border-radius: 10px;    /*  no visual difference */
+            overflow: hidden;
+
+        }
+
+        .slides {
+            width: 700%;            /* Distance between pics */
+            height: 600px;
+            display: flex;          /* Images Horzional not vertical */
+            box-shadow: 20px 8px 56px 0px black;
+            }
+
+        .slides input {
+            display: none;          /* hides the button on the left   */
+            }
+
+        .slide {
+            width: 20%;              /* Distance between pics */
+            transition: 2s;
+
+
+        }
+
+        .slide img {
+            width: 1600px;           /*      Width of images                              */
+            height: 600px;          /*      Height of images                             */
+        }
+
+        .header {
+            background: rgb(125, 89, 89);
+            font-size: 50px;
+        }
+
+/*----------------------------------------------------------------------
+                  css for manual slide navigation
+----------------------------------------------------------------------*/
+
+        .navigation-manual {            /*     Controls the positions of buttons           */
+            position: absolute;
+            width: 900px;               /*      Controls the L/R position of buttons        */
+            margin-top: 140px;         /*      Controls the T/B position of buttons        */
+            display: flex;              /*      Makes the buttons Round                     */
+            justify-content: center;    /*      Makes the buttons Round  */
+        }
+
+        .manual-btn {
+            border: 2px solid;
+            padding: 5px;              /*      Controls the size of the buttons*/
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;             /*      Time to fill background color of button */
+        }
+
+        .manual-btn:not(:last-child) {
+            margin-right: 40px;           /*   Controls the distance of buttons */
+        }
+
+        .manual-btn:hover {
+            background-color: rgb(9, 16, 159);  /* Background color of button */
+        }
+
+        #radio1:checked ~ .first{margin-left: 0;}
+        #radio2:checked ~ .first{margin-left: -1600px;}
+        #radio3:checked ~ .first{margin-left: -3200px}
+        #radio4:checked ~ .first{margin-left: -4800px;}
+        #radio5:checked ~ .first{margin-left: -6400px;}
+        #radio6:checked ~ .first{margin-left: -8000px;}
+        #radio7:checked ~ .first{margin-left: -9600px;}
+        #radio8:checked ~ .first{margin-left: -11200px;}
+        #radio9:checked ~ .first{margin-left: -12800px;}
+        #radio10:checked ~ .first{margin-left: -14400px;}
+        #radio11:checked ~ .first{margin-left: -16000px;}
+        #radio12:checked ~ .first{margin-left: -17600px;}
+        #radio13:checked ~ .first{margin-left: -19200px;}
+        #radio14:checked ~ .first{margin-left: -20800px;}
+        #radio15:checked ~ .first{margin-left: -22400px;}
+        #radio16:checked ~ .first{margin-left: -24000px;}
+        #radio17:checked ~ .first{margin-left: -25600px;}
+        #radio18:checked ~ .first{margin-left: -27200px;}
+        #radio19:checked ~ .first{margin-left: -28800px;}
+        #radio20:checked ~ .first{margin-left: -30400px;}
+        #radio21:checked ~ .first{margin-left: -32000px;}
+        #radio22:checked ~ .first{margin-left: -33600px;}
+        #radio23:checked ~ .first{margin-left: -35200px;}
+        #radio24:checked ~ .first{margin-left: -36800px;}
+        #radio25:checked ~ .first{margin-left: -38400px;}
+        #radio26:checked ~ .first{margin-left: -40000px;}
+        #radio27:checked ~ .first{margin-left: -41600px;}
+        #radio28:checked ~ .first{margin-left: -43200px;}
+
+/*----------------------------------------------------------------------
+               CSS for Automatic slide navigation
+----------------------------------------------------------------------*/
+
+        .navigation-auto {
+            position: absolute;
+            display: flex;
+            width: 900px;
+            justify-content: center;
+            margin-top: 840px;
+        }
+
+        .navigation-auto div {
+            border: 2px solid rgb(0, 255, 38);
+            padding: 5px;
+            border-radius: 10px;
+            transition: 1s;
+        }
+
+
+    .buttonHeader {
+      width:305px;
+      font-size: 30px;
+      font-family: Comic Sans MS;
+      box-shadow: 0px 8px 16px 0px black;
+      border-radius: 50px;
+      opacity: .7;
+      }
+
+    .buttonSelected {
+      background: #7a8275;
+      width :305px;
+      font-size: 30px;
+      font-family: Comic Sans MS;
+      box-shadow: 0px 8px 16px 0px black;
+      border-radius: 50px;
+      }
+
+    .picSize {
+      width:1900px;
+      }
+
+    .autoscroll {
+      color:black;
+      text-align: center;
+      font-size: 30px;
+      padding-top: 30px;
+      font-weight: 900;
+
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <div class="headerBox">
+            <div class="logoBox">
+                <a href=""><img class="picSize" src="../3.Background/Banner3.png"></a>
+            </div>
+            <div></div>
+        </div>
+        <div id="grad1" class="MainBox">
+
+            <div class="box4"></div>
+            <div class="centerBox">
+                 <div class="box4">
+                   <a href="../../1-1-1_Home_Page/1-1-1.Main_Menu.html"><button class="buttonSelected">Home</button></a>
+                   <a href="1-0-2_Services.html"><button class="buttonHeader">Services</button></a>
+                   <a href="1-0-3_Project_Gallery.html"><button class="buttonHeader">Project Gallery</button></a>
+                   <a href="1-0-7_About_Us.html"><button class="buttonHeader">About Us</button></a>
+                   <a href="1-0-8_Contact_Us.html"><button class="buttonHeader">Contact Us</button></a>
+                </div>
+                <div class="box4">
+<body>
+
+            <!--                  Image slider Start            -->
+
+    <div>
+  <div class="main-page">
+    <div class="slider">
+        <div class="slides">
+            <!--                  Radio Button Start            -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <input type="radio" name="radio-btn" id="radio6">
+                <input type="radio" name="radio-btn" id="radio7">
+                <input type="radio" name="radio-btn" id="radio8">
+                <input type="radio" name="radio-btn" id="radio9">
+                <input type="radio" name="radio-btn" id="radio10">
+                <input type="radio" name="radio-btn" id="radio11">
+                <input type="radio" name="radio-btn" id="radio12">
+                <input type="radio" name="radio-btn" id="radio13">
+                <input type="radio" name="radio-btn" id="radio14">
+                <input type="radio" name="radio-btn" id="radio15">
+                <input type="radio" name="radio-btn" id="radio16">
+                <input type="radio" name="radio-btn" id="radio17">
+                <input type="radio" name="radio-btn" id="radio18">
+                <input type="radio" name="radio-btn" id="radio19">
+                <input type="radio" name="radio-btn" id="radio20">
+                <input type="radio" name="radio-btn" id="radio21">
+                <input type="radio" name="radio-btn" id="radio22">
+                <input type="radio" name="radio-btn" id="radio23">
+                <input type="radio" name="radio-btn" id="radio24">
+                <input type="radio" name="radio-btn" id="radio25">
+                <input type="radio" name="radio-btn" id="radio26">
+                <input type="radio" name="radio-btn" id="radio27">
+                <input type="radio" name="radio-btn" id="radio28">
+
+
+            <!--                   Radio Button End            -->
+            <!--                   Slide Image Start           -->
+                <div class = "slide first"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic12.jpeg" alt=""></div>
+
+                <div class = "slide"><img src="../2.House-Pics/2-403-RamblewoodDr-lyn-VA/pic4.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/2-403-RamblewoodDr-lyn-VA/pic5.webp" alt=""></div>
+           <!--     <div class = "slide"><img src="../2.House-Pics/2-403-RamblewoodDr-lyn-VA/pic6.webp" alt=""></div> -->
+                <div class = "slide"><img src="../2.House-Pics/2-403-RamblewoodDr-lyn-VA/pic7.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/2-403-RamblewoodDr-lyn-VA/pic8.webp" alt=""></div>
+
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic3.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic4.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic5.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic6.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic7.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic9.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic10.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic13.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic15.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic16.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic19.webp" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic21.webp" alt=""></div>
+
+                <div class = "slide"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic6.jpeg" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic11.jpeg" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic13.jpeg" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic16.jpeg" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic17.jpeg" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic18.jpeg" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic19.jpeg" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic24.jpeg" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic27.jpeg" alt=""></div>
+
+            <!--                   Slide Image End             -->
+
+            <!--            Automatic Navigation Start         -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+                <div class="auto-btn7"></div>
+                <div class="auto-btn8"></div>
+                <div class="auto-btn9"></div>
+                <div class="auto-btn10"></div>
+                <div class="auto-btn11"></div>
+                <div class="auto-btn12"></div>
+                <div class="auto-btn13"></div>
+                <div class="auto-btn14"></div>
+                <div class="auto-btn15"></div>
+                <div class="auto-btn16"></div>
+                <div class="auto-btn17"></div>
+                <div class="auto-btn18"></div>
+                <div class="auto-btn19"></div>
+                <div class="auto-btn20"></div>
+                <div class="auto-btn21"></div>
+                <div class="auto-btn22"></div>
+                <div class="auto-btn23"></div>
+                <div class="auto-btn24"></div>
+                <div class="auto-btn25"></div>
+                <div class="auto-btn26"></div>
+                <div class="auto-btn27"></div>
+                <div class="auto-btn28"></div>
+            </div>
+            <!--             Automatic Navigation End          -->
+        </div>
+            <!--             Manual Navigation End             -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+            <label for="radio6" class="manual-btn"></label>
+            <label for="radio7" class="manual-btn"></label>
+            <label for="radio8" class="manual-btn"></label>
+            <label for="radio9" class="manual-btn"></label>
+            <label for="radio10" class="manual-btn"></label>
+        </div>
+        <div class="autoscroll"><i> <-----  Auto Scroll -----></i></div>
+            <!--            Manual Navigation Start            -->
+    </div>
+            <!--               Image slider End                -->
+  </div>
+</div>
+</body>
+
+
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 18){
+                counter = 1;
+            }
+        }, 3000);
+
+    </script>
+
+</html>
+
+
+

@@ -1,0 +1,201 @@
+  .header {
+    font-family: 'Alegreya Sans SC';
+    padding-top: 30px;
+    font-size: 40px;
+    color: white;
+    border-bottom: 2px solid red;
+    z-index: 3;
+    }
+
+  .footer {
+     font-family: 'Alegreya Sans SC';
+    padding-top: 20%;
+    text-align: center;
+    font-size: 40px;
+    color: White;
+    z-index: 3;
+    }
+
+    .padding {
+        padding-left: 20px;
+    }
+
+  .dropbtn {
+    background: transparent;
+    width: 100%;
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    font-family: "Fantasy", copperplate;
+    color: white;
+    cursor: pointer;
+    }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+     }
+
+  .dropbtn:hover {background-color: red;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  body{background: linear-gradient(to left , white, black);}
+
+
+    .grid-layout {
+       display: grid;
+       grid-template-columns: 35% 45% 20%;
+       grid-template-rows: 90px;
+       z-index: 2;
+       }
+
+    .grid-layout-1 {
+       display: grid;
+       grid-template-rows: 7px;
+       z-index: 2;
+       }
+
+    .bannerBox4 {border-bottom: 2px solid red; padding-top: 15px;}
+
+    .large_image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      z-index: 2;
+      opacity: 0.3;}
+
+       /*                                ----   The Gallery   -----                   */
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    background: white;
+    height: 550px;
+    width: 550px;
+    margin:10px;
+    border-radius: 5px;
+  }
+
+  .card-image {
+    height: 300px;
+    padding-top: 90px;
+    margin-bottom: 15px;
+    background-size: cover;
+  }
+
+  .pic-1  {background-image: url("../../0-1-1_Images/1-1-1_Art_Pics/A1.Art_1.jpeg");}
+  .pic-2  {background-image: url("../../0-1-1_Images/1-1-1_Art_Pics/A2.Art_2.jpeg");}
+  .pic-3  {background-image: url("../../0-1-1_Images/1-1-1_Art_Pics/A3.Art_3.jpeg");}
+  .pic-4  {background-image: url("../../0-1-1_Images/1-1-1_Art_Pics/A4.Art_4.jpeg");}
+  .pic-5  {background-image: url("../../0-1-1_Images/1-1-1_Art_Pics/A5.Art_5.jpeg");}
+  .pic-6  {background-image: url("../../0-1-1_Images/1-1-1_Art_Pics/A6.Art_6.jpeg");}
+  .pic-7  {background-image: url("../../0-1-1_Images/1-1-1_Art_Pics/A7.Art_7.jpeg");}
+  .pic-8  {background-image: url("../../0-1-1_Images/1-1-1_Art_Pics/A8.Art_8.jpeg");}
+  .pic-9  {background-image: url("../../0-1-1_Images/1-1-1_Art_Pics/A9.Art_9.jpeg");}
+
+
+
+  .card:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+  }
+
+        .title {
+      text-align: center;
+      font-family: Fantasy, copperplate;
+      font-size: 50px;
+      margin: 0;
+    }
+
+    .description {
+      text-align: center;
+      font-family: Fantasy, copperplate;
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .price {
+      text-align: center;
+      font-family: Fantasy, copperplate;
+      font-size: 20px;
+      margin: 0;
+    }
+ /*                                ----   About Us   -----                   */
+   .bodyGrid {
+       display: grid;
+       grid-template-columns: 1fr  ;
+       grid-template-rows: 100px ;
+       font-size: 30px;
+       color: Black;
+       z-index: 2;
+       }
+
+   .bodyGrid_1 {
+       display: grid;
+       grid-template-columns: 5% 90%;
+       grid-template-rows: 50px  ;
+
+       z-index: 2;
+       }
+
+
+   .about-me {
+      background:white;
+      font-size: 40px;
+      color: Black;
+      padding: 30px;
+      border: 5px solid black;
+      text-shadow: 7px 7px 50px grey;
+      box-shadow: 0px 8px 16px 0px white;
+      border-radius: 55px;
+      font-style: italic;
+      }
+
+/*              Schedule Appointment                  */
+
+   .contact_us {font-family: Fantasy, copperplate; color: white;}
+
+   .emailLayout {
+        display: grid;
+        grid-template-columns: 20% 60%;
+        height:400px;
+        }
+
+    .emailBox {
+        display: grid;
+        grid-template-columns:  100%;
+        font-size: 40px;
+        }
+
+    .emailBoxName {font-size:25px; width: 70%;}
+    .emailPhNumber {font-size:25px; width: 20%;}
+    .emailBoxAddr {font-size:25px; width: 70%;}
+    .emailBoxZip {font-size:25px; width: 20%;}
+    .emailBoxProject {
+        font-size: 25px;width: 92%; word-wrap: break-word;}
+
+    .submitEmail {background: #de652c;
+        text-align: center;
+        font-size: 30px;
+        width: 92%;
+        color: white;
+        border-radius: 50px;
+        box-shadow: 5px 8px 16px 0px black;
+        }

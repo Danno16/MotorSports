@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Handy Dan's Gallery-Bathrooms</title>
+
+    <style>
+
+    .headerBox {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        width:1900px;
+        background: maroon;
+        border-bottom: 5px solid black
+        }
+
+    .MainBox {
+        display: grid;
+        grid-template-columns: 1px 3000px 400px;
+        grid-template-rows: 850px;
+        }
+
+    .box4 {
+        color: white;
+        font-size: 20px;
+        }
+
+    #grad1 {
+        background-image: url("../3.Background/pic1e.png");
+        }
+
+    .box3.#grad1 {
+        width:500px;
+        height:900px;
+        }
+
+    .backgroundPic {
+        height:950px;
+        width:3000px;
+        }
+
+    .picSize {
+        height: 130px;
+        width: 3000px;
+        }
+
+    .headerFont {
+        display: table-cell;
+        height: 100px;
+        padding: 10px;
+        vertical-align: middle;
+        font-size: 90px;
+        }
+
+    .centerBox {
+        display: grid;
+        grid-template-rows: 100px 600px 100px;
+        }
+
+/*----------------------------------------------------------------------
+                         CSS for Slider
+----------------------------------------------------------------------*/
+
+        .main-page {
+            margin: 0;
+            padding-top: 0px;
+            padding-left: 0px;
+            height: 800px;          /* Controls the buttons and images to top of page */
+            width: 1900px;
+            display: flex;          /* Images Horizon not vertical for button vs images */
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .slider {
+            width: 1300px;           /*  Controls the width of the box */
+            height: 800px;
+            border-radius: 10px;    /*  no visual difference */
+            overflow: hidden;
+
+        }
+
+        .slides {
+            width: 700%;            /* Distance between pics */
+            height: 600px;
+            display: flex;          /* Images Horzional not vertical */
+            box-shadow: 20px 8px 56px 0px black;
+            }
+
+        .slides input {
+            display: none;          /* hides the button on the left   */
+            }
+
+        .slide {
+            width: 20%;              /* Distance between pics */
+            transition: 2s;
+
+
+        }
+
+        .slide img {
+            width: 1600px;           /*      Width of images                              */
+            height: 600px;          /*      Height of images                             */
+        }
+
+        .header {
+            background: rgb(125, 89, 89);
+            font-size: 50px;
+        }
+
+/*----------------------------------------------------------------------
+                  css for manual slide navigation
+----------------------------------------------------------------------*/
+
+        .navigation-manual {            /*     Controls the positions of buttons           */
+            position: absolute;
+            width: 1300px;               /*      Controls the L/R position of buttons        */
+            margin-top: 20px;         /*      Controls the T/B position of buttons        */
+            display: flex;              /*      Makes the buttons Round                     */
+            justify-content: center;    /*      Makes the buttons Round  */
+        }
+
+        .manual-btn {
+            margin-right:0px;
+            background:black;
+            border: 5px solid;
+            border-color: black;
+            padding: 8px;              /*      Controls the size of the buttons*/
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;             /*      Time to fill background color of button */
+            box-shadow: 0px 8px 16px 0px black;
+        }
+
+        .manual-btn:not(:last-child) {
+            margin-right: 15px;           /*   Controls the distance of buttons */
+        }
+
+        .manual-btn:hover {
+            background-color: red;  /* Background color of button */
+        }
+
+        #radio1:checked ~ .first{margin-left: 0;}            /*    1   */
+        #radio2:checked ~ .first{margin-left: -1600px;}      /*    2   */
+        #radio3:checked ~ .first{margin-left: -3200px}       /*    1   */
+        #radio4:checked ~ .first{margin-left: -4800px;}
+        #radio5:checked ~ .first{margin-left: -6400px;}
+        #radio6:checked ~ .first{margin-left: -8000px;}
+        #radio7:checked ~ .first{margin-left: -9700px;}
+        #radio8:checked ~ .first{margin-left: -11200px;}
+        #radio9:checked ~ .first{margin-left: -12800px;}
+        #radio10:checked ~ .first{margin-left: -14400px;}
+        #radio11:checked ~ .first{margin-left: -16200px;}
+        #radio12:checked ~ .first{margin-left: -20200px;}
+        #radio13:checked ~ .first{margin-left: -22000px;}
+        #radio14:checked ~ .first{margin-left: -23900px;}
+        #radio15:checked ~ .first{margin-left: -25500px;}
+        #radio16:checked ~ .first{margin-left: -27500px;}
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------
+               CSS for Automatic slide navigation
+----------------------------------------------------------------------*/
+
+        .navigation-auto {
+            position: absolute;
+            display: flex;
+            width: 900px;
+            justify-content: center;
+            margin-top: 840px;
+
+        }
+
+        .navigation-auto div {
+            border: 2px solid rgb(0, 255, 38);
+            padding: 5px;
+            border-radius: 10px;
+            transition: 1s;
+        }
+
+
+        .buttonHeader {
+            width:305px;
+            font-size: 30px;
+            font-family: Comic Sans MS;
+            box-shadow: 0px 8px 16px 0px black;
+            border-radius: 50px;
+            opacity: .7;
+            }
+
+        .picSize {
+            width:1900px;
+        }
+
+
+        .title {
+
+            padding-top: 50px;
+            font-size:35px;
+            color: black;
+            }
+
+        .buttonSelected {
+            width:305px;
+            background: #7a8275;
+            font-size: 30px;
+            font-family: Comic Sans MS;
+            box-shadow: 0px 8px 16px 0px black;
+            border-radius: 50px;
+            }
+
+
+
+
+/*  ------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------   */
+ </style>
+
+</head>
+<body>
+    <div>
+        <div class="headerBox">
+            <div class="logoBox">
+                <a href=""><img class="picSize" src="../3.Background/Banner3.png"></a>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div id="grad1" class="MainBox">
+
+            <div class="box4"></div>
+            <div class="centerBox">
+                 <div class="box4">
+                   <a href="1-0-1_HomePage.html"><button class="buttonHeader">Return</button></a>
+                   <a href="1-0-2_Services.html"><button class="buttonHeader">Services</button></a>
+                   <a href="1-0-3_Project_Gallery.html"><button class="buttonSelected">Project Gallery</button></a>
+                   <a href="1-0-7_About_Us.html"><button class="buttonHeader">About Us</button></a>
+                   <a href="1-0-8_Contact_Us.html"><button class="buttonHeader">Contact Us</button></a>
+            <div>
+               <p class="title"><b>Remodel Gallery</b></p>
+               <p><a href="1-0-4_Project_Gallery_Kitchen.html"><button class="buttonHeader">Kitchen</button></a></p>
+               <p><a href="1-0-5_Project_Gallery_Bathrooms.html"><button class="buttonSelected">Bathroom</button></a></p>
+               <p><a href="1-0-6_Project_Gallery_Basement.html"><button class="buttonHeader">Basement</button></a></p>
+            </div>
+                </div>
+
+                <div class="box4">
+                    <body>
+
+            <!--                  Image slider Start            -->
+
+    <div>
+  <div class="main-page">
+    <div class="slider">
+        <div class="slides">
+            <!--                  Radio Button Start            -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <input type="radio" name="radio-btn" id="radio6">
+                <input type="radio" name="radio-btn" id="radio7">
+                <input type="radio" name="radio-btn" id="radio8">
+                <input type="radio" name="radio-btn" id="radio9">
+                <input type="radio" name="radio-btn" id="radio10">
+                <input type="radio" name="radio-btn" id="radio11">
+                <input type="radio" name="radio-btn" id="radio12">
+                <input type="radio" name="radio-btn" id="radio13">
+                <input type="radio" name="radio-btn" id="radio14">
+                <input type="radio" name="radio-btn" id="radio15">
+                <input type="radio" name="radio-btn" id="radio16">
+
+
+
+
+
+
+
+            <!--                   Radio Button End            -->
+            <!--                   Slide Image Start           -->
+   <div class = "slide first"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic19.jpeg" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic24.jpeg" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/5-37451-Ave-16-madera-ca/pic27.jpeg" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/2-403-RamblewoodDr-lyn-VA/pic5.webp" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic19.webp" alt=""></div>
+
+   <div class = "slide"><img src="../2.House-Pics/3-1706-danbury-dr-forest-va/pic21.webp" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/6-300-SanBonitaMaderaCa/pic6.jpeg" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/7-2831 simpsonFresnoCA/pic6.jpeg" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/7-2831 simpsonFresnoCA/pic12.jpeg" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/7-2831 simpsonFresnoCA/pic14.jpeg" alt=""></div>
+
+   <div class = "slide"><img src="../2.House-Pics/8-205 walnut street madera ca/pic5.jpeg" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/8-205 walnut street madera ca/pic6.jpeg" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/9-13281-2nd-Street-Clearlake-Oaks-CA/Pic17.jpeg" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/9-13281-2nd-Street-Clearlake-Oaks-CA/Pic14.jpeg" alt=""></div>
+   <div class = "slide"><img src="../2.House-Pics/9-13281-2nd-Street-Clearlake-Oaks-CA/Pic16.jpeg" alt=""></div>
+                <div class = "slide"><img src="../2.House-Pics/10-3307-13thStClearlakeCa/pic9.webp" alt=""></div>
+
+
+
+
+             <!-- <div class = "slide"><img src="../2.House-Pics/2-403-RamblewoodDr-lyn-VA/pic2.webp" alt="">
+                     <img src="../2.House-Pics/2-403-RamblewoodDr-lyn-VA/4.Items-Ramblewood-Basement.png" alt=""></div> -->
+
+
+
+
+            <!--                   Slide Image End             -->
+
+            <!--            Automatic Navigation Start         -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+                <div class="auto-btn7"></div>
+                <div class="auto-btn8"></div>
+                <div class="auto-btn9"></div>
+                <div class="auto-btn10"></div>
+                <div class="auto-btn11"></div>
+                <div class="auto-btn12"></div>
+                <div class="auto-btn13"></div>
+                <div class="auto-btn14"></div>
+                <div class="auto-btn15"></div>
+                <div class="auto-btn16"></div>
+
+            </div>
+            <!--             Automatic Navigation End          -->
+        </div>
+            <!--             Manual Navigation End             -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+            <label for="radio6" class="manual-btn"></label>
+            <label for="radio7" class="manual-btn"></label>
+            <label for="radio8" class="manual-btn"></label>
+            <label for="radio9" class="manual-btn"></label>
+            <label for="radio10" class="manual-btn"></label>
+            <label for="radio11" class="manual-btn"></label>
+            <label for="radio12" class="manual-btn"></label>
+            <label for="radio13" class="manual-btn"></label>
+            <label for="radio14" class="manual-btn"></label>
+            <label for="radio15" class="manual-btn"></label>
+            <label for="radio16" class="manual-btn"></label>
+
+        </div>
+        <p style="color:black; font-size:25px;"><b><i>Push  to Select Picture --></b></i></p>
+            <!--            Manual Navigation Start            -->
+    </div>
+            <!--               Image slider End                -->
+  </div>
+</div>
+</body>
+
+                </div>
+                <div class="box4"></div>
+            </div>
+            <div class="box4"></div>
+
+        </div>
+    </div>
+
+
+
+
+</body>  
+
+<!--
+    <script type="text/javascript">
+        var counter = 1-1-2.Kinspel;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 19){
+                counter = 1-1-2.Kinspel;
+            }
+        }, 4000);
+
+    </script>
+
+</html>
+-->
+
+
