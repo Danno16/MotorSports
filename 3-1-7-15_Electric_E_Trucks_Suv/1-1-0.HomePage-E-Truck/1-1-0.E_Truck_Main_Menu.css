@@ -194,17 +194,17 @@ body {
 
 @keyframes animate1 {
 
-    0%    {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/10_Pic.webp);}
-    10%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/9_Pic.jfif);}
-    20%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/8_Pic.png);}
-    30%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/7_Pic.webp);}
-    40%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/6_Pic.webp);}
-    50%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/5_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/4_Pic.jfif);}
-    70%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-120_Pics_E_Cars_Testla_CyberTruck/1_Pic.jpg);}
+    0%    {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/10_Pic.webp);}
+    10%   {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/9_Pic.jfif);}
+    20%   {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/8_Pic.png);}
+    30%   {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/7_Pic.webp);}
+    40%   {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/6_Pic.webp);}
+    50%   {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/5_Pic.jpg);}
+    60%   {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/4_Pic.jfif);}
+    70%   {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/4_Pic.jpg);}
+    80%   {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/3_Pic.jpg);}
+    90%   {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/2_Pic.jpg);}
+    100%  {background-image:url(../../1-1-120_Pics_E_Cars_Testla_CyberTruck/1_Pic.jpg);}
     }
 
 /*                   Row 2                    */
