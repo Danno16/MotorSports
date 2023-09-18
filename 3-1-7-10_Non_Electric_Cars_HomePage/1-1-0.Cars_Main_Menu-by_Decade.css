@@ -184,7 +184,7 @@ body {
     transition: 5s;
     animation-name: animate1;
     animation-direction: alternate-reverse;
-    animation-duration:5s;
+    animation-duration:50s;
     animation-fill-mode:forwards;
     animation-iteration-count:infinite;
     animation-play-state:running;
@@ -219,7 +219,7 @@ body {
     transition: 5s;
     animation-name: animate2;
     animation-direction: alternate-reverse;
-    animation-duration:5s;
+    animation-duration:50s;
     animation-fill-mode:forwards;
     animation-iteration-count:infinite;
     animation-play-state:running;
@@ -254,7 +254,7 @@ body {
     transition: 5s;
     animation-name: animate3;
     animation-direction: alternate-reverse;
-    animation-duration:5s;
+    animation-duration:50s;
     animation-fill-mode:forwards;
     animation-iteration-count:infinite;
     animation-play-state:running;
@@ -288,7 +288,7 @@ body {
     transition: 5s;
     animation-name: animate4;
     animation-direction: alternate-reverse;
-    animation-duration:5s;
+    animation-duration:50s;
     animation-fill-mode:forwards;
     animation-iteration-count:infinite;
     animation-play-state:running;
@@ -323,7 +323,7 @@ body {
     transition: 5s;
     animation-name: animate5;
     animation-direction: alternate-reverse;
-    animation-duration:5s;
+    animation-duration:50s;
     animation-fill-mode:forwards;
     animation-iteration-count:infinite;
     animation-play-state:running;
