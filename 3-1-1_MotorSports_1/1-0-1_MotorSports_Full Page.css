@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 150%;
   width: 100%;
   font-family: "Audiowide", sans-serif;
   color: #0c120a;
@@ -15,6 +15,15 @@ body {
   /*----------------------------------------------------------------------------------------------------
                                        Header
     --------------------------------------------------------------------------------------------------*/
+
+    
+
+    .header {
+      background-color: rgb(16, 15, 15);
+      height: 100px;
+      border-bottom: 5px solid maroon;
+    
+    }    
 #wrapper {
   display: grid;
   grid-template-columns:2% 55% 30% ;
@@ -82,7 +91,36 @@ iframe {
 
 .p1 {color: transparent;}
 
+
+    /*----------------------------------------------------------------------------------------------------
+                                             Grids
+    --------------------------------------------------------------------------------------------------*/
+
+.Gallery_main-page-4 {               
+  margin-top: 7%;
+  display: grid;
+  grid-template-columns: 1% 48% 1% 48%;
+  grid-template-rows: 9% 1% 9% 1% 9% 1% 9% 1% 9% 1% 
+                      9% 1% 9% 1% 9% 1% 9% 1% 9% 1% 
+                      9% 1% 9% 1% 9% 1% 9% 1% 9% 1% ;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(92, 88, 88);
+  }
+
   
+  /*      --------------------------------------------------------------------------
+                                Fonts
+        --------------------------------------------------------------------------   */
+  h2  {margin-left: 20px; color: rgb(230, 182, 77);}
+  h4  {margin-left: 20px; margin-top: -2%; color: rgb(230, 182, 77);}
+  p   {margin-left: 30%;}
+  .p1 {color: transparent;}
+  .p2 {margin-left: 40px;  color: white;}
+  .p3 {margin-left: 60px; margin-top: 1%; margin-bottom: 2%; color: rgb(230, 182, 77);}
+  .p4 {margin-left: 60px; margin-top: 1%; margin-bottom: 2%; color: rgb(230, 182, 77);}
+  .p5 {color: transparent;}
+
     /*----------------------------------------------------------------------------------------------------
                                        Box in the body
     --------------------------------------------------------------------------------------------------*/
@@ -545,582 +583,89 @@ animation-timing-function:ease-in-out;
   100% {background-image:url(../1-1-136_Harley/Harley-1.png);}
   }
 
+/**********************************************************************************************************
+                                          60s Cars 
+ ********************************************************************************************************* 
+ 
+                                      1962_Ferrari_250_GTO                               */
 
-  /*----------------------------------------------------------------------
-                        Transitions Code - 60s Cars
-----------------------------------------------------------------------*/
 
-  /*                 Transition Code - 1962  250 GTO            */
-
-.container_601 {
-  border-radius: 5%;
-  box-shadow: 20px 20px 50px white;
-  margin-top: 2%;
-  height: 75vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 50s;
-  animation-name: animate_601;
-  animation-direction: alternate-reverse;
-  animation-duration:50s;
-  animation-fill-mode:forwards;
-  animation-iteration-count:infinite;
-  animation-play-state:running;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_601 {
-0%    {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/4_Pic.jpg);}
-10%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/3_Pic.webp);}
-20%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/3_Pic.jpg);}
-30%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/2_Pic.jpg);}
-40%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/2_Pic.webp);}
-50%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/2_Pic.jfif);}
-60%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.avif);}
-70%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.webp);}
-80%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.png);}
-90%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.jfif);}
-100%  {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.jpg);}
+  .container601 {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate601;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
   }
+  
+  @keyframes animate601 {
+  
+
+
+    0%   {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/4_Pic.jpg);}
+    10%  {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/3_Pic.webp);}
+    20%  {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/3_Pic.jpg);}
+    30%  {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/2_Pic.webp);}
+    40%  {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/2_Pic.jpg);}
+    50%  {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/2_Pic.jfif);}
+    60%  {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.webp);}
+    70%  {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.png);}
+    80%  {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.avif);}
+    90%  {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.jfif);}
+    100% {background-image:url(../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.jpg);}
+    }
+  
 
 
   /*                Transition Code - 1962 Ferrari 330            */
 
-
-.container_602 {
-  border-radius: 5%;
-  box-shadow: 20px 20px 50px white;
-  margin-top: 2%;
-  height: 75vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 50s;
-  animation-name: animate_602;
-  animation-direction: alternate-reverse;
-  animation-duration:50s;
-  animation-fill-mode:forwards;
-  animation-iteration-count:infinite;
-  animation-play-state:running;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_602 {
-0%    {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/1_Pic.webp);}
-10%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/9_Pic.jpg);}
-20%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/8_Pic.jpg);}
-30%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/7_Pic.jpg);}
-40%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/5_Pic.jpg);}
-50%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/2_Pic.jpg);}
-60%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/3_Pic.webp);}
-70%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/3_Pic.jpg);}
-80%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/2_Pic.webp);}
-90%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/2_Pic.jpg);}
-100%  {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/1_Pic.jpg);}
+  .container602 {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate602;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
   }
+  
+  @keyframes animate602 {
+    00%  {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/9_Pic.jpg);}
+    10%  {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/8_Pic.jpg);}
+    20%  {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/7_Pic.jpg);}
+    30%  {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/5_Pic.jpg);}
+    40%  {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/3_Pic.webp);}
+    50%  {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/3_Pic.jpg);}
+    60%  {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/2_Pic.webp);}
+    70%  {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/2_Pic.jpg);}
+    80%  {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/1_Pic.webp);}
+    90%  {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/1_Pic.jpg);}
+    100% {background-image:url(../1-1-32_Pics_Cars60_1962_Ferrari_330/1_Pic.jfif);}
+    }
 
     /*                 Transition Code - 1961 Jaguar XK            */
 
-.container_603 {
-  border-radius: 5%;
-  box-shadow: 20px 20px 50px white;
-  margin-top: 2%;
-  height: 75vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 50s;
-  animation-name: animate_603;
-  animation-direction: alternate-reverse;
-  animation-duration:50s;
-  animation-fill-mode:forwards;
-  animation-iteration-count:infinite;
-  animation-play-state:running;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_603 {
-0%    {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/1_Pic.jpg);}
-10%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/10_Pic.jpg);}
-20%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/9_Pic.jpg);}
-30%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/8_Pic.jpg);}
-40%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/7_Pic.jpg);}
-50%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/6_Pic.jpg);}
-60%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/5_Pic.jpg);}
-70%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/4_Pic.jpg);}
-80%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/3_Pic.jpg);}
-90%   {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/2_Pic.jpg);}
-100%  {background-image:url(../../../1-1-23_Pics_Cars60_1960_Austin_Martin/1_Pic.jpg);}
-}
-
-  /*                 Transition Code - 1961 Jaguar XK            */
-
-.container_604 {
-  border-radius: 5%;
-  box-shadow: 20px 20px 50px white;
-  margin-top: 2%;
-  height: 75vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 50s;
-  animation-name: animate_604;
-  animation-direction: alternate-reverse;
-  animation-duration:50s;
-  animation-fill-mode:forwards;
-  animation-iteration-count:infinite;
-  animation-play-state:running;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_604 {
-00%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/11_Pic.webp);}
-10%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/10_Pic.jfif);}
-20%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/9_Pic.avif);}
-30%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/8_Pic.jpg);}
-40%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/7_Pic.jpg);}
-50%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/6_Pic.jpg);}
-60%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/5_Pic.jpg);}
-70%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/4_Pic.jpg);}
-80%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/3_Pic.jpg);}
-90%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/2_Pic.jpg);}
-100%  {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/1_Pic.jpg);}
-}
-
-  /*                 Transition Code - 1966 Mamborgini Miura          */
-
-  .container_605 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_605;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_605 {
-    0%   {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/10_Pic.webp);}
-    10%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/9_Pic.jpg);}
-    20%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/8_Pic.jpg);}
-    30%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/7_Pic.jpg);}
-    40%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/6_Pic.jpg);}
-    50%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/5_Pic.jpg);}
-    60%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/5_Pic.jpeg);}
-    70%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/4_Pic.jpg);}
-    80%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/3_Pic.webp);}
-    90%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/2_Pic.jfif);}
-    100% {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/1_Pic.jpg);}
-    }
-
-
-    /*                 Transition Code 1967_Ford_GT40            */
-
-.container_606 {
-  border-radius: 5%;
-  box-shadow: 20px 20px 50px white;
-  margin-top: 2%;
-  height: 75vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 50s;
-  animation-name: animate_606;
-  animation-direction: alternate-reverse;
-  animation-duration:50s;
-  animation-fill-mode:forwards;
-  animation-iteration-count:infinite;
-  animation-play-state:running;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_606 {
-0%    {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/1_Pic.webp);}
-10%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/9_Pic.jpg);}
-20%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/8_Pic.jpg);}
-30%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/7_Pic.jpg);}
-40%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/6_Pic.jpg);}
-50%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/5_Pic.jpg);}
-60%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/4_Pic.jpg);}
-70%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/3_Pic.jpg);}
-80%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/2_Pic.webp);}
-90%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/2_Pic.jpg);}
-100%  {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/1_Pic.jpg);}
-  }
-
-  /*                 Transition Code 1963_Chevy_Corvette             */
-
-.container_607 {
-  border-radius: 5%;
-  box-shadow: 20px 20px 50px white;
-  margin-top: 2%;
-  height: 75vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 50s;
-  animation-name: animate_607;
-  animation-direction: alternate-reverse;
-  animation-duration:50s;
-  animation-fill-mode:forwards;
-  animation-iteration-count:infinite;
-  animation-play-state:running;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_607 {
-0%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/11_PIc.webp);}
-10%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/10_PIc.webp);}
-20%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/9_PIc.webp);}
-30%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/8_PIc.webp);}
-40%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/8_Pic.jpg);}
-50%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/6_Pic.jpg);}
-60%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/5_Pic.jpg);}
-70%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/4_Pic.jpg);}
-80%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/3_Pic.jpg);}
-90%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/10_PIc.webp);}
-100%  {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/2_Pic.jpg);}
-  }
-
-  /*                 Transition Code   1960_Dodge_Challenger          */
-
-.container_608 {
-  border-radius: 5%;
-  box-shadow: 20px 20px 50px white;
-  margin-top: 2%;
-  height: 75vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 50s;
-  animation-name: animate_608;
-  animation-direction: alternate-reverse;
-  animation-duration:50s;
-  animation-fill-mode:forwards;
-  animation-iteration-count:infinite;
-  animation-play-state:running;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_608 {
-0%    {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/10_Pic.jpg);}
-10%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/10_PIc.jpeg);}
-20%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/9_Pic.jpg);}
-30%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/8_Pic.jpg);}
-40%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/8_Pic.jfif);}
-50%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/7_Pic.jpg);}
-60%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/6_Pic.jpg);}
-70%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/6_pic.avif);}
-80%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/3_Pic.webp);}
-90%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/2_Pic.webp);}
-100%  {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/1_Pic.webp);}
-}
-
-/*                 Transition Code  1960_Dodge_Charger           */
-
-.container_609 {
-  border-radius: 5%;
-  box-shadow: 20px 20px 50px white;
-  margin-top: 2%;
-  height: 75vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 50s;
-  animation-name: animate_609;
-  animation-direction: alternate-reverse;
-  animation-duration:50s;
-  animation-fill-mode:forwards;
-  animation-iteration-count:infinite;
-  animation-play-state:running;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_609 {
-0%    {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/10_Pic.webp);}
-10%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/9_Pic.webp);}
-20%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/8_Pic.webp);}
-30%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/8_Pic.jfif);}
-40%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/7_Pic.webp);}
-50%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/6_Pic.webp);}
-60%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/6_Pic.jfif);}
-70%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/4_Pic.jpg);}
-80%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/3_Pic.jpg);}
-90%   {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/2_Pic.jpg);}
-100%  {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/1_Pic.jpg);}
-  }
-
-  /*                 Transition Code    1960_Chevy_Camaro         */
-
-.container_610 {
-  border-radius: 5%;
-  box-shadow: 20px 20px 50px white;
-  margin-top: 2%;
-  height: 75vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 50s;
-  animation-name: animate_610;
-  animation-direction: alternate-reverse;
-  animation-duration:50s;
-  animation-fill-mode:forwards;
-  animation-iteration-count:infinite;
-  animation-play-state:running;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_610 {
-0%    {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/10_Pic.jfif);}
-10%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/9_Pic.jfif);}
-20%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/8_Pic.jfif);}
-30%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/6_Pic.jpg);}
-40%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/5_Pic.jpg);}
-50%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/4_Pic.webp);}
-60%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/4_Pic.jpg);}
-70%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/3_Pic.webp);}
-80%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/3_Pic.jpg);}
-90%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/2_Pic.jpg);}
-100%  {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/1_Pic.jpg);}
-  }
-
-  /*                 Transition Code    1960_Ford_Mustang         */
-
-.container_611 {
-  border-radius: 5%;
-  box-shadow: 20px 20px 50px white;
-  margin-top: 2%;
-  height: 75vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 50s;
-  animation-name: animate_611;
-  animation-direction: alternate-reverse;
-  animation-duration:50s;
-  animation-fill-mode:forwards;
-  animation-iteration-count:infinite;
-  animation-play-state:running;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_611 {
-0%     {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/11_Pic.jpg);}
-10%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/10_Pic.jpg);}
-20%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/9_Pic.jpg);}
-30%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/8_Pic.jpg);}
-40%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/8_Pic.jpeg);}
-50%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/7_Pic.jpg);}
-60%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/6_Pic.jpg);}
-70%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/5_Pic.jpg);}
-80%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/5_Pic.webp);}
-90%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/2_Pic.jfif);}
-100%   {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/1_Pic.jfif);}
-  }
-
-  /*                 Transition Code        1964_Pontiac-GTO     */
-
-.container_612 {
-  border-radius: 5%;
-  box-shadow: 20px 20px 50px white;
-  margin-top: 2%;
-  height: 75vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: 50s;
-  animation-name: animate_612;
-  animation-direction: alternate-reverse;
-  animation-duration:50s;
-  animation-fill-mode:forwards;
-  animation-iteration-count:infinite;
-  animation-play-state:running;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes animate_612 {
-0%    {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/1_Pic.jpg);}
-10%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/11_Pic.jfif);}
-20%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/6_Pic.jpg);}
-30%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/5_Pic.jpg);}
-40%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/4_Pic.jpg);}
-50%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/3_Pic.jpg);}
-60%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/3_Pic.jfif);}
-70%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/2_Pic.webp);}
-80%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/2_Pic.jpg);}
-90%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/2_Pic.jfif);}
-100%  {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/1_Pic.jpg);}
-}
-
-  /*----------------------------------------------------------------------
-                        Transitions Code - 70s Cars
-----------------------------------------------------------------------*/
-
-  /*                 Transition Code - 1962  250 GTO            */
-
-  .container_701 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_701;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_701 {
-    0%    {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/9_Pic.jpg);}
-    10%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/8_Pic.jpg);}
-    20%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/7_Pic.jpg);}
-    30%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/6_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/10_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/4_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/3_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/2_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/1_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/1_Pic.webp);}
-    100%  {background-image:url(../../../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/1_Pic.jpeg);}
-    }
-  
-  
-    /*                Transition Code - 1962 Ferrari 330            */
-  
-  
-  .container_702 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_702;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_702 {
-    00%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/1_Pic.jpg);}
-    10%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/2_Pic.jpg);}
-    20%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/10_Pic.jpg);}
-    30%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/9_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/7_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/6_Pic.webp);}
-    60%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/5_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-35_Pics_Cars70_1972_Datsun_240Z/1_Pic.jpg);}
-    }
-  
-      /*                 Transition Code - 1961 Jaguar XK            */
-  
-  .container_703 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_703;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_703 {
-    0%     {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/3_Pic.webp);}
-    10%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/3_Pic.jpg);}
-    20%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/3_Pic.jfif);}
-    30%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/2_Pic.webp);}
-    40%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/2_Pic.jpg);}
-    50%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/2_Pic.jfif);}
-    60%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.webp);}
-    70%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.jpg);}
-    90%    {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.jfif);}
-    100%   {background-image:url(../../../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.avif);}
-  }
-  
-    /*                 Transition Code - 1961 Jaguar XK            */
-  
-  .container_704 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_704;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_704 {
-    0%    {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/4_Pic.jpg);}
-    10%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/4_Pic.jfif);}
-    20%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/3_Pic.jpg);}
-    30%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/3_Pic.jfif);}
-    40%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/2_Pic.webp);}
-    50%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/2_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/2_Pic.jfif);}
-    70%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.webp);}
-    80%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.jpeg);}
-    100%  {background-image:url(../../../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.jfif);}
-  }
-  
-    /*                 Transition Code - 1966 Mamborgini Miura          */
-  
-    .container_705 {
+    .container603 {
       border-radius: 5%;
       box-shadow: 20px 20px 50px white;
       margin-top: 2%;
@@ -1129,139 +674,635 @@ animation-timing-function:ease-in-out;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      transition: 0s;
-      animation-name: animate_705;
+      transition: 50s;
+      animation-name: animate603;
       animation-direction: alternate-reverse;
       animation-duration:50s;
       animation-fill-mode:forwards;
       animation-iteration-count:infinite;
       animation-play-state:running;
       animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate603 {
+      00%  {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/11_Pic.avif);}
+      10%  {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/10_Pic.jpg);}
+      20%  {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/9_Pic.jpg);}
+      30%  {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/8_Pic.jpg);}
+      40%  {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/7_Pic.jpg);}
+      50%  {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/6_Pic.jpg);}
+      60%  {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/5_Pic.jpg);}
+      70%  {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/4_Pic.jpg);}
+      80%  {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/3_Pic.jpg);}
+      90%  {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/2_Pic.jpg);}
+      100% {background-image:url(../1-1-23_Pics_Cars60_1960_Austin_Martin/1_Pic.jpg);}
+      }
+
+  /*                 Transition Code - 1961 Jaguar XK            */
+
+  .container604 {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate604;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
   }
   
-  @keyframes animate_705 {
-    0%    {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jfif);}
-    10%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/4_Pic.webp);}
-    20%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/3_Pic.webp);}
-    30%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/3_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/3_Pic.jfif);}
-    50%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.webp);}
-    60%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.jfif);}
-    80%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.webp);}
-    90%   {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jfif);}
+  @keyframes animate604 {
+    0%   {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/11_Pic.webp);}
+    10%  {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/10_Pic.jfif);}
+    20%  {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/9_Pic.avif);}
+    30%  {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/8_Pic.jpg);}
+    40%  {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/7_Pic.jpg);}
+    50%  {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/6_Pic.jpg);}
+    60%  {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/5_Pic.jpg);}
+    70%  {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/2_Pic.jpg);}
+    100% {background-image:url(../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/1_Pic.jpg);}
+    }
+
+  /*                 Transition Code - 1966 Mamborgini Miura          */
+
+  .container605 {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate605;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animate605 {
+    0%   {background-image:url(../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/10_Pic.webp);}
+    10%  {background-image:url(../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/9_Pic.jpg);}
+    20%  {background-image:url(../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/8_Pic.jpg);}
+    30%  {background-image:url(../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/7_Pic.jpg);}
+    40%  {background-image:url(../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/6_Pic.jpg);}
+    50%  {background-image:url(../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/5_Pic.jpeg);}
+    60%  {background-image:url(../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/5_Pic.jpeg);}
+    70%  {background-image:url(../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/3_Pic.webp);}
+    90%  {background-image:url(../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/2_Pic.jfif);}
+    100% {background-image:url(../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/1_Pic.jpg);}
+    }
+
+
+    /*                 Transition Code 1967_Ford_GT40            */
+
+    .container606 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 50s;
+      animation-name: animate606;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate606 {
+      0%   {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/8_Pic.jpg);}
+      10%  {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/7_Pic.jpg);}
+      20%  {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/6_Pic.jpg);}
+      30%  {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/5_Pic.jpg);}
+      40%  {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/4_Pic.jpg);}
+      50%  {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/3_Pic.jpg);}
+      60%  {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/2_Pic.webp);}
+      70%  {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/2_Pic.jpg);}
+      80%  {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/1_Pic.webp);}
+      90%  {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/1_Pic.avif);}
+      100% {background-image:url(../1-1-25_Pics_Cars60_1967_Ford_GT40/1_Pic.jpg);}
+      }
+
+  /*                 Transition Code 1963_Chevy_Corvette             */
+
+  .container607 {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate607;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animate607 {
+    0%   {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/2_Pic.jpg);}
+    10%  {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/3_Pic.jpg);}
+    20%  {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/10_PIc.webp);}
+    30%  {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/9_PIc.webp);}
+    40%  {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/8_Pic.jpg);}
+    50%  {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/8_PIc.webp);}
+    60%  {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/6_Pic.jpg);}
+    70%  {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/5_Pic.jpg);}
+    80%  {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/4_Pic.jpg);}
+    90%  {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/3_Pic.jpg);}
+    100% {background-image:url(../1-1-26_Pics_Cars60_1963_Chevy_Corvette/2_Pic.jpg);}
+    }
+
+  /*                 Transition Code   1960_Dodge_Challenger          */
+
+  .container608 {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate608;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animate608 {
+    0%  {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/1_Pic.webp);}
+    10%  {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/10_PIc.jpeg);}
+    20%  {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/9_Pic.jpg);}
+    30%  {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/8_Pic.jpg);}
+    40%  {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/8_Pic.jfif);}
+    50%  {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/7_Pic.jpg);}
+    60%  {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/6_Pic.jpg);}
+    70%  {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/6_pic.avif);}
+    80%  {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/3_Pic.webp);}
+    90%  {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/2_Pic.webp);}
+    100% {background-image:url(../1-1-27_Pics_Cars60_1960_Dodge_Challenger/1_Pic.webp);}
+    }
+
+/*                 Transition Code  1960_Dodge_Charger           */
+
+.container609 {
+  border-radius: 5%;
+  box-shadow: 20px 20px 50px white;
+  margin-top: 2%;
+  height: 75vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 50s;
+  animation-name: animate609;
+  animation-direction: alternate-reverse;
+  animation-duration:50s;
+  animation-fill-mode:forwards;
+  animation-iteration-count:infinite;
+  animation-play-state:running;
+  animation-timing-function:ease-in-out;
+}
+
+@keyframes animate609 {
+  0%   {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/10_Pic.webp);}
+  10%  {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/8_Pic.webp);}
+  20%  {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/9_Pic.webp);}
+  60%  {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/8_Pic.jfif);}
+  40%  {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/7_Pic.webp);}
+  50%  {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/6_Pic.webp);}
+  60%  {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/6_Pic.jfif);}
+  70%  {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/4_Pic.jpg);}
+  80%  {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/3_Pic.jpg);}
+  90%  {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/2_Pic.jpg);}
+  100% {background-image:url(../1-1-28_Pics_Cars60_1960_Dodge_Charger/1_Pic.jpg);}
+  }
+
+  /*                 Transition Code    1960_Chevy_Camaro         */
+
+  .container610 {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate610;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animate610 {
+    0%   {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/11_Pic.jfif);}
+    10%  {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/10_Pic.jfif);}
+    20%  {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/9_Pic.jfif);}
+    30%  {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/8_Pic.jfif);}
+    40%  {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/6_Pic.jpg);}
+    50%  {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/5_Pic.jpg);}
+    60%  {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/4_Pic.webp);}
+    70%  {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/2_Pic.jpg);}
+    100% {background-image:url(../1-1-29_Pics_Cars60_1960_Chevy_Camaro/1_Pic.jpg);}
+    }
+
+  /*                 Transition Code    1960_Ford_Mustang         */
+
+  .container611 {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate611;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animate611 {
+    0%   {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/2_Pic.jfif);}
+    10%  {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/1_Pic.jfif);}
+    20%  {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/11_Pic.jpg);}
+    30%  {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/10_Pic.jpg);}
+    40%  {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/9_Pic.jpg);}
+    50%  {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/8_Pic.jpg);}
+    60%  {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/8_Pic.jpeg);}
+    70%  {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/7_Pic.jpg);}
+    80%  {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/6_Pic.jpg);}
+    90%  {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/5_Pic.webp);}
+    100% {background-image:url(../1-1-30_Pics_Cars60_1960_Ford_Mustang/5_Pic.jpg);}
+    }
+
+  /*                 Transition Code        1964_Pontiac-GTO     */
+
+  .container612 {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate612;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animate612 {
+    00%  {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/6_Pic.jpg);}
+    10%  {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/5_Pic.jpg);}
+    20%  {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/4_Pic.jpg);}
+    30%  {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/3_Pic.jfif);}
+    40%  {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/3_Pic.jpg);}
+    50%  {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/2_Pic.webp);}
+    60%  {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/2_Pic.jpg);}
+    70%  {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/2_Pic.jfif);}
+    80%  {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/1_Pic.jpg);}
+    90%  {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/1_Pic.jpg);}
+    100% {background-image:url(../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/1_Pic.jfif);}
+    }
+
+  /*----------------------------------------------------------------------
+                        Transitions Code - 70s Cars
+----------------------------------------------------------------------*/
+
+  /*              Row 1 - Transition Code - 1972_Ferrari_Daytona          */
+
+  .container701 {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate701;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animate701 {
+    0%   {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/12_Pic.jpg);}
+    10%  {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/11_Pic.jpg);}
+    20%  {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/10_Pic.jpg);}
+    30%  {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/9_Pic.jpg);}
+    40%  {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/8_Pic.jpg);}
+    50%  {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/7_Pic.jpg);}
+    60%  {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/6_Pic.jpg);}
+    70%  {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/2_Pic.jpg);}
+    100% {background-image:url(../1-1-34_Pics_Cars70_1972_Ferrari_Daytona/1_Pic.jpg);}
+    }
+  
+  
+    /*                Row 2 -   Transition Code - 1972_Datsun_240Z           */
+    
+    .container702 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 50s;
+      animation-name: animate702;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate702 {
+      0%   {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/1_Pic.jpg);}
+      10%  {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/2_Pic.jpg);}
+      20%  {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/10_Pic.jpg);}
+      30%  {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/9_Pic.jpg);}
+      40%  {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/7_Pic.jpg);}
+      50%  {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/6_Pic.webp);}
+      60%  {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/5_Pic.jpg);}
+      70%  {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/4_Pic.jpg);}
+      80%  {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/3_Pic.jpg);}
+      90%  {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/2_Pic.jpg);}
+      100% {background-image:url(../1-1-35_Pics_Cars70_1972_Datsun_240Z/1_Pic.jpg);}
+      }
+  
+      /*             Row 3 -       Transition Code - 1961 Jaguar XK            */
+  
+      .container703 {
+        border-radius: 5%;
+        box-shadow: 20px 20px 50px white;
+        margin-top: 2%;
+        height: 75vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 50s;
+        animation-name: animate703;
+        animation-direction: alternate-reverse;
+        animation-duration:50s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+      }
+      
+      @keyframes animate703 {
+        0%   {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.jfif);}
+        10%  {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/3_Pic.webp);}
+        20%  {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/3_Pic.jpg);}
+        30%  {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/3_Pic.jfif);}
+        40%  {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/2_Pic.webp);}
+        50%  {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/2_Pic.jpg);}
+        60%  {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/2_Pic.jfif);}
+        70%  {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.webp);}
+        80%  {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.jpg);}
+        90%  {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.jfif);}
+        100% {background-image:url(../1-1-36_Pics_Cars70_1974_Datsun_260Z/1_Pic.avif);}
+        }
+  
+    /*                 Transition Code - 1961 Jaguar XK            */
+  
+    .container704 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 50s;
+      animation-name: animate704;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate704 {
+      0%   {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/4_Pic.jpg);}
+      10%  {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/4_Pic.jfif);}
+      20%  {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/3_Pic.jpg);}
+      30%  {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/3_Pic.jfif);}
+      40%  {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/2_Pic.jpg);}
+      50%  {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/2_Pic.webp);}
+      60%  {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/2_Pic.jfif);}
+      70%  {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.webp);}
+      80%  {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.jfif);}
+      90%  {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.jpeg);}
+      100% {background-image:url(../1-1-37_Pics_Cars70_1977_Datsun_280Z/1_Pic.jpg);}
+      }
+  
+    /*                 Transition Code - 1966 Mamborgini Miura          */
+  
+    .container705 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate705;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate705 {
+      0%   {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/4_Pic.webp);}
+      10%  {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/3_Pic.webp);}
+      20%  {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/3_Pic.jpg);}
+      30%  {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/3_Pic.jfif);}
+      40%  {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.jfif);}
+      50%  {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.jpg);}
+      60%  {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/2_Pic.webp);}
+      70%  {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jpg);}
+      80%  {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.webp);}
+      90%  {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jpg);}
+      100% {background-image:url(../1-1-38_Pics_Cars70_1970_Pontiac_Firbird/1_Pic.jfif);}
       }
   
   
       /*                 Transition Code 1967_Ford_GT40            */
   
-  .container_706 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_706;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_706 {
-    0%    {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/7_Pic.jpg);}
-    10%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/6_Pic.jpg);}
-    20%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/5_Pic.jpg);}
-    30%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/4_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/3_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/2_Pic.webp);}
-    60%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/2_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/2_Pic.jfif);}
-    80%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.webp);}
-    90%   {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.jfif);}
-    }
+      .container706 {
+        border-radius: 5%;
+        box-shadow: 20px 20px 50px white;
+        margin-top: 2%;
+        height: 75vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 5s;
+        animation-name: animate706;
+        animation-direction: alternate-reverse;
+        animation-duration:50s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+      }
+      
+      @keyframes animate706 {
+        0%   {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/7_Pic.jpg);}
+        10%  {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/6_Pic.jpg);}
+        20%  {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/5_Pic.jpg);}
+        30%  {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/4_Pic.jpg);}
+        40%  {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/3_Pic.jpg);}
+        50%  {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/2_Pic.webp);}
+        60%  {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/2_Pic.jpg);}
+        70%  {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/2_Pic.jfif);}
+        80%  {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.webp);}
+        90%  {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.jpg);}
+        100% {background-image:url(../1-1-39_Pics_Cars70_1978_Pontiac_Firbird/1_Pic.jfif);}
+        }
   
     /*                 Transition Code 1963_Chevy_Corvette             */
   
-  .container_707 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_707;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_707 {
-    0%    {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/11_Pic.jfif);}
-    10%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/10_Pic.jfif);}
-    20%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/9_Pic.jfif);}
-    30%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/8_Pic.jfif);}
-    40%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/7_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/6_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/5_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-40_Pics_Cars70_1970_Chevy_Camaro/1_Pic.jpg);}
+    .container707 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate707;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
     }
+    
+    @keyframes animate707 {
+      0%   {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/11_Pic.jfif);}
+      10%  {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/10_Pic.jfif);}
+      20%  {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/9_Pic.jfif);}
+      30%  {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/8_Pic.jfif);}
+      40%  {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/7_Pic.jpg);}
+      50%  {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/6_Pic.jpg);}
+      60%  {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/5_Pic.jpg);}
+      70%  {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/4_Pic.jpg);}
+      80%  {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/3_Pic.jpg);}
+      90%  {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/2_Pic.jpg);}
+      100% {background-image:url(../1-1-40_Pics_Cars70_1970_Chevy_Camaro/1_Pic.jpg);}
+      }
   
     /*                 Transition Code   1960_Dodge_Challenger          */
-  
-  .container_708 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_708;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_708 {
-    0%    {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/5_Pic.jpg);}
-    10%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/4_Pic.jpg);}
-    20%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/3_Pic.jpg);}
-    30%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/2_Pic.webp);}
-    40%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/2_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/2_Pic.jfif);}
-    60%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.webp);}
-    70%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.png);}
-    80%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.jfif);}
-    100%  {background-image:url(../../../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.avif);}
-  }
+    .container708 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate708;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate708 {
+
+      0%   {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/5_Pic.jpg);}
+      10%  {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/4_Pic.jpg);}
+      20%  {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/3_Pic.jpg);}
+      30%  {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.webp);}
+      40%  {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.jpg);}
+      50%  {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.jfif);}
+      60%  {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.avif);}
+      70%  {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/2_Pic.webp);}
+      80%  {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/2_Pic.jpg);}
+      90%  {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/2_Pic.jfif);}
+      100% {background-image:url(../1-1-41_Pics_Cars70_1977_Chevy_Camaro/1_Pic.jpg);}
+      }
   
   /*                 Transition Code  1960_Dodge_Charger           */
   
-  .container_709 {
+  .container709 {
     border-radius: 5%;
     box-shadow: 20px 20px 50px white;
     margin-top: 2%;
@@ -1270,8 +1311,8 @@ animation-timing-function:ease-in-out;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_709;
+    transition: 5s;
+    animation-name: animate709;
     animation-direction: alternate-reverse;
     animation-duration:50s;
     animation-fill-mode:forwards;
@@ -1280,124 +1321,126 @@ animation-timing-function:ease-in-out;
     animation-timing-function:ease-in-out;
   }
   
-  @keyframes animate_709 {
-  0%    {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/7_Pic.jpg);}
-  10%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/6_Pic.jpg);}
-  20%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/5_Pic.jpg);}
-  30%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/4_Pic.jpg);}
-  40%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/3_Pic.jpg);}
-  50%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.webp);}
-  60%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.jpg);}
-  70%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.jfif);}
-  80%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.webp);}
-  90%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.jpg);}
-  100%  {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.jfif);}
+  @keyframes animate709 {
+
+    0%   {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/11_Pic.jpg);}
+    10%  {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/10_Pic.jpg);}
+    20%  {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/9_Pic.jpg);}
+    30%  {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/8_Pic.jpg);}
+    40%  {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/7_Pic.jpg);}
+    50%  {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/6_Pic.jpg);}
+    60%  {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/5_Pic.jpg);}
+    70%  {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/2_Pic.jpg);}
+    100% {background-image:url(../1-1-42_Pics_Cars70_1970_Chevy_Corvette/1_Pic.jpg);}
     }
   
     /*                 Transition Code    1960_Chevy_Camaro         */
   
-  .container_710 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_710;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_710 {
-    0%    {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/7_Pic.jpg);}
-    10%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/6_Pic.jpg);}
-    20%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/5_Pic.jpg);}
-    30%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/4_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/3_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.webp);}
-    60%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.jfif);}
-    80%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.webp);}
-    90%   {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.jfif);}
+    .container710 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate710;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
     }
+    
+    @keyframes animate710 {
+  
+      0%   {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/7_Pic.jpg);}
+      10%  {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/6_Pic.jpg);}
+      20%  {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/5_Pic.jpg);}
+      30%  {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/4_Pic.jpg);}
+      40%  {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/3_Pic.jpg);}
+      50%  {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.webp);}
+      60%  {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.jfif);}
+      70%  {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/2_Pic.jpg);}
+      80%  {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.webp);}
+      90%  {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.jfif);}
+      100% {background-image:url(../1-1-43_Pics_Cars70_1977_Chevy_Corvette/1_Pic.jpg);}
+      }
   
     /*                 Transition Code    1960_Ford_Mustang         */
-  
-  .container_711 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_711;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_711 {
-    0%    {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/4_Pic.jpg);}
-    10%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/4_Pic.jfif);}
-    20%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/3_Pic.jpg);}
-    30%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/3_Pic.jfif);}
-    40%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/2_Pic.webp);}
-    50%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/2_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/2_Pic.jfif);}
-    70%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.webp);}
-    80%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.png);}
-    90%   {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.jfif);}
+     .container711 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate711;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
     }
+    
+    @keyframes animate711 {
+  
+      0%   {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/4_Pic.jpg);}
+      10%  {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/4_Pic.jfif);}
+      20%  {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/3_Pic.jpg);}
+      30%  {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/3_Pic.jfif);}
+      40%  {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/2_Pic.webp);}
+      50%  {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/2_Pic.jpg);}
+      60%  {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/2_Pic.jfif);}
+      70%  {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.webp);}
+      80%  {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.png);}
+      90%  {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.jfif);}
+      100% {background-image:url(../1-1-44_Pics_Cars70_1970_Ford_Mustang/1_Pic.jpg);}
+      }
   
     /*                 Transition Code        1964_Pontiac-GTO     */
+    .container712 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate712;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate712 {
   
-  .container_712 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_712;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_712 {
-    0%    {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/8_Pic.jpg);}
-    10%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/7_Pic.jpg);}
-    20%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/6_Pic.jpg);}
-    30%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/5_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/4_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/3_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/2_Pic.webp);}
-    70%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/2_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/1_Pic.webp);}
-    90%   {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/1_Pic.jfif);}
-    100%  {background-image:url(../../../1-1-49_Pics_Cars70_1978_Porsche_911/1_Pic.jpg);}
-  }
+      0%   {background-image:url(../1-1-45_Pics_Cars70_1975_Ford_Mustang/1_Pic.webp);}
+      10%  {background-image:url(../1-1-45_Pics_Cars70_1975_Ford_Mustang/1_Pic.png);}
+      20%  {background-image:url(../1-1-45_Pics_Cars70_1975_Ford_Mustang/1_Pic.jpeg);}
+      30%  {background-image:url(../1-1-45_Pics_Cars70_1975_Ford_Mustang/9_Pic.jpg);}
+      40%  {background-image:url(../1-1-45_Pics_Cars70_1975_Ford_Mustang/8_Pic.jpg);}
+      50%  {background-image:url(../1-1-45_Pics_Cars70_1975_Ford_Mustang/7_Pic.jpg);}
+      60%  {background-image:url(../1-1-45_Pics_Cars70_1975_Ford_Mustang/6_Pic.jpg);}
+      70%  {background-image:url(../1-1-45_Pics_Cars70_1975_Ford_Mustang/4_Pic.jpg);}
+      80%  {background-image:url(../1-1-45_Pics_Cars70_1975_Ford_Mustang/3_Pic.jpg);}
+      90%  {background-image:url(../1-1-45_Pics_Cars70_1975_Ford_Mustang/2_Pic.jpg);}
+      100% {background-image:url(../1-1-45_Pics_Cars70_1975_Ford_Mustang/1_Pic.jpg);}
+        }
 
   
   /*----------------------------------------------------------------------
@@ -1406,7 +1449,7 @@ animation-timing-function:ease-in-out;
 
   /*                 Transition Code - 1984_Porsche_928           */
 
-  .container_801 {
+  .container801 {
     border-radius: 5%;
     box-shadow: 20px 20px 50px white;
     margin-top: 2%;
@@ -1415,8 +1458,8 @@ animation-timing-function:ease-in-out;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_801;
+    transition: 5s;
+    animation-name: animate801;
     animation-direction: alternate-reverse;
     animation-duration:50s;
     animation-fill-mode:forwards;
@@ -1425,130 +1468,26 @@ animation-timing-function:ease-in-out;
     animation-timing-function:ease-in-out;
   }
   
-  @keyframes animate_801 {
-    0%    {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/3_Pic.webp);}
-    10%   {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/2_Pic.jpeg);}
-    20%   {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/2_Pic.jfif);}
-    30%   {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/1_Pic.webp);}
-    40%   {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/1_Pic.jpeg);}
-    50%   {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/1_Pic.jfif);}
-    60%   {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/5_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-61_Pics_Cars80_1984_Porsche_928/1_Pic.jpg);}
+  @keyframes animate801 {
+
+    0%   {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/5_Pic.jpg);}
+    10%  {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/4_Pic.jpg);}
+    20%  {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/3_Pic.webp);}
+    30%  {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/3_Pic.jpg);}
+    40%  {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/2_Pic.jpg);}
+    50%  {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/2_Pic.jpeg);}
+    60%  {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/2_Pic.jfif);}
+    70%  {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/1_Pic.jpeg);}
+    80%  {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/1_Pic.webp);}
+    90%  {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/1_Pic.jpeg);}
+    100% {background-image:url(../1-1-61_Pics_Cars80_1984_Porsche_928/1_Pic.jfif);}
     }
   
   
     /*                Transition Code - 1984_Porsche_944           */
   
   
-  .container_802 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_802;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_802 {
-    0%    {background-image:url(../../../1-1-62_Pics_Cars80_1984_Porsche_944/1_Pic.webp);}
-    10%   {background-image:url(../../../1-1-62_Pics_Cars80_1984_Porsche_944/1_Pic.jfif);}
-    20%   {background-image:url(../../../1-1-62_Pics_Cars80_1984_Porsche_944/9_Pic.jpg);}
-    30%   {background-image:url(../../../1-1-62_Pics_Cars80_1984_Porsche_944/8_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-62_Pics_Cars80_1984_Porsche_944/7_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-62_Pics_Cars80_1984_Porsche_944/6_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-62_Pics_Cars80_1984_Porsche_944/5_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-62_Pics_Cars80_1984_Porsche_944/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-62_Pics_Cars80_1984_Porsche_944/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-62_Pics_Cars80_1984_Porsche_944/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-62_Pics_Cars80_1984_Porsche_944/1_Pic.jpg);}
-    }
-  
-      /*                 Transition Code - 1961 Jaguar XK            */
-  
-  .container_803 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_803;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_803 {
-    0%    {background-image:url(../../../1-1-63_Pics_Cars80_1984_Ferrari_308/11_Pic.jpg);}
-    10%   {background-image:url(../../../1-1-63_Pics_Cars80_1984_Ferrari_308/10_Pic.jpg);}
-    20%   {background-image:url(../../../1-1-63_Pics_Cars80_1984_Ferrari_308/9_Pic.jpg);}
-    30%   {background-image:url(../../../1-1-63_Pics_Cars80_1984_Ferrari_308/8_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-63_Pics_Cars80_1984_Ferrari_308/7_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-63_Pics_Cars80_1984_Ferrari_308/6_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-63_Pics_Cars80_1984_Ferrari_308/5_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-63_Pics_Cars80_1984_Ferrari_308/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-63_Pics_Cars80_1984_Ferrari_308/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-63_Pics_Cars80_1984_Ferrari_308/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-63_Pics_Cars80_1984_Ferrari_308/1_Pic.jpg);}
-  }
-  
-    /*                 Transition Code - 1961 Jaguar XK            */
-  
-  .container_804 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_804;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_804 {
-    0%    {background-image:url(../../../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/1_Pic.avif);}
-    10%   {background-image:url(../../../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/10_Pic.jpg);}
-    20%   {background-image:url(../../../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/9_Pic.jpg);}
-    30%   {background-image:url(../../../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/8_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/7_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/6_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/5_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/1_Pic.jpg);}
-  }
-  
-    /*                 Transition Code - 1966 Mamborgini Miura          */
-  
-    .container_805 {
+    .container802 {
       border-radius: 5%;
       box-shadow: 20px 20px 50px white;
       margin-top: 2%;
@@ -1557,139 +1496,244 @@ animation-timing-function:ease-in-out;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      transition: 0s;
-      animation-name: animate_805;
+      transition: 5s;
+      animation-name: animate802;
       animation-direction: alternate-reverse;
       animation-duration:50s;
       animation-fill-mode:forwards;
       animation-iteration-count:infinite;
       animation-play-state:running;
       animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate802 {
+      0%   {background-image:url(../1-1-62_Pics_Cars80_1984_Porsche_944/7_Pic.jpg);}
+      10%  {background-image:url(../1-1-62_Pics_Cars80_1984_Porsche_944/6_Pic.jpg);}
+      20%  {background-image:url(../1-1-62_Pics_Cars80_1984_Porsche_944/5_Pic.jpg);}
+      30%  {background-image:url(../1-1-62_Pics_Cars80_1984_Porsche_944/4_Pic.jpg);}
+      40%  {background-image:url(../1-1-62_Pics_Cars80_1984_Porsche_944/3_Pic.jpg);}
+      50%  {background-image:url(../1-1-62_Pics_Cars80_1984_Porsche_944/2_Pic.webp);}
+      60%  {background-image:url(../1-1-62_Pics_Cars80_1984_Porsche_944/2_Pic.jpg);}
+      70%  {background-image:url(../1-1-62_Pics_Cars80_1984_Porsche_944/1_Pic.webp);}
+      80%  {background-image:url(../1-1-62_Pics_Cars80_1984_Porsche_944/1_Pic.jpg);}
+      90%  {background-image:url(../1-1-62_Pics_Cars80_1984_Porsche_944/1_Pic.jpeg);}
+      100% {background-image:url(../1-1-62_Pics_Cars80_1984_Porsche_944/1_Pic.jfif);}
+      }
+  
+      /*                 Transition Code - 1961 Jaguar XK            */
+  
+      .container803 {
+        border-radius: 5%;
+        box-shadow: 20px 20px 50px white;
+        margin-top: 2%;
+        height: 75vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 5s;
+        animation-name: animate803;
+        animation-direction: alternate-reverse;
+        animation-duration:50s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+      }
+      
+      @keyframes animate803 {
+        0%   {background-image:url(../1-1-63_Pics_Cars80_1984_Ferrari_308/8_Pic.jpg);}
+        10%  {background-image:url(../1-1-63_Pics_Cars80_1984_Ferrari_308/7_Pic.jpg);}
+        20%  {background-image:url(../1-1-63_Pics_Cars80_1984_Ferrari_308/6_Pic.jpg);}
+        30%  {background-image:url(../1-1-63_Pics_Cars80_1984_Ferrari_308/5_Pic.jpg);}
+        40%  {background-image:url(../1-1-63_Pics_Cars80_1984_Ferrari_308/4_Pic.jpg);}
+        50%  {background-image:url(../1-1-63_Pics_Cars80_1984_Ferrari_308/3_Pic.jpg);}
+        60%  {background-image:url(../1-1-63_Pics_Cars80_1984_Ferrari_308/2_Pic.webp);}
+        70%  {background-image:url(../1-1-63_Pics_Cars80_1984_Ferrari_308/2_Pic.jpg);}
+        80%  {background-image:url(../1-1-63_Pics_Cars80_1984_Ferrari_308/1_Pic.webp);}
+        90%  {background-image:url(../1-1-63_Pics_Cars80_1984_Ferrari_308/9_Pic.jpg);}
+        100% {background-image:url(../1-1-63_Pics_Cars80_1984_Ferrari_308/1_Pic.jpeg);}
   }
   
-  @keyframes animate_805 {
-    0%    {background-image:url(../../../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/1_Pic.jfif);}
-    10%   {background-image:url(../../../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/1_Pic.webp);}
-    20%   {background-image:url(../../../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/1_Pic.jpeg);}
-    30%   {background-image:url(../../../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/8_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/7_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/6_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/5_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/1_Pic.jpg);}
+    /*                 Transition Code - 1961 Jaguar XK            */
+  
+    .container804 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate804;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate804 {
+    0%   {background-image:url(../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/1_Pic.avif);}
+    10%  {background-image:url(../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/10_Pic.jpg);}
+    20%  {background-image:url(../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/9_Pic.jpg);}
+    30%  {background-image:url(../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/8_Pic.jpg);}
+    40%  {background-image:url(../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/7_Pic.jpg);}
+    50%  {background-image:url(../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/6_Pic.jpg);}
+    60%  {background-image:url(../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/5_Pic.jpg);}
+    70%  {background-image:url(../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/2_Pic.jpg);}
+    100% {background-image:url(../1-1-64_Pics_Cars80_1984_Ferrari_Testerosi/1_Pic.jpg);}
+  }
+  
+    /*                 Transition Code - 1966 Mamborgini Miura          */
+  
+    .container805 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate805;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate805 {
+    0%   {background-image:url(../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/1_Pic.webp);}
+    10%  {background-image:url(../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/1_Pic.jpeg);}
+    20%  {background-image:url(../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/1_Pic.jfif);}
+    30%  {background-image:url(../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/8_Pic.jpg);}
+    40%  {background-image:url(../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/7_Pic.jpg);}
+    50%  {background-image:url(../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/6_Pic.jpg);}
+    60%  {background-image:url(../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/5_Pic.jpg);}
+    70%  {background-image:url(../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/2_Pic.jpg);}
+    100% {background-image:url(../1-1-65_Pics_Cars80_1984_Lamborgini_Countach/1_Pic.jpg);}
       }
   
   
       /*                 Transition Code 1967_Ford_GT40            */
   
-  .container_806 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_806;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_806 {
-    0%    {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/2_Pic.webp);}
-    10%   {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/1_Pic.webp);}
-    20%   {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/1_Pic.png);}
-    30%   {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/1_Pic.jfif);}
-    40%   {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/7_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/6_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/5_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/3_Pic.webp);}
-    90%   {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-60_Pics_Cars80_1984_Delorean/1_Pic.jpg);}
-    }
+      .container806 {
+        border-radius: 5%;
+        box-shadow: 20px 20px 50px white;
+        margin-top: 2%;
+        height: 75vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 5s;
+        animation-name: animate806;
+        animation-direction: alternate-reverse;
+        animation-duration:50s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+      }
+      
+      @keyframes animate806 {
+      0%   {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/2_Pic.webp);}
+      10%  {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/1_Pic.webp);}
+      20%  {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/1_Pic.png);}
+      30%  {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/1_Pic.jfif);}
+      40%  {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/7_Pic.jpg);}
+      50%  {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/6_Pic.jpg);}
+      60%  {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/5_Pic.jpg);}
+      70%  {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/4_Pic.jpg);}
+      80%  {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/3_Pic.webp);}
+      90%  {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/2_Pic.jpg);}
+      100% {background-image:url(../1-1-60_Pics_Cars80_1984_Delorean/1_Pic.jpg);}
+        }
   
     /*                 Transition Code 1963_Chevy_Corvette             */
   
-  .container_807 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_807;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_807 {
-    0%    {background-image:url(../../../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/4_Pic.jfif);}
-    10%   {background-image:url(../../../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/6_Pic.jfif);}
-    20%   {background-image:url(../../../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/5_Pic.jfif);}
-    30%   {background-image:url(../../../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/4_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/3_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/3_Pic.jfif);}
-    60%   {background-image:url(../../../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/2_Pic.jfif);}
-    70%   {background-image:url(../../../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/2_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/1_Pic.webp);}
-    90%   {background-image:url(../../../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/1_Pic.jfif);}
-    100%  {background-image:url(../../../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/1_Pic.jpg);}
+    .container807 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate807;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
     }
+    
+    @keyframes animate807 {
+    0%   {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/4_Pic.jfif);}
+    10%  {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/3_Pic.jfif);}
+    20%  {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/2_Pic.jfif);}
+    30%  {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/1_Pic.webp);}
+    40%  {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/1_Pic.jfif);}
+    50%  {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/6_Pic.jfif);}
+    60%  {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/5_Pic.jfif);}
+    70%  {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/2_Pic.jpg);}
+    100% {background-image:url(../1-1-52_Pics_Cars80_1987_Pontiac_Fierro_GT/1_Pic.jpg);}
+      }
   
     /*                 Transition Code   1960_Dodge_Challenger          */
   
-  .container_808 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_808;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_808 {
-    0%    {background-image:url(../../../1-1-53_Pics_Cars80_1984_Chevy_Corvette/3_Pic.png);}
-    10%   {background-image:url(../../../1-1-53_Pics_Cars80_1984_Chevy_Corvette/2_Pic.webp);}
-    20%   {background-image:url(../../../1-1-53_Pics_Cars80_1984_Chevy_Corvette/2_Pic.png);}
-    30%   {background-image:url(../../../1-1-53_Pics_Cars80_1984_Chevy_Corvette/1_Pic.webp);}
-    40%   {background-image:url(../../../1-1-53_Pics_Cars80_1984_Chevy_Corvette/1_Pic.png);}
-    50%   {background-image:url(../../../1-1-53_Pics_Cars80_1984_Chevy_Corvette/1_Pic.jfif);}
-    60%   {background-image:url(../../../1-1-53_Pics_Cars80_1984_Chevy_Corvette/5_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-53_Pics_Cars80_1984_Chevy_Corvette/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-53_Pics_Cars80_1984_Chevy_Corvette/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-53_Pics_Cars80_1984_Chevy_Corvette/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-53_Pics_Cars80_1984_Chevy_Corvette/1_Pic.jpg);}
-  }
+    .container808 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate808;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate808 {
+    0%   {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/3_Pic.png);}
+    10%  {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/2_Pic.webp);}
+    20%  {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/2_Pic.png);}
+    30%  {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/1_Pic.webp);}
+    40%  {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/1_Pic.png);}
+    50%  {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/1_Pic.jfif);}
+    60%  {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/5_Pic.jpg);}
+    70%  {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/2_Pic.jpg);}
+    100% {background-image:url(../1-1-53_Pics_Cars80_1984_Chevy_Corvette/1_Pic.jpg);}
+      }
   
   /*                 Transition Code  1960_Dodge_Charger           */
   
-  .container_809 {
+  .container809 {
     border-radius: 5%;
     box-shadow: 20px 20px 50px white;
     margin-top: 2%;
@@ -1698,8 +1742,8 @@ animation-timing-function:ease-in-out;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_809;
+    transition: 5s;
+    animation-name: animate809;
     animation-direction: alternate-reverse;
     animation-duration:50s;
     animation-fill-mode:forwards;
@@ -1708,123 +1752,123 @@ animation-timing-function:ease-in-out;
     animation-timing-function:ease-in-out;
   }
   
-  @keyframes animate_809 {
-    0%    {background-image:url(../../../1-1-54_Pics_Cars80_1984_Chevy_Camaro/1_Pic.webp);}
-    10%   {background-image:url(../../../1-1-54_Pics_Cars80_1984_Chevy_Camaro/1_Pic.jfif);}
-    20%   {background-image:url(../../../1-1-54_Pics_Cars80_1984_Chevy_Camaro/1_Pic.jpeg);}
-    30%   {background-image:url(../../../1-1-54_Pics_Cars80_1984_Chevy_Camaro/8_Pic.jpg);}
-    40%   {background-image:url(../../../1-1-54_Pics_Cars80_1984_Chevy_Camaro/7_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-54_Pics_Cars80_1984_Chevy_Camaro/6_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-54_Pics_Cars80_1984_Chevy_Camaro/5_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-54_Pics_Cars80_1984_Chevy_Camaro/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-54_Pics_Cars80_1984_Chevy_Camaro/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-54_Pics_Cars80_1984_Chevy_Camaro/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-54_Pics_Cars80_1984_Chevy_Camaro/1_Pic.jpg);}
+  @keyframes animate809 {
+  0%   {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/1_Pic.webp);}
+  10%  {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/1_Pic.jpeg);}
+  20%  {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/1_Pic.jfif);}
+  30%  {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/8_Pic.jpg);}
+  40%  {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/7_Pic.jpg);}
+  50%  {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/6_Pic.jpg);}
+  60%  {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/5_Pic.jpg);}
+  70%  {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/4_Pic.jpg);}
+  80%  {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/3_Pic.jpg);}
+  90%  {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/2_Pic.jpg);}
+  100% {background-image:url(../1-1-54_Pics_Cars80_1984_Chevy_Camaro/1_Pic.jpg);}
     }
   
     /*                 Transition Code    1960_Chevy_Camaro         */
   
-  .container_810 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_810;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_810 {
-    0%    {background-image:url(../../../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/3_Pic.jfif);}
-    10%   {background-image:url(../../../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/2_Pic.webp);}
-    20%   {background-image:url(../../../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/2_Pic.jfif);}
-    30%   {background-image:url(../../../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/1_Pic.webp);}
-    40%   {background-image:url(../../../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/1_Pic.jfif);}
-    50%   {background-image:url(../../../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/7_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/6_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/1_Pic.jpg);}
+    .container810 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate810;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
     }
+    
+    @keyframes animate810 {
+    0%   {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/3_Pic.jfif);}
+    10%  {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/2_Pic.webp);}
+    20%  {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/2_Pic.jfif);}
+    30%  {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/1_Pic.webp);}
+    40%  {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/1_Pic.jfif);}
+    50%  {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/7_Pic.jpg);}
+    60%  {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/6_Pic.jpg);}
+    70%  {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/2_Pic.jpg);}
+    100% {background-image:url(../1-1-55_Pics_Cars80_1984_Pontiac_Firebird/1_Pic.jpg);}
+      }
   
     /*                 Transition Code    1960_Ford_Mustang         */
   
-  .container_811 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_811;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_811 {
-    0%    {background-image:url(../../../1-1-56_Pics_Cars80_1984_Ford_Mustang/1_Pic.jpeg);}
-    10%   {background-image:url(../../../1-1-56_Pics_Cars80_1984_Ford_Mustang/1_Pic.jfif);}
-    20%   {background-image:url(../../../1-1-56_Pics_Cars80_1984_Ford_Mustang/2_Pic.webp);}
-    30%   {background-image:url(../../../1-1-56_Pics_Cars80_1984_Ford_Mustang/2_Pic.jfif);}
-    40%   {background-image:url(../../../1-1-56_Pics_Cars80_1984_Ford_Mustang/3_Pic.webp);}
-    50%   {background-image:url(../../../1-1-56_Pics_Cars80_1984_Ford_Mustang/3_Pic.jfif);}
-    60%   {background-image:url(../../../1-1-56_Pics_Cars80_1984_Ford_Mustang/4_Pic.jfif);}
-    70%   {background-image:url(../../../1-1-56_Pics_Cars80_1984_Ford_Mustang/4_Pic.jpg);}
-    80%   {background-image:url(../../../1-1-56_Pics_Cars80_1984_Ford_Mustang/3_Pic.jpg);}
-    90%   {background-image:url(../../../1-1-56_Pics_Cars80_1984_Ford_Mustang/2_Pic.jpg);}
-    100%  {background-image:url(../../../1-1-56_Pics_Cars80_1984_Ford_Mustang/1_Pic.jpg);}
+    .container811 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate811;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
     }
+    
+    @keyframes animate811 {
+    0%   {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/4_Pic.jpg);}
+    10%  {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/3_Pic.webp);}
+    20%  {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/3_Pic.jpg);}
+    30%  {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/3_Pic.jfif);}
+    40%  {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/2_Pic.webp);}
+    50%  {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/2_Pic.jfif);}
+    60%  {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/2_Pic.jpg);}
+    70%  {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/1_Pic.webp);}
+    80%  {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/1_Pic.jpeg);}
+    90%  {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/1_Pic.jfif);}
+    100% {background-image:url(../1-1-56_Pics_Cars80_1984_Ford_Mustang/1_Pic.jpeg);}
+      }
   
     /*                 Transition Code        1964_Pontiac-GTO     */
   
-  .container_812 {
-    border-radius: 5%;
-    box-shadow: 20px 20px 50px white;
-    margin-top: 2%;
-    height: 75vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 50s;
-    animation-name: animate_812;
-    animation-direction: alternate-reverse;
-    animation-duration:50s;
-    animation-fill-mode:forwards;
-    animation-iteration-count:infinite;
-    animation-play-state:running;
-    animation-timing-function:ease-in-out;
-  }
-  
-  @keyframes animate_812 {
-    0%    {background-image:url(../../../1-1-59_Pics_Cars80_1984_Nissan_HardBody/3_Pic.webp);}
-    10%   {background-image:url(../../../1-1-59_Pics_Cars80_1984_Nissan_HardBody/1_Pic.jpg);}
-    20%   {background-image:url(../../../1-1-59_Pics_Cars80_1984_Nissan_HardBody/7_Pic.webp);}
-    30%   {background-image:url(../../../1-1-59_Pics_Cars80_1984_Nissan_HardBody/6_Pic.webp);}
-    40%   {background-image:url(../../../1-1-59_Pics_Cars80_1984_Nissan_HardBody/5_Pic.jpg);}
-    50%   {background-image:url(../../../1-1-59_Pics_Cars80_1984_Nissan_HardBody/4_Pic.jpg);}
-    60%   {background-image:url(../../../1-1-59_Pics_Cars80_1984_Nissan_HardBody/3_Pic.jpg);}
-    70%   {background-image:url(../../../1-1-59_Pics_Cars80_1984_Nissan_HardBody/2_Pic.webp);}
-    80%   {background-image:url(../../../1-1-59_Pics_Cars80_1984_Nissan_HardBody/1_Pic.webp);}
-    90%   {background-image:url(../../../1-1-59_Pics_Cars80_1984_Nissan_HardBody/1_Pic.jfif);}
-    100%  {background-image:url(../../../1-1-59_Pics_Cars80_1984_Nissan_HardBody/2_Pic.jpg);}
+    .container812 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate812;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animate812 {
+    0%   {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/2_Pic.webp);}
+    10%  {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/2_Pic.jpg);}
+    20%  {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/1_Pic.jfif);}
+    30%  {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/1_Pic.jpg);}
+    40%  {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/7_Pic.webp);}
+    50%  {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/6_Pic.webp);}
+    60%  {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/5_Pic.webp);}
+    70%  {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/3_Pic.webp);}
+    90%  {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/2_Pic.webp);}
+    100% {background-image:url(../1-1-59_Pics_Cars80_1984_Nissan_HardBody/1_Pic.webp);}
   }
 
 

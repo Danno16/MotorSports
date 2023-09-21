@@ -51,14 +51,13 @@ body {
 img {height: 50px;}
 
 
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-bottom: 500px;
-    z-index: 2;
-
-  }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 500px;
+  z-index: 2;
+}
 
 
 /*      --------------------------------------------------------------------------
@@ -128,6 +127,18 @@ p{margin-left: 30%;}
   border-bottom: 1px solid rgb(92, 88, 88);
   }
 
+  .Gallery_main-page-4 {               
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: 1% 48% 1% 48%;
+    grid-template-rows: 9% 1% 9% 1% 9% 1% 9% 1% 9% 1% 
+                        9% 1% 9% 1% 9% 1% 9% 1% 9% 1% 
+                        9% 1% 9% 1% 9% 1% 9% 1% 9% 1% ;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(92, 88, 88);
+    }
+
 
 /*      --------------------------------------------------------------------------
                                 Fonts
@@ -136,7 +147,9 @@ p{margin-left: 30%;}
         h4  {margin-left: 20px; margin-top: -2%; color: rgb(230, 182, 77);}
         p   {margin-left: 30%;}
         .p1 {color: transparent;}
+        .p2 {color: white;}
         .p3 {margin-left: 20px; margin-top: 1%; margin-bottom: 2%; color: rgb(230, 182, 77);}
+        .p5 {color: whtie;}
 
 /*      --------------------------------------------------------------------------
                                     Body Buttons
@@ -179,7 +192,7 @@ p{margin-left: 30%;}
 
 
 
-
+.p2 {color: white;}
 
 /*----------------------------------------------------------------------
                         Transitions Code
@@ -356,7 +369,7 @@ p{margin-left: 30%;}
                           Transitions Code - 60s Cars
   ----------------------------------------------------------------------*/
 
-/*                   Row 1                    */
+/*                             1962_Ferrari_250_GTO                   */
 
 .container61 {
   height: 55vh;
@@ -389,9 +402,9 @@ p{margin-left: 30%;}
   100%  {background-image:url(../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/1_Pic.jpg);}
   }
 
-/*                   Row 2                    */
+/*                              1961_Jaguar_XK_E               */
 
-.container2 {
+.container62 {
   height: 65vh;
   width: 100%;
   background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
@@ -399,7 +412,7 @@ p{margin-left: 30%;}
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
-  animation-name: animate2;
+  animation-name: animate62;
   animation-direction: alternate-reverse;
   animation-duration:50s;
   animation-fill-mode:forwards;
@@ -408,7 +421,7 @@ p{margin-left: 30%;}
   animation-timing-function:ease-in-out;
 }
 
-@keyframes animate2 {
+@keyframes animate62 {
   00%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/11_Pic.webp);}
   10%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/10_Pic.jfif);}
   20%   {background-image:url(../../../1-1-24_Pics_Cars60_1961_Jaguar_XK_E/9_Pic.avif);}
@@ -423,9 +436,9 @@ p{margin-left: 30%;}
 
   }
 
-/*                   Row 3                    */
+/*                          `   1966_Lamborgini_Miura                  */
 
-.container3 {
+.container63 {
   height: 65vh;
   width: 100%;
   background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
@@ -433,7 +446,7 @@ p{margin-left: 30%;}
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
-  animation-name: animate3;
+  animation-name: animate63;
   animation-direction: alternate-reverse;
   animation-duration:50s;
   animation-fill-mode:forwards;
@@ -442,7 +455,7 @@ p{margin-left: 30%;}
   animation-timing-function:ease-in-out;
 }
 
-@keyframes animate3 {
+@keyframes animate63 {
 
   0%   {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/10_Pic.webp);}
   10%  {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/9_Pic.jpg);}
@@ -457,9 +470,9 @@ p{margin-left: 30%;}
   100% {background-image:url(../../../1-1-25_Pics_Cars60_1966_Lamborgini_Miura/1_Pic.jpg);}
   }
 
-/*                   Row 4                    */
+/*                                      1967_Ford_GT40                  */
 
-.container4 {
+.container64 {
   height: 65vh;
   width: 100%;
   background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
@@ -467,7 +480,7 @@ p{margin-left: 30%;}
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
-  animation-name: animate4;
+  animation-name: animate64;
   animation-direction: alternate-reverse;
   animation-duration:50s;
   animation-fill-mode:forwards;
@@ -476,7 +489,7 @@ p{margin-left: 30%;}
   animation-timing-function:ease-in-out;
 }
 
-@keyframes animate4 {
+@keyframes animate64 {
   0%    {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/1_Pic.webp);}
   10%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/9_Pic.jpg);}
   20%   {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/8_Pic.jpg);}
@@ -490,9 +503,9 @@ p{margin-left: 30%;}
   100%  {background-image:url(../../../1-1-25_Pics_Cars60_1967_Ford_GT40/1_Pic.jpg);}
   }
 
-/*                   Row 5                    */
+/*                                    1963_Chevy_Corvette                   */
 
-.container5 {
+.container65 {
   height: 65vh;
   width: 100%;
   background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
@@ -500,7 +513,7 @@ p{margin-left: 30%;}
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
-  animation-name: animate5;
+  animation-name: animate65;
   animation-direction: alternate-reverse;
   animation-duration:50s;
   animation-fill-mode:forwards;
@@ -509,7 +522,7 @@ p{margin-left: 30%;}
   animation-timing-function:ease-in-out;
 }
 
-@keyframes animate5 {
+@keyframes animate65 {
 
   0%    {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/11_PIc.webp);}
   10%   {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/10_PIc.webp);}
@@ -524,9 +537,9 @@ p{margin-left: 30%;}
   100%  {background-image:url(../../../1-1-26_Pics_Cars60_1963_Chevy_Corvette/2_Pic.jpg);}
   }
 
-/*                   Row 6                    */
+/*                                      1960_Dodge_Challenger                   */
 
-.container6 {
+.container66 {
   height: 65vh;
   width: 100%;
   background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
@@ -534,7 +547,7 @@ p{margin-left: 30%;}
   background-position: center;
   background-repeat: no-repeat;
   transition: 50s;
-  animation-name: animate6;
+  animation-name: animate66;
   animation-direction: alternate-reverse;
   animation-duration:50s;
   animation-fill-mode:forwards;
@@ -543,7 +556,7 @@ p{margin-left: 30%;}
   animation-timing-function:ease-in-out;
 }
 
-@keyframes animate6 {
+@keyframes animate66 {
 
   0%    {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/10_Pic.jpg);}
   10%   {background-image:url(../../../1-1-27_Pics_Cars60_1960_Dodge_Challenger/10_PIc.jpeg);}
@@ -560,9 +573,9 @@ p{margin-left: 30%;}
 
   }
 
-/*                   Row 7                    */
+/*                                      1960_Dodge_Charger                   */
 
-.container7 {
+.container67 {
   height: 65vh;
   width: 100%;
   background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
@@ -570,7 +583,7 @@ p{margin-left: 30%;}
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
-  animation-name: animate7;
+  animation-name: animate67;
   animation-direction: alternate-reverse;
   animation-duration:50s;
   animation-fill-mode:forwards;
@@ -579,7 +592,7 @@ p{margin-left: 30%;}
   animation-timing-function:ease-in-out;
 }
 
-@keyframes animate7 {
+@keyframes animate67 {
 
 
   0%    {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/10_Pic.webp);}
@@ -595,9 +608,9 @@ p{margin-left: 30%;}
   100%  {background-image:url(../../../1-1-28_Pics_Cars60_1960_Dodge_Charger/1_Pic.jpg);}
   }
 
-  /*                   Row 8                    */
+  /*                                          1960_Chevy_Camaro/                */
 
-.container8 {
+.container68 {
   height: 65vh;
   width: 100%;
   background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
@@ -605,7 +618,7 @@ p{margin-left: 30%;}
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
-  animation-name: animate8;
+  animation-name: animate68;
   animation-direction: alternate-reverse;
   animation-duration:50s;
   animation-fill-mode:forwards;
@@ -614,7 +627,7 @@ p{margin-left: 30%;}
   animation-timing-function:ease-in-out;
 }
 
-@keyframes animate8 {
+@keyframes animate68 {
 
   0%    {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/10_Pic.jfif);}
   10%   {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/9_Pic.jfif);}
@@ -629,9 +642,9 @@ p{margin-left: 30%;}
   100%  {background-image:url(../../../1-1-29_Pics_Cars60_1960_Chevy_Camaro/1_Pic.jpg);}
   }
 
-      /*                   Row 9                    */
+      /*                               1960_Ford_Mustang                   */
 
-.container9 {
+.container69 {
   height: 65vh;
   width: 100%;
   background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
@@ -639,7 +652,7 @@ p{margin-left: 30%;}
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
-  animation-name: animate9;
+  animation-name: animate69;
   animation-direction: alternate-reverse;
   animation-duration:50s;
   animation-fill-mode:forwards;
@@ -648,7 +661,7 @@ p{margin-left: 30%;}
   animation-timing-function:ease-in-out;
 }
 
-@keyframes animate9 {
+@keyframes animate69 {
 
   0%     {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/11_Pic.jpg);}
   10%    {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/10_Pic.jpg);}
@@ -663,9 +676,9 @@ p{margin-left: 30%;}
   100%   {background-image:url(../../../1-1-30_Pics_Cars60_1960_Ford_Mustang/1_Pic.jfif);}
   }
 
-          /*                   Row 10                    */
+          /*                               1964_Pontiac-GTO                  */
 
-.container10 {
+.container610 {
   height: 65vh;
   width: 100%;
   background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
@@ -673,7 +686,7 @@ p{margin-left: 30%;}
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
-  animation-name: animate10;
+  animation-name: animate610;
   animation-direction: alternate-reverse;
   animation-duration:50s;
   animation-fill-mode:forwards;
@@ -682,7 +695,7 @@ p{margin-left: 30%;}
   animation-timing-function:ease-in-out;
 }
 
-@keyframes animate10 {
+@keyframes animate610 {
 
   0%    {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/1_Pic.jpg);}
   10%   {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/11_Pic.jfif);}
@@ -697,9 +710,9 @@ p{margin-left: 30%;}
   100%  {background-image:url(../../../1-1-31_Pics_Cars60_1960_1964_Pontiac-GTO/1_Pic.jpg);}
   }
 
-          /*                   Row 11                    */
+          /*                             1962_Ferrari_330                  */
 
-.container11 {
+.container611 {
   height: 65vh;
   width: 100%;
   background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
@@ -707,7 +720,7 @@ p{margin-left: 30%;}
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
-  animation-name: animate11;
+  animation-name: animate611;
   animation-direction: alternate-reverse;
   animation-duration:50s;
   animation-fill-mode:forwards;
@@ -716,7 +729,7 @@ p{margin-left: 30%;}
   animation-timing-function:ease-in-out;
 }
 
-@keyframes animate11 {
+@keyframes animate611 {
   0%    {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/1_Pic.webp);}
   10%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/9_Pic.jpg);}
   20%   {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/8_Pic.jpg);}
@@ -730,9 +743,9 @@ p{margin-left: 30%;}
   100%  {background-image:url(../../../1-1-32_Pics_Cars60_1962_Ferrari_330/1_Pic.jpg);}
   }
 
-              /*                   Row 12                    */
+              /*                         1962_Ferrari_250_GTO                 */
 
-.container12 {
+.container612 {
   height: 65vh;
   width: 100%;
   background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
@@ -740,7 +753,7 @@ p{margin-left: 30%;}
   background-position: center;
   background-repeat: no-repeat;
   transition: 5s;
-  animation-name: animate12;
+  animation-name: animate612;
   animation-direction: alternate-reverse;
   animation-duration:50s;
   animation-fill-mode:forwards;
@@ -749,7 +762,7 @@ p{margin-left: 30%;}
   animation-timing-function:ease-in-out;
 }
 
-@keyframes animate12 {
+@keyframes animate612 {
 
   0%    {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/4_Pic.jpg);}
   10%   {background-image:url(../../../1-1-33_Pics_Cars60_1962_Ferrari_250_GTO/3_Pic.webp);}
