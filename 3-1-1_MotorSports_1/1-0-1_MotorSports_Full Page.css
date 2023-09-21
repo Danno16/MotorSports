@@ -15,15 +15,12 @@ body {
   /*----------------------------------------------------------------------------------------------------
                                        Header
     --------------------------------------------------------------------------------------------------*/
+.header {
+  background-color: rgb(16, 15, 15);
+  height: 100px;
+  border-bottom: 5px solid maroon;
+}
 
-    
-
-    .header {
-      background-color: rgb(16, 15, 15);
-      height: 100px;
-      border-bottom: 5px solid maroon;
-    
-    }    
 #wrapper {
   display: grid;
   grid-template-columns:2% 55% 30% ;
@@ -142,26 +139,66 @@ iframe {
   /*      --------------------------------------------------------------------------
                                     Body Buttons
         --------------------------------------------------------------------------   */
-
 .btn {
-  margin-left: -20px;
   font-size: 20px;
   text-decoration: none;
   color: rgb(36, 33, 33);
   background-color: rgb(157, 156, 156);
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   border-radius: 25px;
-  margin-left: 10px;
+  margin-left: 15px;
+  border: solid ;
+  box-shadow: 10px 10px 50px white;
 }
 
-
-.btn:hover {
-  background-color: red;
+.btn:hover  {
+  background-color: rgb(119, 43, 43);
   cursor: pointer;
   opacity: .5; 
   color: white;
   width: 210px;
+  font-size: 25px;
+}
+
+
+ .btn-1, .btn-2, .btn-3, .btn-4 {
+  margin-left: -20px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(201, 199, 199);
+  background-image: linear-gradient(rgb(60, 22, 22), rgb(92, 94, 92));
+  padding-left: 16%;
+  padding-right: 16%;
+  border: solid, black;
+  border-radius: 25px;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px white;
+}
+
+.btn-1 {
+  padding-left: 31%;
+  padding-right: 31%;
+}
+
+.btn-2 {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.btn-3 {
+  padding-left: 27%;
+  padding-right: 27%;
+}
+
+
+
+
+.btn-1:hover , .btn-2:hover, .btn-3:hover, .btn-4:hover {
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
 }
 
 /*----------------------------------------------------------------------
@@ -3212,7 +3249,511 @@ animation-timing-function:ease-in-out;
     90%  {background-image:url(../1-1-22_Pics_Bike_Trek_Feul_5/2_Pic.jpg);}
     100% {background-image:url(../1-1-22_Pics_Bike_Trek_Feul_5/1_Pic.jpg);}
       }
+
+
+/*----------------------------------------------------------------------
+                  Transitions Code - Electric Cars
+----------------------------------------------------------------------*/
+
+
+    /*                 Transition Code - Testla Model-3      */
   
+    .container_Testla_3 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Testla_3;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Testla_3 {
+     0%  {background-image:url(../1-1-114_Pics_E_Cars_Testla_Model_3/1_Pic.jpeg);}
+    10%  {background-image:url(../1-1-114_Pics_E_Cars_Testla_Model_3/10_Pic.jpeg);}
+    20%  {background-image:url(../1-1-114_Pics_E_Cars_Testla_Model_3/9_Pic.jpeg);}
+    30%  {background-image:url(../1-1-114_Pics_E_Cars_Testla_Model_3/8_Pic.jpeg);}
+    40%  {background-image:url(../1-1-114_Pics_E_Cars_Testla_Model_3/7_Pic.jpeg);}
+    50%  {background-image:url(../1-1-114_Pics_E_Cars_Testla_Model_3/6_Pic.jpeg);}
+    60%  {background-image:url(../1-1-114_Pics_E_Cars_Testla_Model_3/5_Pic.jpeg);}
+    70%  {background-image:url(../1-1-114_Pics_E_Cars_Testla_Model_3/4_Pic.jpeg);}
+    80%  {background-image:url(../1-1-114_Pics_E_Cars_Testla_Model_3/3_Pic.webp);}
+    90%  {background-image:url(../1-1-114_Pics_E_Cars_Testla_Model_3/2_Pic.webp);}
+    100% {background-image:url(../1-1-114_Pics_E_Cars_Testla_Model_3/1_Pic.jpeg);}
+      }
+
+
+
+          /*                 Transition Code - Testla Model-Y      */
+
+      .container_Testla_Y {
+        border-radius: 5%;
+        box-shadow: 20px 20px 50px white;
+        margin-top: 2%;
+        height: 75vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 0s;
+        animation-name: container_Testla_Y;
+        animation-direction: alternate-reverse;
+        animation-duration:50s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_Testla_Y {
+      0%   {background-image:url(../1-1-116_Pics_E_Cars_Testla_Model_Y/1_Pic.jpeg);}
+      10%  {background-image:url(../1-1-116_Pics_E_Cars_Testla_Model_Y/10_Pic.webp);}
+      20%  {background-image:url(../1-1-116_Pics_E_Cars_Testla_Model_Y/9_Pic.jpeg);}
+      30%  {background-image:url(../1-1-116_Pics_E_Cars_Testla_Model_Y/8_Pic.jpeg);}
+      40%  {background-image:url(../1-1-116_Pics_E_Cars_Testla_Model_Y/7_Pic.jpeg);}
+      50%  {background-image:url(../1-1-116_Pics_E_Cars_Testla_Model_Y/6_Pic.webp);}
+      60%  {background-image:url(../1-1-116_Pics_E_Cars_Testla_Model_Y/5_Pic.webp);}
+      70%  {background-image:url(../1-1-116_Pics_E_Cars_Testla_Model_Y/4_Pic.webp);}
+      80%  {background-image:url(../1-1-116_Pics_E_Cars_Testla_Model_Y/3_Pic.jpeg);}
+      90%  {background-image:url(../1-1-116_Pics_E_Cars_Testla_Model_Y/2_Pic.jpeg);}
+      100% {background-image:url(../1-1-116_Pics_E_Cars_Testla_Model_Y/1_Pic.jpeg);}
+        }   
+
+
+                  /*                 Transition Code - Testla Model-S      */
+          
+      .container_Testla_S {
+        border-radius: 5%;
+        box-shadow: 20px 20px 50px white;
+        margin-top: 2%;
+        height: 75vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 0s;
+        animation-name: container_Testla_S;
+        animation-direction: alternate-reverse;
+        animation-duration:50s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_Testla_S {
+      0%   {background-image:url(../1-1-115_Pics_E_Cars_Testla_Model_S/2_Pic.jpeg);}
+      10%  {background-image:url(../1-1-115_Pics_E_Cars_Testla_Model_S/1_Pic.png);}
+      20%  {background-image:url(../1-1-115_Pics_E_Cars_Testla_Model_S/10_Pic.jpeg);}
+      30%  {background-image:url(../1-1-115_Pics_E_Cars_Testla_Model_S/9_Pic.jpeg);}
+      40%  {background-image:url(../1-1-115_Pics_E_Cars_Testla_Model_S/8_Pic.jpeg);}
+      50%  {background-image:url(../1-1-115_Pics_E_Cars_Testla_Model_S/7_Pic.webp);}
+      60%  {background-image:url(../1-1-115_Pics_E_Cars_Testla_Model_S/6_Pic.jpeg);}
+      70%  {background-image:url(../1-1-115_Pics_E_Cars_Testla_Model_S/5_Pic.jpeg);}
+      80%  {background-image:url(../1-1-115_Pics_E_Cars_Testla_Model_S/4_Pic.jpeg);}
+      90%  {background-image:url(../1-1-115_Pics_E_Cars_Testla_Model_S/3_Pic.jpeg);}
+      100% {background-image:url(../1-1-115_Pics_E_Cars_Testla_Model_S/2_Pic.jpeg);}
+        }   
+
+
+                          /*                 Transition Code - Testla Model-X      */
+          
+      .container_Tesla_X {
+        border-radius: 5%;
+        box-shadow: 20px 20px 50px white;
+        margin-top: 2%;
+        height: 75vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 0s;
+        animation-name: container_Tesla_X;
+        animation-direction: alternate-reverse;
+        animation-duration:50s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_Tesla_X {
+      0%   {background-image:url(../1-1-117_Pics_E_Cars_Testla_Model_X/2_Pic.webp);}
+      10%  {background-image:url(../1-1-117_Pics_E_Cars_Testla_Model_X/1_Pic.webp);}
+      20%  {background-image:url(../1-1-117_Pics_E_Cars_Testla_Model_X/10_Pic.jpeg);}
+      30%  {background-image:url(../1-1-117_Pics_E_Cars_Testla_Model_X/9_Pic.jpeg);}
+      40%  {background-image:url(../1-1-117_Pics_E_Cars_Testla_Model_X/7_Pic.webp);}
+      50%  {background-image:url(../1-1-117_Pics_E_Cars_Testla_Model_X/6_Pic.jpeg);}
+      60%  {background-image:url(../1-1-117_Pics_E_Cars_Testla_Model_X/5_Pic.webp);}
+      70%  {background-image:url(../1-1-117_Pics_E_Cars_Testla_Model_X/4_Pic.webp);}
+      80%  {background-image:url(../1-1-117_Pics_E_Cars_Testla_Model_X/3_Pic.jpeg);}
+      90%  {background-image:url(../1-1-117_Pics_E_Cars_Testla_Model_X/2_Pic.webp);}
+      100% {background-image:url(../1-1-117_Pics_E_Cars_Testla_Model_X/1_Pic.webp);}
+        }   
+
+             /*                 Transition Code - Testla Old Roadster     */
+          
+      .container_Tesla_Old_Roadster {
+        border-radius: 5%;
+        box-shadow: 20px 20px 50px white;
+        margin-top: 2%;
+        height: 75vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 0s;
+        animation-name: container_Tesla_Old_Roadster;
+        animation-direction: alternate-reverse;
+        animation-duration:50s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_Tesla_Old_Roadster {
+      0%   {background-image:url(../1-1-118_Pics_E_Cars_Testla_2008_Roadster/10_pic.jpeg);}
+      10%  {background-image:url(../1-1-118_Pics_E_Cars_Testla_2008_Roadster/9_pic.jpeg);}
+      20%  {background-image:url(../1-1-118_Pics_E_Cars_Testla_2008_Roadster/8_pic.jpeg);}
+      30%  {background-image:url(../1-1-118_Pics_E_Cars_Testla_2008_Roadster/7_pic.jpeg);}
+      40%  {background-image:url(../1-1-118_Pics_E_Cars_Testla_2008_Roadster/6_pic.jpeg);}
+      50%  {background-image:url(../1-1-118_Pics_E_Cars_Testla_2008_Roadster/5_pic.jpeg);}
+      60%  {background-image:url(../1-1-118_Pics_E_Cars_Testla_2008_Roadster/1_pic.webp);}
+      70%  {background-image:url(../1-1-118_Pics_E_Cars_Testla_2008_Roadster/4_pic.webp);}
+      80%  {background-image:url(../1-1-118_Pics_E_Cars_Testla_2008_Roadster/4_pic.jpeg);}
+      90%  {background-image:url(../1-1-118_Pics_E_Cars_Testla_2008_Roadster/3_pic.jpeg);}
+      100% {background-image:url(../1-1-118_Pics_E_Cars_Testla_2008_Roadster/2_pic.jpeg);}
+        }   
+
+                     /*                 Transition Code - Testla New Roadster     */
+          
+      .container_Tesla_New_Roadster {
+        border-radius: 5%;
+        box-shadow: 20px 20px 50px white;
+        margin-top: 2%;
+        height: 75vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 0s;
+        animation-name: container_Tesla_New_Roadster;
+        animation-direction: alternate-reverse;
+        animation-duration:50s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_Tesla_New_Roadster {
+      0%   {background-image:url(../1-1-119_Pics_E_Cars_Testla_New_Roadster/2_Pic.jpeg);}
+      10%  {background-image:url(../1-1-119_Pics_E_Cars_Testla_New_Roadster/1_Pic.jpeg);}
+      20%  {background-image:url(../1-1-119_Pics_E_Cars_Testla_New_Roadster/10_Pic.jpeg);}
+      30%  {background-image:url(../1-1-119_Pics_E_Cars_Testla_New_Roadster/9_Pic.jpeg);}
+      40%  {background-image:url(../1-1-119_Pics_E_Cars_Testla_New_Roadster/8_Pic.jpeg);}
+      50%  {background-image:url(../1-1-119_Pics_E_Cars_Testla_New_Roadster/7_Pic.jpeg);}
+      60%  {background-image:url(../1-1-119_Pics_E_Cars_Testla_New_Roadster/6_Pic.jpeg);}
+      70%  {background-image:url(../1-1-119_Pics_E_Cars_Testla_New_Roadster/5_Pic.jpeg);}
+      80%  {background-image:url(../1-1-119_Pics_E_Cars_Testla_New_Roadster/4_Pic.jpeg);}
+      90%  {background-image:url(../1-1-119_Pics_E_Cars_Testla_New_Roadster/3_Pic.webp);}
+      100% {background-image:url(../1-1-119_Pics_E_Cars_Testla_New_Roadster/2_Pic.jpeg);}
+        }   
+
+
+          /*                 Transition Code - Testla CyberTruck    */
+          
+  .container_Tesla_CyberTruck  {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0s;
+    animation-name: container_Tesla_CyberTruck ;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_Tesla_CyberTruck  {
+      0%   {background-image:url(../1-1-120_Pics_E_Cars_Testla_CyberTruck/10_Pic.webp);}
+      10%  {background-image:url(../1-1-120_Pics_E_Cars_Testla_CyberTruck/9_Pic.jfif);}
+      20%  {background-image:url(../1-1-120_Pics_E_Cars_Testla_CyberTruck/8_Pic.png);}
+      30%  {background-image:url(../1-1-120_Pics_E_Cars_Testla_CyberTruck/7_Pic.webp);}
+      40%  {background-image:url(../1-1-120_Pics_E_Cars_Testla_CyberTruck/6_Pic.webp);}
+      50%  {background-image:url(../1-1-120_Pics_E_Cars_Testla_CyberTruck/5_Pic.jpg);}
+      60%  {background-image:url(../1-1-120_Pics_E_Cars_Testla_CyberTruck/4_Pic.jfif);}
+      70%  {background-image:url(../1-1-120_Pics_E_Cars_Testla_CyberTruck/4_Pic.jpg);}
+      80%  {background-image:url(../1-1-120_Pics_E_Cars_Testla_CyberTruck/3_Pic.jpg);}
+      90%  {background-image:url(../1-1-120_Pics_E_Cars_Testla_CyberTruck/2_Pic.jpg);}
+      100% {background-image:url(../1-1-120_Pics_E_Cars_Testla_CyberTruck/1_Pic.jpg);}
+        }   
+
+                  /*                 Transition Code - Chevy Bolt   */
+          
+  .container_Chevy_Bolt  {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0s;
+    animation-name: container_Chevy_Bolt;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_Chevy_Bolt  {
+      0%   {background-image:url(../1-1-121_Pics_E_Cars_Chevy_Bolt/11_Pic.webp);}
+      10%  {background-image:url(../1-1-121_Pics_E_Cars_Chevy_Bolt/10_Pic.webp);}
+      20%  {background-image:url(../1-1-121_Pics_E_Cars_Chevy_Bolt/9_Pic.webp);}
+      30%  {background-image:url(../1-1-121_Pics_E_Cars_Chevy_Bolt/8_Pic.webp);}
+      40%  {background-image:url(../1-1-121_Pics_E_Cars_Chevy_Bolt/7_Pic.JPG);}
+      50%  {background-image:url(../1-1-121_Pics_E_Cars_Chevy_Bolt/6_Pic.jpg);}
+      60%  {background-image:url(../1-1-121_Pics_E_Cars_Chevy_Bolt/5_Pic.jpg);}
+      70%  {background-image:url(../1-1-121_Pics_E_Cars_Chevy_Bolt/4_Pic.jpg);}
+      80%  {background-image:url(../1-1-121_Pics_E_Cars_Chevy_Bolt/3_Pic.jpg);}
+      90%  {background-image:url(../1-1-121_Pics_E_Cars_Chevy_Bolt/2_Pic.jpg);}
+      100% {background-image:url(../1-1-121_Pics_E_Cars_Chevy_Bolt/1_Pic.jpg);}
+        }  
+        
+        
+                          /*                 Transition Code - Ford Mach E   */
+          
+  .container_Ford_machE {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0s;
+    animation-name: container_Ford_machE;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_Ford_machE  {
+       0%  {background-image:url(../1-1-122_Pics_E_Cars_Ford_Mustang/1_Pic.jpg);}
+      10%  {background-image:url(../1-1-122_Pics_E_Cars_Ford_Mustang/9_Pic.webp);}
+      20%  {background-image:url(../1-1-122_Pics_E_Cars_Ford_Mustang/11_Pic.webp);}
+      30%  {background-image:url(../1-1-122_Pics_E_Cars_Ford_Mustang/10_Pic.webp);}
+      40%  {background-image:url(../1-1-122_Pics_E_Cars_Ford_Mustang/10_Pic.png);}
+      50%  {background-image:url(../1-1-122_Pics_E_Cars_Ford_Mustang/6_Pic.jpg);}
+      60%  {background-image:url(../1-1-122_Pics_E_Cars_Ford_Mustang/5_Pic.jpg);}
+      70%  {background-image:url(../1-1-122_Pics_E_Cars_Ford_Mustang/4_Pic.jpg);}
+      80%  {background-image:url(../1-1-122_Pics_E_Cars_Ford_Mustang/3_Pic.jpg);}
+      90%  {background-image:url(../1-1-122_Pics_E_Cars_Ford_Mustang/2_Pic.jpg);}
+      100% {background-image:url(../1-1-122_Pics_E_Cars_Ford_Mustang/1_Pic.jpg);}
+        }   
+
+
+                                  /*                 Transition Code - Porsche Taycan   */
+          
+  .container_Porsche_Taycan {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0s;
+    animation-name: container_Porsche_Taycan;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_Porsche_Taycan  {
+      0%   {background-image:url(../1-1-123_Pics_E_Cars_Porsche_Taycan/12_pic.png);}
+      10%  {background-image:url(../1-1-123_Pics_E_Cars_Porsche_Taycan/11_Pic.jfif);}
+      20%  {background-image:url(../1-1-123_Pics_E_Cars_Porsche_Taycan/10_Pic.jfif);}
+      30%  {background-image:url(../1-1-123_Pics_E_Cars_Porsche_Taycan/9_Pic.webp);}
+      40%  {background-image:url(../1-1-123_Pics_E_Cars_Porsche_Taycan/8_Pic.jpeg);}
+      50%  {background-image:url(../1-1-123_Pics_E_Cars_Porsche_Taycan/7_Pic.jpeg);}
+      60%  {background-image:url(../1-1-123_Pics_E_Cars_Porsche_Taycan/6_Pic.jpg);}
+      70%  {background-image:url(../1-1-123_Pics_E_Cars_Porsche_Taycan/5_Pic.jpg);}
+      80%  {background-image:url(../1-1-123_Pics_E_Cars_Porsche_Taycan/3_Pic.jpg);}
+      90%  {background-image:url(../1-1-123_Pics_E_Cars_Porsche_Taycan/2_Pic.jpg);}
+      100% {background-image:url(../1-1-123_Pics_E_Cars_Porsche_Taycan/1_Pic.jpg);}
+        }   
+
+
+        /*                 Transition Code - Hyundai Ioniq  */
+          
+  .container_Hyundai-Ioniq  {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0s;
+    animation-name: container_Hyundai-Ioniq;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_Hyundai-Ioniq  {
+      0%   {background-image:url(../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5//11_Pic.webp);}
+      10%  {background-image:url(../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/7_Pic.webp);}
+      20%  {background-image:url(../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/2_Pic.jfif);}
+      30%  {background-image:url(../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/1_Pic.jfif);}
+      40%  {background-image:url(../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/10_Pic.webp);}
+      50%  {background-image:url(../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/9_Pic.webp);}
+      60%  {background-image:url(../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/8_Pic.jpg);}
+      70%  {background-image:url(../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/7_Pic.jpg);}
+      80%  {background-image:url(../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/6_Pic.jpg);}
+      90%  {background-image:url(../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/5_Pic.jpg);}
+      100% {background-image:url(../1-1-124_Pics_E_Cars_Hyundai_Ioniq_5/4_Pic.jpg);}
+        }   
+
+
+                /*                 Transition Code - Hyundai Ioniq  */
+          
+  .container_Kia_EV-6   {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0s;
+    animation-name: container_Kia_EV-6;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_Kia_EV-6 {
+      0%   {background-image:url(../1-1-125_Pics_E_Cars_Kia_EV6/11_Pic.webp);}
+      10%  {background-image:url(../1-1-125_Pics_E_Cars_Kia_EV6/10_Pic.webp);}
+      20%  {background-image:url(../1-1-125_Pics_E_Cars_Kia_EV6/9_Pic.webp);}
+      30%  {background-image:url(../1-1-125_Pics_E_Cars_Kia_EV6/8_Pic.webp);}
+      40%  {background-image:url(../1-1-125_Pics_E_Cars_Kia_EV6/7_Pic.webp);}
+      50%  {background-image:url(../1-1-125_Pics_E_Cars_Kia_EV6/6_Pic.webp);}
+      60%  {background-image:url(../1-1-125_Pics_E_Cars_Kia_EV6/5_Pic.jpg);}
+      70%  {background-image:url(../1-1-125_Pics_E_Cars_Kia_EV6/4_Pic.jpg);}
+      80%  {background-image:url(../1-1-125_Pics_E_Cars_Kia_EV6/3_Pic.jpg);}
+      90%  {background-image:url(../1-1-125_Pics_E_Cars_Kia_EV6/2_Pic.jpg);}
+      100% {background-image:url(../1-1-125_Pics_E_Cars_Kia_EV6/1_Pic.jpg);}
+        } 
+        
+      /*                 Transition Code - BMW I-4 */
+          
+  .container_BMW_I-4   {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0s;
+    animation-name: container_BMW_I-4;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes container_BMW_I-4 {
+      0%   {background-image:url(../1-1-126_Pics_E_Cars_BMW_i4/9_Pic.jpg);}
+      10%  {background-image:url(../1-1-126_Pics_E_Cars_BMW_i4/8_Pic.jpeg);}
+      20%  {background-image:url(../1-1-126_Pics_E_Cars_BMW_i4/8_Pic.jpg);}
+      30%  {background-image:url(../1-1-126_Pics_E_Cars_BMW_i4/7_Pic.jpg);}
+      40%  {background-image:url(../1-1-126_Pics_E_Cars_BMW_i4/6_Pic.jpg);}
+      50%  {background-image:url(../1-1-126_Pics_E_Cars_BMW_i4/5_Pic.jpg);}
+      60%  {background-image:url(../1-1-126_Pics_E_Cars_BMW_i4/4_Pic.jpg);}
+      70%  {background-image:url(../1-1-126_Pics_E_Cars_BMW_i4/3_Pic.webp);}
+      80%  {background-image:url(../1-1-126_Pics_E_Cars_BMW_i4/3_Pic.jfif);}
+      90%  {background-image:url(../1-1-126_Pics_E_Cars_BMW_i4/2_Pic.webp);}
+      100% {background-image:url(../1-1-126_Pics_E_Cars_BMW_i4/1_Pic.webp);}
+        }   
+
+      /*                 Transition Code - MG4 */
+          
+      .container_MG4   {
+        border-radius: 5%;
+        box-shadow: 20px 20px 50px white;
+        margin-top: 2%;
+        height: 75vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 0s;
+        animation-name: container_MG4 ;
+        animation-direction: alternate-reverse;
+        animation-duration:5s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+        }
+        
+        @keyframes container_MG4  {
+          0%   {background-image:url(../1-1-127_Pics_E_Cars_MG_4/10_Pic.jpg);}
+          10%  {background-image:url(../1-1-127_Pics_E_Cars_MG_4/9_Pic.jpg);}
+          20%  {background-image:url(../1-1-127_Pics_E_Cars_MG_4/8_Pic.webp);}
+          30%  {background-image:url(../1-1-127_Pics_E_Cars_MG_4/8_Pic.jpg);}
+          40%  {background-image:url(../1-1-127_Pics_E_Cars_MG_4/7_pic.png);}
+          50%  {background-image:url(../1-1-127_Pics_E_Cars_MG_4/78_Pic.webp);}
+          60%  {background-image:url(../1-1-127_Pics_E_Cars_MG_4/7_Pic.jpg);}
+          70%  {background-image:url(../1-1-127_Pics_E_Cars_MG_4/4_Pic.jfif);}
+          80%  {background-image:url(../1-1-127_Pics_E_Cars_MG_4/3_Pic.jfif);}
+          90%  {background-image:url(../1-1-127_Pics_E_Cars_MG_4/2_Pic.jfif);}
+          100% {background-image:url(../1-1-127_Pics_E_Cars_MG_4/1_Pic.jfif);}
+            }   
   
       /*                 Transition Code 2022_Chevy_Colorado           */
   
