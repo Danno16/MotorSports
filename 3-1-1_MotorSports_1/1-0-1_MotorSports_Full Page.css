@@ -3754,10 +3754,731 @@ animation-timing-function:ease-in-out;
           90%  {background-image:url(../1-1-127_Pics_E_Cars_MG_4/2_Pic.jfif);}
           100% {background-image:url(../1-1-127_Pics_E_Cars_MG_4/1_Pic.jfif);}
             }   
+
+ /*----------------------------------------------------------------------
+                  Transitions Code - Electric Trucks
+----------------------------------------------------------------------*/
+
+
+    /*                 Transition Code - Ford Maverick     */
   
-      /*                 Transition Code 2022_Chevy_Colorado           */
+    .container_Ford_Maverick {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Ford_Maverick;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Ford_Maverick {
+    0%   {background-image:url(../1-1-129_Pics_E_Trucks_Ford_Maverick/10_Pic.webp);}
+    10%  {background-image:url(../1-1-129_Pics_E_Trucks_Ford_Maverick/9_Pic.webp);}
+    20%  {background-image:url(../1-1-129_Pics_E_Trucks_Ford_Maverick/9_Pic.jfif);}
+    30%  {background-image:url(../1-1-129_Pics_E_Trucks_Ford_Maverick/8_Pic.webp);}
+    40%  {background-image:url(../1-1-129_Pics_E_Trucks_Ford_Maverick/8_Pic.jfif);}
+    50%  {background-image:url(../1-1-129_Pics_E_Trucks_Ford_Maverick/6_Pic.jpg);}
+    60%  {background-image:url(../1-1-129_Pics_E_Trucks_Ford_Maverick/5_Pic.jpg);}
+    70%  {background-image:url(../1-1-129_Pics_E_Trucks_Ford_Maverick/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-129_Pics_E_Trucks_Ford_Maverick/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-129_Pics_E_Trucks_Ford_Maverick/2_Pic.jpg);}
+    100% {background-image:url(../1-1-129_Pics_E_Trucks_Ford_Maverick/1_Pic.jpg);}
+      }
+
+
+          /*                 Transition Code - Wolfgang ThunderTruck    */
+  
+    .container_ThunderTruck {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_ThunderTruck;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_ThunderTruck{
+    0%   {background-image:url(../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/6_Pic.jpg);}
+    10%  {background-image:url(../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/3_Pic.jpg);}
+    20%  {background-image:url(../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/11_Pic.webp);}
+    30%  {background-image:url(../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/11_Pic.jpg);}
+    40%  {background-image:url(../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/1_Pic.jfif);}
+    50%  {background-image:url(../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/10_Pic.jpg);}
+    60%  {background-image:url(../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/9_Pic.jpg);}
+    70%  {background-image:url(../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/8_Pic.jpg);}
+    80%  {background-image:url(../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/7_Pic.jpg);}
+    90%  {background-image:url(../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/6_Pic.jpg);}
+    100% {background-image:url(../1-1-134_Pics_E_Trucks_Wolfgang_ThunderTruck/3_Pic.jpg);}
+      }
+
+
+                /*                 Transition Code - Electric_Chevy_Silverado    */
+  
+    .container_Electric_Chevy_Silverado  {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Electric_Chevy_Silverado ;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Electric_Chevy_Silverado {
+    0%   {background-image:url(../1-1-131_Pics_E_Trucks_chevy_Silverado/1_Pic.webp);}
+    10%  {background-image:url(../1-1-131_Pics_E_Trucks_chevy_Silverado/11_Pic.jpg);}
+    20%  {background-image:url(../1-1-131_Pics_E_Trucks_chevy_Silverado/10_Pic.jpg);}
+    30%  {background-image:url(../1-1-131_Pics_E_Trucks_chevy_Silverado/9_Pic.jpg);}
+    40%  {background-image:url(../1-1-131_Pics_E_Trucks_chevy_Silverado/7_Pic.jpg);}
+    50%  {background-image:url(../1-1-131_Pics_E_Trucks_chevy_Silverado/6_Pic.jpg);}
+    60%  {background-image:url(../1-1-131_Pics_E_Trucks_chevy_Silverado/5_Pic.webp);}
+    70%  {background-image:url(../1-1-131_Pics_E_Trucks_chevy_Silverado/4_Pic.webp);}
+    80%  {background-image:url(../1-1-131_Pics_E_Trucks_chevy_Silverado/3_Pic.webp);}
+    90%  {background-image:url(../1-1-131_Pics_E_Trucks_chevy_Silverado/2_Pic.webp);}
+    100% {background-image:url(../1-1-131_Pics_E_Trucks_chevy_Silverado/1_Pic.webp);}
+      }
+
+
+         /*                 Transition Code - Electric_Hummer    */
+  
+    .container_Electric_Hummer  {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: Electric_Hummer ;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes Electric_Hummer {
+    0%  {background-image:url(../1-1-132_Pics_E_Trucks_chevy_Hummer/11_Pic.webp);}
+    10%  {background-image:url(../1-1-132_Pics_E_Trucks_chevy_Hummer/10_Pic.webp);}
+    20%  {background-image:url(../1-1-132_Pics_E_Trucks_chevy_Hummer/9_Pic.webp);}
+    30%  {background-image:url(../1-1-132_Pics_E_Trucks_chevy_Hummer/8_Pic.webp);}
+    40%  {background-image:url(../1-1-132_Pics_E_Trucks_chevy_Hummer/7_Pic.webp);}
+    50%  {background-image:url(../1-1-132_Pics_E_Trucks_chevy_Hummer/6_Pic.webp);}
+    60%  {background-image:url(../1-1-132_Pics_E_Trucks_chevy_Hummer/5_Pic.jpg);}
+    70%  {background-image:url(../1-1-132_Pics_E_Trucks_chevy_Hummer/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-132_Pics_E_Trucks_chevy_Hummer/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-132_Pics_E_Trucks_chevy_Hummer/2_Pic.jpg);}
+    100% {background-image:url(../1-1-132_Pics_E_Trucks_chevy_Hummer/1_Pic.jpg);}
+      }
   
 
+       /*----------------------------------------------------------------------
+                  Transitions Code - Electric Motorcycles
+----------------------------------------------------------------------*/
+
+
+    /*                 Transition Code -Zero_FX     */
+  
+    .container_Zero_FX {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Zero_FX;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Zero_FX {
+    0%   {background-image:url(../1-1-103_Pics_E_Motorcycle_Zero_FX/11_Pic.webp);}
+    10%  {background-image:url(../1-1-103_Pics_E_Motorcycle_Zero_FX/10_Pic.webp);}
+    20%  {background-image:url(../1-1-103_Pics_E_Motorcycle_Zero_FX/9_Pic.webp);}
+    30%  {background-image:url(../1-1-103_Pics_E_Motorcycle_Zero_FX/5_Pic.jpg);}
+    40%  {background-image:url(../1-1-103_Pics_E_Motorcycle_Zero_FX/7_Pic.jpg);}
+    50%  {background-image:url(../1-1-103_Pics_E_Motorcycle_Zero_FX/6_Pic.jpg);}
+    60%  {background-image:url(../1-1-103_Pics_E_Motorcycle_Zero_FX/5_Pic.jpg);}
+    70%  {background-image:url(../1-1-103_Pics_E_Motorcycle_Zero_FX/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-103_Pics_E_Motorcycle_Zero_FX/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-103_Pics_E_Motorcycle_Zero_FX/2_Pic.jpg);}
+    100% {background-image:url(../1-1-103_Pics_E_Motorcycle_Zero_FX/1_Pic.jpg);}
+      }
+
+          /*                 Transition Code - Zero_SR     */
+  
+    .container_Zero_SR {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Zero_SR;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Zero_SR {
+    0%   {background-image:url(../1-1-105_Pics_E_Motorcycle_Zero_SR/10_Pic.jpg);}
+    10%  {background-image:url(../1-1-105_Pics_E_Motorcycle_Zero_SR/9_Pic.jpg);}
+    20%  {background-image:url(../1-1-105_Pics_E_Motorcycle_Zero_SR/8_Pic.jpg);}
+    30%  {background-image:url(../1-1-105_Pics_E_Motorcycle_Zero_SR/8_Pic.jfif);}
+    40%  {background-image:url(../1-1-105_Pics_E_Motorcycle_Zero_SR/7_Pic.jpg);}
+    50%  {background-image:url(../1-1-105_Pics_E_Motorcycle_Zero_SR/6_Pic.webp);}
+    60%  {background-image:url(../1-1-105_Pics_E_Motorcycle_Zero_SR/5_Pic.jfif);}
+    70%  {background-image:url(../1-1-105_Pics_E_Motorcycle_Zero_SR/4_Pic.jfif);}
+    80%  {background-image:url(../1-1-105_Pics_E_Motorcycle_Zero_SR/3_Pic.webp);}
+    90%  {background-image:url(../1-1-105_Pics_E_Motorcycle_Zero_SR/2_Pic.avif);}
+    100% {background-image:url(../1-1-105_Pics_E_Motorcycle_Zero_SR/1_Pic.png);}
+      }
+
+
+                /*                 Transition Code - Zero_S    */
+  
+    .container_Zero_S {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Zero_S;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Zero_S {
+    0%   {background-image:url(../1-1-106_Pics_E_Motorcycle_Zero_S/1_Pic.jfif);}
+    10%  {background-image:url(../1-1-106_Pics_E_Motorcycle_Zero_S/13_Pic.jfif);}
+    20%  {background-image:url(../1-1-106_Pics_E_Motorcycle_Zero_S/12_Pic.jpg);}
+    30%  {background-image:url(../1-1-106_Pics_E_Motorcycle_Zero_S/11_Pic.jpg);}
+    40%  {background-image:url(../1-1-106_Pics_E_Motorcycle_Zero_S/9_Pic.jpg);}
+    50%  {background-image:url(../1-1-106_Pics_E_Motorcycle_Zero_S/7_Pic.webp);}
+    60%  {background-image:url(../1-1-106_Pics_E_Motorcycle_Zero_S/6_Pic.jpg);}
+    70%  {background-image:url(../1-1-106_Pics_E_Motorcycle_Zero_S/5_Pic.jfif);}
+    80%  {background-image:url(../1-1-106_Pics_E_Motorcycle_Zero_S/3_Pic.jfif);}
+    90%  {background-image:url(../1-1-106_Pics_E_Motorcycle_Zero_S/2_Pic.jfif);}
+    100% {background-image:url(../1-1-106_Pics_E_Motorcycle_Zero_S/1_Pic.jfif);}
+      }
+
+         /*                 Transition Code - Zero_DS    */
+  
+    .container_Zero_DS {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Zero_DS;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Zero_DS {
+    0%   {background-image:url(../1-1-108_Pics_E_Motorcycle_Zero_DS/11_PIc.jfif);}
+    10%  {background-image:url(../1-1-108_Pics_E_Motorcycle_Zero_DS/10_Pic.jpg);}
+    20%  {background-image:url(../1-1-108_Pics_E_Motorcycle_Zero_DS/9_Pic.jpg);}
+    30%  {background-image:url(../1-1-108_Pics_E_Motorcycle_Zero_DS/8_PIc.jfif);}
+    40%  {background-image:url(../1-1-108_Pics_E_Motorcycle_Zero_DS/7_PIc.jfif);}
+    50%  {background-image:url(../1-1-108_Pics_E_Motorcycle_Zero_DS/6_PIc.jfif);}
+    60%  {background-image:url(../1-1-108_Pics_E_Motorcycle_Zero_DS/5_PIc.jfif);}
+    70%  {background-image:url(../1-1-108_Pics_E_Motorcycle_Zero_DS/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-108_Pics_E_Motorcycle_Zero_DS/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-108_Pics_E_Motorcycle_Zero_DS/2_Pic.jpeg);}
+    100% {background-image:url(../1-1-108_Pics_E_Motorcycle_Zero_DS/1_Pic.jpg);}
+      }
+
+
+    /*                 Transition Code - Super Soco TC    */
+
+    .container_Super_Soco_TC {
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px white;
+    margin-top: 2%;
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0s;
+    animation-name: container_Super_Soco_TC;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes container_Super_Soco_TC {
+  0%   {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/11_Pic.png);}
+  10%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/10_Pic.png);}
+  20%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/9_Pic.jpg);}
+  30%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/8_Pic.jfif);}
+  40%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/7_Pic.jfif);}
+  50%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/6_Pic.jpg);}
+  60%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/5_Pic.webp);}
+  70%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/4_Pic.webp);}
+  80%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/3_Pic.png);}
+  90%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/2_Pic.png);}
+  100% {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/1_Pic.png);}
+    }    
+
+  /*                 Transition Code - Super Soco TC    */
+
+    .container_Super_Soco_TC {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Super_Soco_TC;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Super_Soco_TC {
+    0%   {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/11_Pic.png);}
+    10%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/10_Pic.png);}
+    20%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/9_Pic.jpg);}
+    30%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/8_Pic.jfif);}
+    40%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/7_Pic.jfif);}
+    50%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/6_Pic.jpg);}
+    60%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/5_Pic.webp);}
+    70%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/4_Pic.webp);}
+    80%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/3_Pic.png);}
+    90%  {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/2_Pic.png);}
+    100% {background-image:url(../1-1-109_Pics_E_Motorcycle_Super_Soco_TC/1_Pic.png);}
+      }   
+      
+      
+        /*                 Transition Code - Livewire Del Mar   */
+
+    .container_Livewire_Del_Mar {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Livewire_Del_Mar;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Livewire_Del_Mar {
+    0%   {background-image:url(../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/1_Pic.avif);}
+    10%  {background-image:url(../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/11_Pic.jpg);}
+    20%  {background-image:url(../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/10_Pic.jpg);}
+    30%  {background-image:url(../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/9_Pic.jpg);}
+    40%  {background-image:url(../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/8_Pic.jpg);}
+    50%  {background-image:url(../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/7_Pic.jpg);}
+    60%  {background-image:url(../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/6_Pic.jpg);}
+    70%  {background-image:url(../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/5_Pic.webp);}
+    80%  {background-image:url(../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/4_Pic.webp);}
+    90%  {background-image:url(../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/2_Pic.avif);}
+    100% {background-image:url(../1-1-110_Pics_E_Motorcycle_LiveWire_Del_Mar/1_Pic.avif);}
+      }    
+
+              /*                 Transition Code - Volt Brat   */
+
+    .container_Volt-Brat {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Volt-Brat;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Volt-Brat {
+    0%   {background-image:url(../1-1-107_Pics_E_Motorcycle_Volcon_Brat/1_Pic.jpg);}
+    10%  {background-image:url(../1-1-107_Pics_E_Motorcycle_Volcon_Brat/11_Pic.jfif);}
+    20%  {background-image:url(../1-1-107_Pics_E_Motorcycle_Volcon_Brat/10_Pic.jfif);}
+    30%  {background-image:url(../1-1-107_Pics_E_Motorcycle_Volcon_Brat/9_Pic.jfif);}
+    40%  {background-image:url(../1-1-107_Pics_E_Motorcycle_Volcon_Brat/8_Pic.jfif);}
+    50%  {background-image:url(../1-1-107_Pics_E_Motorcycle_Volcon_Brat/6_Pic.jpg);}
+    60%  {background-image:url(../1-1-107_Pics_E_Motorcycle_Volcon_Brat/5_Pic.jpg);}
+    70%  {background-image:url(../1-1-107_Pics_E_Motorcycle_Volcon_Brat/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-107_Pics_E_Motorcycle_Volcon_Brat/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-107_Pics_E_Motorcycle_Volcon_Brat/2_Pic.jpg);}
+    100% {background-image:url(../1-1-107_Pics_E_Motorcycle_Volcon_Brat/1_Pic.jpg);}
+      }   
+
+                    /*                 Transition Code - Onyx_RCR  */
+
+    .container_Onyx_RCR {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Onyx_RCR;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Onyx_RCR {
+    0%   {background-image:url(../1-1-112_Pics_E_Motorcycle_Onyx_RCR/11_Pic.jpg);}
+    10%  {background-image:url(../1-1-112_Pics_E_Motorcycle_Onyx_RCR/10_Pic.jpg);}
+    20%  {background-image:url(../1-1-112_Pics_E_Motorcycle_Onyx_RCR/9_Pic.jpg);}
+    30%  {background-image:url(../1-1-112_Pics_E_Motorcycle_Onyx_RCR/8_Pic.jpg);}
+    40%  {background-image:url(../1-1-112_Pics_E_Motorcycle_Onyx_RCR/7_Pic.jpg);}
+    50%  {background-image:url(../1-1-112_Pics_E_Motorcycle_Onyx_RCR/6_Pic.webp);}
+    60%  {background-image:url(../1-1-112_Pics_E_Motorcycle_Onyx_RCR/5_Pic.avif);}
+    70%  {background-image:url(../1-1-112_Pics_E_Motorcycle_Onyx_RCR/4_Pic.webp);}
+    80%  {background-image:url(../1-1-112_Pics_E_Motorcycle_Onyx_RCR/3_Pic.webp);}
+    90%  {background-image:url(../1-1-112_Pics_E_Motorcycle_Onyx_RCR/2_Pic.jfif);}
+    100% {background-image:url(../1-1-112_Pics_E_Motorcycle_Onyx_RCR/1_Pic.avif);}
+      }  
+      
+                          /*                 Transition Code - Onyx_RCR  */
+
+    .container_Onyx_RCR {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Onyx_RCR;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Onyx_RCR {
+    0%   {background-image:url(../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/11_Pic.webp);}
+    10%  {background-image:url(../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/10_Pic.webp);}
+    20%  {background-image:url(../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/8_Pic.webp);}
+    30%  {background-image:url(../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/8_Pic.jpg);}
+    40%  {background-image:url(../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/7_Pic.jpg);}
+    50%  {background-image:url(../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/6_Pic.jpg);}
+    60%  {background-image:url(../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/5_Pic.jpg);}
+    70%  {background-image:url(../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/4_Pic.jpg);}
+    80%  {background-image:url(../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/3_Pic.jpg);}
+    90%  {background-image:url(../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/2_Pic.jpg);}
+    100% {background-image:url(../1-1-113_Pics_E_Motorcycle_Pursang_E_Tracker/1_Pic.jpg);}
+      }  
+      
+      
+
+ /*----------------------------------------------------------------------
+                  Transitions Code - Electric Bicycles
+----------------------------------------------------------------------*/
+
+
+    /*                 Transition Code - Giant Trance x E+     */
+  
+    .container_Giant-Trance {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Giant-Trance;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Giant-Trance {
+    0%   {background-image:url(../1-1-95_Pics_Ebike_Giant_Trance/1_Pic.jpeg);}
+    10%  {background-image:url(../1-1-95_Pics_Ebike_Giant_Trance/10_Pic.jpeg);}
+    20%  {background-image:url(../1-1-95_Pics_Ebike_Giant_Trance/9_Pic.jpeg);}
+    30%  {background-image:url(../1-1-95_Pics_Ebike_Giant_Trance/8_Pic.jpeg);}
+    40%  {background-image:url(../1-1-95_Pics_Ebike_Giant_Trance/7_Pic.jpeg);}
+    50%  {background-image:url(../1-1-95_Pics_Ebike_Giant_Trance/6_Pic.jpeg);}
+    60%  {background-image:url(../1-1-95_Pics_Ebike_Giant_Trance/5_Pic.webp);}
+    70%  {background-image:url(../1-1-95_Pics_Ebike_Giant_Trance/4_Pic.jpeg);}
+    80%  {background-image:url(../1-1-95_Pics_Ebike_Giant_Trance/3_Pic.jpeg);}
+    90%  {background-image:url(../1-1-95_Pics_Ebike_Giant_Trance/2_Pic.jpeg);}
+    100% {background-image:url(../1-1-95_Pics_Ebike_Giant_Trance/1_Pic.jpeg);}
+      }
+
+          /*                 Transition Code - Santa_Cruz_Heckler     */
+  
+    .container_Santa_Cruz_Heckler {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Santa_Cruz_Heckler;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Santa_Cruz_Heckler {
+    0%   {background-image:url(../1-1-96_Pics_Ebike_Santa_Cruz_Heckler/10_Pic.jpeg);}
+    10%  {background-image:url(../1-1-96_Pics_Ebike_Santa_Cruz_Heckler/9_Pic.jpeg);}
+    20%  {background-image:url(../1-1-96_Pics_Ebike_Santa_Cruz_Heckler/8_Pic.jpeg);}
+    30%  {background-image:url(../1-1-96_Pics_Ebike_Santa_Cruz_Heckler/7_Pic.jpeg);}
+    40%  {background-image:url(../1-1-96_Pics_Ebike_Santa_Cruz_Heckler/6_Pic.jpeg);}
+    50%  {background-image:url(../1-1-96_Pics_Ebike_Santa_Cruz_Heckler/5_Pic.webp);}
+    60%  {background-image:url(../1-1-96_Pics_Ebike_Santa_Cruz_Heckler/4_Pic.jpeg);}
+    70%  {background-image:url(../1-1-96_Pics_Ebike_Santa_Cruz_Heckler/3_Pic.jpeg);}
+    80%  {background-image:url(../1-1-96_Pics_Ebike_Santa_Cruz_Heckler/2_Pic.jpeg);}
+    90%  {background-image:url(../1-1-96_Pics_Ebike_Santa_Cruz_Heckler/1_Pic.jpeg);}
+    100% {background-image:url(../1-1-96_Pics_Ebike_Santa_Cruz_Heckler/1_Pic.jpg);}
+      }
+
+                /*                 Transition Code - Sondor_RockStar    */
+  
+    .container_Sondor_RockStar {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Sondor_RockStar;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Sondor_RockStar {
+    0%   {background-image:url(../1-1-97_Pics_Ebike_Sondor_RockStar/1_Pic.jpg);}
+    10%  {background-image:url(../1-1-97_Pics_Ebike_Sondor_RockStar/10_Pic.jpeg);}
+    20%  {background-image:url(../1-1-97_Pics_Ebike_Sondor_RockStar/9_Pic.png);}
+    30%  {background-image:url(../1-1-97_Pics_Ebike_Sondor_RockStar/8_Pic.jpeg);}
+    40%  {background-image:url(../1-1-97_Pics_Ebike_Sondor_RockStar/7_Pic.jpeg);}
+    50%  {background-image:url(../1-1-97_Pics_Ebike_Sondor_RockStar/5_Pic.webp);}
+    60%  {background-image:url(../1-1-97_Pics_Ebike_Sondor_RockStar/6_Pic.jpeg);}
+    70%  {background-image:url(../1-1-97_Pics_Ebike_Sondor_RockStar/5_Pic.jpeg);}
+    80%  {background-image:url(../1-1-97_Pics_Ebike_Sondor_RockStar/4_Pic.webp);}
+    90%  {background-image:url(../1-1-97_Pics_Ebike_Sondor_RockStar/3_Pic.jpeg);}
+    100% {background-image:url(../1-1-97_Pics_Ebike_Sondor_RockStar/2_Pic.webp);}
+      }
+
+                      /*                 Transition Code - Specialized_Lev   */
+  
+    .container_Specialized_Levo {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Specialized_Levo;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Specialized_Levo {
+    0%   {background-image:url(../1-1-98_Pics_Ebike_Specialized_Levo/1_Pic.jpeg);}
+    10%  {background-image:url(../1-1-98_Pics_Ebike_Specialized_Levo/10_Pic.jpeg);}
+    20%  {background-image:url(../1-1-98_Pics_Ebike_Specialized_Levo/9_Pic.jpeg);}
+    30%  {background-image:url(../1-1-98_Pics_Ebike_Specialized_Levo/8_Pic.jpeg);}
+    40%  {background-image:url(../1-1-98_Pics_Ebike_Specialized_Levo/7_Pic.jpeg);}
+    50%  {background-image:url(../1-1-98_Pics_Ebike_Specialized_Levo/6_Pic.jpeg);}
+    60%  {background-image:url(../1-1-98_Pics_Ebike_Specialized_Levo/5_Pic.jpeg);}
+    70%  {background-image:url(../1-1-98_Pics_Ebike_Specialized_Levo/4_Pic.jpeg);}
+    80%  {background-image:url(../1-1-98_Pics_Ebike_Specialized_Levo/3_Pic.jpeg);}
+    90%  {background-image:url(../1-1-98_Pics_Ebike_Specialized_Levo/2_Pic.jpeg);}
+    100% {background-image:url(../1-1-98_Pics_Ebike_Specialized_Levo/1_Pic.jpeg);}
+      }
+
+
+        /*                 Transition Code - Ebike_Yet    */
+  
+    .container_Yeti_c1 {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Yeti_c1;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Yeti_c1 {
+    0%   {background-image:url(../1-1-101_Pics_Ebike_Yeti/1_Pic.jpeg);}
+    10%  {background-image:url(../1-1-101_Pics_Ebike_Yeti/9_Pic.jpeg);}
+    20%  {background-image:url(../1-1-101_Pics_Ebike_Yeti/8_Pic.jpeg);}
+    30%  {background-image:url(../1-1-101_Pics_Ebike_Yeti/7_Pic.jpeg);}
+    40%  {background-image:url(../1-1-101_Pics_Ebike_Yeti/6_Pic.jpeg);}
+    50%  {background-image:url(../1-1-101_Pics_Ebike_Yeti/5_Pic.jpeg);}
+    60%  {background-image:url(../1-1-101_Pics_Ebike_Yeti/4_Pic.webp);}
+    70%  {background-image:url(../1-1-101_Pics_Ebike_Yeti/3_Pic.jpeg);}
+    80%  {background-image:url(../1-1-101_Pics_Ebike_Yeti/10_Pic.webp);}
+    90%  {background-image:url(../1-1-101_Pics_Ebike_Yeti/2_Pic.webp);}
+    100% {background-image:url(../1-1-101_Pics_Ebike_Yeti/1_Pic.jpeg);}
+      }
+
+              /*                 Transition Code -  Nireeka_Relevant   */
+  
+    .container_Nireeka_Relevant {
+      border-radius: 5%;
+      box-shadow: 20px 20px 50px white;
+      margin-top: 2%;
+      height: 75vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 0s;
+      animation-name: container_Nireeka_Relevant;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes container_Nireeka_Relevant {
+    0%   {background-image:url(../1-1-102_Nireeka_Relevant_100/Revenant_10.webp);}
+    10%  {background-image:url(../1-1-102_Nireeka_Relevant_100/Revenant_9.webp);}
+    20%  {background-image:url(../1-1-102_Nireeka_Relevant_100/Revenant_3.jpg);}
+    30%  {background-image:url(../1-1-102_Nireeka_Relevant_100/Revenant_2.webp);}
+    40%  {background-image:url(../1-1-102_Nireeka_Relevant_100/Revenant_1.jpg);}
+    50%  {background-image:url(../1-1-102_Nireeka_Relevant_100/Revenant_9.webp);}
+    60%  {background-image:url(../1-1-102_Nireeka_Relevant_100/Revenant_8.png);}
+    70%  {background-image:url(../1-1-102_Nireeka_Relevant_100/Revenant_7.jpg);}
+    80%  {background-image:url(../1-1-102_Nireeka_Relevant_100/Revenant_6.jpg);}
+    90%  {background-image:url(../1-1-102_Nireeka_Relevant_100/Revenant_5.jpg);}
+    100% {background-image:url(../1-1-102_Nireeka_Relevant_100/Revenant_4.jpg);}
+      }
 /*                                     Media Queries                             */
 
 
