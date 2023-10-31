@@ -344,17 +344,17 @@ header {
  }
  
  @keyframes animate1 {
-   0%   {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-11.webp);}
-   10%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-10.webp);}
-   20%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-9.webp);}
-   30%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-8.jpg);}
-   40%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-7.jpg);}
-   50%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-6.jpg);}
-   60%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-5.jpg);}
-   70%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-4.jpg);}
-   80%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-3.jpg);}
-   90%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-2.jpg);}
-   100% {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+   0%   {background-image:url(../Tin_1-1-1_Pics/WonderWoman-11.webp);}
+   10%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-10.webp);}
+   20%  {background-image:url(./Tin_1-1-1_Pics/WonderWoman-9.webp);}
+   30%  {background-image:url(./Tin_1-1-1_Pics/WonderWoman-8.jpg);}
+   40%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-7.jpg);}
+   50%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-6.jpg);}
+   60%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-5.jpg);}
+   70%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-4.jpg);}
+   80%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-3.jpg);}
+   90%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-2.jpg);}
+   100% {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
  
      }
  
@@ -378,17 +378,17 @@ header {
  }
  
  @keyframes animate2 { 
-     0%   {background-image:url(../../Tin_1-1-1_Pics/Batman-1.jpg) style="width:20%";}
-     10%  {background-image:url(../../Tin_1-1-1_Pics/Batman-10.webp);}
-     20%  {background-image:url(../../Tin_1-1-1_Pics/Batman-9.webp);}
-     30%  {background-image:url(../../Tin_1-1-1_Pics/Batman-8.webp);}
-     40%  {background-image:url(../../Tin_1-1-1_Pics/Batman-7.webp);}
-     50%  {background-image:url(../../Tin_1-1-1_Pics/Batman-6.webp);}
-     60%  {background-image:url(../../Tin_1-1-1_Pics/Batman-5.webp);}
-     70%  {background-image:url(../../Tin_1-1-1_Pics/Batman-4.webp);}
-     80%  {background-image:url(../../Tin_1-1-1_Pics/Batman-3.jpg);}
-     90%  {background-image:url(../../Tin_1-1-1_Pics/Batman-2.jpg);}
-     100% {background-image:url(../../Tin_1-1-1_Pics/Batman-1.jpg);}
+     0%   {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg) style="width:20%";}
+     10%  {background-image:url(../Tin_1-1-1_Pics/Batman-10.webp);}
+     20%  {background-image:url(../Tin_1-1-1_Pics/Batman-9.webp);}
+     30%  {background-image:url(../Tin_1-1-1_Pics/Batman-8.webp);}
+     40%  {background-image:url(../Tin_1-1-1_Pics/Batman-7.webp);}
+     50%  {background-image:url(../Tin_1-1-1_Pics/Batman-6.webp);}
+     60%  {background-image:url(../Tin_1-1-1_Pics/Batman-5.webp);}
+     70%  {background-image:url(../Tin_1-1-1_Pics/Batman-4.webp);}
+     80%  {background-image:url(../Tin_1-1-1_Pics/Batman-3.jpg);}
+     90%  {background-image:url(../Tin_1-1-1_Pics/Batman-2.jpg);}
+     100% {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
      }
  
  /*                   Row 3                    */
@@ -411,17 +411,17 @@ header {
  }
  
  @keyframes animate3 {
-     0%   {background-image:url(../../Tin_1-1-1_Pics/Wolverine-1.jpg);}
-     10%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-10.webp);}
-     20%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-9.jpg);}
-     30%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-8.avif);}
-     40%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-7.jpg);}
-     50%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-6.jpg);}
-     60%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-5.jpg);}
-     70%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-4.jpg);}
-     80%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-3.jpg);}
-     90%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-2.jpg);}
-     100% {background-image:url(../../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+     0%   {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+     10%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-10.webp);}
+     20%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-9.jpg);}
+     30%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-8.avif);}
+     40%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-7.jpg);}
+     50%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-6.jpg);}
+     60%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-5.jpg);}
+     70%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-4.jpg);}
+     80%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-3.jpg);}
+     90%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-2.jpg);}
+     100% {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
      }
  
  /*                   Row 4                    */
@@ -445,17 +445,17 @@ header {
  
  @keyframes animate4 {
  
-     00%  {background-image:url(../../Tin_1-1-1_Pics/Superman-10.webp);}
-     10%  {background-image:url(../../Tin_1-1-1_Pics/Superman-9.jpg);}
-     20%  {background-image:url(../../Tin_1-1-1_Pics/Superman-9.jpg);}
-     30%  {background-image:url(../../Tin_1-1-1_Pics/Superman-8.webp);}
-     40%  {background-image:url(../../Tin_1-1-1_Pics/Superman-7.avif);}
-     50%  {background-image:url(../../Tin_1-1-1_Pics/Superman-6.jpeg);}
-     60%  {background-image:url(../../Tin_1-1-1_Pics/Superman-5.jpg);}
-     70%  {background-image:url(../../Tin_1-1-1_Pics/Superman-4.jpg);}
-     80%  {background-image:url(../../Tin_1-1-1_Pics/Superman-3.jpg);}
-     90%  {background-image:url(../../Tin_1-1-1_Pics/Superman-2.jpg);}
-     100% {background-image:url(../../Tin_1-1-1_Pics/Superman-1.jpg);}
+     00%  {background-image:url(../Tin_1-1-1_Pics/Superman-10.webp);}
+     10%  {background-image:url(../Tin_1-1-1_Pics/Superman-9.jpg);}
+     20%  {background-image:url(../Tin_1-1-1_Pics/Superman-9.jpg);}
+     30%  {background-image:url(../Tin_1-1-1_Pics/Superman-8.webp);}
+     40%  {background-image:url(../Tin_1-1-1_Pics/Superman-7.avif);}
+     50%  {background-image:url(../Tin_1-1-1_Pics/Superman-6.jpeg);}
+     60%  {background-image:url(../Tin_1-1-1_Pics/Superman-5.jpg);}
+     70%  {background-image:url(../Tin_1-1-1_Pics/Superman-4.jpg);}
+     80%  {background-image:url(../Tin_1-1-1_Pics/Superman-3.jpg);}
+     90%  {background-image:url(../Tin_1-1-1_Pics/Superman-2.jpg);}
+     100% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
      }
  
  /*                   Row 5                    */
@@ -478,17 +478,17 @@ header {
  }
  
  @keyframes animate5 {
-     0%  {background-image:url(../../Tin_1-1-1_Pics/Thor-10.webp);}
-     10%  {background-image:url(../../Tin_1-1-1_Pics/Thor-10.jpg);}
-     20%  {background-image:url(../../Tin_1-1-1_Pics/Thor-9.jpg);}
-     30%  {background-image:url(../../Tin_1-1-1_Pics/Thor-8.jpg);}
-     40%  {background-image:url(../../Tin_1-1-1_Pics/Thor-7.jpg);}
-     50%  {background-image:url(../../Tin_1-1-1_Pics/Thor-6.jpg);}
-     60%  {background-image:url(../../Tin_1-1-1_Pics/Thor-5.jpg);}
-     70%  {background-image:url(../../Tin_1-1-1_Pics/Thor-4.jpg);}
-     80%  {background-image:url(../../Tin_1-1-1_Pics/Thor-3.jpg);}
-     90%  {background-image:url(../../Tin_1-1-1_Pics/Thor-2.jpg);}
-     100% {background-image:url(../../Tin_1-1-1_Pics/Thor-1.jpg);}
+     0%  {background-image:url(../Tin_1-1-1_Pics/Thor-10.webp);}
+     10%  {background-image:url(../Tin_1-1-1_Pics/Thor-10.jpg);}
+     20%  {background-image:url(../Tin_1-1-1_Pics/Thor-9.jpg);}
+     30%  {background-image:url(../Tin_1-1-1_Pics/Thor-8.jpg);}
+     40%  {background-image:url(../Tin_1-1-1_Pics/Thor-7.jpg);}
+     50%  {background-image:url(../Tin_1-1-1_Pics/Thor-6.jpg);}
+     60%  {background-image:url(../Tin_1-1-1_Pics/Thor-5.jpg);}
+     70%  {background-image:url(../Tin_1-1-1_Pics/Thor-4.jpg);}
+     80%  {background-image:url(../Tin_1-1-1_Pics/Thor-3.jpg);}
+     90%  {background-image:url(../Tin_1-1-1_Pics/Thor-2.jpg);}
+     100% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
    }
  
    .container6 {
@@ -509,17 +509,17 @@ header {
  }
  
  @keyframes animate6 {
-     0%   {background-image:url(../../Tin_1-1-1_Pics/Hulk-11.jpg);}
-     10%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-10.jpg);}
-     20%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-9.jpg);}
-     30%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-8.jpg);}
-     40%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-7.jpg);}
-     50%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-6.jpg);}
-     60%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-5.jpg);}
-     70%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-4.jpg);}
-     80%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-3.jpg);}
-     90%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-2.jpg);}
-     100% {background-image:url(../../Tin_1-1-1_Pics/Hulk-1.jpg);}
+     0%   {background-image:url(../Tin_1-1-1_Pics/Hulk-11.jpg);}
+     10%  {background-image:url(../Tin_1-1-1_Pics/Hulk-10.jpg);}
+     20%  {background-image:url(../Tin_1-1-1_Pics/Hulk-9.jpg);}
+     30%  {background-image:url(../Tin_1-1-1_Pics/Hulk-8.jpg);}
+     40%  {background-image:url(../Tin_1-1-1_Pics/Hulk-7.jpg);}
+     50%  {background-image:url(../Tin_1-1-1_Pics/Hulk-6.jpg);}
+     60%  {background-image:url(../Tin_1-1-1_Pics/Hulk-5.jpg);}
+     70%  {background-image:url(../Tin_1-1-1_Pics/Hulk-4.jpg);}
+     80%  {background-image:url(../Tin_1-1-1_Pics/Hulk-3.jpg);}
+     90%  {background-image:url(../Tin_1-1-1_Pics/Hulk-2.jpg);}
+     100% {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
    }
 
 
@@ -541,17 +541,17 @@ header {
   }
   
   @keyframes animate1 {
-    0%   {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-11.webp);}
-    10%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-10.webp);}
-    20%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-9.webp);}
-    30%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-8.jpg);}
-    40%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-7.jpg);}
-    50%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-6.jpg);}
-    60%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-5.jpg);}
-    70%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-4.jpg);}
-    80%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-3.jpg);}
-    90%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-2.jpg);}
-    100% {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+    0%   {background-image:url(../Tin_1-1-1_Pics/WonderWoman-11.webp);}
+    10%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-10.webp);}
+    20%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-9.webp);}
+    30%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-8.jpg);}
+    40%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-7.jpg);}
+    50%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-6.jpg);}
+    60%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-5.jpg);}
+    70%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-4.jpg);}
+    80%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-3.jpg);}
+    90%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-2.jpg);}
+    100% {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
   
       }
    .containerA {
@@ -575,15 +575,15 @@ header {
     background-size: cover;
   }
 
-  .pic-1  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-2.jpg");}
-  .pic-2  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-3.jpg");}
-  .pic-3  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-4.jpg");}
-  .pic-4  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-4.jpg");}
-  .pic-5  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-5.jpg");}
-  .pic-6  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-6.jpg");}
-  .pic-7  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-7.jpg");}
-  .pic-8  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-8.jpg");}
-  .pic-9  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-9.webp");}
+  .pic-1  {background-image: url("../Tin_1-1-1_Pics/WonderWoman-2.jpg");}
+  .pic-2  {background-image: url("../Tin_1-1-1_Pics/WonderWoman-3.jpg");}
+  .pic-3  {background-image: url("../Tin_1-1-1_Pics/WonderWoman-4.jpg");}
+  .pic-4  {background-image: url("../Tin_1-1-1_Pics/WonderWoman-4.jpg");}
+  .pic-5  {background-image: url("../Tin_1-1-1_Pics/WonderWoman-5.jpg");}
+  .pic-6  {background-image: url("../Tin_1-1-1_Pics/WonderWoman-6.jpg");}
+  .pic-7  {background-image: url("../Tin_1-1-1_Pics/WonderWoman-7.jpg");}
+  .pic-8  {background-image: url("../Tin_1-1-1_Pics/WonderWoman-8.jpg");}
+  .pic-9  {background-image: url("../Tin_1-1-1_Pics/WonderWoman-9.webp");}
 
 
   .card:hover {
@@ -638,17 +638,17 @@ header {
   }
   
   @keyframes animateB { 
-      0%   {background-image:url(../../Tin_1-1-1_Pics/Batman-1.jpg) style="width:20%";}
-      10%  {background-image:url(../../Tin_1-1-1_Pics/Batman-10.webp);}
-      20%  {background-image:url(../../Tin_1-1-1_Pics/Batman-9.webp);}
-      30%  {background-image:url(../../Tin_1-1-1_Pics/Batman-8.webp);}
-      40%  {background-image:url(../../Tin_1-1-1_Pics/Batman-7.webp);}
-      50%  {background-image:url(../../Tin_1-1-1_Pics/Batman-6.webp);}
-      60%  {background-image:url(../../Tin_1-1-1_Pics/Batman-5.webp);}
-      70%  {background-image:url(../../Tin_1-1-1_Pics/Batman-4.webp);}
-      80%  {background-image:url(../../Tin_1-1-1_Pics/Batman-3.jpg);}
-      90%  {background-image:url(../../Tin_1-1-1_Pics/Batman-2.jpg);}
-      100% {background-image:url(../../Tin_1-1-1_Pics/Batman-1.jpg);}
+      0%   {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg) style="width:20%";}
+      10%  {background-image:url(../Tin_1-1-1_Pics/Batman-10.webp);}
+      20%  {background-image:url(../Tin_1-1-1_Pics/Batman-9.webp);}
+      30%  {background-image:url(../Tin_1-1-1_Pics/Batman-8.webp);}
+      40%  {background-image:url(../Tin_1-1-1_Pics/Batman-7.webp);}
+      50%  {background-image:url(../Tin_1-1-1_Pics/Batman-6.webp);}
+      60%  {background-image:url(../Tin_1-1-1_Pics/Batman-5.webp);}
+      70%  {background-image:url(../Tin_1-1-1_Pics/Batman-4.webp);}
+      80%  {background-image:url(../Tin_1-1-1_Pics/Batman-3.jpg);}
+      90%  {background-image:url(../Tin_1-1-1_Pics/Batman-2.jpg);}
+      100% {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
       }
   
   .pic-1b  {background-image: url("../Tin_1-1-1_Pics/Batman-1.jpg");}
@@ -732,17 +732,17 @@ header {
   }
   
   @keyframes animateD { 
-    00%  {background-image:url(../../Tin_1-1-1_Pics/Superman-10.webp);}
-    10%  {background-image:url(../../Tin_1-1-1_Pics/Superman-9.jpg);}
-    20%  {background-image:url(../../Tin_1-1-1_Pics/Superman-9.jpg);}
-    30%  {background-image:url(../../Tin_1-1-1_Pics/Superman-8.webp);}
-    40%  {background-image:url(../../Tin_1-1-1_Pics/Superman-7.avif);}
-    50%  {background-image:url(../../Tin_1-1-1_Pics/Superman-6.jpeg);}
-    60%  {background-image:url(../../Tin_1-1-1_Pics/Superman-5.jpg);}
-    70%  {background-image:url(../../Tin_1-1-1_Pics/Superman-4.jpg);}
-    80%  {background-image:url(../../Tin_1-1-1_Pics/Superman-3.jpg);}
-    90%  {background-image:url(../../Tin_1-1-1_Pics/Superman-2.jpg);}
-    100% {background-image:url(../../Tin_1-1-1_Pics/Superman-1.jpg);}
+    00%  {background-image:url(../Tin_1-1-1_Pics/Superman-10.webp);}
+    10%  {background-image:url(../Tin_1-1-1_Pics/Superman-9.jpg);}
+    20%  {background-image:url(../Tin_1-1-1_Pics/Superman-9.jpg);}
+    30%  {background-image:url(../Tin_1-1-1_Pics/Superman-8.webp);}
+    40%  {background-image:url(../Tin_1-1-1_Pics/Superman-7.avif);}
+    50%  {background-image:url(../Tin_1-1-1_Pics/Superman-6.jpeg);}
+    60%  {background-image:url(../Tin_1-1-1_Pics/Superman-5.jpg);}
+    70%  {background-image:url(../Tin_1-1-1_Pics/Superman-4.jpg);}
+    80%  {background-image:url(../Tin_1-1-1_Pics/Superman-3.jpg);}
+    90%  {background-image:url(../Tin_1-1-1_Pics/Superman-2.jpg);}
+    100% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
       }
   
   .pic-1d  {background-image: url("../Tin_1-1-1_Pics/Superman-1.jpg");}
