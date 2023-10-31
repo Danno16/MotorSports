@@ -1,0 +1,389 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Audiowide", sans-serif;
+  color: #0c120a;
+  background: linear-gradient(to left , #797a79, black);
+  }
+
+* {box-sizing: border-box;}
+
+.icon {
+  text-decoration: none;
+}
+
+.title {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 900;
+  padding-left: 2%;
+  font-size: 55px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px #c15b5b;
+}
+
+img {height: 50px;}
+
+nav ul{list-style-type: none;}
+nav ul li{display: inline;}
+
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  z-index: 1;
+  }
+
+nav ul li { width: 100%;}
+
+
+
+
+
+/*                   -----------    Buttons   --------------------*/
+
+ .dropbtn {
+    width: 100%;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    font-family: "Fantasy", copperplate;
+    color: white;
+    }
+
+   .dropdown {
+      position: relative;
+      display: inline-block;
+      font-size: 15px;
+      text-decoration: none;
+      z-index: 3;
+      }
+
+   .dropdown-content {
+      background: white;
+      color: white;
+      text-align: left;
+      display: none;
+      font-family: "Fantasy", copperplate;
+      position: absolute;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 3;
+      }
+
+   .dropdown-content a {
+     text-align: left;
+     color: black;
+     width: 350px;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     z-index: 3;
+     }
+
+   .dropbtn:hover {background-color: red;cursor: pointer;}
+
+   .dropdown:hover .dropdown-content {display: block; }
+
+
+   /*
+                  CSS FOR SERVICES
+*/
+  .services {
+    padding-top: 45px;
+    width: 100%;
+    font-family: "Fantasy", copperplate;
+    height: 00px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 400px 150px;
+    margin-top: 2%;
+    margin-left: 1%;
+    z-index: 500;
+    }
+
+  .services1 {
+    background:white;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px 40px 40px 40px 40px 40px 40px;
+    font-size: 35px;
+    border-top: 2px solid Red;
+    border-bottom: 4px solid Red;
+    border-left: 2px solid Red;
+    border-right: 4px solid rgb(60, 0, 255);
+    box-shadow: 20px 8px 16px 0px black;
+    padding-left: 30px;
+    }
+
+   .services2 {font-size: 25px;}
+
+
+
+/*----------------------------------------------------------------------
+                         CSS for Gallery
+----------------------------------------------------------------------*/
+   .Gallery_main-page {
+     padding-top: 50px;
+     display: grid;
+     grid-template-columns: 1% 48% 1% 48%;
+     grid-template-rows: 17% 1% 17% 1% 17% 1% 17% 1% 17% 1% 17% 1%;
+     font-size: 20px;
+     font-weight: bold;
+     }
+
+   .Gallery_Image {
+    width: 100%;
+    height: 100%;
+    box-shadow: 20px 8px 16px 0px black;
+    transition: 0.9s;
+    z-index: 500;
+    }
+
+  .Gallery_Image :hover {
+    opacity: 0.8;
+    }
+
+    .items_Gallery {
+      height: 100%;
+
+      color: white;
+      box-shadow: 0px 8px 16px 0px black;;
+      opacity: .9;
+      padding-left: 10%;
+      }
+
+/*                                    Slide Show                            */
+    .grid-1 {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 10% 80% 5%;
+      z-index: 500;
+      }
+
+
+/*----------------------------------------------------------------------
+                        Transitions Code
+----------------------------------------------------------------------*/
+
+/*                   Row 1                    */
+
+.container1 {
+    height: 70vh;
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate1;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate1 {
+  0%   {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-11.webp);}
+  10%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-10.webp);}
+  20%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-9.webp);}
+  30%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-8.jpg);}
+  40%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-7.jpg);}
+  50%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-6.jpg);}
+  60%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-5.jpg);}
+  70%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-4.jpg);}
+  80%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-3.jpg);}
+  90%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-2.jpg);}
+  100% {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+
+    }
+
+/*                   Row 2                    */
+
+.container2 {
+    height: 70vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animate2;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate2 { 
+    0%   {background-image:url(../../Tin_1-1-1_Pics/Batman-1.jpg) style="width:20%";}
+    10%  {background-image:url(../../Tin_1-1-1_Pics/Batman-10.webp);}
+    20%  {background-image:url(../../Tin_1-1-1_Pics/Batman-9.webp);}
+    30%  {background-image:url(../../Tin_1-1-1_Pics/Batman-8.webp);}
+    40%  {background-image:url(../../Tin_1-1-1_Pics/Batman-7.webp);}
+    50%  {background-image:url(../../Tin_1-1-1_Pics/Batman-6.webp);}
+    60%  {background-image:url(../../Tin_1-1-1_Pics/Batman-5.webp);}
+    70%  {background-image:url(../../Tin_1-1-1_Pics/Batman-4.webp);}
+    80%  {background-image:url(../../Tin_1-1-1_Pics/Batman-3.jpg);}
+    90%  {background-image:url(../../Tin_1-1-1_Pics/Batman-2.jpg);}
+    100% {background-image:url(../../Tin_1-1-1_Pics/Batman-1.jpg);}
+
+    }
+
+/*                   Row 3                    */
+
+.container3 {
+    height: 70vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate3;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate3 {
+    0%   {background-image:url(../../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+    10%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-10.webp);}
+    20%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-9.jpg);}
+    30%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-8.avif);}
+    40%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-7.jpg);}
+    50%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-6.jpg);}
+    60%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-5.jpg);}
+    70%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-4.jpg);}
+    80%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-3.jpg);}
+    90%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-2.jpg);}
+    100% {background-image:url(../../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+    }
+
+/*                   Row 4                    */
+
+.container4 {
+    height: 70vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate4;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate4 {
+
+    00%  {background-image:url(../../Tin_1-1-1_Pics/Superman-10.webp);}
+    10%  {background-image:url(../../Tin_1-1-1_Pics/Superman-9.jpg);}
+    20%  {background-image:url(../../Tin_1-1-1_Pics/Superman-9.jpg);}
+    30%  {background-image:url(../../Tin_1-1-1_Pics/Superman-8.webp);}
+    40%  {background-image:url(../../Tin_1-1-1_Pics/Superman-7.avif);}
+    50%  {background-image:url(../../Tin_1-1-1_Pics/Superman-6.jpeg);}
+    60%  {background-image:url(../../Tin_1-1-1_Pics/Superman-5.jpg);}
+    70%  {background-image:url(../../Tin_1-1-1_Pics/Superman-4.jpg);}
+    80%  {background-image:url(../../Tin_1-1-1_Pics/Superman-3.jpg);}
+    90%  {background-image:url(../../Tin_1-1-1_Pics/Superman-2.jpg);}
+    100% {background-image:url(../../Tin_1-1-1_Pics/Superman-1.jpg);}
+    }
+
+/*                   Row 5                    */
+
+.container5 {
+    height: 70vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate5;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate5 {
+    0%  {background-image:url(../../Tin_1-1-1_Pics/Thor-10.webp);}
+    10%  {background-image:url(../../Tin_1-1-1_Pics/Thor-10.jpg);}
+    20%  {background-image:url(../../Tin_1-1-1_Pics/Thor-9.jpg);}
+    30%  {background-image:url(../../Tin_1-1-1_Pics/Thor-8.jpg);}
+    40%  {background-image:url(../../Tin_1-1-1_Pics/Thor-7.jpg);}
+    50%  {background-image:url(../../Tin_1-1-1_Pics/Thor-6.jpg);}
+    60%  {background-image:url(../../Tin_1-1-1_Pics/Thor-5.jpg);}
+    70%  {background-image:url(../../Tin_1-1-1_Pics/Thor-4.jpg);}
+    80%  {background-image:url(../../Tin_1-1-1_Pics/Thor-3.jpg);}
+    90%  {background-image:url(../../Tin_1-1-1_Pics/Thor-2.jpg);}
+    100% {background-image:url(../../Tin_1-1-1_Pics/Thor-1.jpg);}
+  }
+
+  .container6 {
+    height: 70vh;
+    width: 100%;
+    background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate6;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animate6 {
+    0%   {background-image:url(../../Tin_1-1-1_Pics/Hulk-11.jpg);}
+    10%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-10.jpg);}
+    20%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-9.jpg);}
+    30%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-8.jpg);}
+    40%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-7.jpg);}
+    50%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-6.jpg);}
+    60%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-5.jpg);}
+    70%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-4.jpg);}
+    80%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-3.jpg);}
+    90%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-2.jpg);}
+    100% {background-image:url(../../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  }
+
+/*                                     Media Queries                             */
+
+
+    @media only screen and (max-width: 1100px){
+        .wrapper{grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);}}
+        ::selection{ float: none; width: 100%; padding-right: 0px; }}
+
+    @media screen and (max-width: 600px) {
+        header h1{ background-image: none; text-align: center; z-index: 3; }
+        nav{ grid-row: 2 / 3; grid-column: 1 / 9; }}
+
+
+
+
+
+

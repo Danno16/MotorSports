@@ -1,0 +1,1093 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Audiowide", sans-serif;
+  color: #0c120a;
+  background: linear-gradient(to left , #797a79, black);
+  color: white;
+  }
+
+
+.body-title {
+  background:black;
+  position: absolute;
+  left: 10px;
+  top: 150px;
+  color: white;
+  border-width: 1px;
+  padding-left: 10px;
+  font-size: 20px;
+  opacity: .7;
+  z-index: 10;
+  border-radius: 10px;
+  box-shadow: 5px 8px 16px 0px black;
+  }
+
+
+       /*                                Contact US             */ 
+.body-title_A {
+  background:rgb(243, 241, 241);
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  top: 200px;
+  color: rgb(4, 4, 4);
+  border-width: 1px;
+  padding: 3%;
+  font-size: 20px;
+  opacity: .9;
+  z-index: 10;
+  border-radius: 10px;
+  box-shadow: 5px 8px 16px 0px black;
+  }
+
+  .p3 {font-size: 30px;}
+
+
+.icon {
+  margin: 20px;
+  height: 40px;
+  font-size: 70px;
+  text-decoration: none;
+  color: rgba(230, 237, 231, 0.943);
+}
+
+.submitEmail {
+  width: 50%;
+  color: white;
+  font-size: 30px;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.emailBoxName {
+  width: 50%; 
+  font-size: 20px;
+
+}
+
+.abc {color: #f5b342;}
+
+img {height: 50px;}
+  
+     /*                                Header             */ 
+
+header {
+      grid-row: 1/2;
+      grid-column: 1/9;
+      }
+
+.header-Grid{
+  display: grid;
+  grid-template-columns: 1500px 700px;
+}
+
+.contact {  
+  display: grid;
+  grid-template-rows: 20px 20px 20px;
+  font-size: 15px;
+  color: rgb(12, 12, 12);
+  font-weight: 900;
+  }
+
+  header a {
+    height: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    z-index: 100;
+    }
+
+  header h1 {
+    line-height: 140%;
+    padding: .5rem;
+    margin-bottom: 0px;
+    margin: 0px;
+    z-index: 100;
+    }
+
+
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    }
+
+  nav {
+    font-weight: bold;
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    position: sticky;
+    top: 0;
+    background-color: #424242;
+    border-bottom: 2px solid #f5b342;
+    z-index: 100;
+    }
+
+  #wrapper {
+    box-shadow: 0px 3px 3px rgba(66, 66, 66, 0.3);
+    display: grid;
+    grid-auto-rows: minmax(0px, auto);
+    z-index: 3;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    }
+
+  main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    grid-column: 2 / 8;
+    background-color: #ffffff;
+    z-index: 3;
+    }
+
+  * {box-sizing: border-box;}
+
+  nav ul{list-style-type: none;}
+
+  nav ul li{display: inline;}
+
+
+ nav ul {
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   flex-flow: row nowrap;
+   list-style-type: none;
+   z-index: 1;
+   }
+
+ nav ul li {width: 100%;}
+
+ .logo {width: 10%;}
+
+ .dropbtn {
+    width: 100%;
+    background-color: #424242;
+    font-size: 16px;
+    border: none;
+    font-family: "Fantasy", copperplate;
+    color: white;
+
+          }
+
+ .dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    z-index: 10;
+    }
+
+    /*                                Fonts             */
+  .main_Page_font {
+    color: white;
+    font-size: 100px;
+    margin-left: 30%;
+    margin-block-start: 30%;
+    font-family: "Audiowide", sans-serif;
+  }          
+
+
+    /*                                Image Rotations              */
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 30s;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration:60s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+
+
+@keyframes animate {
+
+
+  0%  {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+  10%  {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+  20%  {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+  30%  {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+  40%  {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+  50%  {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+  60%  {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+  70%  {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+  80%  {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+  90%  {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+  100% {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+
+  2%   {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+  12%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+  22%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+  32%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+  42%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+  52%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+  62%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+  72%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+  82%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+  92%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+
+
+  4%  {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
+  14% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
+  24% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
+  34% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
+  44% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
+  54% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
+  64% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
+  74% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
+  84% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
+  94% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
+
+  6%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+  26% {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+  36% {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+  46% {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+  56% {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+  66% {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+  76% {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+  86% {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+  96% {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+
+  8%  {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+  18% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+  28% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+  38% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+  48% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+  58% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+  68% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+  78% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+  88% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+  98% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+
+  9%  {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  19% {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  29% {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  39% {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  49% {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  59% {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  69% {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  79% {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  89% {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  99% {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+}
+
+
+
+     /*                                Image Selector            */ 
+     .Gallery_main-page {
+      padding-top: 50px;
+      display: grid;
+      grid-template-columns: 1% 48% 1% 48%;
+      grid-template-rows: 17% 1% 17% 1% 17% 1% 17% 1% 17% 1% 17% 1%;
+      font-size: 20px;
+      font-weight: bold;
+      }
+ 
+    .Gallery_Image {
+     width: 100%;
+     height: 100%;
+     box-shadow: 20px 8px 16px 0px black;
+     transition: 0.9s;
+     z-index: 500;
+     }
+ 
+   .Gallery_Image :hover {
+     opacity: 0.8;
+     }
+ 
+     .items_Gallery {
+       height: 100%;
+ 
+       color: white;
+       box-shadow: 0px 8px 16px 0px black;;
+       opacity: .9;
+       padding-left: 10%;
+       }
+ 
+ /*                                    Slide Show                            */
+     .grid-1 {
+       margin-top: 10px;
+       display: grid;
+       grid-template-columns: 10% 80% 5%;
+       z-index: 500;
+       }
+ 
+ 
+ /*----------------------------------------------------------------------
+                        Image Selector
+ ----------------------------------------------------------------------*/
+ 
+ /*                   Row 1                    */
+ 
+ .container1 {
+     height: 70vh;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     transition: 5s;
+     animation-name: animate1;
+     animation-direction: alternate-reverse;
+     animation-duration:50s;
+     animation-fill-mode:forwards;
+     animation-iteration-count:infinite;
+     animation-play-state:running;
+     animation-timing-function:ease-in-out;
+ }
+ 
+ @keyframes animate1 {
+   0%   {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-11.webp);}
+   10%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-10.webp);}
+   20%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-9.webp);}
+   30%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-8.jpg);}
+   40%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-7.jpg);}
+   50%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-6.jpg);}
+   60%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-5.jpg);}
+   70%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-4.jpg);}
+   80%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-3.jpg);}
+   90%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-2.jpg);}
+   100% {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+ 
+     }
+ 
+ /*                   Row 2                    */
+ 
+ .container2 {
+     height: 70vh;
+     width: 100%;
+     background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     transition: 50s;
+     animation-name: animate2;
+     animation-direction: alternate-reverse;
+     animation-duration:50s;
+     animation-fill-mode:forwards;
+     animation-iteration-count:infinite;
+     animation-play-state:running;
+     animation-timing-function:ease-in-out;
+ }
+ 
+ @keyframes animate2 { 
+     0%   {background-image:url(../../Tin_1-1-1_Pics/Batman-1.jpg) style="width:20%";}
+     10%  {background-image:url(../../Tin_1-1-1_Pics/Batman-10.webp);}
+     20%  {background-image:url(../../Tin_1-1-1_Pics/Batman-9.webp);}
+     30%  {background-image:url(../../Tin_1-1-1_Pics/Batman-8.webp);}
+     40%  {background-image:url(../../Tin_1-1-1_Pics/Batman-7.webp);}
+     50%  {background-image:url(../../Tin_1-1-1_Pics/Batman-6.webp);}
+     60%  {background-image:url(../../Tin_1-1-1_Pics/Batman-5.webp);}
+     70%  {background-image:url(../../Tin_1-1-1_Pics/Batman-4.webp);}
+     80%  {background-image:url(../../Tin_1-1-1_Pics/Batman-3.jpg);}
+     90%  {background-image:url(../../Tin_1-1-1_Pics/Batman-2.jpg);}
+     100% {background-image:url(../../Tin_1-1-1_Pics/Batman-1.jpg);}
+     }
+ 
+ /*                   Row 3                    */
+ 
+ .container3 {
+     height: 70vh;
+     width: 100%;
+     background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     transition: 5s;
+     animation-name: animate3;
+     animation-direction: alternate-reverse;
+     animation-duration:50s;
+     animation-fill-mode:forwards;
+     animation-iteration-count:infinite;
+     animation-play-state:running;
+     animation-timing-function:ease-in-out;
+ }
+ 
+ @keyframes animate3 {
+     0%   {background-image:url(../../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+     10%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-10.webp);}
+     20%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-9.jpg);}
+     30%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-8.avif);}
+     40%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-7.jpg);}
+     50%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-6.jpg);}
+     60%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-5.jpg);}
+     70%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-4.jpg);}
+     80%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-3.jpg);}
+     90%  {background-image:url(../../Tin_1-1-1_Pics/Wolverine-2.jpg);}
+     100% {background-image:url(../../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+     }
+ 
+ /*                   Row 4                    */
+ 
+ .container4 {
+     height: 70vh;
+     width: 100%;
+     background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     transition: 5s;
+     animation-name: animate4;
+     animation-direction: alternate-reverse;
+     animation-duration:50s;
+     animation-fill-mode:forwards;
+     animation-iteration-count:infinite;
+     animation-play-state:running;
+     animation-timing-function:ease-in-out;
+ }
+ 
+ @keyframes animate4 {
+ 
+     00%  {background-image:url(../../Tin_1-1-1_Pics/Superman-10.webp);}
+     10%  {background-image:url(../../Tin_1-1-1_Pics/Superman-9.jpg);}
+     20%  {background-image:url(../../Tin_1-1-1_Pics/Superman-9.jpg);}
+     30%  {background-image:url(../../Tin_1-1-1_Pics/Superman-8.webp);}
+     40%  {background-image:url(../../Tin_1-1-1_Pics/Superman-7.avif);}
+     50%  {background-image:url(../../Tin_1-1-1_Pics/Superman-6.jpeg);}
+     60%  {background-image:url(../../Tin_1-1-1_Pics/Superman-5.jpg);}
+     70%  {background-image:url(../../Tin_1-1-1_Pics/Superman-4.jpg);}
+     80%  {background-image:url(../../Tin_1-1-1_Pics/Superman-3.jpg);}
+     90%  {background-image:url(../../Tin_1-1-1_Pics/Superman-2.jpg);}
+     100% {background-image:url(../../Tin_1-1-1_Pics/Superman-1.jpg);}
+     }
+ 
+ /*                   Row 5                    */
+ 
+ .container5 {
+     height: 70vh;
+     width: 100%;
+     background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     transition: 5s;
+     animation-name: animate5;
+     animation-direction: alternate-reverse;
+     animation-duration:50s;
+     animation-fill-mode:forwards;
+     animation-iteration-count:infinite;
+     animation-play-state:running;
+     animation-timing-function:ease-in-out;
+ }
+ 
+ @keyframes animate5 {
+     0%  {background-image:url(../../Tin_1-1-1_Pics/Thor-10.webp);}
+     10%  {background-image:url(../../Tin_1-1-1_Pics/Thor-10.jpg);}
+     20%  {background-image:url(../../Tin_1-1-1_Pics/Thor-9.jpg);}
+     30%  {background-image:url(../../Tin_1-1-1_Pics/Thor-8.jpg);}
+     40%  {background-image:url(../../Tin_1-1-1_Pics/Thor-7.jpg);}
+     50%  {background-image:url(../../Tin_1-1-1_Pics/Thor-6.jpg);}
+     60%  {background-image:url(../../Tin_1-1-1_Pics/Thor-5.jpg);}
+     70%  {background-image:url(../../Tin_1-1-1_Pics/Thor-4.jpg);}
+     80%  {background-image:url(../../Tin_1-1-1_Pics/Thor-3.jpg);}
+     90%  {background-image:url(../../Tin_1-1-1_Pics/Thor-2.jpg);}
+     100% {background-image:url(../../Tin_1-1-1_Pics/Thor-1.jpg);}
+   }
+ 
+   .container6 {
+     height: 70vh;
+     width: 100%;
+     background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     transition: 5s;
+     animation-name: animate6;
+     animation-direction: alternate-reverse;
+     animation-duration:50s;
+     animation-fill-mode:forwards;
+     animation-iteration-count:infinite;
+     animation-play-state:running;
+     animation-timing-function:ease-in-out;
+ }
+ 
+ @keyframes animate6 {
+     0%   {background-image:url(../../Tin_1-1-1_Pics/Hulk-11.jpg);}
+     10%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-10.jpg);}
+     20%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-9.jpg);}
+     30%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-8.jpg);}
+     40%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-7.jpg);}
+     50%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-6.jpg);}
+     60%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-5.jpg);}
+     70%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-4.jpg);}
+     80%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-3.jpg);}
+     90%  {background-image:url(../../Tin_1-1-1_Pics/Hulk-2.jpg);}
+     100% {background-image:url(../../Tin_1-1-1_Pics/Hulk-1.jpg);}
+   }
+
+
+    /*                                     WonnderWoman Images                            */
+    .containerA {
+      height: 220vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 5s;
+      animation-name: animate1;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animate1 {
+    0%   {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-11.webp);}
+    10%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-10.webp);}
+    20%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-9.webp);}
+    30%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-8.jpg);}
+    40%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-7.jpg);}
+    50%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-6.jpg);}
+    60%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-5.jpg);}
+    70%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-4.jpg);}
+    80%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-3.jpg);}
+    90%  {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-2.jpg);}
+    100% {background-image:url(../../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+  
+      }
+   .containerA {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    background: rgb(186, 86, 10);
+    height: 650px;
+    width: 550px;
+    margin:10px;
+    border-radius: 5px;
+  }
+
+  .card-image {
+    height: 500px;
+    padding-top: 90px;
+    margin-bottom: 15px;
+    background-size: cover;
+  }
+
+  .pic-1  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-2.jpg");}
+  .pic-2  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-3.jpg");}
+  .pic-3  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-4.jpg");}
+  .pic-4  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-4.jpg");}
+  .pic-5  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-5.jpg");}
+  .pic-6  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-6.jpg");}
+  .pic-7  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-7.jpg");}
+  .pic-8  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-8.jpg");}
+  .pic-9  {background-image: url("../../Tin_1-1-1_Pics/WonderWoman-9.webp");}
+
+
+  .card:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+  }
+
+  .title {
+    text-align: center;
+    font-family: Fantasy, copperplate;
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .description {
+    text-align: center;
+    font-family: Fantasy, copperplate;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .price {
+    text-align: center;
+    font-family: Fantasy, copperplate;
+    font-size: 20px;
+    margin: 0;
+  }
+ 
+    /*                                     Batman Images                            */
+
+    .containerB {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      height: 220vh;
+      width: 100%;
+      background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 50s;
+      animation-name: animateB;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animateB { 
+      0%   {background-image:url(../../Tin_1-1-1_Pics/Batman-1.jpg) style="width:20%";}
+      10%  {background-image:url(../../Tin_1-1-1_Pics/Batman-10.webp);}
+      20%  {background-image:url(../../Tin_1-1-1_Pics/Batman-9.webp);}
+      30%  {background-image:url(../../Tin_1-1-1_Pics/Batman-8.webp);}
+      40%  {background-image:url(../../Tin_1-1-1_Pics/Batman-7.webp);}
+      50%  {background-image:url(../../Tin_1-1-1_Pics/Batman-6.webp);}
+      60%  {background-image:url(../../Tin_1-1-1_Pics/Batman-5.webp);}
+      70%  {background-image:url(../../Tin_1-1-1_Pics/Batman-4.webp);}
+      80%  {background-image:url(../../Tin_1-1-1_Pics/Batman-3.jpg);}
+      90%  {background-image:url(../../Tin_1-1-1_Pics/Batman-2.jpg);}
+      100% {background-image:url(../../Tin_1-1-1_Pics/Batman-1.jpg);}
+      }
+  
+  .pic-1b  {background-image: url("../Tin_1-1-1_Pics/Batman-1.jpg");}
+  .pic-2b  {background-image: url("../Tin_1-1-1_Pics/Batman-2.jpg");}
+  .pic-3b  {background-image: url("../Tin_1-1-1_Pics/Batman-3.jpg");}
+  .pic-4b  {background-image: url("../Tin_1-1-1_Pics/Batman-4.webp");}
+  .pic-5b  {background-image: url("../Tin_1-1-1_Pics/Batman-5.webp");}
+  .pic-6b  {background-image: url("../Tin_1-1-1_Pics/Batman-6.webp");}
+  .pic-7b  {background-image: url("../Tin_1-1-1_Pics/Batman-7.webp");}
+  .pic-8b  {background-image: url("../Tin_1-1-1_Pics/Batman-8.webp");}
+  .pic-9b  {background-image: url("../Tin_1-1-1_Pics/Batman-9.webp");}
+
+
+
+    /*                                     Wolverine Images                            */
+
+    .containerC {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      height: 220vh;
+      width: 100%;
+      background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 50s;
+      animation-name: animateC;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animateC { 
+    0%   {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+    10%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-10.webp);}
+    20%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-9.jpg);}
+    30%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-8.avif);}
+    40%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-7.jpg);}
+    50%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-6.jpg);}
+    60%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-5.jpg);}
+    70%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-4.jpg);}
+    80%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-3.jpg);}
+    90%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-2.jpg);}
+    100% {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+      }
+  
+  .pic-1c  {background-image: url("../Tin_1-1-1_Pics/Wolverine-1.jpg");}
+  .pic-2c  {background-image: url("../Tin_1-1-1_Pics/Wolverine-2.jpg");}
+  .pic-3c  {background-image: url("../Tin_1-1-1_Pics/Wolverine-3.jpg");}
+  .pic-4c  {background-image: url("../Tin_1-1-1_Pics/Wolverine-4.jpg");}
+  .pic-5c  {background-image: url("../Tin_1-1-1_Pics/Wolverine-5.jpg");}
+  .pic-6c  {background-image: url("../Tin_1-1-1_Pics/Wolverine-6.jpg");}
+  .pic-7c  {background-image: url("../Tin_1-1-1_Pics/Wolverine-7.jpg");}
+  .pic-8c  {background-image: url("../Tin_1-1-1_Pics/Wolverine-8.avif");}
+  .pic-9c  {background-image: url("../Tin_1-1-1_Pics/Wolverine-9.jpg");}
+
+    /*                                     Superman Images                            */
+
+    .containerD {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      height: 220vh;
+      width: 100%;
+      background-image: url(0-0-1.Pics/1.RZR_Logo.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 50s;
+      animation-name: animateD;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animateD { 
+    00%  {background-image:url(../../Tin_1-1-1_Pics/Superman-10.webp);}
+    10%  {background-image:url(../../Tin_1-1-1_Pics/Superman-9.jpg);}
+    20%  {background-image:url(../../Tin_1-1-1_Pics/Superman-9.jpg);}
+    30%  {background-image:url(../../Tin_1-1-1_Pics/Superman-8.webp);}
+    40%  {background-image:url(../../Tin_1-1-1_Pics/Superman-7.avif);}
+    50%  {background-image:url(../../Tin_1-1-1_Pics/Superman-6.jpeg);}
+    60%  {background-image:url(../../Tin_1-1-1_Pics/Superman-5.jpg);}
+    70%  {background-image:url(../../Tin_1-1-1_Pics/Superman-4.jpg);}
+    80%  {background-image:url(../../Tin_1-1-1_Pics/Superman-3.jpg);}
+    90%  {background-image:url(../../Tin_1-1-1_Pics/Superman-2.jpg);}
+    100% {background-image:url(../../Tin_1-1-1_Pics/Superman-1.jpg);}
+      }
+  
+  .pic-1d  {background-image: url("../Tin_1-1-1_Pics/Superman-1.jpg");}
+  .pic-2d  {background-image: url("../Tin_1-1-1_Pics/Superman-2.jpg");}
+  .pic-3d  {background-image: url("../Tin_1-1-1_Pics/Superman-3.jpg");}
+  .pic-4d  {background-image: url("../Tin_1-1-1_Pics/Superman-4.jpg");}
+  .pic-5d  {background-image: url("../Tin_1-1-1_Pics/Superman-5.jpg");}
+  .pic-6d  {background-image: url("../Tin_1-1-1_Pics/Superman-6.jpeg");}
+  .pic-7d  {background-image: url("../Tin_1-1-1_Pics/Superman-7.avif");}
+  .pic-8d  {background-image: url("../Tin_1-1-1_Pics/Superman-8.webp");}
+  .pic-9d  {background-image: url("../Tin_1-1-1_Pics/Superman-9.jpg");}
+
+
+      /*                                     Thor Images                            */
+
+      .containerE {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 220vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 50s;
+        animation-name: animateE;
+        animation-direction: alternate-reverse;
+        animation-duration:50s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animateE { 
+      0%  {background-image:url(../Tin_1-1-1_Pics/Thor-10.webp);}
+      10%  {background-image:url(../Tin_1-1-1_Pics/Thor-10.jpg);}
+      20%  {background-image:url(../Tin_1-1-1_Pics/Thor-9.jpg);}
+      30%  {background-image:url(../Tin_1-1-1_Pics/Thor-8.jpg);}
+      40%  {background-image:url(../Tin_1-1-1_Pics/Thor-7.jpg);}
+      50%  {background-image:url(../Tin_1-1-1_Pics/Thor-6.jpg);}
+      60%  {background-image:url(../Tin_1-1-1_Pics/Thor-5.jpg);}
+      70%  {background-image:url(../Tin_1-1-1_Pics/Thor-4.jpg);}
+      80%  {background-image:url(../Tin_1-1-1_Pics/Thor-3.jpg);}
+      90%  {background-image:url(../Tin_1-1-1_Pics/Thor-2.jpg);}
+      100% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+        }
+    
+    .pic-1e  {background-image: url("../Tin_1-1-1_Pics/Thor-9.jpg");}
+    .pic-2e  {background-image: url("../Tin_1-1-1_Pics/Thor-2.jpg");}
+    .pic-3e  {background-image: url("../Tin_1-1-1_Pics/Thor-3.jpg");}
+    .pic-4e  {background-image: url("../Tin_1-1-1_Pics/Thor-4.jpg");}
+    .pic-5e  {background-image: url("../Tin_1-1-1_Pics/Thor-5.jpg");}
+    .pic-6e  {background-image: url("../Tin_1-1-1_Pics/Thor-6.jpg");}
+    .pic-7e  {background-image: url("../Tin_1-1-1_Pics/Thor-1.jpg");}
+    .pic-8e  {background-image: url("../Tin_1-1-1_Pics/Thor-8.jpg");}
+    .pic-9e  {background-image: url("../Tin_1-1-1_Pics/Thor-10.jpg");}
+
+
+      /*                                     Hulk Images                            */
+
+      /*                                     Thor Images                            */
+
+      .containerF {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 220vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 50s;
+        animation-name: animateF;
+        animation-direction: alternate-reverse;
+        animation-duration:50s;
+        animation-fill-mode:forwards;
+        animation-iteration-count:infinite;
+        animation-play-state:running;
+        animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animateF { 
+      0%  {background-image:url(../Tin_1-1-1_Pics/Thor-10.webp);}
+      10%  {background-image:url(../Tin_1-1-1_Pics/Thor-10.jpg);}
+      20%  {background-image:url(../Tin_1-1-1_Pics/Thor-9.jpg);}
+      30%  {background-image:url(../Tin_1-1-1_Pics/Thor-8.jpg);}
+      40%  {background-image:url(../Tin_1-1-1_Pics/Thor-7.jpg);}
+      50%  {background-image:url(../Tin_1-1-1_Pics/Thor-6.jpg);}
+      60%  {background-image:url(../Tin_1-1-1_Pics/Thor-5.jpg);}
+      70%  {background-image:url(../Tin_1-1-1_Pics/Thor-4.jpg);}
+      80%  {background-image:url(../Tin_1-1-1_Pics/Thor-3.jpg);}
+      90%  {background-image:url(../Tin_1-1-1_Pics/Thor-2.jpg);}
+      100% {background-image:url(../Tin_1-1-1_Pics/Thor-1.jpg);}
+        }
+    
+    .pic-1f  {background-image: url("../Tin_1-1-1_Pics/Hulk-1.jpg");}
+    .pic-2f  {background-image: url("../Tin_1-1-1_Pics/Hulk-2.jpg");}
+    .pic-3f  {background-image: url("../Tin_1-1-1_Pics/Hulk-3.jpg");}
+    .pic-4f  {background-image: url("../Tin_1-1-1_Pics/Hulk-4.jpg");}
+    .pic-5f  {background-image: url("../Tin_1-1-1_Pics/Hulk-5.jpg");}
+    .pic-6f  {background-image: url("../Tin_1-1-1_Pics/Hulk-6.jpg");}
+    .pic-7f  {background-image: url("../Tin_1-1-1_Pics/Hulk-7.jpg");}
+    .pic-8f  {background-image: url("../Tin_1-1-1_Pics/Hulk-8.jpg");}
+    .pic-9f  {background-image: url("../Tin_1-1-1_Pics/Hulk-9.jpg");}
+
+
+
+          /*                                     Image Selector                           */
+
+
+  .containerA0 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 140vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate1;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+        
+    @keyframes animate1 {
+      0%   {background-image:url(../Tin_1-1-1_Pics/Hulk-2.jpg);}
+      5%   {background-image:url(../Tin_1-1-1_Pics/Thor-7.jpg);}
+      10%  {background-image:url(../Tin_1-1-1_Pics/Superman-5.jpg);}
+      20%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-4.jpg);}
+      30%  {background-image:url(../Tin_1-1-1_Pics/Batman-3.jpg);}
+      40%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-3.jpg);}
+      50%  {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+      60%  {background-image:url(../Tin_1-1-1_Pics/Thor-6.jpg);}
+      70%  {background-image:url(../Tin_1-1-1_Pics/Superman-4.jpg);}
+      80%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-3.jpg);}
+      90%  {background-image:url(../Tin_1-1-1_Pics/Batman-2.jpg);}
+      100% {background-image:url(../Tin_1-1-1_Pics/WonderWoman-2.jpg);}
+        }
+
+
+
+             /*                                     WonderWoman                       */ 
+    .containerA1 {
+      height: 55vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 50s;
+      animation-name: animateA1;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+  
+  @keyframes animateA1 { 
+      0%   {background-image:url(../Tin_1-1-1_Pics/WonderWoman-1.jpg);}
+      10%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-11.webp);}
+      20%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-10.webp);}
+      30%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-9.webp);}
+      40%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-8.jpg);}
+      50%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-7.jpg);}
+      60%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-6.jpg);}
+      70%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-5.jpg);}
+      80%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-4.jpg);}
+      90%  {background-image:url(../Tin_1-1-1_Pics/WonderWoman-3.jpg);}
+      100% {background-image:url(../Tin_1-1-1_Pics/WonderWoman-2.jpg);}
+      }
+
+                   /*                                    Batman                       */ 
+
+    .containerA2 {
+      height: 55vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 50s;
+      animation-name: animateA2;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+    }
+    
+    @keyframes animateA2 { 
+        00%  {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+        10%  {background-image:url(../Tin_1-1-1_Pics/Batman-10.webp);}
+        20%  {background-image:url(../Tin_1-1-1_Pics/Batman-9.webp);}
+        30%  {background-image:url(../Tin_1-1-1_Pics/Batman-8.webp);}
+        40%  {background-image:url(../Tin_1-1-1_Pics/Batman-7.webp);}
+        50%  {background-image:url(../Tin_1-1-1_Pics/Batman-6.webp);}
+        60%  {background-image:url(../Tin_1-1-1_Pics/Batman-5.webp);}
+        70%  {background-image:url(../Tin_1-1-1_Pics/Batman-4.webp);}
+        80%  {background-image:url(../Tin_1-1-1_Pics/Batman-3.jpg);}
+        90%  {background-image:url(../Tin_1-1-1_Pics/Batman-2.jpg);}
+        100% {background-image:url(../Tin_1-1-1_Pics/Batman-1.jpg);}
+        }
+
+             /*                                     Wolverine                       */ 
+    .containerA3 {
+      height: 55vh;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: 50s;
+      animation-name: animateA3;
+      animation-direction: alternate-reverse;
+      animation-duration:50s;
+      animation-fill-mode:forwards;
+      animation-iteration-count:infinite;
+      animation-play-state:running;
+      animation-timing-function:ease-in-out;
+  }
+
+  @keyframes animateA3 { 
+      0%   {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+      10%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-10.webp);}
+      20%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-9.jpg);}
+      30%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-8.avif);}
+      40%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-7.jpg);}
+      50%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-6.jpg);}
+      60%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-5.jpg);}
+      70%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-4.jpg);}
+      80%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-3.jpg);}
+      90%  {background-image:url(../Tin_1-1-1_Pics/Wolverine-2.jpg);}
+      100% {background-image:url(../Tin_1-1-1_Pics/Wolverine-1.jpg);}
+      }
+
+             /*                                     Superman                      */ 
+  .containerA4 {
+    height: 55vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 50s;
+    animation-name: animateA4;
+    animation-direction: alternate-reverse;
+    animation-duration:50s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes animateA4 { 
+    0%   {background-image:url(../Tin_1-1-1_Pics/Superman-9.webp);}
+    10%  {background-image:url(../Tin_1-1-1_Pics/Superman-10.webp);}
+    20%  {background-image:url(../Tin_1-1-1_Pics/Superman-9.jpg);}
+    30%  {background-image:url(../Tin_1-1-1_Pics/Superman-8.webp);}
+    40%  {background-image:url(../Tin_1-1-1_Pics/Superman-7.avif);}
+    50%  {background-image:url(../Tin_1-1-1_Pics/Superman-6.jpeg);}
+    60%  {background-image:url(../Tin_1-1-1_Pics/Superman-5.jpg);}
+    70%  {background-image:url(../Tin_1-1-1_Pics/Superman-4.jpg);}
+    80%  {background-image:url(../Tin_1-1-1_Pics/Superman-3.jpg);}
+    90%  {background-image:url(../Tin_1-1-1_Pics/Superman-2.jpg);}
+    100% {background-image:url(../Tin_1-1-1_Pics/Superman-1.jpg);}
+    }
+
+
+                 /*                                    Thor                       */ 
+
+.containerA5 {
+  height: 55vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 50s;
+  animation-name: animateA5;
+  animation-direction: alternate-reverse;
+  animation-duration:50s;
+  animation-fill-mode:forwards;
+  animation-iteration-count:infinite;
+  animation-play-state:running;
+  animation-timing-function:ease-in-out;
+}
+
+@keyframes animateA5 { 
+  0%   {background-image:url(../Tin_1-1-1_Pics/Thor-2.jpg);}
+  10%  {background-image:url(../Tin_1-1-1_Pics/Thor-10.webp);}
+  20%  {background-image:url(../Tin_1-1-1_Pics/Thor-10.jpg);}
+  30%  {background-image:url(../Tin_1-1-1_Pics/Thor-9.jpg);}
+  40%  {background-image:url(../Tin_1-1-1_Pics/Thor-8.jpg);}
+  50%  {background-image:url(../Tin_1-1-1_Pics/Thor-7.jpg);}
+  60%  {background-image:url(../Tin_1-1-1_Pics/Thor-6.jpg);}
+  70%  {background-image:url(../Tin_1-1-1_Pics/Thor-5.jpg);}
+  80%  {background-image:url(../Tin_1-1-1_Pics/Thor-4.jpg);}
+  90%  {background-image:url(../Tin_1-1-1_Pics/Thor-3.jpg);}
+  100% {background-image:url(../Tin_1-1-1_Pics/Thor-2.jpg);}
+  }
+
+
+               /*                                     Hulk                      */ 
+.containerA6 {
+  height: 55vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 50s;
+  animation-name: animateA6;
+  animation-direction: alternate-reverse;
+  animation-duration:50s;
+  animation-fill-mode:forwards;
+  animation-iteration-count:infinite;
+  animation-play-state:running;
+  animation-timing-function:ease-in-out;
+}
+
+@keyframes animateA6 { 
+  0%   {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  10%  {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  20%  {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  30%  {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  40%  {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  50%  {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  60%  {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  70%  {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  80%  {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  90%  {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  100% {background-image:url(../Tin_1-1-1_Pics/Hulk-1.jpg);}
+  }
+
+
+ 
+ 
+     @media only screen and (max-width: 1100px){
+         .wrapper{grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);}}
+         ::selection{ float: none; width: 100%; padding-right: 0px; }}
+ 
+     @media screen and (max-width: 600px) {
+         header h1{ background-image: none; text-align: center; z-index: 3; }
+         nav{ grid-row: 2 / 3; grid-column: 1 / 9; }}
+  
